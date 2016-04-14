@@ -32,7 +32,7 @@ function DataloaderConfig(options) {
 		staticKML : [
 			// {header: "header label"},
 			// {label: "Johann Wolfgang von Goethe", url:"http://.../goethe.kml" },
-		{ header: "WebOPAC Göttingen" }
+		{ header: "WebOPAC Göttingen" },
 			{
 				label: "Franz Kafka",
 				url: dl + "data/kafka.kml"

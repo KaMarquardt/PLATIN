@@ -1,7 +1,7 @@
 /*
 * MapConfig.js
 *
-* Copyright (c) 2012, Stefan Jänicke. All rights reserved.
+* Copyright © 2012, Stefan Jänicke. All rights reserved.
 *
 * This library is free software; you can redistribute it and/or
 * modify it under the terms of the GNU Lesser General Public
@@ -41,163 +41,163 @@ function MapConfig(options) {
 					name: 'Barrington Roman Empire',
 					url: 'http://pelagios.dme.ait.ac.at/tilesets/imperium/${z}/${x}/${y}.png',
 					type:'XYZ',
-					attribution: "<a href='http://pelagios.dme.ait.ac.at/maps/greco-roman/about.html'>Digital Atlas of the Roman Empire</a> (c) <a href='https://twitter.com/johanahlfeldt'>Johan Åhlfeldt</a>, <a href='http://pelagios-project.blogspot.de/'>Pelagios</a>"
+					attribution: "<a href='http://pelagios.dme.ait.ac.at/maps/greco-roman/about.html'>Digital Atlas of the Roman Empire</a> © <a href='https://twitter.com/johanahlfeldt'>Johan Åhlfeldt</a>, <a href='http://pelagios-project.blogspot.de/'>Pelagios</a>"
 				},
 				{
 					name: 'Maps-for-Free Relief Map',
 					url: 'http://maps-for-free.com/layer/relief/z${z}/row${y}/${z}_${x}-${y}.jpg',
 					type:'XYZ',
-					attribution: "(c) <a href='http://www.maps-for-free.com/html/about.html'>Maps for Free</a>"
+					attribution: "© <a href='http://www.maps-for-free.com/html/about.html'>Maps for Free</a>"
 				},
 				{
 					name: 'Contemporary Map (2010)',
 					url: gsurl,
 					layer: 'historic:cntry2010',
-					attribution: "(c) <a href='http://epp.eurostat.ec.europa.eu/portal/page/portal/gisco_Geographical_information_maps/popups/references/administrative_units_statistical_units_1'>EuroStat</a>"
+					attribution: "© <a href='http://epp.eurostat.ec.europa.eu/portal/page/portal/gisco_Geographical_information_maps/popups/references/administrative_units_statistical_units_1'>EuroStat</a>"
 				},
 				{
 					name: 'Historical Map of 2006',
 					url: gsurl,
 					layer: 'historic:cntry2006',
-					attribution: "(c) <a href='http://epp.eurostat.ec.europa.eu/portal/page/portal/gisco_Geographical_information_maps/popups/references/administrative_units_statistical_units_1'>EuroStat</a>"
+					attribution: "© <a href='http://epp.eurostat.ec.europa.eu/portal/page/portal/gisco_Geographical_information_maps/popups/references/administrative_units_statistical_units_1'>EuroStat</a>"
 				},
 				{
 					name: 'Historical Map of 1994',
 					url: gsurl,
 					layer: 'historic:cntry1994',
-					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
+					attribution: "© <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1949',
 					url: gsurl,
 					layer: 'historic:cntry1949',
-					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
+					attribution: "© <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1938',
 					url: gsurl,
 					layer: 'historic:cntry1938',
-					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
+					attribution: "© <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1920',
 					url: gsurl,
 					layer: 'historic:cntry1920',
-					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
+					attribution: "© <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1914',
 					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
 					layer: 'historic:cntry1914',
-					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
+					attribution: "© <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1880',
 					url: gsurl,
 					layer: 'historic:cntry1880',
-					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
+					attribution: "© <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1815',
 					url: gsurl,
 					layer: 'historic:cntry1815',
-					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
+					attribution: "© <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1783',
 					url: gsurl,
 					layer: 'historic:cntry1783',
-					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
+					attribution: "© <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1715',
 					url: gsurl,
 					layer: 'historic:cntry1715',
-					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
+					attribution: "© <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1650',
 					url: gsurl,
 					layer: 'historic:cntry1650',
-					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
+					attribution: "© <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1530',
 					url: gsurl,
 					layer: 'historic:cntry1530',
-					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
+					attribution: "© <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1492',
 					url: gsurl,
 					layer: 'historic:cntry1492',
-					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
+					attribution: "© <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1279',
 					url: gsurl,
 					layer: 'historic:cntry1279',
-					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
+					attribution: "© <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1000',
 					url: gsurl,
 					layer: 'historic:cntry1000',
-					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
+					attribution: "© <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 800',
 					url: gsurl,
 					layer: 'historic:cntry800',
-					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
+					attribution: "© <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 600',
 					url: gsurl,
 					layer: 'historic:cntry600',
-					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
+					attribution: "© <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 400',
 					url: gsurl,
 					layer: 'historic:cntry400',
-					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
+					attribution: "© <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1 BC',
 					url: gsurl,
 					layer: 'historic:cntry1bc',
-					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
+					attribution: "© <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 200 BC',
 					url: gsurl,
 					layer: 'historic:cntry200bc',
-					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
+					attribution: "© <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 323 BC',
 					url: gsurl,
 					layer: 'historic:cntry323bc',
-					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
+					attribution: "© <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 500 BC',
 					url: gsurl,
 					layer: 'historic:cntry500bc',
-					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
+					attribution: "© <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1000 BC',
 					url: gsurl,
 					layer: 'historic:cntry1000bc',
-					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
+					attribution: "© <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 2000 BC',
 					url: gsurl,
 					layer: 'historic:cntry2000bc',
-					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
+					attribution: "© <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 		],
 		legend : true, // if a legend at the bottom of the map should be shown or not
