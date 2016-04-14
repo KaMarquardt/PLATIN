@@ -29,6 +29,8 @@
  */
 function MapConfig(options) {
 
+	var gsurl = 'http://collatex.dariah.eu:8080/geoserver/historic/wms';
+
 	this.options = {
 		mapWidth : false, // false or desired width css definition for the map
 		mapHeight : '580px', // false or desired height css definition for the map
@@ -49,37 +51,37 @@ function MapConfig(options) {
 				},
 				{
 					name: 'Contemporary Map (2010)',
-					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
+					url: gsurl,
 					layer: 'historic:cntry2010',
 					attribution: "(c) <a href='http://epp.eurostat.ec.europa.eu/portal/page/portal/gisco_Geographical_information_maps/popups/references/administrative_units_statistical_units_1'>EuroStat</a>"
 				},
 				{
 					name: 'Historical Map of 2006',
-					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
+					url: gsurl,
 					layer: 'historic:cntry2006',
 					attribution: "(c) <a href='http://epp.eurostat.ec.europa.eu/portal/page/portal/gisco_Geographical_information_maps/popups/references/administrative_units_statistical_units_1'>EuroStat</a>"
 				},
 				{
 					name: 'Historical Map of 1994',
-					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
+					url: gsurl,
 					layer: 'historic:cntry1994',
 					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
-					name: 'Historical Map of 1945',
-					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
-					layer: 'historic:cntry1945',
+					name: 'Historical Map of 1949',
+					url: gsurl,
+					layer: 'historic:cntry1949',
 					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1938',
-					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
+					url: gsurl,
 					layer: 'historic:cntry1938',
 					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1920',
-					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
+					url: gsurl,
 					layer: 'historic:cntry1920',
 					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
@@ -91,109 +93,109 @@ function MapConfig(options) {
 				},
 				{
 					name: 'Historical Map of 1880',
-					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
+					url: gsurl,
 					layer: 'historic:cntry1880',
 					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1815',
-					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
+					url: gsurl,
 					layer: 'historic:cntry1815',
 					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1783',
-					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
+					url: gsurl,
 					layer: 'historic:cntry1783',
 					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1715',
-					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
+					url: gsurl,
 					layer: 'historic:cntry1715',
 					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1650',
-					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
+					url: gsurl,
 					layer: 'historic:cntry1650',
 					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1530',
-					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
+					url: gsurl,
 					layer: 'historic:cntry1530',
 					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1492',
-					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
+					url: gsurl,
 					layer: 'historic:cntry1492',
 					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1279',
-					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
+					url: gsurl,
 					layer: 'historic:cntry1279',
 					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1000',
-					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
+					url: gsurl,
 					layer: 'historic:cntry1000',
 					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 800',
-					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
+					url: gsurl,
 					layer: 'historic:cntry800',
 					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 600',
-					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
+					url: gsurl,
 					layer: 'historic:cntry600',
 					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 400',
-					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
+					url: gsurl,
 					layer: 'historic:cntry400',
 					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1 BC',
-					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
+					url: gsurl,
 					layer: 'historic:cntry1bc',
 					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 200 BC',
-					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
+					url: gsurl,
 					layer: 'historic:cntry200bc',
 					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 323 BC',
-					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
+					url: gsurl,
 					layer: 'historic:cntry323bc',
 					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 500 BC',
-					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
+					url: gsurl,
 					layer: 'historic:cntry500bc',
 					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 1000 BC',
-					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
+					url: gsurl,
 					layer: 'historic:cntry1000bc',
 					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
 				{
 					name: 'Historical Map of 2000 BC',
-					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
+					url: gsurl,
 					layer: 'historic:cntry2000bc',
 					attribution: "(c) <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
@@ -244,7 +246,8 @@ function MapConfig(options) {
 			maxLon : 44,
 			maxLat : 67
 		}, // initial map boundaries or 'false' for no boundaries
-		mapBackground : '#bbd0ed',
+		// mapBackground : '#bbd0ed',
+		mapBackground : '#68635d',
 		labelGrid : true, // show label grid on hover
 		maxPlaceLabels : 6, // Integer value for fixed number of place labels: 0 --> unlimited, 1 --> 1 label (won't be shown in popup, 2 --> is not possible because of others & all labels --> 3 labels, [3,...,N] --> [3,...,N] place labels)
 		selectDefault : true, // true, if strongest label should be selected as default
@@ -278,7 +281,7 @@ function MapConfig(options) {
 		mapSelectionTools : true, // show/hide map selector tools
 		dataInformation : true, // show/hide data information
 		overlayVisibility : false, // initial visibility of additional overlays
-		//proxyHost : 'php/proxy.php?address=',	//required for selectCountry feature, if the requested GeoServer and GeoTemCo are NOT on the same server
+		proxyHost : 'php/proxy.php?address=', //required for selectCountry feature, if the requested GeoServer and GeoTemCo are NOT on the same server
 		placenameTagsStyle : 'value', // the style of the placenames "surrounding" a circle on hover. 'zoom' for tags based on zoom level (old behaviour), 'value' for new value-based
 		hideUnselected : false //hide unselected circles (features) on highlight/selection
 
@@ -309,7 +312,8 @@ MapConfig.prototype.getGraphic = function(id){
 	if (typeof dataset.color !== "undefined"){
 		color = dataset.color;
 	} else{
-		color = GeoTemConfig.getColor(id);
+		// color = GeoTemConfig.getColor(id);
+		color = GeoTemConfig.getColor(Math.floor(id/this.options.graphics.length))
 	}
 	return {
 		shape: graphic.shape,

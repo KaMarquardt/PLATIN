@@ -116,7 +116,8 @@ Dataloader.prototype = {
 			
 			this.loadStaticKMLButton = document.createElement("button");
 			$(this.loadStaticKMLButton).text("load");
-			$(this.StaticLoaderTab).append(this.loadStaticKMLButton);
+			$(this.loadStaticKMLButton).addClass(GeoTemConfig.buttonCssClass);
+    			$(this.StaticLoaderTab).append(this.loadStaticKMLButton);
 
 			$(this.loadStaticKMLButton).click($.proxy(function(){
 				var kmlURL = $(this.staticKMLList).find(":selected").attr("value");
