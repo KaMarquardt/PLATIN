@@ -63,8 +63,8 @@ function MapConfig(options) {
 				},
 				{
 					name: 'Historical Map of 1999-09-14',
-					url: gsurl,
-					layer: 'mpiwg:borders_1999_09_14',
+					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
+					layer: 'mpiwg:borders_1999_9_14',
 					attribution: "© ++TODO++"
 				},
 				{
