@@ -87,7 +87,7 @@ function MapConfig(options) {
 				},
 				{
 					name: 'Historical Map of 1914',
-					url: 'http://geoserver.mpiwg-berlin.mpg.de/geoserver/mpiwg/wms',
+					url: gsurl,
 					layer: 'historic:cntry1914',
 					attribution: "© <a href='http://webcache.googleusercontent.com/search?q=cache:NbaEeiehhzQJ:library.thinkquest.org/C006628/citations.html&client=ubuntu&hl=de&gl=de&strip=1'> ThinkQuest Team C006628</a>"
 				},
