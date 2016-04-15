@@ -62,7 +62,7 @@ function MapConfig(options) {
 					attribution: "© <a href='http://epp.eurostat.ec.europa.eu/portal/page/portal/gisco_Geographical_information_maps/popups/references/administrative_units_statistical_units_1'>EuroStat</a>"
 				},
 				{
-					name: 'Borders 1999-09-14',
+					name: 'Historical Map of 1999-09-14',
 					url: gsurl,
 					layer: 'mpiwg:borders_1999-09-14',
 					attribution: "© ++TODO++"
