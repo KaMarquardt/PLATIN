@@ -64,7 +64,7 @@ function MapConfig(options) {
 				{
 					name: 'Historical Map of 1999-09-14',
 					url: gsurl,
-					layer: 'mpiwg:borders_1999-09-14',
+					layer: 'mpiwg:borders_1999_09_14',
 					attribution: "© ++TODO++"
 				},
 				{
