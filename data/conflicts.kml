@@ -1,0 +1,4671 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Folder>
+        <Placemark>
+            <name>Bolivia vs. Popular Revolutionary Movement</name>
+            <address>Bolivia</address>
+            <TimeStamp>
+                <when>1946</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-65.0,-17.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bolivia vs. MNR</name>
+            <address>Bolivia</address>
+            <TimeStamp>
+                <when>1952</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-65.0,-17.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bolivia vs. ELN</name>
+            <address>Bolivia</address>
+            <TimeStamp>
+                <when>1967</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-65.0,-17.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>France vs. Khmer Issarak</name>
+            <address>Cambodia</address>
+            <TimeSpan>
+                <begin>1946</begin>
+                <end>1953</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>105.0,13.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>China vs. PLA</name>
+            <address>China</address>
+            <TimeSpan>
+                <begin>1946</begin>
+                <end>1949</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>105.0,35.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Greece vs. DSE</name>
+            <address>Greece</address>
+            <TimeSpan>
+                <begin>1946</begin>
+                <end>1949</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>22.0,39.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Netherlands vs. Indonesian Peoples Army</name>
+            <address>Indonesia</address>
+            <TimeSpan>
+                <begin>1946</begin>
+                <end>1949</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>120.0,-5.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iran vs. KDPI</name>
+            <address>Kurdistan</address>
+            <TimeStamp>
+                <when>1946</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>47.0,35.66667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iran vs. KDPI</name>
+            <address>Kurdistan</address>
+            <TimeSpan>
+                <begin>1966</begin>
+                <end>1968</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>47.0,35.66667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iran vs. KDPI</name>
+            <address>Kurdistan</address>
+            <TimeSpan>
+                <begin>1979</begin>
+                <end>1988</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>47.0,35.66667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iran vs. KDPI</name>
+            <address>Kurdistan</address>
+            <TimeStamp>
+                <when>1990</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>47.0,35.66667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iran vs. KDPI</name>
+            <address>Kurdistan</address>
+            <TimeStamp>
+                <when>1993</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>47.0,35.66667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iran vs. KDPI</name>
+            <address>Kurdistan</address>
+            <TimeStamp>
+                <when>1996</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>47.0,35.66667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iran vs. Republic of Azerbaijan</name>
+            <address>Azerbaijan</address>
+            <TimeStamp>
+                <when>1946</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>47.5,40.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>United Kingdom vs. IZL [Etzel]</name>
+            <address>Israel</address>
+            <TimeStamp>
+                <when>1946</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.75,31.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>France vs. Lao Issara</name>
+            <address>Laos</address>
+            <TimeSpan>
+                <begin>1946</begin>
+                <end>1953</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>105.0,18.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Philippines vs. HUK</name>
+            <address>Philippines</address>
+            <TimeSpan>
+                <begin>1946</begin>
+                <end>1954</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>122.0,13.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Philippines vs. CPP</name>
+            <address>Philippines</address>
+            <TimeSpan>
+                <begin>1969</begin>
+                <end>1995</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>122.0,13.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Philippines vs. CPP</name>
+            <address>Philippines</address>
+            <TimeStamp>
+                <when>1997</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>122.0,13.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Philippines vs. CPP</name>
+            <address>Philippines</address>
+            <TimeSpan>
+                <begin>1999</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>122.0,13.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Russia (Soviet Union) vs. Forest Brothers</name>
+            <address>Estonia</address>
+            <TimeSpan>
+                <begin>1946</begin>
+                <end>1948</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>26.0,59.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Russia (Soviet Union) vs. LNPA, LTS(p)A</name>
+            <address>Latvia</address>
+            <TimeStamp>
+                <when>1946</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>25.0,57.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Russia (Soviet Union) vs. BDPS</name>
+            <address>Lithuania</address>
+            <TimeSpan>
+                <begin>1946</begin>
+                <end>1948</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>24.0,56.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Russia (Soviet Union) vs. UPA</name>
+            <address>Ukraine</address>
+            <TimeSpan>
+                <begin>1946</begin>
+                <end>1950</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>32.0,49.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Thailand vs. France</name>
+            <address>Cambodia</address>
+            <TimeStamp>
+                <when>1946</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>105.0,13.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>United Kingdom vs. Albania</name>
+            <address>Korfu Channel</address>
+            <TimeStamp>
+                <when>1946</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>20.03472,39.57667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>France vs. Viet minh</name>
+            <address>Vietnam</address>
+            <TimeSpan>
+                <begin>1946</begin>
+                <end>1954</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>107.83333,16.16667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>China vs. Taiwanese insurgents</name>
+            <address>Taiwan</address>
+            <TimeStamp>
+                <when>1947</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>121.0,24.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hyderabad vs. CPI</name>
+            <address>Hyderabad</address>
+            <TimeSpan>
+                <begin>1947</begin>
+                <end>1948</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>68.3699,25.3823</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. Pakistan</name>
+            <address>Kashmir</address>
+            <TimeStamp>
+                <when>1948</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>73.9104,33.94718</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. Pakistan</name>
+            <address>Kashmir</address>
+            <TimeSpan>
+                <begin>1964</begin>
+                <end>1965</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>73.9104,33.94718</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. Pakistan</name>
+            <address>Kashmir</address>
+            <TimeStamp>
+                <when>1971</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>73.9104,33.94718</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. Pakistan</name>
+            <address>Kashmir</address>
+            <TimeStamp>
+                <when>1984</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>73.9104,33.94718</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. Pakistan</name>
+            <address>Kashmir</address>
+            <TimeStamp>
+                <when>1987</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>73.9104,33.94718</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. Pakistan</name>
+            <address>Kashmir</address>
+            <TimeSpan>
+                <begin>1989</begin>
+                <end>1992</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>73.9104,33.94718</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. Pakistan</name>
+            <address>Kashmir</address>
+            <TimeSpan>
+                <begin>1996</begin>
+                <end>2003</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>73.9104,33.94718</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>France vs. MDRM</name>
+            <address>Malagasy</address>
+            <TimeStamp>
+                <when>1947</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>47.0,-20.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Paraguay vs. Opposition coalition (Febreristas, Liberals and Communists)</name>
+            <address>Paraguay</address>
+            <TimeStamp>
+                <when>1947</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-57.99639,-22.99333</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Paraguay vs. Military faction (forces of General Alfredo Stroessner)</name>
+            <address>Paraguay</address>
+            <TimeStamp>
+                <when>1954</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-57.99639,-22.99333</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Paraguay vs. Military Faction (forces of General Rodriguez)</name>
+            <address>Paraguay</address>
+            <TimeStamp>
+                <when>1989</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-57.99639,-22.99333</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Myanmar vs. KNU</name>
+            <address>Karen</address>
+            <TimeSpan>
+                <begin>1949</begin>
+                <end>1992</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>92.88333,12.85</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Myanmar vs. KNU</name>
+            <address>Karen</address>
+            <TimeStamp>
+                <when>1995</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>92.88333,12.85</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Myanmar vs. KNU</name>
+            <address>Karen</address>
+            <TimeSpan>
+                <begin>1997</begin>
+                <end>2003</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>92.88333,12.85</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Myanmar vs. KNU</name>
+            <address>Karen</address>
+            <TimeSpan>
+                <begin>2005</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>92.88333,12.85</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Myanmar vs. CPB, CPB–RF, PVO – &quot;White Band&quot; faction</name>
+            <address>Myanmar</address>
+            <TimeSpan>
+                <begin>1948</begin>
+                <end>1988</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>98.0,22.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Myanmar vs. ABSDF</name>
+            <address>Myanmar</address>
+            <TimeSpan>
+                <begin>1990</begin>
+                <end>1992</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>98.0,22.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Myanmar vs. ABSDF</name>
+            <address>Myanmar</address>
+            <TimeStamp>
+                <when>1994</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>98.0,22.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Myanmar vs. Arakan Insurgents</name>
+            <address>Arakan</address>
+            <TimeSpan>
+                <begin>1948</begin>
+                <end>1988</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>93.0,21.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Myanmar vs. ARIF, RSO</name>
+            <address>Arakan</address>
+            <TimeSpan>
+                <begin>1991</begin>
+                <end>1992</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>93.0,21.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Myanmar vs. RSO</name>
+            <address>Arakan</address>
+            <TimeStamp>
+                <when>1994</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>93.0,21.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Myanmar vs. MFL–MUF</name>
+            <address>Myanmar</address>
+            <TimeSpan>
+                <begin>1949</begin>
+                <end>1963</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>98.0,22.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Myanmar vs. NMSP</name>
+            <address>Myanmar</address>
+            <TimeStamp>
+                <when>1990</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>98.0,22.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Myanmar vs. BMA</name>
+            <address>Myanmar</address>
+            <TimeStamp>
+                <when>1996</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>98.0,22.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Costa Rica vs. National Liberation Army</name>
+            <address>Costa Rica</address>
+            <TimeStamp>
+                <when>1948</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-84.0,10.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hyderabad vs. India</name>
+            <address>Hyderabad</address>
+            <TimeStamp>
+                <when>1948</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.3699,25.3823</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. CPI</name>
+            <address>India</address>
+            <TimeSpan>
+                <begin>1948</begin>
+                <end>1951</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>77.0,20.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. CPI–ML</name>
+            <address>India</address>
+            <TimeSpan>
+                <begin>1969</begin>
+                <end>1971</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>77.0,20.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. PWG</name>
+            <address>India</address>
+            <TimeSpan>
+                <begin>1990</begin>
+                <end>1994</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>77.0,20.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. MCC, PWG</name>
+            <address>India</address>
+            <TimeSpan>
+                <begin>1996</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>77.0,20.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Israel vs. Egypt, Iraq, Jordan, Lebanon, Syria</name>
+            <address>Palestine</address>
+            <TimeSpan>
+                <begin>1948</begin>
+                <end>1949</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>35.20329,31.92157</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>United Kingdom vs. CPM</name>
+            <address>Malaya</address>
+            <TimeSpan>
+                <begin>1948</begin>
+                <end>1957</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>159.95,63.8</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>North Yemen  vs. Opposition coalition</name>
+            <address>Yemen</address>
+            <TimeStamp>
+                <when>1948</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>47.5,15.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>North Yemen  vs. Royalists</name>
+            <address>Yemen</address>
+            <TimeSpan>
+                <begin>1962</begin>
+                <end>1970</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>47.5,15.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>North Yemen  vs. National Democratic Front</name>
+            <address>Yemen</address>
+            <TimeSpan>
+                <begin>1980</begin>
+                <end>1982</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>47.5,15.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Myanmar vs. PNDF</name>
+            <address>Kachin</address>
+            <TimeSpan>
+                <begin>1949</begin>
+                <end>1950</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>97.5,26.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Myanmar vs. KIO</name>
+            <address>Kachin</address>
+            <TimeSpan>
+                <begin>1961</begin>
+                <end>1992</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>97.5,26.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>China vs. Taiwan</name>
+            <address>Taiwan</address>
+            <TimeSpan>
+                <begin>1949</begin>
+                <end>1950</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>121.0,24.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>China vs. Taiwan</name>
+            <address>Taiwan</address>
+            <TimeStamp>
+                <when>1954</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>121.0,24.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>China vs. Taiwan</name>
+            <address>Taiwan</address>
+            <TimeStamp>
+                <when>1958</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>121.0,24.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Guatemala vs. Military faction</name>
+            <address>Guatemala</address>
+            <TimeStamp>
+                <when>1949</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-90.25,15.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Guatemala vs. Forces of Carlos Castillo Armas</name>
+            <address>Guatemala</address>
+            <TimeStamp>
+                <when>1954</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-90.25,15.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Guatemala vs. FAR I</name>
+            <address>Guatemala</address>
+            <TimeSpan>
+                <begin>1965</begin>
+                <end>1995</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-90.25,15.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Israel vs. Palestinian insurgents</name>
+            <address>Palestine</address>
+            <TimeSpan>
+                <begin>1949</begin>
+                <end>1996</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>35.20329,31.92157</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Israel vs. Fatah, PNA</name>
+            <address>Palestine</address>
+            <TimeSpan>
+                <begin>2000</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>35.20329,31.92157</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>North Korea vs. South Korea </name>
+            <address>Korea</address>
+            <TimeSpan>
+                <begin>1949</begin>
+                <end>1953</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>127.5,37.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>China vs. Tibet</name>
+            <address>Tibet</address>
+            <TimeStamp>
+                <when>1950</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>90.0,32.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>China vs. Tibet</name>
+            <address>Tibet</address>
+            <TimeStamp>
+                <when>1956</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>90.0,32.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>China vs. Tibet</name>
+            <address>Tibet</address>
+            <TimeStamp>
+                <when>1959</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>90.0,32.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Indonesia vs. Republic of South Moluccas</name>
+            <address>Moluccas</address>
+            <TimeStamp>
+                <when>1950</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>128.0,-2.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>United States of America vs. Puerto Rican Nationalist Party</name>
+            <address>Puerto Rico</address>
+            <TimeStamp>
+                <when>1950</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-66.49989,18.24829</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Egypt vs. United Kingdom</name>
+            <address>Suez</address>
+            <TimeSpan>
+                <begin>1951</begin>
+                <end>1952</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>32.55,29.96667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Thailand vs. Military faction (Navy)</name>
+            <address>Thailand</address>
+            <TimeStamp>
+                <when>1951</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>100.0,15.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Thailand vs. CPT</name>
+            <address>Thailand</address>
+            <TimeSpan>
+                <begin>1974</begin>
+                <end>1982</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>100.0,15.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>United Kingdom vs. Mau Mau</name>
+            <address>Kenya</address>
+            <TimeSpan>
+                <begin>1952</begin>
+                <end>1956</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>38.0,1.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cuba vs. M-26-7</name>
+            <address>Cuba</address>
+            <TimeStamp>
+                <when>1953</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-79.5,22.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cuba vs. M-26-7</name>
+            <address>Cuba</address>
+            <TimeSpan>
+                <begin>1956</begin>
+                <end>1958</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-79.5,22.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cuba vs. Cuban Revolutionary Council</name>
+            <address>Cuba</address>
+            <TimeStamp>
+                <when>1961</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-79.5,22.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Indonesia vs. Darul Islam </name>
+            <address>Indonesia</address>
+            <TimeStamp>
+                <when>1953</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>120.0,-5.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Indonesia vs. Darul Islam, Permesta movement, PRRI</name>
+            <address>Indonesia</address>
+            <TimeSpan>
+                <begin>1958</begin>
+                <end>1961</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>120.0,-5.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>France vs. Istiqlal</name>
+            <address>Morocco</address>
+            <TimeSpan>
+                <begin>1953</begin>
+                <end>1956</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-5.0,32.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>France vs. National Liberation Army</name>
+            <address>Tunisia</address>
+            <TimeSpan>
+                <begin>1953</begin>
+                <end>1956</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>10.16579,36.81897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>France vs. FLN</name>
+            <address>Algeria</address>
+            <TimeSpan>
+                <begin>1954</begin>
+                <end>1962</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>3.0,28.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Argentina vs. Military faction (forces of Eduardo A. Lonardi Doucet)</name>
+            <address>Argentina</address>
+            <TimeStamp>
+                <when>1955</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-64.0,-34.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Argentina vs. Military faction (Colorados)</name>
+            <address>Argentina</address>
+            <TimeStamp>
+                <when>1963</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-64.0,-34.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Argentina vs. ERP</name>
+            <address>Argentina</address>
+            <TimeSpan>
+                <begin>1974</begin>
+                <end>1977</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-64.0,-34.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>United Kingdom vs. EOKA</name>
+            <address>Cyprus</address>
+            <TimeSpan>
+                <begin>1955</begin>
+                <end>1959</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>33.0,35.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>South Vietnam vs. FNL</name>
+            <address>South Vietnam</address>
+            <TimeSpan>
+                <begin>1955</begin>
+                <end>1964</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>107.0,11.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hungary vs. Russia (Soviet Union)</name>
+            <address>Hungary</address>
+            <TimeStamp>
+                <when>1956</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>20.0,47.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. NNC</name>
+            <address>Nagaland</address>
+            <TimeSpan>
+                <begin>1956</begin>
+                <end>1959</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>94.25,26.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. NNC</name>
+            <address>Nagaland</address>
+            <TimeSpan>
+                <begin>1961</begin>
+                <end>1968</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>94.25,26.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. NSCN – IM</name>
+            <address>Nagaland</address>
+            <TimeSpan>
+                <begin>1992</begin>
+                <end>1997</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>94.25,26.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. NSCN – IM</name>
+            <address>Nagaland</address>
+            <TimeStamp>
+                <when>2000</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>94.25,26.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. NSCN – K</name>
+            <address>Nagaland</address>
+            <TimeSpan>
+                <begin>2005</begin>
+                <end>2007</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>94.25,26.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>France, Israel, United Kingdom vs. Egypt</name>
+            <address>Suez</address>
+            <TimeStamp>
+                <when>1956</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>32.55,29.96667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Myanmar vs. KNPP</name>
+            <address>Karenni</address>
+            <TimeStamp>
+                <when>1957</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>97.5,19.25</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Myanmar vs. KNPP</name>
+            <address>Karenni</address>
+            <TimeStamp>
+                <when>1992</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>97.5,19.25</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Myanmar vs. KNPP</name>
+            <address>Karenni</address>
+            <TimeStamp>
+                <when>1996</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>97.5,19.25</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Myanmar vs. KNPP</name>
+            <address>Karenni</address>
+            <TimeStamp>
+                <when>2005</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>97.5,19.25</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>France vs. UPC</name>
+            <address>Cameroon</address>
+            <TimeSpan>
+                <begin>1957</begin>
+                <end>1959</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>12.0,6.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Honduras vs. Nicaragua</name>
+            <address>Honduras</address>
+            <TimeStamp>
+                <when>1957</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-86.5,15.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>France vs. NLA</name>
+            <address>Mauritania</address>
+            <TimeSpan>
+                <begin>1957</begin>
+                <end>1958</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-12.0,20.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Spain vs. NLA</name>
+            <address>Mauritania</address>
+            <TimeSpan>
+                <begin>1957</begin>
+                <end>1958</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-12.0,20.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Oman vs. State of Oman/Free Oman</name>
+            <address>Oman</address>
+            <TimeStamp>
+                <when>1957</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>57.0,21.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iraq vs. Military Faction (Free Officers Movement)</name>
+            <address>Iraq</address>
+            <TimeSpan>
+                <begin>1958</begin>
+                <end>1959</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>44.0,33.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iraq vs. Military faction (forces of Brigadier Arif), NCRC</name>
+            <address>Iraq</address>
+            <TimeStamp>
+                <when>1963</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>44.0,33.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iraq vs. SCIRI</name>
+            <address>Iraq</address>
+            <TimeSpan>
+                <begin>1982</begin>
+                <end>1984</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>44.0,33.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iraq vs. SCIRI</name>
+            <address>Iraq</address>
+            <TimeStamp>
+                <when>1987</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>44.0,33.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iraq vs. SCIRI</name>
+            <address>Iraq</address>
+            <TimeSpan>
+                <begin>1991</begin>
+                <end>1996</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>44.0,33.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iraq vs. Al-Mahdi Army, Ansar al-Islam, ISI</name>
+            <address>Iraq</address>
+            <TimeSpan>
+                <begin>2004</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>44.0,33.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lebanon vs. Independent Nasserite Movement /Mourabitoun militia</name>
+            <address>Lebanon</address>
+            <TimeStamp>
+                <when>1958</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>35.83333,33.83333</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lebanon vs. LNM</name>
+            <address>Lebanon</address>
+            <TimeSpan>
+                <begin>1975</begin>
+                <end>1976</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>35.83333,33.83333</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lebanon vs. LNM</name>
+            <address>Lebanon</address>
+            <TimeSpan>
+                <begin>1982</begin>
+                <end>1986</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>35.83333,33.83333</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lebanon vs. Lebanese Army (Aoun), Lebanese Forces </name>
+            <address>Lebanon</address>
+            <TimeSpan>
+                <begin>1989</begin>
+                <end>1990</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>35.83333,33.83333</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Malaysia vs. CPM</name>
+            <address>Malaysia</address>
+            <TimeSpan>
+                <begin>1958</begin>
+                <end>1960</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>112.5,2.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Malaysia vs. CPM</name>
+            <address>Malaysia</address>
+            <TimeSpan>
+                <begin>1974</begin>
+                <end>1975</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>112.5,2.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Malaysia vs. CPM</name>
+            <address>Malaysia</address>
+            <TimeStamp>
+                <when>1981</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>112.5,2.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Laos vs. Pathet Lao</name>
+            <address>Laos</address>
+            <TimeSpan>
+                <begin>1959</begin>
+                <end>1961</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>105.0,18.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Laos vs. Pathet Lao</name>
+            <address>Laos</address>
+            <TimeSpan>
+                <begin>1963</begin>
+                <end>1973</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>105.0,18.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Laos vs. LRM</name>
+            <address>Laos</address>
+            <TimeSpan>
+                <begin>1989</begin>
+                <end>1990</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>105.0,18.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Portugal vs. MPLA, FNLA</name>
+            <address>Angola</address>
+            <TimeSpan>
+                <begin>1961</begin>
+                <end>1974</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>18.5,-12.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Myanmar vs. NSH</name>
+            <address>Shan</address>
+            <TimeSpan>
+                <begin>1959</begin>
+                <end>1970</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>98.0,22.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Myanmar vs. SSA</name>
+            <address>Shan</address>
+            <TimeSpan>
+                <begin>1972</begin>
+                <end>1973</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>98.0,22.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Myanmar vs. SURA, SSRA</name>
+            <address>Shan</address>
+            <TimeSpan>
+                <begin>1976</begin>
+                <end>1988</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>98.0,22.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Myanmar vs. MTA</name>
+            <address>Shan</address>
+            <TimeSpan>
+                <begin>1993</begin>
+                <end>2002</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>98.0,22.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Myanmar vs. SSA–S</name>
+            <address>Shan</address>
+            <TimeSpan>
+                <begin>2005</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>98.0,22.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Democratic Republic of Congo (Zaire)  vs. State of Katanga</name>
+            <address>Katanga</address>
+            <TimeSpan>
+                <begin>1960</begin>
+                <end>1962</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>26.0,-9.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Democratic Republic of Congo (Zaire)  vs. Independent Mining State of South Kasai</name>
+            <address>Kasai</address>
+            <TimeSpan>
+                <begin>1960</begin>
+                <end>1962</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>24.0,-4.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ethiopia vs. Military faction (forces of Mengistu Neway)</name>
+            <address>Ethiopia</address>
+            <TimeStamp>
+                <when>1960</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>38.0,8.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ethiopia vs. EPRP, TPLF</name>
+            <address>Ethiopia</address>
+            <TimeSpan>
+                <begin>1976</begin>
+                <end>1991</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>38.0,8.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ethiopia vs. Somalia</name>
+            <address>Ogaden</address>
+            <TimeStamp>
+                <when>1960</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>42.48513,-0.44862</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ethiopia vs. Somalia</name>
+            <address>Ogaden</address>
+            <TimeStamp>
+                <when>1964</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>42.48513,-0.44862</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ethiopia vs. Somalia</name>
+            <address>Ogaden</address>
+            <TimeStamp>
+                <when>1973</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>42.48513,-0.44862</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ethiopia vs. Somalia</name>
+            <address>Ogaden</address>
+            <TimeStamp>
+                <when>1983</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>42.48513,-0.44862</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ethiopia vs. Somalia</name>
+            <address>Ogaden</address>
+            <TimeStamp>
+                <when>1987</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>42.48513,-0.44862</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Nepal vs. Nepali Congress</name>
+            <address>Nepal</address>
+            <TimeSpan>
+                <begin>1960</begin>
+                <end>1962</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>84.0,28.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Nepal vs. CPN–M</name>
+            <address>Nepal</address>
+            <TimeSpan>
+                <begin>1996</begin>
+                <end>2006</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>84.0,28.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>France vs. OAS</name>
+            <address>France</address>
+            <TimeSpan>
+                <begin>1961</begin>
+                <end>1962</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>2.0,46.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iraq vs. KDP</name>
+            <address>Kurdistan</address>
+            <TimeSpan>
+                <begin>1961</begin>
+                <end>1970</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>47.0,35.66667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iraq vs. KDP</name>
+            <address>Kurdistan</address>
+            <TimeSpan>
+                <begin>1973</begin>
+                <end>1993</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>47.0,35.66667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iraq vs. PUK</name>
+            <address>Kurdistan</address>
+            <TimeSpan>
+                <begin>1995</begin>
+                <end>1996</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>47.0,35.66667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tunisia vs. France</name>
+            <address>Bizerte</address>
+            <TimeStamp>
+                <when>1961</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>9.87391,37.27442</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>United Kingdom vs. North Kalimantan Liberation Army</name>
+            <address>Borneo</address>
+            <TimeStamp>
+                <when>1962</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>114.0,1.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>China vs. India</name>
+            <address>Arunachal Pradesh</address>
+            <TimeStamp>
+                <when>1962</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>94.5,28.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>China vs. India</name>
+            <address>Arunachal Pradesh</address>
+            <TimeStamp>
+                <when>1967</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>94.5,28.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ethiopia vs. ELF  </name>
+            <address>Eritrea</address>
+            <TimeSpan>
+                <begin>1964</begin>
+                <end>1991</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>39.0,15.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Indonesia vs. Netherlands</name>
+            <address>West New Guinea</address>
+            <TimeStamp>
+                <when>1962</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>149.5,-5.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Venezuela vs. Military faction (navy)</name>
+            <address>Venezuela</address>
+            <TimeStamp>
+                <when>1962</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-66.0,8.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Venezuela vs. Bandera Roja</name>
+            <address>Venezuela</address>
+            <TimeStamp>
+                <when>1982</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-66.0,8.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Venezuela vs. Military faction (forces of Hugo Chávez) </name>
+            <address>Venezuela</address>
+            <TimeStamp>
+                <when>1992</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-66.0,8.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Algeria vs. Morocco</name>
+            <address>Algeria</address>
+            <TimeStamp>
+                <when>1963</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>3.0,28.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Portugal vs. PAIGC</name>
+            <address>Guinea-Bissau</address>
+            <TimeSpan>
+                <begin>1963</begin>
+                <end>1973</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-15.0,12.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Malaysia vs. CCO</name>
+            <address>Borneo</address>
+            <TimeSpan>
+                <begin>1963</begin>
+                <end>1966</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>114.0,1.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Malaysia vs. Indonesia</name>
+            <address>Borneo</address>
+            <TimeSpan>
+                <begin>1963</begin>
+                <end>1966</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>114.0,1.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sudan vs. Anya Nya</name>
+            <address>Sudan</address>
+            <TimeSpan>
+                <begin>1963</begin>
+                <end>1972</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>30.0,15.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Democratic Republic of Congo (Zaire)  vs. CNL</name>
+            <address>Zaire</address>
+            <TimeSpan>
+                <begin>1964</begin>
+                <end>1965</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>13.51966,-6.58717</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Democratic Republic of Congo (Zaire)  vs. Opposition militias</name>
+            <address>Zaire</address>
+            <TimeStamp>
+                <when>1967</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>13.51966,-6.58717</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Democratic Republic of Congo (Zaire)  vs. FLNC</name>
+            <address>Zaire</address>
+            <TimeSpan>
+                <begin>1977</begin>
+                <end>1978</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>13.51966,-6.58717</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Democratic Republic of Congo (Zaire)  vs. AFDL</name>
+            <address>Zaire</address>
+            <TimeSpan>
+                <begin>1996</begin>
+                <end>2001</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>13.51966,-6.58717</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Democratic Republic of Congo (Zaire)  vs. CNDP</name>
+            <address>Zaire</address>
+            <TimeSpan>
+                <begin>2006</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>13.51966,-6.58717</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gabon vs. Military faction (forces loyal to Léon M'Ba)</name>
+            <address>Gabon</address>
+            <TimeStamp>
+                <when>1964</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>11.75,-1.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Portugal vs. Frelimo</name>
+            <address>Mozambique</address>
+            <TimeSpan>
+                <begin>1964</begin>
+                <end>1974</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>35.0,-18.25</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>United Kingdom vs. FLOSY</name>
+            <address>Aden</address>
+            <TimeSpan>
+                <begin>1964</begin>
+                <end>1967</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>45.03667,12.77944</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Burundi vs. Military faction (forces loyal to Gervais Nyangoma)</name>
+            <address>Burundi</address>
+            <TimeStamp>
+                <when>1965</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>30.0,-3.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Burundi vs. Palipehutu</name>
+            <address>Burundi</address>
+            <TimeSpan>
+                <begin>1991</begin>
+                <end>1992</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>30.0,-3.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Burundi vs. CNDD</name>
+            <address>Burundi</address>
+            <TimeSpan>
+                <begin>1994</begin>
+                <end>2006</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>30.0,-3.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Burundi vs.  Palipehutu–FNL</name>
+            <address>Burundi</address>
+            <TimeStamp>
+                <when>2008</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>30.0,-3.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Chad vs. Frolinat</name>
+            <address>Chad</address>
+            <TimeSpan>
+                <begin>1966</begin>
+                <end>1972</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>19.0,15.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Chad vs. FAN</name>
+            <address>Chad</address>
+            <TimeSpan>
+                <begin>1976</begin>
+                <end>1984</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>19.0,15.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Chad vs. GUNT</name>
+            <address>Chad</address>
+            <TimeSpan>
+                <begin>1986</begin>
+                <end>1987</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>19.0,15.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Chad vs. Islamic Legion, Revolutionary Forces of 1 April, MOSANAT</name>
+            <address>Chad</address>
+            <TimeSpan>
+                <begin>1989</begin>
+                <end>1994</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>19.0,15.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Chad vs. FARF, MDD</name>
+            <address>Chad</address>
+            <TimeSpan>
+                <begin>1997</begin>
+                <end>2002</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>19.0,15.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Chad vs. FUCD</name>
+            <address>Chad</address>
+            <TimeSpan>
+                <begin>2005</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>19.0,15.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Colombia vs. FARC</name>
+            <address>Colombia</address>
+            <TimeSpan>
+                <begin>1964</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-72.0,4.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Dominican Republic vs. Military faction</name>
+            <address>Dominican Republic</address>
+            <TimeStamp>
+                <when>1965</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-70.66667,19.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Indonesia vs. OPM</name>
+            <address>West Papua</address>
+            <TimeStamp>
+                <when>1965</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>138.0,-4.75</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Indonesia vs. OPM</name>
+            <address>West Papua</address>
+            <TimeSpan>
+                <begin>1967</begin>
+                <end>1969</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>138.0,-4.75</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Indonesia vs. OPM</name>
+            <address>West Papua</address>
+            <TimeSpan>
+                <begin>1976</begin>
+                <end>1978</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>138.0,-4.75</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Peru vs. ELN, MIR</name>
+            <address>Peru</address>
+            <TimeStamp>
+                <when>1965</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-76.0,-10.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Peru vs. Sendero Luminoso</name>
+            <address>Peru</address>
+            <TimeSpan>
+                <begin>1982</begin>
+                <end>1999</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-76.0,-10.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Peru vs. Sendero Luminoso</name>
+            <address>Peru</address>
+            <TimeSpan>
+                <begin>2007</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-76.0,-10.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>North Vietnam vs. South Vietnam</name>
+            <address>South Vietnam</address>
+            <TimeSpan>
+                <begin>1965</begin>
+                <end>1974</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>107.0,11.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>North Vietnam vs. South Vietnam</name>
+            <address>South Vietnam</address>
+            <TimeStamp>
+                <when>1974</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>107.0,11.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cambodia vs. Thailand</name>
+            <address>Cambodia</address>
+            <TimeStamp>
+                <when>1966</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>105.0,13.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cambodia vs. Thailand</name>
+            <address>Cambodia</address>
+            <TimeSpan>
+                <begin>1977</begin>
+                <end>1978</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>105.0,13.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ghana vs. NLC</name>
+            <address>Ghana</address>
+            <TimeStamp>
+                <when>1966</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-2.0,8.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ghana vs. Military faction (forces of Jerry John Rawlings)</name>
+            <address>Ghana</address>
+            <TimeStamp>
+                <when>1981</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-2.0,8.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ghana vs. Military faction (forces of Ekow Dennis and Edward Adjei-Ampofo) </name>
+            <address>Ghana</address>
+            <TimeStamp>
+                <when>1983</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-2.0,8.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. MNF</name>
+            <address>Mizoram</address>
+            <TimeSpan>
+                <begin>1966</begin>
+                <end>1968</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>93.0,23.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Nigeria vs. Military faction (forces of Patrick Nzeogwu)</name>
+            <address>Nigeria</address>
+            <TimeStamp>
+                <when>1966</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>8.0,10.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>South Africa vs. SWAPO</name>
+            <address>Namibia</address>
+            <TimeSpan>
+                <begin>1966</begin>
+                <end>1988</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>17.0,-22.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Syria  vs. Military faction (forces loyal to Nureddin Atassi and Youssef Zeayen)</name>
+            <address>Syria</address>
+            <TimeStamp>
+                <when>1966</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>38.0,35.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Syria vs. Muslim Brotherhood</name>
+            <address>Syria</address>
+            <TimeSpan>
+                <begin>1979</begin>
+                <end>1982</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>38.0,35.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cambodia vs. KR</name>
+            <address>Cambodia</address>
+            <TimeSpan>
+                <begin>1967</begin>
+                <end>1975</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>105.0,13.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cambodia vs. KNUFNS</name>
+            <address>Cambodia</address>
+            <TimeSpan>
+                <begin>1978</begin>
+                <end>1998</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>105.0,13.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Israel vs. Egypt</name>
+            <address>Sinai</address>
+            <TimeStamp>
+                <when>1967</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.0,29.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Israel vs. Egypt</name>
+            <address>Sinai</address>
+            <TimeSpan>
+                <begin>1969</begin>
+                <end>1970</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>34.0,29.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Israel vs. Egypt</name>
+            <address>Sinai</address>
+            <TimeStamp>
+                <when>1973</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.0,29.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Israel vs. Jordan</name>
+            <address>West Bank</address>
+            <TimeStamp>
+                <when>1967</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>35.25,31.66667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Israel vs. Syria</name>
+            <address>Golan Heights</address>
+            <TimeStamp>
+                <when>1967</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>35.80725,32.90485</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Israel vs. Syria</name>
+            <address>Golan Heights</address>
+            <TimeStamp>
+                <when>1973</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>35.80725,32.90485</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Nigeria vs. Republic of Biafra</name>
+            <address>Biafra</address>
+            <TimeSpan>
+                <begin>1967</begin>
+                <end>1970</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>9.33333,3.33333</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>China vs. Myanmar</name>
+            <address>Myanmar</address>
+            <TimeStamp>
+                <when>1969</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>98.0,22.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>China vs. Russia (Soviet Union)</name>
+            <address>Ussuri river</address>
+            <TimeStamp>
+                <when>1969</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>135.07806,48.45167</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>El Salvador vs. Honduras</name>
+            <address>El Salvador</address>
+            <TimeStamp>
+                <when>1969</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-88.91667,13.83333</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Guinea vs. RFDG</name>
+            <address>Guinea</address>
+            <TimeSpan>
+                <begin>2000</begin>
+                <end>2001</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-10.0,11.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Philippines vs. MIM</name>
+            <address>Mindanao</address>
+            <TimeSpan>
+                <begin>1970</begin>
+                <end>1990</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>124.6125,8.5625</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Philippines vs. ASG, MNLF</name>
+            <address>Mindanao</address>
+            <TimeSpan>
+                <begin>1993</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>124.6125,8.5625</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sudan vs. Sudanese Communist Party</name>
+            <address>Sudan</address>
+            <TimeStamp>
+                <when>1971</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>30.0,15.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sudan vs. Islamic Charter Front</name>
+            <address>Sudan</address>
+            <TimeStamp>
+                <when>1976</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>30.0,15.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sudan vs. SPLM/A</name>
+            <address>Sudan</address>
+            <TimeSpan>
+                <begin>1983</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>30.0,15.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Madagascar vs. Monima </name>
+            <address>Madagascar</address>
+            <TimeStamp>
+                <when>1971</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>47.0,-20.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Morocco vs. Military faction (forces of Mohamed Madbouh)</name>
+            <address>Morocco</address>
+            <TimeStamp>
+                <when>1971</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-5.0,32.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pakistan vs. Mukti Bahini</name>
+            <address>Pakistan</address>
+            <TimeStamp>
+                <when>1971</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.0,30.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sri Lanka (Ceylon) vs. JVP</name>
+            <address>Sri Lanka</address>
+            <TimeStamp>
+                <when>1971</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>81.0,7.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sri Lanka (Ceylon) vs. JVP</name>
+            <address>Sri Lanka</address>
+            <TimeSpan>
+                <begin>1989</begin>
+                <end>1990</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>81.0,7.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Uganda vs. Military faction (forces of Idi Amin)</name>
+            <address>Uganda</address>
+            <TimeSpan>
+                <begin>1971</begin>
+                <end>1972</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>33.0,2.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Uganda vs. Military faction (forces of Charles Arube)</name>
+            <address>Uganda</address>
+            <TimeStamp>
+                <when>1974</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>33.0,2.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Uganda vs. Military faction (Mbarara-based troops)</name>
+            <address>Uganda</address>
+            <TimeSpan>
+                <begin>1978</begin>
+                <end>1992</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>33.0,2.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Uganda vs. LRA</name>
+            <address>Uganda</address>
+            <TimeSpan>
+                <begin>1994</begin>
+                <end>2007</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>33.0,2.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>United Kingdom vs. PIRA</name>
+            <address>Northern Ireland</address>
+            <TimeSpan>
+                <begin>1971</begin>
+                <end>1991</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-6.5,54.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>United Kingdom vs. RIRA</name>
+            <address>Northern Ireland</address>
+            <TimeStamp>
+                <when>1998</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-6.5,54.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>El Salvador vs. Military faction (forces of Benjamin Mejia)</name>
+            <address>El Salvador</address>
+            <TimeStamp>
+                <when>1972</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-88.91667,13.83333</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>El Salvador vs. ERP, FPL</name>
+            <address>El Salvador</address>
+            <TimeSpan>
+                <begin>1979</begin>
+                <end>1991</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-88.91667,13.83333</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Oman vs. PFLO</name>
+            <address>Oman</address>
+            <TimeSpan>
+                <begin>1972</begin>
+                <end>1975</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>57.0,21.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Zimbabwe (Rhodesia) vs. ZAPU</name>
+            <address>Zimbabwe</address>
+            <TimeSpan>
+                <begin>1967</begin>
+                <end>1968</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>29.0,-19.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Zimbabwe (Rhodesia) vs. ZANU, ZAPU</name>
+            <address>Zimbabwe</address>
+            <TimeSpan>
+                <begin>1973</begin>
+                <end>1979</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>29.0,-19.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Uruguay vs. MLN/Tupamaros</name>
+            <address>Uruguay</address>
+            <TimeStamp>
+                <when>1972</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-56.0,-33.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>North Yemen vs. South Yemen</name>
+            <address>Yemen</address>
+            <TimeStamp>
+                <when>1972</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>47.5,15.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>North Yemen vs. South Yemen</name>
+            <address>Yemen</address>
+            <TimeSpan>
+                <begin>1978</begin>
+                <end>1979</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>47.5,15.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Chile vs. Military faction (forces of Augusto Pinochet, Toribio Merino and Leigh Guzman) </name>
+            <address>Chile</address>
+            <TimeStamp>
+                <when>1973</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-71.0,-30.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bangladesh vs. JSS/SB</name>
+            <address>Chittagong Hill Tracts</address>
+            <TimeSpan>
+                <begin>1975</begin>
+                <end>1992</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>92.33333,22.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cyprus vs. Turkey/Ottoman Empire</name>
+            <address>Cyprus</address>
+            <TimeStamp>
+                <when>1974</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>33.0,35.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iran vs. Iraq</name>
+            <address>Iran</address>
+            <TimeStamp>
+                <when>1974</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>53.0,32.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iran vs. Iraq</name>
+            <address>Iran</address>
+            <TimeSpan>
+                <begin>1980</begin>
+                <end>1988</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>53.0,32.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pakistan vs. Baluchi insurgents</name>
+            <address>Baluchistan</address>
+            <TimeSpan>
+                <begin>1974</begin>
+                <end>1977</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>63.0,28.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pakistan vs. BLA</name>
+            <address>Baluchistan</address>
+            <TimeSpan>
+                <begin>2004</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>63.0,28.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Eritrea vs. EIJM – AS</name>
+            <address>Eritrea</address>
+            <TimeStamp>
+                <when>1997</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>39.0,15.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Eritrea vs. EIJM – AS</name>
+            <address>Eritrea</address>
+            <TimeStamp>
+                <when>1999</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>39.0,15.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Eritrea vs. EIJM – AS</name>
+            <address>Eritrea</address>
+            <TimeStamp>
+                <when>2003</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>39.0,15.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Angola vs. FNLA, UNITA</name>
+            <address>Angola</address>
+            <TimeSpan>
+                <begin>1975</begin>
+                <end>1995</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>18.5,-12.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Angola vs. UNITA</name>
+            <address>Angola</address>
+            <TimeSpan>
+                <begin>1998</begin>
+                <end>2002</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>18.5,-12.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cambodia vs. Vietnam</name>
+            <address>Cambodia</address>
+            <TimeSpan>
+                <begin>1975</begin>
+                <end>1977</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>105.0,13.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ethiopia vs. WSLF</name>
+            <address>Ogaden</address>
+            <TimeSpan>
+                <begin>1976</begin>
+                <end>1983</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>42.48513,-0.44862</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ethiopia vs. ONLF</name>
+            <address>Ogaden</address>
+            <TimeStamp>
+                <when>1994</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>42.48513,-0.44862</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ethiopia vs. ONLF</name>
+            <address>Ogaden</address>
+            <TimeStamp>
+                <when>1996</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>42.48513,-0.44862</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ethiopia vs. ONLF</name>
+            <address>Ogaden</address>
+            <TimeSpan>
+                <begin>1999</begin>
+                <end>2002</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>42.48513,-0.44862</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ethiopia vs. ONLF</name>
+            <address>Ogaden</address>
+            <TimeSpan>
+                <begin>2004</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>42.48513,-0.44862</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Indonesia vs. Fretilin</name>
+            <address>East Timor</address>
+            <TimeSpan>
+                <begin>1975</begin>
+                <end>1989</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>125.75,-8.83333</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Indonesia vs. Fretilin</name>
+            <address>East Timor</address>
+            <TimeStamp>
+                <when>1992</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>125.75,-8.83333</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Indonesia vs. Fretilin</name>
+            <address>East Timor</address>
+            <TimeSpan>
+                <begin>1997</begin>
+                <end>1998</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>125.75,-8.83333</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Morocco vs. POLISARIO</name>
+            <address>Western Sahara</address>
+            <TimeSpan>
+                <begin>1975</begin>
+                <end>1989</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-12.65625,24.49215</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mozambique vs. Renamo</name>
+            <address>Mozambique</address>
+            <TimeSpan>
+                <begin>1977</begin>
+                <end>1992</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>35.0,-18.25</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afghanistan vs. Hizb-i Demokratik-i Khalq-i Afghanistan</name>
+            <address>Afghanistan</address>
+            <TimeSpan>
+                <begin>1978</begin>
+                <end>2001</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>66.0,33.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afghanistan vs. Taleban</name>
+            <address>Afghanistan</address>
+            <TimeSpan>
+                <begin>2003</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>66.0,33.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>China vs. Vietnam</name>
+            <address>Vietnam</address>
+            <TimeSpan>
+                <begin>1978</begin>
+                <end>1981</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>107.83333,16.16667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>China vs. Vietnam</name>
+            <address>Vietnam</address>
+            <TimeSpan>
+                <begin>1983</begin>
+                <end>1984</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>107.83333,16.16667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>China vs. Vietnam</name>
+            <address>Vietnam</address>
+            <TimeSpan>
+                <begin>1986</begin>
+                <end>1988</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>107.83333,16.16667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. TNV</name>
+            <address>Tripura</address>
+            <TimeSpan>
+                <begin>1978</begin>
+                <end>1988</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>92.0,24.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. ATTF</name>
+            <address>Tripura</address>
+            <TimeSpan>
+                <begin>1992</begin>
+                <end>1993</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>92.0,24.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. NLFT</name>
+            <address>Tripura</address>
+            <TimeStamp>
+                <when>1995</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>92.0,24.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. ATTF, NLFT</name>
+            <address>Tripura</address>
+            <TimeSpan>
+                <begin>1997</begin>
+                <end>2004</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>92.0,24.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. NLFT</name>
+            <address>Tripura</address>
+            <TimeStamp>
+                <when>2006</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>92.0,24.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Nicaragua vs. FSLN</name>
+            <address>Nicaragua</address>
+            <TimeSpan>
+                <begin>1978</begin>
+                <end>1979</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-85.0,13.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Nicaragua vs. Contras/FDN</name>
+            <address>Nicaragua</address>
+            <TimeSpan>
+                <begin>1981</begin>
+                <end>1989</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-85.0,13.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Somalia vs. Military faction (forces of Abdulaahi Yusuf)</name>
+            <address>Somalia</address>
+            <TimeStamp>
+                <when>1978</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>48.0,6.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Somalia vs. SSDF</name>
+            <address>Somalia</address>
+            <TimeSpan>
+                <begin>1982</begin>
+                <end>1984</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>48.0,6.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Somalia vs. SNM</name>
+            <address>Somalia</address>
+            <TimeSpan>
+                <begin>1986</begin>
+                <end>1996</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>48.0,6.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Somalia vs. SRRC</name>
+            <address>Somalia</address>
+            <TimeSpan>
+                <begin>2001</begin>
+                <end>2002</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>48.0,6.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Somalia vs. ARS/UIC</name>
+            <address>Somalia</address>
+            <TimeSpan>
+                <begin>2006</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>48.0,6.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Equatorial Guinea vs. Military faction (forces of Teodoro Obiang Nguema Mbasogo)</name>
+            <address>Equatorial Guinea</address>
+            <TimeStamp>
+                <when>1979</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>10.0,2.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iran vs. MEK</name>
+            <address>Iran</address>
+            <TimeSpan>
+                <begin>1979</begin>
+                <end>1982</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>53.0,32.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iran vs. MEK</name>
+            <address>Iran</address>
+            <TimeSpan>
+                <begin>1986</begin>
+                <end>1988</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>53.0,32.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iran vs. MEK</name>
+            <address>Iran</address>
+            <TimeSpan>
+                <begin>1991</begin>
+                <end>1993</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>53.0,32.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iran vs. MEK</name>
+            <address>Iran</address>
+            <TimeStamp>
+                <when>1997</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>53.0,32.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iran vs. MEK</name>
+            <address>Iran</address>
+            <TimeSpan>
+                <begin>1999</begin>
+                <end>2001</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>53.0,32.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iran vs. PJAK</name>
+            <address>Iran</address>
+            <TimeSpan>
+                <begin>2005</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>53.0,32.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iran vs. APCO</name>
+            <address>Arabistan</address>
+            <TimeSpan>
+                <begin>1979</begin>
+                <end>1980</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>50.0,30.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saudi Arabia vs. JSM</name>
+            <address>Saudi Arabia</address>
+            <TimeStamp>
+                <when>1979</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>45.0,25.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Liberia vs. Military faction (forces of Samuel Doe)</name>
+            <address>Liberia</address>
+            <TimeStamp>
+                <when>1980</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-9.5,6.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Liberia vs. NPFL</name>
+            <address>Liberia</address>
+            <TimeSpan>
+                <begin>1989</begin>
+                <end>1995</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-9.5,6.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Liberia vs. LURD</name>
+            <address>Liberia</address>
+            <TimeSpan>
+                <begin>2000</begin>
+                <end>2003</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-9.5,6.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Spain vs. ETA</name>
+            <address>Basque Country</address>
+            <TimeSpan>
+                <begin>1980</begin>
+                <end>1981</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-2.66667,42.85</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Spain vs. ETA</name>
+            <address>Basque Country</address>
+            <TimeStamp>
+                <when>1987</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-2.66667,42.85</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Spain vs. ETA</name>
+            <address>Basque Country</address>
+            <TimeSpan>
+                <begin>1991</begin>
+                <end>1992</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-2.66667,42.85</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tunisia vs. Résistance Armée Tunisienne</name>
+            <address>Tunisia</address>
+            <TimeStamp>
+                <when>1980</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>10.16579,36.81897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gambia vs. NRC</name>
+            <address>Gambia</address>
+            <TimeStamp>
+                <when>1981</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-15.5,13.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>South Africa vs. ANC</name>
+            <address>South Africa</address>
+            <TimeSpan>
+                <begin>1981</begin>
+                <end>1983</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>26.0,-30.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>South Africa vs. ANC</name>
+            <address>South Africa</address>
+            <TimeSpan>
+                <begin>1985</begin>
+                <end>1988</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>26.0,-30.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Argentina vs. United Kingdom</name>
+            <address>Falkland Islands</address>
+            <TimeStamp>
+                <when>1982</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-59.16667,-51.75</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. PLA</name>
+            <address>Manipur</address>
+            <TimeSpan>
+                <begin>1982</begin>
+                <end>1988</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>94.0,25.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. PLA</name>
+            <address>Manipur</address>
+            <TimeSpan>
+                <begin>1992</begin>
+                <end>2000</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>94.0,25.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. UNLF</name>
+            <address>Manipur</address>
+            <TimeSpan>
+                <begin>2003</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>94.0,25.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kenya vs. Military faction (forces of Hezekiah Ochuka)</name>
+            <address>Kenya</address>
+            <TimeStamp>
+                <when>1982</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>38.0,1.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Chad vs. Nigeria</name>
+            <address>Lake Chad</address>
+            <TimeStamp>
+                <when>1983</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>14.12174,13.32851</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grenada vs. United States of America</name>
+            <address>Grenada</address>
+            <TimeStamp>
+                <when>1983</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-61.66667,12.11667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. Sikh insurgents</name>
+            <address>Punjab</address>
+            <TimeSpan>
+                <begin>1983</begin>
+                <end>1993</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>72.31976,30.86017</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sri Lanka (Ceylon) vs. LTTE, TELO</name>
+            <address>Eelam</address>
+            <TimeSpan>
+                <begin>1984</begin>
+                <end>2001</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>81.0,7.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sri Lanka (Ceylon) vs. LTTE</name>
+            <address>Eelam</address>
+            <TimeStamp>
+                <when>2003</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>81.0,7.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sri Lanka (Ceylon) vs. LTTE</name>
+            <address>Eelam</address>
+            <TimeSpan>
+                <begin>2005</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>81.0,7.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cameroon vs. UPC</name>
+            <address>Cameroon</address>
+            <TimeSpan>
+                <begin>1960</begin>
+                <end>1961</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>12.0,6.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cameroon vs. Military faction (forces of Ibrahim Saleh)</name>
+            <address>Cameroon</address>
+            <TimeStamp>
+                <when>1984</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.0,6.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Turkey/Ottoman Empire vs. PKK</name>
+            <address>Kurdistan</address>
+            <TimeSpan>
+                <begin>1984</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>47.0,35.66667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Burkina Faso vs. Mali</name>
+            <address>Burkina Faso</address>
+            <TimeStamp>
+                <when>1985</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-2.0,13.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Laos vs. Thailand</name>
+            <address>Laos</address>
+            <TimeSpan>
+                <begin>1986</begin>
+                <end>1988</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>105.0,18.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Surinam vs. SLA/Jungle Commando</name>
+            <address>Surinam</address>
+            <TimeSpan>
+                <begin>1986</begin>
+                <end>1988</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-56.0,4.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Togo vs. MTD</name>
+            <address>Togo</address>
+            <TimeStamp>
+                <when>1986</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>1.16667,8.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Togo vs. Military faction (forces loyal to Gnassingbe Eyadema)</name>
+            <address>Togo</address>
+            <TimeStamp>
+                <when>1991</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>1.16667,8.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>South Yemen vs. Yemenite Socialist Party - Abdul Fattah Ismail faction</name>
+            <address>Yemen</address>
+            <TimeStamp>
+                <when>1986</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>47.5,15.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Burkina Faso vs. Popular Front</name>
+            <address>Burkina Faso</address>
+            <TimeStamp>
+                <when>1987</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-2.0,13.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Chad vs. Libya</name>
+            <address>Aozou</address>
+            <TimeStamp>
+                <when>1987</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>17.4275,21.8375</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Comoros vs. Presidential guard</name>
+            <address>Comoros</address>
+            <TimeStamp>
+                <when>1989</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>44.25,-12.16667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ethiopia vs. ALF</name>
+            <address>Afar</address>
+            <TimeSpan>
+                <begin>1975</begin>
+                <end>1976</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>41.5,12.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ethiopia vs. ALF</name>
+            <address>Afar</address>
+            <TimeSpan>
+                <begin>1989</begin>
+                <end>1991</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>41.5,12.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ethiopia vs. ARDUF</name>
+            <address>Afar</address>
+            <TimeStamp>
+                <when>1996</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>41.5,12.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. Kashmir Insurgents</name>
+            <address>Kashmir</address>
+            <TimeSpan>
+                <begin>1989</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>73.9104,33.94718</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. ULFA</name>
+            <address>Assam</address>
+            <TimeSpan>
+                <begin>1990</begin>
+                <end>1991</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>93.0,26.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. ULFA</name>
+            <address>Assam</address>
+            <TimeSpan>
+                <begin>1994</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>93.0,26.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Indonesia vs. GAM</name>
+            <address>Aceh</address>
+            <TimeSpan>
+                <begin>1990</begin>
+                <end>1991</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>95.3222,5.5577</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Indonesia vs. GAM</name>
+            <address>Aceh</address>
+            <TimeSpan>
+                <begin>1999</begin>
+                <end>2005</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>95.3222,5.5577</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Panama vs. Military faction (forces of Moisés Giroldi) </name>
+            <address>Panama</address>
+            <TimeStamp>
+                <when>1989</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-80.0,9.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Panama vs. United States of America</name>
+            <address>Panama</address>
+            <TimeStamp>
+                <when>1989</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-80.0,9.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Papua New Guinea vs. BRA</name>
+            <address>Bougainville</address>
+            <TimeSpan>
+                <begin>1989</begin>
+                <end>1990</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>155.0,-6.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Papua New Guinea vs. BRA</name>
+            <address>Bougainville</address>
+            <TimeSpan>
+                <begin>1992</begin>
+                <end>1996</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>155.0,-6.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rumania vs. NSF</name>
+            <address>Rumania</address>
+            <TimeStamp>
+                <when>1989</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>25.0,46.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iraq vs. Kuwait</name>
+            <address>Kuwait</address>
+            <TimeSpan>
+                <begin>1990</begin>
+                <end>1991</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>47.75,29.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mali vs. MPA</name>
+            <address>Azawad</address>
+            <TimeStamp>
+                <when>1990</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-4.0,17.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mali vs. FIAA</name>
+            <address>Azawad</address>
+            <TimeStamp>
+                <when>1994</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-4.0,17.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mali vs. ATNMC</name>
+            <address>Azawad</address>
+            <TimeSpan>
+                <begin>2007</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-4.0,17.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Niger vs. CRA</name>
+            <address>Niger</address>
+            <TimeStamp>
+                <when>1994</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>8.0,16.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rwanda vs. FPR</name>
+            <address>Rwanda</address>
+            <TimeSpan>
+                <begin>1990</begin>
+                <end>1994</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>30.0,-2.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rwanda vs. FDLR</name>
+            <address>Rwanda</address>
+            <TimeSpan>
+                <begin>1997</begin>
+                <end>2002</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>30.0,-2.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Senegal vs. MFDC</name>
+            <address>Casamance</address>
+            <TimeStamp>
+                <when>1990</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-15.5,12.75</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Senegal vs. MFDC</name>
+            <address>Casamance</address>
+            <TimeSpan>
+                <begin>1992</begin>
+                <end>1993</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-15.5,12.75</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Senegal vs. MFDC</name>
+            <address>Casamance</address>
+            <TimeStamp>
+                <when>1995</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-15.5,12.75</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Senegal vs. MFDC</name>
+            <address>Casamance</address>
+            <TimeSpan>
+                <begin>1997</begin>
+                <end>1998</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-15.5,12.75</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Senegal vs. MFDC</name>
+            <address>Casamance</address>
+            <TimeSpan>
+                <begin>2000</begin>
+                <end>2001</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-15.5,12.75</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Senegal vs. MFDC</name>
+            <address>Casamance</address>
+            <TimeStamp>
+                <when>2003</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-15.5,12.75</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Russia (Soviet Union) vs. Republic of Armenia</name>
+            <address>Nagorno-Karabakh</address>
+            <TimeSpan>
+                <begin>1990</begin>
+                <end>1991</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>46.58333,40.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Russia (Soviet Union) vs. APF</name>
+            <address>Azerbaijan</address>
+            <TimeStamp>
+                <when>1990</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>47.5,40.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Trinidad and Tobago vs. Jamaat al-Muslimeen</name>
+            <address>Trinidad and Tobago</address>
+            <TimeStamp>
+                <when>1990</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-61.0,11.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Djibouti vs. FRUD</name>
+            <address>Djibouti</address>
+            <TimeSpan>
+                <begin>1991</begin>
+                <end>1994</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>42.5,11.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Djibouti vs. FRUD – AD</name>
+            <address>Djibouti</address>
+            <TimeStamp>
+                <when>1999</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>42.5,11.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Georgia vs. Anti-government alliance</name>
+            <address>Georgia</address>
+            <TimeSpan>
+                <begin>1991</begin>
+                <end>1993</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>43.4999,41.99998</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Haiti vs. Military faction (forces of Himmler Rebu and Guy Francois) </name>
+            <address>Haiti</address>
+            <TimeStamp>
+                <when>1989</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-72.41667,19.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Haiti vs. Military faction (forces of Raol Cedras) </name>
+            <address>Haiti</address>
+            <TimeStamp>
+                <when>1991</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-72.41667,19.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Haiti vs. FLRN, OP Lavalas (Chimères) </name>
+            <address>Haiti</address>
+            <TimeStamp>
+                <when>2004</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-72.41667,19.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sierra Leone vs. RUF</name>
+            <address>Sierra Leone</address>
+            <TimeSpan>
+                <begin>1991</begin>
+                <end>2000</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-11.5,8.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Turkey/Ottoman Empire vs. Devrimci Sol</name>
+            <address>Turkey</address>
+            <TimeSpan>
+                <begin>1991</begin>
+                <end>1992</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>35.0,39.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Turkey/Ottoman Empire vs. MKP</name>
+            <address>Turkey</address>
+            <TimeStamp>
+                <when>2005</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>35.0,39.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Yugoslavia (Serbia) vs. Republic of Slovenia</name>
+            <address>Slovenia</address>
+            <TimeStamp>
+                <when>1991</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>15.16667,46.25</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Yugoslavia (Serbia) vs. Croatian irregulars, Republic of Croatia</name>
+            <address>Croatia</address>
+            <TimeStamp>
+                <when>1991</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>15.5,45.16667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Algeria vs. Takfir wa'l Hijra</name>
+            <address>Algeria</address>
+            <TimeSpan>
+                <begin>1991</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>3.0,28.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Angola vs. FLEC–R</name>
+            <address>Cabinda</address>
+            <TimeStamp>
+                <when>1991</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.2,-5.55</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Angola vs. FLEC–FAC, FLEC–R</name>
+            <address>Cabinda</address>
+            <TimeStamp>
+                <when>1994</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.2,-5.55</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Angola vs. FLEC–FAC</name>
+            <address>Cabinda</address>
+            <TimeSpan>
+                <begin>1996</begin>
+                <end>1998</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>12.2,-5.55</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Angola vs. FLEC–FAC, FLEC–R</name>
+            <address>Cabinda</address>
+            <TimeStamp>
+                <when>2002</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.2,-5.55</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Angola vs. FLEC–FAC</name>
+            <address>Cabinda</address>
+            <TimeStamp>
+                <when>2004</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.2,-5.55</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Angola vs. FLEC–FAC</name>
+            <address>Cabinda</address>
+            <TimeStamp>
+                <when>2007</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.2,-5.55</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Azerbaijan vs. Republic of Nagorno-Karabakh</name>
+            <address>Nagorno-Karabakh</address>
+            <TimeSpan>
+                <begin>1992</begin>
+                <end>1994</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>46.58333,40.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Azerbaijan vs. Republic of Nagorno-Karabakh</name>
+            <address>Nagorno-Karabakh</address>
+            <TimeStamp>
+                <when>2005</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>46.58333,40.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bosnia and Herzegovina vs. Serbian irregulars, Serbian Republic of Bosnia and Herzegovina</name>
+            <address>Bosnia and Herzegovina</address>
+            <TimeSpan>
+                <begin>1992</begin>
+                <end>1995</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>17.83333,44.25</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Croatia vs. Serbian irregulars, Serbian Republic of Krajina</name>
+            <address>Croatia</address>
+            <TimeSpan>
+                <begin>1992</begin>
+                <end>1993</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>15.5,45.16667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Croatia vs. Serbian Republic of Krajina</name>
+            <address>Croatia</address>
+            <TimeStamp>
+                <when>1995</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>15.5,45.16667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Egypt vs. al-Gama'a al-Islamiyya</name>
+            <address>Egypt</address>
+            <TimeSpan>
+                <begin>1993</begin>
+                <end>1998</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>30.0,27.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Georgia vs. Republic of Abkhazia</name>
+            <address>Abkhazia</address>
+            <TimeSpan>
+                <begin>1992</begin>
+                <end>1993</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>41.00501,43.0005</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Georgia vs. Republic of South Ossetia</name>
+            <address>South Ossetia</address>
+            <TimeStamp>
+                <when>1992</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>44.0,42.33333</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Georgia vs. Republic of South Ossetia</name>
+            <address>South Ossetia</address>
+            <TimeStamp>
+                <when>2004</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>44.0,42.33333</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Georgia vs. Republic of South Ossetia</name>
+            <address>South Ossetia</address>
+            <TimeStamp>
+                <when>2008</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>44.0,42.33333</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Moldova vs. Dniestr Republic</name>
+            <address>Dniestr</address>
+            <TimeStamp>
+                <when>1992</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>30.28333,46.3</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tajikistan vs. UTO</name>
+            <address>Tajikistan</address>
+            <TimeSpan>
+                <begin>1992</begin>
+                <end>1996</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>71.0,39.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tajikistan vs. UTO, Movement for Peace in Tajikistan</name>
+            <address>Tajikistan</address>
+            <TimeStamp>
+                <when>1998</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>71.0,39.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Azerbaijan vs. Military faction (Forces of Suret Husseinov)</name>
+            <address>Azerbaijan</address>
+            <TimeStamp>
+                <when>1993</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>47.5,40.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Azerbaijan vs. OPON forces</name>
+            <address>Azerbaijan</address>
+            <TimeStamp>
+                <when>1995</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>47.5,40.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bosnia and Herzegovina vs. Autonomous Province of Western Bosnia</name>
+            <address>Bihaca Krajina</address>
+            <TimeSpan>
+                <begin>1993</begin>
+                <end>1995</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>17.83333,44.25</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bosnia and Herzegovina vs. Croatian irregulars, Croatian Republic of Bosnia and Herzegovina</name>
+            <address>Croatia</address>
+            <TimeSpan>
+                <begin>1993</begin>
+                <end>1994</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>15.5,45.16667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Russia (Soviet Union) vs. Parliamentary forces</name>
+            <address>Russia</address>
+            <TimeStamp>
+                <when>1993</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>100.0,60.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mexico vs. EZLN</name>
+            <address>Mexico</address>
+            <TimeStamp>
+                <when>1994</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-102.0,23.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mexico vs. EPR</name>
+            <address>Mexico</address>
+            <TimeStamp>
+                <when>1996</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-102.0,23.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Russia (Soviet Union) vs. Chechen Republic of Ichkeria</name>
+            <address>Chechnya</address>
+            <TimeSpan>
+                <begin>1994</begin>
+                <end>1996</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>45.30139,43.29056</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Russia (Soviet Union) vs. Chechen Republic of Ichkeria</name>
+            <address>Chechnya</address>
+            <TimeSpan>
+                <begin>1999</begin>
+                <end>2007</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>45.30139,43.29056</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Yemen  vs. Democratic Republic of Yemen</name>
+            <address>Yemen</address>
+            <TimeStamp>
+                <when>1994</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>47.5,15.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ecuador vs. Peru</name>
+            <address>Cordillera del Condor</address>
+            <TimeStamp>
+                <when>1995</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-78.5,-4.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pakistan vs. MQM</name>
+            <address>Pakistan</address>
+            <TimeStamp>
+                <when>1990</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.0,30.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pakistan vs. MQM</name>
+            <address>Pakistan</address>
+            <TimeSpan>
+                <begin>1995</begin>
+                <end>1996</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>70.0,30.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pakistan vs. TNSM</name>
+            <address>Pakistan</address>
+            <TimeSpan>
+                <begin>2007</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>70.0,30.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cameroon vs. Nigeria</name>
+            <address>Bakassi</address>
+            <TimeStamp>
+                <when>1996</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>8.5948,4.5663</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ethiopia vs. al-Itahad al-Islami</name>
+            <address>Somali</address>
+            <TimeSpan>
+                <begin>1995</begin>
+                <end>1996</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>48.0,6.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ethiopia vs. al-Itahad al-Islami</name>
+            <address>Somali</address>
+            <TimeStamp>
+                <when>1999</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>48.0,6.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Niger vs. FDR</name>
+            <address>Niger</address>
+            <TimeSpan>
+                <begin>1996</begin>
+                <end>1997</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>8.0,16.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Comoros vs. MPA/Republic of Anjouan</name>
+            <address>Anjouan</address>
+            <TimeStamp>
+                <when>1997</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>44.41667,-12.25</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Congo vs. Cobras, Ninjas</name>
+            <address>Congo</address>
+            <TimeSpan>
+                <begin>1993</begin>
+                <end>1994</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>15.0,-1.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Congo vs. Cobras, Cocoyes</name>
+            <address>Congo</address>
+            <TimeSpan>
+                <begin>1997</begin>
+                <end>1999</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>15.0,-1.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Congo vs. Ntsiloulous</name>
+            <address>Congo</address>
+            <TimeStamp>
+                <when>2002</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>15.0,-1.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Eritrea vs. Ethiopia</name>
+            <address>Badme</address>
+            <TimeSpan>
+                <begin>1998</begin>
+                <end>2000</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>37.80306,14.7275</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Guinea-Bissau vs. Military Junta for the Consolidation of Democracy, Peace and Justice</name>
+            <address>Guinea-Bissau</address>
+            <TimeSpan>
+                <begin>1998</begin>
+                <end>1999</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-15.0,12.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lesotho vs. Military faction</name>
+            <address>Lesotho</address>
+            <TimeStamp>
+                <when>1998</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>28.25,-29.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Yugoslavia (Serbia) vs. UCK</name>
+            <address>Kosovo</address>
+            <TimeSpan>
+                <begin>1998</begin>
+                <end>1999</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>21.0,42.58333</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ethiopia vs. OLF</name>
+            <address>Oromiya</address>
+            <TimeSpan>
+                <begin>1977</begin>
+                <end>1978</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>39.0,8.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ethiopia vs. OLF</name>
+            <address>Oromiya</address>
+            <TimeSpan>
+                <begin>1980</begin>
+                <end>1981</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>39.0,8.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ethiopia vs. OLF</name>
+            <address>Oromiya</address>
+            <TimeSpan>
+                <begin>1983</begin>
+                <end>1985</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>39.0,8.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ethiopia vs. OLF</name>
+            <address>Oromiya</address>
+            <TimeSpan>
+                <begin>1987</begin>
+                <end>1992</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>39.0,8.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ethiopia vs. OLF</name>
+            <address>Oromiya</address>
+            <TimeSpan>
+                <begin>1994</begin>
+                <end>1995</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>39.0,8.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ethiopia vs. OLF</name>
+            <address>Oromiya</address>
+            <TimeSpan>
+                <begin>1998</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>39.0,8.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Russia (Soviet Union) vs. Wahhabi movement of the Buinaksk district</name>
+            <address>Dagestan</address>
+            <TimeStamp>
+                <when>1999</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>47.0,43.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Uzbekistan vs. IMU</name>
+            <address>Uzbekistan</address>
+            <TimeSpan>
+                <begin>1999</begin>
+                <end>2000</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>64.0,41.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Uzbekistan vs. JIG</name>
+            <address>Uzbekistan</address>
+            <TimeStamp>
+                <when>2004</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.0,41.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Central African Republic vs. Military faction (forces of Cyriac Souke)</name>
+            <address>Central African Republic</address>
+            <TimeSpan>
+                <begin>1996</begin>
+                <end>1997</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>21.0,7.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Central African Republic vs. Military faction (forces of André Kolingba)</name>
+            <address>Central African Republic</address>
+            <TimeSpan>
+                <begin>2001</begin>
+                <end>2002</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>21.0,7.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Central African Republic vs. UFDR</name>
+            <address>Central African Republic</address>
+            <TimeStamp>
+                <when>2006</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>21.0,7.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Macedonia vs. UCK</name>
+            <address>Macedonia</address>
+            <TimeStamp>
+                <when>2001</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>22.0,41.83333</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>United States of America vs. al-Qaida </name>
+            <address>United States of America</address>
+            <TimeSpan>
+                <begin>2001</begin>
+                <end>2002</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-98.5,39.76</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>United States of America vs. al-Qaida </name>
+            <address>United States of America</address>
+            <TimeSpan>
+                <begin>2004</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-98.5,39.76</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cote D’Ivoire vs. MJP, MPCI, MPIGO</name>
+            <address>Cote D’Ivoire</address>
+            <TimeSpan>
+                <begin>2002</begin>
+                <end>2004</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-5.0,8.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iraq vs. Australia, United Kingdom, United States of America</name>
+            <address>Iraq</address>
+            <TimeStamp>
+                <when>2003</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>44.0,33.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. ABSU</name>
+            <address>Bodoland</address>
+            <TimeSpan>
+                <begin>1989</begin>
+                <end>1990</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>77.0,20.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. NDFB</name>
+            <address>Bodoland</address>
+            <TimeSpan>
+                <begin>1993</begin>
+                <end>2004</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>77.0,20.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Myanmar vs. UWSA</name>
+            <address>Myanmar</address>
+            <TimeStamp>
+                <when>1997</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>98.0,22.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Thailand vs. Patani insurgents</name>
+            <address>Pattani</address>
+            <TimeSpan>
+                <begin>2003</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>101.25009,6.86814</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Nigeria vs. Ahlul Sunnah Jamaa</name>
+            <address>Nigeria</address>
+            <TimeStamp>
+                <when>2004</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>8.0,10.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Nigeria vs. NDPVF</name>
+            <address>Niger Delta</address>
+            <TimeStamp>
+                <when>2004</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>6.0,4.83333</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Israel vs. Hezbollah</name>
+            <address>Lebanon</address>
+            <TimeSpan>
+                <begin>1990</begin>
+                <end>1999</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>35.83333,33.83333</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Israel vs. Hezbollah</name>
+            <address>Lebanon</address>
+            <TimeStamp>
+                <when>2006</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>35.83333,33.83333</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tanzania vs. Uganda</name>
+            <address>Kagera Salient</address>
+            <TimeStamp>
+                <when>1978</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>39.26667,-6.05</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mauritania vs. POLISARIO</name>
+            <address>Western Sahara</address>
+            <TimeSpan>
+                <begin>1975</begin>
+                <end>1978</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>-12.65625,24.49215</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Democratic Republic of Congo (Zaire)  vs. BDK</name>
+            <address>Kongo</address>
+            <TimeSpan>
+                <begin>2007</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>15.0,-1.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Niger vs. FLAA</name>
+            <address>Niger</address>
+            <TimeSpan>
+                <begin>1991</begin>
+                <end>1992</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>8.0,16.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Niger vs. UFRA</name>
+            <address>Niger</address>
+            <TimeStamp>
+                <when>1997</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>8.0,16.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Niger vs. MNJ</name>
+            <address>Niger</address>
+            <TimeSpan>
+                <begin>2007</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>8.0,16.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afghanistan vs. Russia (Soviet Union)</name>
+            <address>Afghanistan</address>
+            <TimeStamp>
+                <when>1979</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>66.0,33.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Russia (Soviet Union) vs. Forces of the Caucasus Emirate</name>
+            <address>Caucasus</address>
+            <TimeSpan>
+                <begin>2007</begin>
+                <end>2008</end>
+            </TimeSpan>
+            <Point>
+                <coordinates>45.0,42.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. DHD – BW</name>
+            <address>Dimaraji</address>
+            <TimeStamp>
+                <when>2008</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>77.0,20.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>India vs. PULF</name>
+            <address>India</address>
+            <TimeStamp>
+                <when>2008</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>77.0,20.0</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

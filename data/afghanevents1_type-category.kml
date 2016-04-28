@@ -1,0 +1,3393 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Folder>
+        <Placemark>
+            <name>Al-Qaida propaganda</name>
+            <address>Afghanistan East</address>
+            <description>Non-Combat Event: Propaganda</description>
+            <TimeStamp>
+                <when>2004-04-09T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.97888184,33.13945007</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iran smuggles money into Afghanistan to fund insurgents, says US report</name>
+            <address>Afghanistan West</address>
+            <description>Threat Report: Crime</description>
+            <TimeStamp>
+                <when>2005-02-07T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>62.19971848,34.34500122</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iran offers reward  for each Afghan official and soldier killed, according to coalition report</name>
+            <address>Afghanistan South</address>
+            <description>Threat Report: Attack Threat</description>
+            <TimeStamp>
+                <when>2005-02-19T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.47028351,32.62638855</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afghan troops shoot two civilians</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2005-02-22T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.10471344,33.99554825</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Police shoot-out with district tribal chief wounds three</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2005-03-11T14:08:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>66.78555298,32.38249969</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Local contractor suspected of killing rival workers</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2005-03-15T06:45:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>66.67584229,32.97304916</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afghan boy caught in cross-fire of local feud.</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2005-03-19T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.54444122,32.89916992</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Local police fire on army troops at checkpoint</name>
+            <address>Afghanistan West</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2005-03-19T06:25:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>62.43555069,32.67943954</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Police wound four and kill one at unarmed demonstration</name>
+            <address>Afghanistan East</address>
+            <description>Non-Combat Event: Demonstration</description>
+            <TimeStamp>
+                <when>2005-05-13T10:03:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.22202301,33.60113907</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Chinook fired on</name>
+            <address>Afghanistan East</address>
+            <description>Enemy Action: Direct Fire</description>
+            <TimeStamp>
+                <when>2005-06-28T11:45:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.95453644,34.86460114</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Special Forces Chinook crashes</name>
+            <address>Afghanistan East</address>
+            <description>Enemy Action: Direct Fire</description>
+            <TimeStamp>
+                <when>2005-06-28T11:53:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.95910645,34.86380005</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>RPG fire on Apache helicopter</name>
+            <address>Afghanistan East</address>
+            <description>Enemy Action: Direct Fire</description>
+            <TimeStamp>
+                <when>2005-06-28T12:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.95453644,34.86460114</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Missile fired at Black Hawk helicopter</name>
+            <address>Afghanistan South</address>
+            <description>Enemy Action: Other (Hostile Action)</description>
+            <TimeStamp>
+                <when>2005-06-29T11:05:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>66.17754364,31.53228951</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Missile fired at aircraft</name>
+            <address>Afghanistan East</address>
+            <description>Air Mission: Reconnaissance</description>
+            <TimeStamp>
+                <when>2005-07-05T04:14:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.09488678,32.84709167</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Water-source dispute involves 250 armed tribesmen</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2005-08-06T06:29:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.74111938,33.32281113</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afghan troops threaten to attack Pakistani soldiers in dispute over flag</name>
+            <address>Afghanistan East</address>
+            <description>Other: Planned Event</description>
+            <TimeStamp>
+                <when>2005-09-04T14:28:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.50563812,33.03029633</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Police patrol clashes with Afghan army checkpoint</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2005-09-17T17:46:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>67.82144928,34.80633926</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Taliban commanders claimed to be gathering in Iran to plan future attacks</name>
+            <address>Afghanistan West</address>
+            <description>Threat Report: Other</description>
+            <TimeStamp>
+                <when>2005-09-18T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>62.19971848,34.34500122</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rocks thrown at police for allowing multiple votes</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2005-09-18T05:42:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.37438202,33.38805008</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Army troops fight each other &quot;due to miscommunication&quot;</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2005-09-18T06:37:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>66.79988098,32.65179062</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afghans fire rocket grenades at each other</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2005-09-21T13:51:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.20794678,32.65896988</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afghan blows up neighbours</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2005-10-10T05:36:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.70301819,31.62190056</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Army shoot-out with police wounds three</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2005-10-27T13:58:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.2081604,34.66267014</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Army kill policemen at checkpoint for &quot;wrong password&quot;</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2005-11-27T20:27:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.60133362,31.52751923</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bin Laden's adviser alleged to have flown to North Korea to buy weapons</name>
+            <address>Afghanistan South</address>
+            <description>Threat Report: SAFIRE Threat</description>
+            <TimeStamp>
+                <when>2005-12-03T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.0,31.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>US Special Forces attack militants escaping into Pakistan</name>
+            <address>Afghanistan East</address>
+            <description>Enemy Action: Direct Fire</description>
+            <TimeStamp>
+                <when>2005-12-21T22:32:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.46206665,32.9289093</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Police &quot;assault several villages&quot; after kidnap</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2005-12-23T12:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>67.44221497,31.75621223</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afghan workers allegedly threatened by Taliban for handing over mobile phone information</name>
+            <address>Afghanistan South</address>
+            <description>Threat Report: Other</description>
+            <TimeStamp>
+                <when>2006-01-14T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.70527649,31.60778046</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Shots fired at special forces vehicle</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: BLUE-BLUE</description>
+            <TimeStamp>
+                <when>2006-03-04T19:11:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.84230042,31.55846024</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Al-Qaida's allies in Afghanistan plan summer attacks, according to US military log</name>
+            <address>Kabul</address>
+            <description>Threat Report: IED Threat</description>
+            <TimeStamp>
+                <when>2006-03-17T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.13668823,34.52677917</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Civilian wounded at French checkpoint for not stopping</name>
+            <address>Afghanistan South</address>
+            <description>Non-Combat Event: Other</description>
+            <TimeStamp>
+                <when>2006-03-28T06:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>66.32673645,31.09316063</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>British convoy shoots 13 Afghan police in darkness</name>
+            <address>Unknown</address>
+            <description>Friendly Fire: BLUE-GREEN</description>
+            <TimeStamp>
+                <when>2006-04-06T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>60.48413849,45.59012985</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tribal fighting over water kills two</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2006-04-26T08:35:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.32362366,33.67348099</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Insurgents planning to deliver home-made bombs in 20 vehicles bought in Pakistan and Iran, according to coalition report</name>
+            <address>Kabul</address>
+            <description>Threat Report: Other</description>
+            <TimeStamp>
+                <when>2006-05-21T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.18332672,34.51667023</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Two tribes start fighting</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2006-05-27T04:26:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.91285706,33.28630829</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>US claims Iran spies helping insurgents to attack coalition forces</name>
+            <address>Kabul</address>
+            <description>Threat Report: Other</description>
+            <TimeStamp>
+                <when>2006-06-03T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.18332672,34.51667023</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Land dispute pits villagers against each other</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2006-06-17T02:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.90167236,34.27484894</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tribes feud over land with &quot;heavy small arms fire&quot;</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2006-06-20T05:57:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.50980377,33.13573074</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Four tribes start fighting</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2006-06-30T07:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.86155701,33.20370102</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mine clearance convoy shoots driver for not getting out of way</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Attack</description>
+            <TimeStamp>
+                <when>2006-07-09T06:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.43019104,33.54450989</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Al-Qaida alleged to be involved in rocket smuggling</name>
+            <address>Afghanistan South</address>
+            <description>Threat Report: Attack Threat</description>
+            <TimeStamp>
+                <when>2006-07-11T21:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.70527649,31.60778046</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Insurgent reportedly given Arab wife by Bin Laden for his explosive exploits</name>
+            <address>Afghanistan North</address>
+            <description>Threat Report: IED Threat</description>
+            <TimeStamp>
+                <when>2006-07-14T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.7472229,36.84555817</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Two border tribes fighting</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2006-07-15T06:35:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.01790619,31.67173958</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Police in gunfight after army run over child</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2006-08-15T06:20:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.16660309,35.01573181</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Osama Bin Laden reported to have issued orders to suicide bombers in Afghanistan</name>
+            <address>Afghanistan North</address>
+            <description>Threat Report: IED Threat</description>
+            <TimeStamp>
+                <when>2006-08-16T15:50:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.78360748,35.92139053</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Taliban commander allegedly said their relationship with Iran was strong, US claims</name>
+            <address>Afghanistan South</address>
+            <description>Threat Report: Attack Threat</description>
+            <TimeStamp>
+                <when>2006-08-20T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>66.6333313,32.93333054</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afghan police and children die in shoot-out</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2006-08-26T07:45:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.44068909,31.62537956</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bomb dropped on building. Twelve &quot;friendly&quot; casualties</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: Blue-Blue</description>
+            <TimeStamp>
+                <when>2006-09-03T04:14:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.43344879,31.54976082</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Female suicide bombers alleged to have infiltrated Afghanistan from Pakistan</name>
+            <address>Kabul</address>
+            <description>Threat Report: IED Threat</description>
+            <TimeStamp>
+                <when>2006-10-18T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.18332672,34.51667023</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iranians alleged to be sheltering wounded Taliban fighters in Tehran</name>
+            <address>Afghanistan South</address>
+            <description>Threat Report: SAFIRE Threat</description>
+            <TimeStamp>
+                <when>2006-10-20T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.19999695,31.11667061</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Patrol shoots at civilian truck near Kandahar, wounds two</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Direct Fire</description>
+            <TimeStamp>
+                <when>2006-11-09T13:31:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.87451172,31.50993919</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>British Marines patrol kills two, wounds two in Toyota with &quot;warning shots&quot;</name>
+            <address>Afghanistan South</address>
+            <description>Enemy Action: Direct Fire</description>
+            <TimeStamp>
+                <when>2006-11-15T05:47:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.56371307,30.99321938</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>convoy struck an IED in Kandahar</name>
+            <address>Afghanistan South</address>
+            <description>Explosive Hazard: IED Explosion</description>
+            <TimeStamp>
+                <when>2006-12-03T06:31:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.71856689,31.62048912</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Former Pakistani spy chief accused of conspiring to attack Nato troops</name>
+            <address>Kabul</address>
+            <description>Threat Report: IED Threat</description>
+            <TimeStamp>
+                <when>2006-12-17T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.16531372,34.52099991</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Police shoot out window of soldiers' vehicle</name>
+            <address>Kabul</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2006-12-22T11:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.20159149,34.53142166</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Civilian shot dead on Kandahar road</name>
+            <address>Afghanistan South</address>
+            <description>Other: Planned Event</description>
+            <TimeStamp>
+                <when>2006-12-27T05:55:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.85738373,31.53466988</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Border patrol shell Pakistani helicopter</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2007-01-11T07:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.22242737,33.46133041</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Automatic fire from convoy wounds driver</name>
+            <address>Afghanistan South</address>
+            <description>Enemy Action: Other (Hostile Action)</description>
+            <TimeStamp>
+                <when>2007-01-11T09:10:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>66.88878632,32.15213013</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Border patrol storm police post in corruption row</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2007-01-30T16:43:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>63.42435074,32.16704178</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Patrol wounds two civilians in car for not stopping</name>
+            <address>Afghanistan East</address>
+            <description>Enemy Action: Other (Hostile Action)</description>
+            <TimeStamp>
+                <when>2007-02-01T02:35:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.19769287,34.6776619</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Terse meeting between American and Pakistani solidiers</name>
+            <address>Afghanistan West</address>
+            <description>Non-Combat Event: Meeting - Security</description>
+            <TimeStamp>
+                <when>2007-02-07T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.01112366,33.42625046</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>British officer enjoys memorable day</name>
+            <address>Unknown</address>
+            <description>Non-Combat Event: Meeting</description>
+            <TimeStamp>
+                <when>2007-02-08T15:21:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.44822693,31.42417908</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Missile fired at British Chinook</name>
+            <address>Afghanistan South</address>
+            <description>Enemy Action: SAFIRE</description>
+            <TimeStamp>
+                <when>2007-02-13T10:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.66829681,31.89995003</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sprinting civilian shot near convoy</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-02-16T20:29:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.83164215,31.57593918</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Reconnaissance patrol wounded by police in darkness</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: BLUE-GREEN</description>
+            <TimeStamp>
+                <when>2007-02-16T23:52:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.19258118,31.12981033</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Humvee runs down and kills girl</name>
+            <address>Afghanistan East</address>
+            <description>Non-Combat Event: Accident</description>
+            <TimeStamp>
+                <when>2007-02-17T10:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>71.15818024,34.88441086</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pakistan and insurgents accused of alcohol poisoning plot</name>
+            <address>Afghanistan West</address>
+            <description>Threat Report: Other</description>
+            <TimeStamp>
+                <when>2007-02-25T20:15:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>62.19971848,34.34500122</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iran supplies poison to be slipped into tea of Afghan government officials, according to US report</name>
+            <address>Afghanistan South</address>
+            <description>Threat Report: Attack Threat</description>
+            <TimeStamp>
+                <when>2007-02-27T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.19999695,31.11667061</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Driver killed at checkpoint for not stopping</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-02-27T03:15:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.68192291,31.61244965</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Shinwar. US Marines receive IED. Alleged to open fire on civilians</name>
+            <address>Afghanistan East</address>
+            <description>Explosive Hazard: IED Explosion</description>
+            <TimeStamp>
+                <when>2007-03-04T05:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.83850098,34.2472496</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Shinwar 2nd report. Marines claim being fired upon</name>
+            <address>Afghanistan East</address>
+            <description>Explosive Hazard: IED Ambush</description>
+            <TimeStamp>
+                <when>2007-03-04T05:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.83857727,34.24780655</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Police kill driver at checkpoint</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-03-05T06:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>67.93653107,33.00632095</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Convoy machine-gunner kills driver</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-03-05T19:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.68598938,31.61594963</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Protests at 'Shinwar massacre'</name>
+            <address>Afghanistan East</address>
+            <description>Non-Combat Event: Demonstration</description>
+            <TimeStamp>
+                <when>2007-03-06T05:15:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.36765289,34.47253036</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Troops shoot three whose vehicle comes too close</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-03-06T10:10:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.38639832,33.49198914</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>More protests at 'Shinwar massacre'</name>
+            <address>Afghanistan East</address>
+            <description>Non-Combat Event: Demonstration</description>
+            <TimeStamp>
+                <when>2007-03-08T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.43663788,34.43502045</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Driver killed for running checkpoint</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-03-08T11:40:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.64630127,31.94750023</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Driver killed for &quot;rushing&quot; convoy</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-03-14T05:13:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>66.07920074,31.20321083</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>US troops seeking to win support of villagers forced to feel by helicopter after angry argument</name>
+            <address>Afghanistan East</address>
+            <description>Non-Combat Event: OTHER</description>
+            <TimeStamp>
+                <when>2007-03-20T03:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.9058075,33.65839005</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Other government agency shoots deaf mute</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-03-21T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.32539368,32.6101799</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Dutch shoot 11 villagers in firefight error</name>
+            <address>Kabul</address>
+            <description>Enemy Action: Attack</description>
+            <TimeStamp>
+                <when>2007-03-28T12:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.13437653,34.75244904</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Anti-aircraft missiles clandestinely transported from Iran into Afghanistan – US report</name>
+            <address>Kabul</address>
+            <description>Threat Report: SAFIRE Threat</description>
+            <TimeStamp>
+                <when>2007-04-01T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.18332672,34.51667023</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Police shoot rioting opium poppy growers</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-04-02T07:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.36173248,34.24174881</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Patrol shoot motorcyclist</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-04-07T03:55:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.41369629,31.60931015</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Opposition groups are puppets of Iran, Pakistan and India, Afghan officials tell US in private meeting</name>
+            <address>Kabul</address>
+            <description>Non-Combat Event: Meeting</description>
+            <TimeStamp>
+                <when>2007-04-09T09:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.13437653,34.75244904</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Border police fire on Pakistani troops</name>
+            <address>Unknown</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2007-04-09T09:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.70970154,31.69485092</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pakistani President Pervez Musharraf animated by Afghanistan and media</name>
+            <address>Kabul</address>
+            <description>Non-Combat Event: Meeting</description>
+            <TimeStamp>
+                <when>2007-04-10T12:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.13437653,34.75244904</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Humvee gunner shoots at van. Three hurt in crash</name>
+            <address>Afghanistan East</address>
+            <description>Non-Combat Event: Accident</description>
+            <TimeStamp>
+                <when>2007-04-11T11:15:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.49559021,33.45428085</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Police firing rocket grenades at civilians</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2007-04-12T14:27:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>71.53930664,35.29756165</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mortar round falls short, wounds two</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: BLUE-BLUE</description>
+            <TimeStamp>
+                <when>2007-04-15T18:45:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.86927795,34.75141907</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>US patrol drumming up local support finds villagers do not want to talk to them</name>
+            <address>Afghanistan East</address>
+            <description>Non-Combat Event: Meeting</description>
+            <TimeStamp>
+                <when>2007-04-16T10:15:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.42868805,32.88211823</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Poppy farmers shoot at police</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2007-04-18T09:08:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.37814331,34.64643097</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gunner at road-block kills 14-year-old girl and wounds toddler</name>
+            <address>Afghanistan East</address>
+            <description>Explosive Hazard: IED Found/Cleared</description>
+            <TimeStamp>
+                <when>2007-04-19T03:45:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.9955368,33.44613266</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Teenage girl shot dead at checkpoint</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-04-19T03:45:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.9955368,33.44612885</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Army shoot at Pakistani troops on border</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2007-04-19T09:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.26405334,32.51903915</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afghan government seeking to maintain friendly relations with Iran</name>
+            <address>Kabul</address>
+            <description>Non-Combat Event: Other</description>
+            <TimeStamp>
+                <when>2007-04-22T12:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.13498688,34.85327148</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Two US soldiers wounded</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: BLUE-BLUE</description>
+            <TimeStamp>
+                <when>2007-04-30T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.73787689,31.89055061</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Border patrol firing on Pakistani troops</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2007-05-13T04:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.87142181,33.97386169</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>American and British officials in private discussions on best way to handle Afghan president Hamid Karzai</name>
+            <address>Kabul</address>
+            <description>Non-Combat Event: Meeting</description>
+            <TimeStamp>
+                <when>2007-05-15T12:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.13437653,34.75244904</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Border patrol in artillery exchanges with Pakistan</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2007-05-16T22:51:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.71095276,33.94150925</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Allegation of convoy shootings, not present in reporting</name>
+            <address>Kabul</address>
+            <description>Non-Combat Event: Meeting - Security</description>
+            <TimeStamp>
+                <when>2007-05-20T12:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.13437653,34.75244904</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pakistan's spies accused of arming Taliban ally with motorbikes for suicide attacks</name>
+            <address>Afghanistan East</address>
+            <description>Threat Report: IED Threat</description>
+            <TimeStamp>
+                <when>2007-05-21T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.9411087,33.79666901</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gunner wounds road-menders by mistake</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: BLUE-GREEN</description>
+            <TimeStamp>
+                <when>2007-05-23T16:50:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.51325226,33.32929993</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afghan police versus army shoot-out</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2007-05-23T22:14:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.62114716,31.8404808</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iran stepping up its influence in Afghanistan, say US officials</name>
+            <address>Kabul</address>
+            <description>Non-Combat Event: Other</description>
+            <TimeStamp>
+                <when>2007-05-24T12:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.13437653,34.75244904</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Missile strikes Apache helicopter</name>
+            <address>Afghanistan South</address>
+            <description>Enemy Action: SAFIRE</description>
+            <TimeStamp>
+                <when>2007-05-30T16:34:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.04860687,32.2677803</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Missile fired at Apache helicopters</name>
+            <address>Afghanistan South</address>
+            <description>Enemy Action: SAFIRE</description>
+            <TimeStamp>
+                <when>2007-05-30T17:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.04322815,32.27172852</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Taliban fire at helicopter</name>
+            <address>Afghanistan South</address>
+            <description>Enemy Action: SAFIRE</description>
+            <TimeStamp>
+                <when>2007-05-30T17:28:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.05137634,32.2756691</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Convoy in Dutch region shoots motorcyclist</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-06-02T02:45:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.87345886,32.62623978</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afghan army fire on own troops</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2007-06-10T16:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>71.42983246,35.40510178</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Patrol shoots at speeding truck, six casualties include 10-yr-old bystander</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-06-11T12:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.95745087,34.94144821</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>US special forces gunship shoots 15 police</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: BLUE-BLUE</description>
+            <TimeStamp>
+                <when>2007-06-11T19:15:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.06186676,34.27045822</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Special Ops squad assault compound and kill seven children</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Other</description>
+            <TimeStamp>
+                <when>2007-06-17T21:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.70246124,33.0050087</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Polish soldier shot in vehicle, apparently by accident</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: BLUE-BLUE</description>
+            <TimeStamp>
+                <when>2007-06-19T05:40:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.26616669,33.58432007</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Al-Qaida believed to be planning to attack Afghan security forces</name>
+            <address>Kabul</address>
+            <description>Threat Report: IED Threat</description>
+            <TimeStamp>
+                <when>2007-06-29T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.34889221,34.54193878</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Convoy repeatedly shoots at civilian vehicles, killing two, wounding five</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-07-02T08:10:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.74836731,31.61578941</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Supply convoy gunner kills motorcyclist; &quot;negative media&quot; feared</name>
+            <address>Afghanistan East</address>
+            <description>Non-Combat Event: Accident</description>
+            <TimeStamp>
+                <when>2007-07-03T02:20:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.4405365,33.52687836</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>70-year-old driver shot in chest by convoy</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-07-09T00:05:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.22849274,33.59341049</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Police trooper wounded by friendly fire</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: BLUE-BLUE</description>
+            <TimeStamp>
+                <when>2007-07-12T17:55:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.05754852,33.15853882</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Patrol shoots motorcyclist in Kandahar</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-07-13T01:35:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.6398468,31.69897079</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Missile fired at C-130 gunship</name>
+            <address>Afghanistan South</address>
+            <description>Enemy Action: SAFIRE</description>
+            <TimeStamp>
+                <when>2007-07-22T18:20:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>62.47525024,31.18297005</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Australians mistakenly shoot driver</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-07-24T08:45:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.87243652,32.62630081</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Car-driver shot near troops in Danish/UK area</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-07-24T09:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.56891632,31.81407928</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Two children in vehicle shot at checkpoint</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-07-25T11:28:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.87345886,32.62623978</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Many Afghans think American troops are in cahoots with the Taliban, report says</name>
+            <address>Afghanistan East</address>
+            <description>Non-Combat Event: Other</description>
+            <TimeStamp>
+                <when>2007-07-29T15:25:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.83656311,33.13362122</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Civilian driver shot dead at checkpoint</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-08-01T05:59:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.91409302,32.69652939</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Strike on meeting of Taliban leaders</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: OTHER OFFENSIVE</description>
+            <TimeStamp>
+                <when>2007-08-02T07:56:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.03391266,32.84109116</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Patrol kills motorcyclist</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-08-05T12:43:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.55082703,32.64881134</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>US patrol shoots up own side's vehicle</name>
+            <address>Kabul</address>
+            <description>Friendly Fire: BLUE-BLUE</description>
+            <TimeStamp>
+                <when>2007-08-05T19:40:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.28227234,34.54388046</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Patrol shoots tanker driver</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-08-07T14:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.55845642,31.81962013</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Portuguese convoy wounds vehicle driver and bystander in Kabul</name>
+            <address>Kabul</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-08-15T13:38:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.27800751,34.57094955</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Civilian killed after &quot;warning shots&quot;</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-08-16T08:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.56671906,31.63599014</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Polish attack on village kills five, wounds several, including pregnant woman at wedding party</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: BLUE-GREEN</description>
+            <TimeStamp>
+                <when>2007-08-16T10:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.35555267,32.43878937</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Taliban sympathisers listening in to top-secret phone calls of US-led coalition</name>
+            <address>Kabul</address>
+            <description>Threat Report: Other</description>
+            <TimeStamp>
+                <when>2007-08-22T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.18332672,34.51667023</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>US drops bomb on British , killing three and wounding two</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: BLUE-BLUE</description>
+            <TimeStamp>
+                <when>2007-08-23T13:54:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.08226013,32.34920883</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rocket fired at British Harrier</name>
+            <address>Afghanistan South</address>
+            <description>Enemy Action: SAFIRE</description>
+            <TimeStamp>
+                <when>2007-08-23T21:43:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.19434357,32.33164978</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>British rethinking its approach to Afghanistan, according to report of meeting with American officials </name>
+            <address>Kabul</address>
+            <description>Non-Combat Event: Meeting</description>
+            <TimeStamp>
+                <when>2007-08-25T17:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.13437653,34.75244904</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Patrol shoots local driver</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-08-28T02:50:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.90155792,32.64847946</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Army NCO shoots three of his own men</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2007-08-29T02:32:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>67.36264038,31.98008919</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Many civilian casualties as suicide bomber targets police chief</name>
+            <address>Afghanistan South</address>
+            <description>Explosive Hazard: IED Explosion</description>
+            <TimeStamp>
+                <when>2007-09-10T14:12:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.56960297,31.81424141</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Army gunfight with another army unit</name>
+            <address>Kabul</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2007-09-12T17:15:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.07627106,34.53065872</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afghan soldier shoots at allies and is wounded</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: BLUE-BLUE</description>
+            <TimeStamp>
+                <when>2007-09-20T03:22:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.76875305,31.87821007</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Three civilians shot by Afghan army</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2007-09-21T04:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.20928955,34.66627121</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Two motorcyclists shot and wounded at checkpoint</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-10-02T03:34:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.7111969,31.85283089</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>British troops wound non-combatant with &quot;warning shot&quot; in Kabul</name>
+            <address>Kabul</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-10-04T08:50:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.24960327,34.55027008</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Special forces wound two, kill six, including young girl, plus donkey and chickens</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Cordon/Search</description>
+            <TimeStamp>
+                <when>2007-10-04T20:45:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.3048172,32.35569</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Two civilians machine-gunned for &quot;driving in on&quot; patrol</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-10-06T06:50:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.8736496,32.62604904</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Villagers blamed for  civilian deaths</name>
+            <address>Afghanistan East</address>
+            <description>Non-Combat Event: Other</description>
+            <TimeStamp>
+                <when>2007-10-06T14:55:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.83656311,33.13362122</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Man killed vehicle &quot;too close&quot; to patrol</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-10-19T10:10:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.37110901,31.60246086</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>A British shooting in Kabul: two interpreters wounded</name>
+            <address>Kabul</address>
+            <description>Friendly Fire: BLUE-on-WHITE</description>
+            <TimeStamp>
+                <when>2007-10-21T00:45:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.36927795,34.55213165</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afghan soldier shoots civilian in face for not stopping</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-10-21T04:06:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.83500671,32.07389832</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Armoured car shoots Kabul truck-driver in the leg</name>
+            <address>Kabul</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-10-23T14:34:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.19500732,34.51158905</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>British 'warning shot' wounds Kabul passer-by</name>
+            <address>Kabul</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-10-25T17:50:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.24999237,34.54817963</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Another British killing in Kabul causes trouble</name>
+            <address>Kabul</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-11-06T06:45:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.23399353,34.54624176</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Taxi &quot;came too close&quot;. One person shot and wounded</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-11-15T06:12:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.75646973,31.61174011</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Threat of attack against Indian consulate</name>
+            <address>Kabul</address>
+            <description>Threat Report: Attack Threat</description>
+            <TimeStamp>
+                <when>2007-11-18T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.18332672,34.51667023</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Attack on top Taliban</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: OTHER OFFENSIVE</description>
+            <TimeStamp>
+                <when>2007-11-26T04:45:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.37377167,35.03475189</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Army troops shoot own soldier</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2007-11-28T09:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.85460663,32.60322952</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Police fire on each other</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2007-12-02T16:35:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.31317139,33.09835052</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Police in &quot;standoff&quot; with each other</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2007-12-04T11:20:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.45433807,31.54305077</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pakistani intelligence agency alleged to be deploying children as suicide bombers</name>
+            <address>Kabul</address>
+            <description>Threat Report: Attack Threat</description>
+            <TimeStamp>
+                <when>2007-12-19T00:10:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.18332672,34.51667023</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afghan woman claims she is only transporting suicide vest to intended user and had no plans to explode it</name>
+            <address>Afghanistan East</address>
+            <description>Explosive Hazard: Interdiction</description>
+            <TimeStamp>
+                <when>2007-12-23T09:03:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.59616089,34.57976532</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afghan soldiers kill civilian on moped</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2007-12-28T10:05:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.76186371,32.34553146</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Top Taliban bombed</name>
+            <address>Afghanistan East</address>
+            <description>Air Mission: CCA</description>
+            <TimeStamp>
+                <when>2008-01-12T04:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.6763916,34.81916046</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Plot to kidnap United Nations staff to swap for militants</name>
+            <address>Afghanistan East</address>
+            <description>Threat Report: Other</description>
+            <TimeStamp>
+                <when>2008-01-14T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.45278168,34.43027878</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Heat-seeking Javelin missile kills Afghan soldier</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: BLUE-BLUE</description>
+            <TimeStamp>
+                <when>2008-01-14T18:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.84715271,32.07688141</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Police patrols fire on each other</name>
+            <address>Afghanistan West</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2008-01-20T02:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>62.92525101,32.55015182</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Helmand troops wound child in innocent vehicle</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-01-22T07:41:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.85920715,32.06632996</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Roadblock troops wound driver</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-01-24T06:35:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>67.41359711,32.52013016</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Truck driver machine-gunned and killed</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-01-31T15:53:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.84441376,31.55841064</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Spanish convoy kills car passenger and wounds driver</name>
+            <address>Afghanistan West</address>
+            <description>Friendly Fire: BLUE-on-WHITE</description>
+            <TimeStamp>
+                <when>2008-02-10T02:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>62.54199982,32.8044281</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Convoy shoots civilian driver</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-02-10T04:40:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.7326889,31.62758064</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Suicide bomber kills many locals after attacking dog-fighting festival</name>
+            <address>Afghanistan South</address>
+            <description>Explosive Hazard: IED Explosion</description>
+            <TimeStamp>
+                <when>2008-02-17T06:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.63436127,31.61611938</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afghan soldiers fire at coalition unit</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: BLUE-BLUE</description>
+            <TimeStamp>
+                <when>2008-02-19T05:03:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>66.71814728,31.9883709</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Army rocket grenade injures eight of own troops</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: GREEN-GREEN</description>
+            <TimeStamp>
+                <when>2008-02-26T08:05:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.05589294,31.62224007</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Taking out the Taliban</name>
+            <address>Kabul</address>
+            <description>Non-Combat Event: Meeting</description>
+            <TimeStamp>
+                <when>2008-03-08T09:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.15567017,34.52199936</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Apache helicopter strike outside Kandahar</name>
+            <address>Afghanistan South</address>
+            <description>Enemy Action: Direct Fire</description>
+            <TimeStamp>
+                <when>2008-03-12T03:25:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.80557251,32.19337845</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Patrol shoots &quot;too close&quot; driver</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-03-13T06:55:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.5181427,31.80838013</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pakistan allegedly offering money for assassination of Indian road workers</name>
+            <address>Afghanistan West</address>
+            <description>Threat Report: Attack Threat</description>
+            <TimeStamp>
+                <when>2008-03-22T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>63.41675186,32.14966965</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iranian-made parts for makeshift bombs smuggled to Taliban, US claims</name>
+            <address>Afghanistan South</address>
+            <description>Threat Report: IED Threat</description>
+            <TimeStamp>
+                <when>2008-04-04T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.01042175,32.25289154</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Soldier shoots colleague for &quot;foot-stamping&quot; overhead</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: Green-Green</description>
+            <TimeStamp>
+                <when>2008-04-11T03:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>71.42596436,35.40445328</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Border patrol firefight with Pakistani troops</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: Green-Green</description>
+            <TimeStamp>
+                <when>2008-04-14T06:44:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>66.49227142,30.97563171</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Soldiers firefight with &quot;bribe-taking&quot; police</name>
+            <address>Afghanistan West</address>
+            <description>Friendly Fire: Green-Green</description>
+            <TimeStamp>
+                <when>2008-04-25T12:50:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>62.2624855,33.63291931</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Convoy fearing suicide bomb shoots Kabul civilian</name>
+            <address>Kabul</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-04-26T13:35:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.17987061,34.52973175</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Taliban allegedly plotting to poison coalition forces in honour of Bin Laden</name>
+            <address>Afghanistan East</address>
+            <description>Threat Report: Other</description>
+            <TimeStamp>
+                <when>2008-05-01T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.37924957,34.91064072</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Soldier on convoy kills civilian near Sharana base</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: Blue-White</description>
+            <TimeStamp>
+                <when>2008-05-05T13:45:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.78999329,33.16999817</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afghan police kill six civilians in revenge attack</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Other</description>
+            <TimeStamp>
+                <when>2008-05-06T13:01:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.66255951,33.06190109</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>'&quot;Warning shot&quot; wounds driver</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-05-17T07:14:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.32133484,31.48851776</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afghan intelligence shoot police trooper in dispute</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: Blue-Blue</description>
+            <TimeStamp>
+                <when>2008-05-21T12:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.79621124,33.17214584</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Polish troops mistakenly shoot man in &quot;suicide vest&quot;</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-06-04T09:36:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.27508545,32.64414597</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Irrigation ditch-digger shot dead and companion wounded for fear of IEDs</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: Blue-White</description>
+            <TimeStamp>
+                <when>2008-06-15T03:36:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.95061493,32.87607574</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Police shoot own officer in error</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: Blue-Blue</description>
+            <TimeStamp>
+                <when>2008-06-28T08:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.76365662,34.10028076</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Italian convoy shoots Afghan army officer</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: Blue-Green</description>
+            <TimeStamp>
+                <when>2008-07-07T05:54:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.16861725,32.7248764</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Air strike called in by Marines kills seven children</name>
+            <address>Afghanistan West</address>
+            <description>Other: Other</description>
+            <TimeStamp>
+                <when>2008-07-15T11:40:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>62.95640182,32.24308395</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Al-Qaida allegedly developing chemical weapons</name>
+            <address>Kabul</address>
+            <description>Threat Report: Attack Threat</description>
+            <TimeStamp>
+                <when>2008-07-23T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.18332672,34.51667023</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>US Marines patrol wounds pregnant woman in car</name>
+            <address>Afghanistan West</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-07-31T08:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>62.75361633,32.67513275</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Spanish convoy gunner wounds motorcyclists</name>
+            <address>Afghanistan West</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-08-01T13:50:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>63.12051773,34.98151779</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Air strike wounds unacknowledged numbers.</name>
+            <address>Afghanistan South</address>
+            <description>Enemy Action: Direct Fire</description>
+            <TimeStamp>
+                <when>2008-08-30T01:56:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.00724792,32.24806213</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Army-police shoot-out</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: Green-Green</description>
+            <TimeStamp>
+                <when>2008-09-05T09:07:47Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.04081726,33.43575287</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Smart bomb hits village: up to 26 civilian casualties</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: Blue-White</description>
+            <TimeStamp>
+                <when>2008-09-09T06:51:45Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.82315826,33.58015823</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Multi-national Al-Qaida unit planning attacks – US intelligence reports</name>
+            <address>Afghanistan West</address>
+            <description>Threat Report: IED Threat</description>
+            <TimeStamp>
+                <when>2008-09-28T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>62.27257919,34.22192001</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Army shoot police</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: Green-Green</description>
+            <TimeStamp>
+                <when>2008-09-28T09:24:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.05257416,33.94887924</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>French convoy shoots 8 children on bus</name>
+            <address>Kabul</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-10-02T04:15:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.39794922,34.57512665</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Convoy gunner shoots &quot;too close&quot; driver</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-10-07T04:10:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.81352997,33.80470657</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>British commandos wound motorcyclist</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-10-14T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.91146088,32.10830688</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Patrol hit 14-year-old passer-by with warning shot</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-10-15T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.54823303,31.56890106</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Patrol wounds motorcyclist</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-10-17T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.49004364,32.62487793</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>British mentoring team kill motorcyclist</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-10-22T13:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.84040833,32.07587814</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Five civilians wounded at roadblock</name>
+            <address>Afghanistan North</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-10-24T19:55:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.96083069,36.68022156</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Motorcyclist shot at road-block</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-10-28T05:40:31Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.28253174,34.9725914</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Drones target top Taliban</name>
+            <address>Afghanistan South</address>
+            <description>Enemy Action: Direct Fire</description>
+            <TimeStamp>
+                <when>2008-10-28T13:53:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.09963989,31.40930176</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>People fleeing missile attack bombed again by Reaper drone</name>
+            <address>Afghanistan South</address>
+            <description>Enemy Action: Direct Fire</description>
+            <TimeStamp>
+                <when>2008-10-28T15:09:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.38500214,31.53677177</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Patrol rockets Afghan army unit, wounding five</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: Blue-Green</description>
+            <TimeStamp>
+                <when>2008-11-02T06:54:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.94450378,34.90758514</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Drones target top Taliban</name>
+            <address>Afghanistan South</address>
+            <description>Enemy Action: Direct Fire</description>
+            <TimeStamp>
+                <when>2008-11-06T16:32:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.27300262,31.71808815</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Convoy wounds civilian with &quot;ricochet&quot;</name>
+            <address>Kabul</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-11-08T08:20:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.34885406,34.54191208</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Convoy shoots passengers on bus that fails to pull over</name>
+            <address>Afghanistan West</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-11-12T07:40:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>62.30031204,33.38520813</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>British commandos kill a child</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-11-19T17:10:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.34363556,31.57579231</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Convoy guards shoot special forces vehicle</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: Blue-Blue</description>
+            <TimeStamp>
+                <when>2008-11-22T19:10:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.86040497,31.4878006</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Police patrol with UK mentors kills man, injures girl in vehicle</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-11-29T10:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.36922455,31.59590912</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Driver wounded at checkpoint</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-12-03T03:13:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.16923523,35.01437378</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bus driver shot at road-block</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-12-04T09:40:57Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>66.51569366,31.88914108</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>UK Commandos wound civilian wrongly thought to be 'spotter'</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-12-04T16:06:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.82244873,32.06578064</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Patrol machine-guns bus with 15 civilian casualties</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-12-12T06:42:38Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.63316345,33.86717987</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Three Afghan police in car are shot, one dead, two hurt</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: Blue-Green</description>
+            <TimeStamp>
+                <when>2008-12-17T07:11:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.44472504,31.58228683</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>British commandos shoot vehicle occupant</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-12-24T10:15:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.26860809,31.71548843</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>12-year-old wounded by British commandos at road-block</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2008-12-30T13:24:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.8383255,32.07024384</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Two women and a man in a van shot and wounded</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-01-01T17:13:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.45257568,31.51602936</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Construction team crossing road shoot driver</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-01-02T12:41:05Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.05259705,33.94888687</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>British mentors with Afghan patrol shoot pedestrian in error</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-01-03T09:52:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.70287323,31.86016464</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ex-spymaster alleged to be planning suicide attack</name>
+            <address>Kabul</address>
+            <description>Threat Report: IED Threat</description>
+            <TimeStamp>
+                <when>2009-01-05T21:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.76249695,34.58972168</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Two children wounded in Reaper strikes supporting British Commandos</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Attack</description>
+            <TimeStamp>
+                <when>2009-01-19T04:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.86541748,32.10556412</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>12-year-old wounded in cross-fire</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-01-20T05:48:28Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.64839935,34.88606644</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>British commandos wound man and child</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-01-27T15:54:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.82822418,32.0683136</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Police fire on army convoy</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: Green-Green</description>
+            <TimeStamp>
+                <when>2009-01-31T04:45:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>63.23436737,32.23718262</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Air strike kills two in opium poppy crackdown</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-01-31T06:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.12952423,31.67648888</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Convoy machine-gunner kills passenger and wounds driver</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-01-31T06:35:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.1786499,32.94018555</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Two police officers shot during &quot;horseplay&quot;</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: Green-Green</description>
+            <TimeStamp>
+                <when>2009-02-07T17:50:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.79198456,33.14517212</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Top Taliban bombed</name>
+            <address>Afghanistan West</address>
+            <description>Threat Report: Attack Threat</description>
+            <TimeStamp>
+                <when>2009-02-16T23:16:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>62.4978447,34.10863495</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Patrol kills two civilians in vehicle</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-02-17T05:56:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.04427338,31.65296745</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Soldier shoots another at checkpoint</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: Green-Green</description>
+            <TimeStamp>
+                <when>2009-02-17T17:28:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.49648285,34.40105057</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Woman and child injured by shooting-related crash at checkpoint</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-02-22T07:04:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.1284256,34.49661636</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Marines convoy wounds two in vehicle</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-03-01T07:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>63.29176331,32.1960144</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Convoy shoot 70-year-old man in taxi</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-03-01T08:59:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.4524231,34.43305206</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Patrol shoots and kills driver</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-03-24T05:48:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.01872253,34.00456238</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>US believes big group of insurgents moved from Iran into Afghanistan to launch suicide attacks around Kabul</name>
+            <address>Kabul</address>
+            <description>Threat Report: IED Threat</description>
+            <TimeStamp>
+                <when>2009-03-25T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.49311066,34.38405991</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mentally-ill man shot on suspicion by British Commandos</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-03-26T11:05:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.82676697,32.05913544</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>US flare wounds child pedestrian</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-04-02T12:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.73719788,31.63064003</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Man wounded after convoy fires shots</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-04-08T09:10:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.69541168,31.61394501</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Soldier shoots 4 comrades</name>
+            <address>Kabul</address>
+            <description>Friendly Fire: Green-Green</description>
+            <TimeStamp>
+                <when>2009-04-08T14:40:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.25062561,34.53042984</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Soldier shoots his sergeant</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: Green-Green</description>
+            <TimeStamp>
+                <when>2009-04-09T11:35:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.7677002,32.34589767</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Border police &quot;high on opium&quot; in shoot-out</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: Green-Green</description>
+            <TimeStamp>
+                <when>2009-04-11T00:44:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.18856812,31.06037521</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Marines guards shoot civilian in leg</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-04-11T09:25:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>63.43691254,32.15319443</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Convoy shoots at driver who won't &quot;back off&quot;</name>
+            <address>Kabul</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-04-16T13:11:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.24958038,34.54486084</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Air strike. US Inquiry later found many more civilian casualties. Red X say 'dozens'</name>
+            <address>Afghanistan West</address>
+            <description>Enemy Action: Direct Fire</description>
+            <TimeStamp>
+                <when>2009-05-04T06:55:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>62.46277237,32.62146378</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Insurgents believed to be placing makeshift bomb attacked by Reaper drone</name>
+            <address>Afghanistan South</address>
+            <description>Explosive Hazard: Interdiction</description>
+            <TimeStamp>
+                <when>2009-05-06T16:19:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.50301361,31.6460228</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Suicide bomber crashes into patrol and detonates himself</name>
+            <address>Afghanistan South</address>
+            <description>Explosive Hazard: IED Explosion</description>
+            <TimeStamp>
+                <when>2009-05-07T12:45:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.57109833,31.81765938</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Warning shots wound 14-year-old</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: Green-White</description>
+            <TimeStamp>
+                <when>2009-05-09T04:31:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.13728333,30.80099106</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>British Harrier strike kills eight civilians</name>
+            <address>Afghanistan South</address>
+            <description>Enemy Action: Direct Fire</description>
+            <TimeStamp>
+                <when>2009-05-19T05:46:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.3276825,31.37857056</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Another special unit (TF 373) killing</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-05-26T08:43:26Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.92311859,33.34305954</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afghan army mortars hit family with sheep</name>
+            <address>Unknown</address>
+            <description>Friendly Fire: Green-White</description>
+            <TimeStamp>
+                <when>2009-05-26T15:23:06Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.26773071,32.5011673</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>British EOF wounds civilian car passenger</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-05-28T15:10:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.84531403,32.07555389</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Taliban target named</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Raid</description>
+            <TimeStamp>
+                <when>2009-06-01T21:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.7286377,34.31847382</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Practice shell kills child and 10 sheep, injures shepherd</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: Blue-White</description>
+            <TimeStamp>
+                <when>2009-06-16T10:55:08Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.85583496,34.98443222</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Little boy killed by Taliban bomb</name>
+            <address>Afghanistan East</address>
+            <description>Explosive Hazard: IED Explosion</description>
+            <TimeStamp>
+                <when>2009-06-22T09:18:18Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.92201233,33.34036255</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Taliban target named</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Raid</description>
+            <TimeStamp>
+                <when>2009-06-24T21:10:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.50307465,33.80693817</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Reaper drone drops bomb on Taliban insurgents sheltering under a tree</name>
+            <address>Afghanistan South</address>
+            <description>Enemy Action: Direct Fire</description>
+            <TimeStamp>
+                <when>2009-06-30T04:18:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.47470093,31.98259354</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Off-target shell wounds 7 civilians in a field</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Fire: Blue-White</description>
+            <TimeStamp>
+                <when>2009-07-11T04:37:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>71.01533508,34.75622559</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Off-target mortar kills 7-yr-old boy</name>
+            <address>Afghanistan West</address>
+            <description>Explosive Hazard: IED Found/Cleared</description>
+            <TimeStamp>
+                <when>2009-08-10T10:26:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>63.6033287,32.51222992</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Drones target top Taliban</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Attack</description>
+            <TimeStamp>
+                <when>2009-08-21T12:15:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>63.39260101,30.13303566</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>32 RPG attacks against aircraft across Afghanistan in the previous month</name>
+            <address>Afghanistan East</address>
+            <description>Enemy Action: SAFIRE</description>
+            <TimeStamp>
+                <when>2009-08-22T19:55:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.85856628,34.07282639</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Reaper drone fires Hellfire missile at Taliban insurgents after surveillance operation</name>
+            <address>Afghanistan South</address>
+            <description>Enemy Action: Direct Fire</description>
+            <TimeStamp>
+                <when>2009-08-29T05:37:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.52561951,32.35005951</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Police kill 5 civilians at demo</name>
+            <address>Afghanistan North</address>
+            <description>Non-Combat Event: Demonstration</description>
+            <TimeStamp>
+                <when>2009-09-02T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.85726166,36.57697296</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>56 civilians killed in Nato bombing</name>
+            <address>Afghanistan North</address>
+            <description>Friendly Action: CAS</description>
+            <TimeStamp>
+                <when>2009-09-03T21:19:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.87741852,36.61360931</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Police shoot 23 at demonstration [funeral?]</name>
+            <address>Afghanistan East</address>
+            <description>Non-Combat Event: Demonstration</description>
+            <TimeStamp>
+                <when>2009-09-10T05:06:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.42311096,33.54024506</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Out-of-control drone shot down by US jet plane before it flew into Tajikistan</name>
+            <address>Afghanistan North</address>
+            <description>Non-Combat Event: Equipment Failure</description>
+            <TimeStamp>
+                <when>2009-09-13T02:17:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.42241669,37.64387512</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iranian rocket alleged to attack helicopter</name>
+            <address>Afghanistan East</address>
+            <description>Threat Report: SAFIRE Threat</description>
+            <TimeStamp>
+                <when>2009-09-17T00:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.91519165,34.89432907</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Warning shots to van, kill one, injure one</name>
+            <address>Afghanistan North</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-09-28T00:31:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.89281464,36.66845322</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>British-ordered air strike hits eight civilians</name>
+            <address>Afghanistan South</address>
+            <description>Enemy Action: Direct Fire</description>
+            <TimeStamp>
+                <when>2009-09-30T09:20:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.20046234,31.60362434</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Two teenagers on motorbike shot by Canadian patrol</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-10-01T13:45:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.41413116,31.50305367</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afghan soldier shoots protester</name>
+            <address>Afghanistan South</address>
+            <description>Non-Combat Event: Demonstration</description>
+            <TimeStamp>
+                <when>2009-10-07T06:53:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.20030212,31.8770256</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Six Afghan civilians blown up while travelling to buy cattle</name>
+            <address>Afghanistan East</address>
+            <description>Explosive Hazard: IED Explosion</description>
+            <TimeStamp>
+                <when>2009-10-07T10:03:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.08169556,32.79027176</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Danish patrol in firefight hits children</name>
+            <address>Afghanistan South</address>
+            <description>Enemy Action: Direct Fire</description>
+            <TimeStamp>
+                <when>2009-10-12T12:20:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.39294434,31.76605988</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Five in car, including toddler, machine-gunned by patrol</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-10-24T06:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.68598938,31.63178253</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Special forces in helicopter crash</name>
+            <address>Afghanistan South</address>
+            <description>Non-Combat Event: Downed Aircraft</description>
+            <TimeStamp>
+                <when>2009-10-25T21:06:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.1039505,31.12709808</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Insurgents hiding in so-called &quot;murder holes&quot; attacked by Reaper drone</name>
+            <address>Afghanistan South</address>
+            <description>Enemy Action: Direct Fire</description>
+            <TimeStamp>
+                <when>2009-10-27T06:11:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.23498535,31.66197968</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Van-driver shot dead by patrol</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-10-31T11:08:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.70363617,34.31341934</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Boy caught in cross-fire and wounded</name>
+            <address>Afghanistan South</address>
+            <description>Other: Other</description>
+            <TimeStamp>
+                <when>2009-11-09T18:19:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>66.16784668,32.32873535</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Coldstream Guards patrol kills civilian driver</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-11-10T16:28:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.39949799,31.71727562</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>People in car wounded by &quot;ricochets&quot; at roadblock</name>
+            <address>Afghanistan East</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-11-15T18:07:15Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.70709229,33.98878479</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Civilian wounded by Marines &quot;ricochet&quot;</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-11-16T06:31:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.18968201,31.1329937</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Two toddlers injured in gunfight</name>
+            <address>Afghanistan South</address>
+            <description>Enemy Action: Direct Fire</description>
+            <TimeStamp>
+                <when>2009-11-16T17:25:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.174263,30.97921562</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Death of a woman causes trouble [special forces]</name>
+            <address>Afghanistan East</address>
+            <description>Enemy Action: Direct Fire</description>
+            <TimeStamp>
+                <when>2009-11-17T06:16:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.64871216,33.89858627</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Taliban target named</name>
+            <address>Afghanistan East</address>
+            <description>Non-Combat Event: Demonstration</description>
+            <TimeStamp>
+                <when>2009-11-17T08:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>68.0674057,33.13450241</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afghan unit crashes into civilian car, with seven casualties</name>
+            <address>Kabul</address>
+            <description>Non-Combat Event: Accident</description>
+            <TimeStamp>
+                <when>2009-11-23T14:19:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.14041901,34.50643539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Motorcyclist shot dead</name>
+            <address>Afghanistan North</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-11-25T07:45:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.59915924,36.15205383</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Convoy runs down and kills woman</name>
+            <address>Kabul</address>
+            <description>Non-Combat Event: Accident</description>
+            <TimeStamp>
+                <when>2009-11-29T09:43:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.23432159,34.54489136</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Searchers kill man holding torch</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-11-29T17:50:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>67.70909119,32.41451263</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afghan soldiers shoot rock-throwers, kill one, wound two</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Fire: Green-White</description>
+            <TimeStamp>
+                <when>2009-11-30T11:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.88856506,32.63220596</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Errant artillery practice near border injures civilian</name>
+            <address>Afghanistan East</address>
+            <description>Non-Combat Event: Accident</description>
+            <TimeStamp>
+                <when>2009-12-01T04:25:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>69.29723358,32.76405716</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Supply convoy knocks taxi into ditch, wounding four</name>
+            <address>Afghanistan East</address>
+            <description>Non-Combat Event: Accident</description>
+            <TimeStamp>
+                <when>2009-12-01T09:45:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>71.31565857,34.99943924</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Convoy injures pedestrian</name>
+            <address>Afghanistan East</address>
+            <description>Non-Combat Event: Accident</description>
+            <TimeStamp>
+                <when>2009-12-02T08:30:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>71.02178192,34.74960327</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Guard kills fuel looter</name>
+            <address>Afghanistan South</address>
+            <description>Enemy Action: Direct Fire</description>
+            <TimeStamp>
+                <when>2009-12-03T14:47:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>65.43294525,31.58586693</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Afghan soldiers kill man approaching post</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-12-03T21:19:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.45174408,31.75142097</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Convoy knocks man off bicycle</name>
+            <address>Afghanistan East</address>
+            <description>Non-Combat Event: Accident</description>
+            <TimeStamp>
+                <when>2009-12-09T04:50:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>70.20603943,34.66720581</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Woman killed, man hurt, by special forces searchers</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-12-11T20:20:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>67.27536774,32.62293625</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gate guard shoots civilian</name>
+            <address>Afghanistan West</address>
+            <description>Friendly Fire: Blue-White</description>
+            <TimeStamp>
+                <when>2009-12-20T14:45:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>62.25163269,33.39113617</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Spanish convoy shoots down motorcyclist</name>
+            <address>Afghanistan West</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-12-22T02:00:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>62.21618271,34.33428574</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Two opium smugglers shot at checkpoint</name>
+            <address>Afghanistan South</address>
+            <description>Friendly Action: Escalation of Force</description>
+            <TimeStamp>
+                <when>2009-12-22T04:20:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>64.34430695,31.76883888</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

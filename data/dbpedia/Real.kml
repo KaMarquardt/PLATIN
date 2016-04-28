@@ -1,0 +1,3074 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Folder>
+        <Placemark>
+            <name>Alfredo Di Stéfano</name>
+            <address>Argentina</address>
+            <description>Alfredo Di Stéfano Laulhé, born into a family of Italian immigrants from Capri, is an Argentine-Spanish former footballer and coach, widely regarded as one of the greatest players of all time. He is most associated with Real Madrid and was instrumental in their domination of the European Champions' Cup during the 1950s, a period in which the club won the trophy in five consecutive seasons from 1956.</description>
+            <TimeStamp>
+                <when>1926-07-04</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-58.38333511352539,-34.599998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Emilio Butragueño</name>
+            <address>Spain</address>
+            <description>Emilio Butragueño Santos (born 22 July 1963 in Madrid) is a former Spanish football striker, best known for his spell with Real Madrid. Nicknamed El Buitre, the skilled player was a member of the legendary Quinta del Buitre, along with Manolo Sanchís, Rafael Martín Vázquez, Míchel and Miguel Pardeza.</description>
+            <TimeStamp>
+                <when>1963-07-22</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Michael Owen</name>
+            <address>Chester</address>
+            <description>Michael James Owen (born 14 December 1979 in Chester) is an English professional footballer who plays as a striker for Manchester United. The son of former footballer Terry Owen, Owen began his senior career at Liverpool in 1996. He progressed through the Liverpool youth team and scored on his debut in May 1997. In his first full season in the Premier League he finished as joint top scorer.</description>
+            <TimeStamp>
+                <when>1979-12-14</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-2.891200065612793,53.19260025024414</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ruud van Nistelrooy</name>
+            <address>Oss</address>
+            <description>Rutgerus Johannes Martinus van Nistelrooĳ (born 1 July 1976), better known as Ruud van Nistelrooy, is a Dutch professional footballer who plays as a striker for Hamburg in the German Bundesliga. He is the second-highest goalscorer in Champions League history with 60 goals. He is a three-time Champions League top scorer, as well as a top scorer in three different European domestic leagues.</description>
+            <TimeStamp>
+                <when>1976-07-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>5.5333333015441895,51.766666412353516</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iker Casillas</name>
+            <address>Móstoles</address>
+            <description>Iker Casillas Fernández (born 20 May 1981) is a World Cup-winning Spanish goalkeeper who plays for the Spanish La Liga club Real Madrid and serves as captain for both the Spanish national team and Real Madrid. As captain of the national side, he led a young Spanish team to their first European Championship in 44 years, his first senior international honour. In 2010, he led Spain to their first ever FIFA World Cup and won the Golden Glove for the tournament's best goalkeeper.</description>
+            <TimeStamp>
+                <when>1981-05-20</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.865000009536743,40.322776794433594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Laurie Cunningham</name>
+            <address>England</address>
+            <description>Laurence Paul &quot;Laurie&quot; Cunningham (8 March 1956 &amp;ndash; 15 July 1989) was an England international footballer. When he joined Real Madrid, he became the first English player in the club's history. He was also the first black player to represent England at any level (under 21), and the first to represent the full England side in a competitive match.</description>
+            <TimeStamp>
+                <when>1956-03-08</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-0.11666666716337204,51.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Javier Balboa</name>
+            <address>Spain</address>
+            <description>Javier Ángel Balboa Osa is a Spanish-born Equatoguinean footballer. He currently plays for S.L. Benfica, as a right winger.</description>
+            <TimeStamp>
+                <when>1985-05-13</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Luis Enrique Martínez García</name>
+            <address>Gijón</address>
+            <description>Luis Enrique Martínez García, known as Luis Enrique, is a former Spanish footballer. His usual position was right or attacking midfielder, but he was notable for his versatility, having played in all positions throughout his career except central defender and goalkeeper. He was a prolific goalscorer, for both club and country, and was also noted for his temperament and stamina.</description>
+            <TimeStamp>
+                <when>1970-05-08</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-5.699999809265137,43.53333282470703</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Santiago Solari</name>
+            <address>Argentina</address>
+            <description>Santiago Hernán Solari Poggio (born 7 October 1976 in Rosario, Santa Fe) is an Argentine professional football player who plays for Peñarol in Uruguay.</description>
+            <TimeStamp>
+                <when>1976-10-07</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-58.38333511352539,-34.599998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fernando Redondo</name>
+            <address>Argentina</address>
+            <description>Fernando Carlos Redondo Neri is a retired Argentine professional footballer. A defensive midfielder with the ability to contribute both defensively and offensively, he played one full decade in La Liga - namely for Real Madrid - then finished his career (curtailed by several injury problems) in Italy with A.C. Milan. He and was also a member of the Argentina national football team.</description>
+            <TimeStamp>
+                <when>1969-06-06</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-58.38333511352539,-34.599998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jesús Ángel Solana</name>
+            <address>Spain</address>
+            <description>Jesús Ángel Solana Bermejo is a retired Spanish footballer and a current coach. A defender, he was equally at ease in the left or middle.</description>
+            <TimeStamp>
+                <when>1964-12-25</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jonathan Woodgate</name>
+            <address>Nunthorpe</address>
+            <description>Jonathan Simon Woodgate (born 22 January 1980) is an English footballer who plays for Tottenham Hotspur as a defender. He has also played for Leeds United, Newcastle United, Middlesbrough and Real Madrid.</description>
+            <TimeStamp>
+                <when>1980-01-22</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-1.1770000457763672,54.52870178222656</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rafael Martín Vázquez</name>
+            <address>Spain</address>
+            <description>Rafael Martín Vázquez (born 25 September 1965 in Madrid) is a former Spanish footballer who played mostly as an attacking midfielder, with above-average skills. He represented most notably Real Madrid, having represented it in two different spells, but also played abroad with some success in Italy, being unlucky in his other three foreign adventures.</description>
+            <TimeStamp>
+                <when>1965-09-25</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Manuel Sanchís Martínez</name>
+            <address>Spain</address>
+            <description>Manuel Sanchís Martínez (born March 26, 1938 in Alberique, Valencia) is a former Spanish footballer, who played as a defender. Like his son, Manuel, he represented Real Madrid, also being an international. They were one of only three father/son pairs to have won the European Cup/Champions League.</description>
+            <TimeStamp>
+                <when>1938-03-26</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>José Antonio Camacho</name>
+            <address>Cieza, Murcia</address>
+            <description>José Antonio Camacho Alfaro (born 8 June 1955 in Cieza, Murcia) is a former Spanish football left defender, and the current manager of CA Osasuna. Camacho played for 15 professional years with Real Madrid, also having two very brief spells with the club as a manager.</description>
+            <TimeStamp>
+                <when>1955-06-08</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-1.4166666269302368,38.233333587646484</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Álvaro Mejía Pérez</name>
+            <address>Spain</address>
+            <description>Álvaro Mejía Pérez (born January 18, 1982 in Madrid) is a Spanish footballer who plays for AC Arles-Avignon, mainly as a central defender.</description>
+            <TimeStamp>
+                <when>1982-01-18</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Javier Portillo</name>
+            <address>Spain</address>
+            <description>Javier García Portillo is a Spanish footballer who currently plays for Hércules CF, as a striker.</description>
+            <TimeStamp>
+                <when>1982-03-30</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gabriel Heinze</name>
+            <address>Argentina</address>
+            <description>Gabriel Iván Heinze is an Argentine football defender who plays professionally for French club Marseille and internationally for Argentina. He is known as Gringo in Argentina.</description>
+            <TimeStamp>
+                <when>1978-04-19</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-58.38333511352539,-34.599998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Enrique Wolff</name>
+            <address>Argentina</address>
+            <description>Enrique Ernesto &quot;Quique&quot; Wolff (born February 21, 1949) is an Argentine journalist and former football defender. He represented Argentina at the 1974 World Cup.</description>
+            <TimeStamp>
+                <when>1949-02-21</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-58.38333511352539,-34.599998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Javier Dorado</name>
+            <address>Spain</address>
+            <description>Javier Dorado Bielsa is a Spanish footballer who is currently unattached. He plays as a left defender.</description>
+            <TimeStamp>
+                <when>1977-02-17</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kaká</name>
+            <address>Brasília</address>
+            <description>Ricardo Izecson dos Santos Leite (born 22 April 1982), commonly known as Kaká, is a Brazilian football midfielder who currently plays for Spanish La Liga club Real Madrid and the Brazilian national team. He started his footballing career at the age of eight, when he began playing for a local club. At the time, he also played tennis, and it was not until he moved on to São Paulo FC and signed his first professional contract with the club at the age of fifteen that he chose to focus on football.</description>
+            <TimeStamp>
+                <when>1982-04-22</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-47.900001525878906,-15.800000190734863</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Steve McManaman</name>
+            <address>Liverpool</address>
+            <description>Steven McManaman (born 11 February 1972 in Bootle, England) is a retired English footballer who played as a midfielder and winger. His career included spells at two of European football's most successful clubs, Liverpool and Real Madrid. He also played for Manchester City. He is the most decorated English footballer to have played at any foreign club in terms of trophies won overseas.</description>
+            <TimeStamp>
+                <when>1972-02-11</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-2.9833333492279053,53.400001525878906</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Oscar Ruggeri</name>
+            <address>Argentina</address>
+            <description>Oscar Alfredo Ruggeri (born 26 January 1962 in Corral de Bustos, Córdoba) is a former footballer. Nicknamed &quot;El Cabezón&quot; (&quot;The Big-Headed One&quot;), Ruggeri is one of the most successful defenders ever to come out of Argentina. Ruggeri started his career at Boca Juniors, playing with Diego Maradona, with whom he won a league title in 1981. In 1985 he moved to rivals River Plate, where he won the Libertadores Cup, the Intercontinental Cup and another league title in 1986.</description>
+            <TimeStamp>
+                <when>1962-01-26</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-58.38333511352539,-34.599998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Manuel Bueno</name>
+            <address>Spain</address>
+            <description>Manuel Bueno Cabral (born 5 February 1940 in Seville, Spain) was a professional association football player who spent most of his career at Real Madrid. With Real Madrid he won 13 trophies, having played 243 matches and scoring 68. He played for Los Blancos for 12 years (1959–1971).</description>
+            <TimeStamp>
+                <when>1940-02-05</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>José María Zárraga</name>
+            <address>Las Arenas</address>
+            <description>José María Zárraga Martín is a former Spanish footballer who played for Real Madrid as a midfielder and was part of their European Cup victories in 1956, 1957, 1958, 1959 and 1960. His five wins have only been bettered by Francisco Gento, who won 6 European Cups. He earned 8 caps for the Spain national football team.</description>
+            <TimeStamp>
+                <when>1930-08-15</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.0130555629730225,43.32555389404297</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Antonio López Herranz</name>
+            <address>Spain</address>
+            <description>Antonio López Herranz (4 May 1913 – 1959) was a Spanish football player and manager. As a player, he played for Real Madrid, Club América and Hércules CF. In the early '40s when the World War II begun he emigrated to Mexico and later started to coach there, he managed Club León, and the Mexico national football team several times, in the 1954 FIFA World Cup and the 1958 FIFA World Cup.</description>
+            <TimeStamp>
+                <when>1913-05-04</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Miguel Ángel Nieto</name>
+            <address>Spain</address>
+            <description>Miguel Ángel Nieto de la Calle (born January 12, 1986 in Madrid) is a Spanish footballer who plays for UD Almería in the Spanish first division, as a right winger.</description>
+            <TimeStamp>
+                <when>1986-01-12</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mariano García Remón</name>
+            <address>Spain</address>
+            <description>Mariano García Remón (born 30 September 1950 in Madrid) is a former Spanish football player and coach. Best known for his spell at Real Madrid, the goalkeeper helped the capital side to six leagues and three cups.</description>
+            <TimeStamp>
+                <when>1950-09-30</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Albert Celades</name>
+            <address>Barcelona</address>
+            <description>Albert Celades López is a former Spanish footballer, who played as a defensive midfielder. A tactically astute player with a strong defensive mentality, he is best known for his stints with FC Barcelona and Real Madrid, and was part of the Spanish squad at the 1998 FIFA World Cup.</description>
+            <TimeStamp>
+                <when>1975-09-29</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.183333396911621,41.38333511352539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Alberto Marcos Rey</name>
+            <address>Camarma de Esteruelas</address>
+            <description>Alberto Marcos Rey is a Spanish footballer who plays for SD Huesca, as a left defender. After not being able to establish himself at Real Madrid, he went to play for 16 professional seasons with Real Valladolid, experiencing two relegations and one promotion and appearing in 438 league matches.</description>
+            <TimeStamp>
+                <when>1974-02-15</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.383333444595337,40.54999923706055</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sávio</name>
+            <address>Vila Velha</address>
+            <description>Sávio Bortolini Pimentel (born January 9, 1974), simply Sávio, is a Brazilian footballer who plays for Avaí Futebol Clube, as a winger. Also known as &quot;Diabo Loiro&quot; (&quot;Blonde Devil&quot;) during his career at Flamengo, he played most of his professional career in Spain - being a part of Real Madrid's setup during four 1/2 seasons - and was also a Brazil international.</description>
+            <TimeStamp>
+                <when>1974-01-09</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-40.293609619140625,-20.336389541625977</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rafael Gordillo</name>
+            <address>Spain</address>
+            <description>Rafael Gordillo Vázquez is a former Spanish footballer, best known for his Real Madrid stint. A tremendously offensive left wingback, equally at ease as defender and midfielder and with a good effort rate, he had an unmistakable style of playing with his socks down, and also represented with success Real Betis, after which he worked in directorial capacities with Écija Balompié.</description>
+            <TimeStamp>
+                <when>1957-02-24</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fernando Gago</name>
+            <address>Argentina</address>
+            <description>Fernando Rubén Gago is an Argentine footballer, who currently plays for Real Madrid and the Argentine national team.</description>
+            <TimeStamp>
+                <when>1986-04-10</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-58.38333511352539,-34.599998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Francisco Javier García</name>
+            <address>Spain</address>
+            <description>Francisco Javier &quot;Javi&quot; García Fernández is a Spanish footballer who plays for S.L. Benfica of the Portuguese first division. A defensive midfielder by nature, he can also appear as a central defender.</description>
+            <TimeStamp>
+                <when>1987-02-08</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Esteban Granero</name>
+            <address>Spain</address>
+            <description>Esteban Félix Granero Molina (born 2 July 1987 in Madrid) is a Spanish footballer who plays for Real Madrid, as a midfielder. A versatile element, known as El Pirata, he can play as a playmaker or behind the strikers. His best attributes are passing, technique, and shooting.</description>
+            <TimeStamp>
+                <when>1987-07-02</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Julien Faubert</name>
+            <address>Le Havre</address>
+            <description>Julien Faubert (born 1 August 1983) is a French footballer who plays for West Ham United as a right-back in the English Premier League. Faubert started his footballing career in France with Cannes before moving to Bordeaux. In 2007 he moved to England to play for West Ham. In 2009 he spent a short period on loan with Real Madrid before returning to West Ham for the beginning of the 2009-10 season. He has represented both France U21 and France; the latter on only one occasion, scoring one goal.</description>
+            <TimeStamp>
+                <when>1983-08-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>0.10000000149011612,49.4900016784668</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fernando Sanz</name>
+            <address>Spain</address>
+            <description>Fernando Sanz redirects here. It can also refer to Fernand Sanz. This is a Spanish name; the first family name is Sanz and the second is Durán. Fernando Sanz Durán (born January 4, 1974 in Madrid) is a former Spanish footballer, in the central defender position. He spent seven years of his professional career at Málaga CF - after starting out at Real Madrid - appearing in more than 250 official games. Subsequently, he worked for four years as the club's president.</description>
+            <TimeStamp>
+                <when>1974-01-04</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sebastián Fleitas</name>
+            <address>Asunción</address>
+            <description>Sebastian Fleitas Miranda (1947-2000) was a football player from Paraguay who played as a striker. Fleitas started his career at Club Libertad of Paraguay, making his debut at the age of 17. In 1967 he finished as the top scorer of the Paraguayan League which drew the attention of Spanish side CD Málaga, who eventually signed Fleitas in 1968. A good first season at Málaga was enough to gain the interest of Real Madrid, who signed him in 1969.</description>
+            <TimeStamp>
+                <when>1947-02-25</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-57.66666793823242,-25.282197952270508</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Víctor Sánchez</name>
+            <address>Spain</address>
+            <description>Víctor Sánchez del Amo (born February 23, 1976 in Madrid), simply known as Víctor, is a retired Spanish footballer, who played as a right midfielder. His crossing ability is among the qualities which brought him international recognition with Spain, and especially Deportivo de La Coruña.</description>
+            <TimeStamp>
+                <when>1976-02-23</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pedro Munitis</name>
+            <address>Spain</address>
+            <description>Pedro Munitis Álvarez (born June 19, 1975 in Santander, Cantabria) is a Spanish footballer who plays for Racing de Santander. At 5'6&quot; (about 1.67 metres), Munitis is one of the shortest players in La Liga. He his best known for his fighting spirit and usually plays as a forward, although he can also operate as winger.</description>
+            <TimeStamp>
+                <when>1975-06-19</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Francisco García Hernández</name>
+            <address>Spain</address>
+            <description>Francisco García Hernández also known as García Hernández (born July 8, 1954 in Madrid) is a former Spanish footballer. He spent his career as a midfielder. He played the most of his career for Spanish giants Real Madrid from 1978 to 1983. He played 84 matches in La Liga for Real, and 45 matches in other competitions.</description>
+            <TimeStamp>
+                <when>1954-07-08</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Francisco Javier Uría</name>
+            <address>Gijón</address>
+            <description>Francisco Javier Álvarez Uría is a retired Spanish footballer, who played as a left defender.</description>
+            <TimeStamp>
+                <when>1950-02-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-5.699999809265137,43.53333282470703</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>José Emilio Amavisca</name>
+            <address>Spain</address>
+            <description>José Emilio Amavisca Gárate (born June 19, 1971) is a retired Spanish footballer, who played mostly as a left winger. He was best known for his Real Madrid stint, but played for five other clubs, amassing 381 games and 57 goals in both major levels of Spanish football, over the course of 16 seasons.</description>
+            <TimeStamp>
+                <when>1971-06-19</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Yanko Daucik</name>
+            <address>Czechoslovakia</address>
+            <description>Yanko Daucik Ciboch was a professional footballer during the 1960s and 1970s. Yanko played for Real Betis, Real Madrid, the Toronto Falcons and RCD Español. Daucik is the son of Ferdinand Daučík, the veteran La Liga manager who moved his family to Spain in 1950. Daucik made his La Liga debut for Real Betis on September 11, 1960 in a game against RCD Mallorca. His father was the Betis manager at the time.</description>
+            <TimeStamp>
+                <when>1941-03-22</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>14.466666221618652,50.08333206176758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Predrag Spasić</name>
+            <address>Kragujevac</address>
+            <description>Predrag Spasić is a retired Serbian footballer, who played as a central defender. Over the course of his career Spasić played for FK Radnicki Kragujevac (hometown club), FK Partizan, Real Madrid, CA Osasuna, Atlético Marbella and FK Radnički Novi Beograd, retiring at only 31. He was capped 31 times (one goal) for the Yugoslavia national football team, appearing for the quarterfinalists at the 1990 FIFA World Cup (five matches complete).</description>
+            <TimeStamp>
+                <when>1965-09-29</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>20.883333206176758,43.983333587646484</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rodrigo Fabri</name>
+            <address>Brazil</address>
+            <description>Rodrigo Fabri (born 15 January 1976 in Santo André) is a football player from Brazil who last played for Santo André.</description>
+            <TimeStamp>
+                <when>1976-01-15</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-47.95000076293945,-15.75</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>José Araquistáin</name>
+            <address>Spain</address>
+            <description>José Araquistáin Arrieta (born 4 March 1937 in Azkoitia) is a former Basque football goalkeeper who played for Real Madrid and was part of their European Cup victory in 1966. He earned 6 caps for the Spain national football team and was part of their 1962 FIFA World Cup squad.</description>
+            <TimeStamp>
+                <when>1937-03-04</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Santiago Aragón</name>
+            <address>Spain</address>
+            <description>Santiago Aragón Martínez is a former Spanish footballer, who played as a midfielder. He was a technically evolved player who often assumed playmaker duties, and played mainly for Real Zaragoza.</description>
+            <TimeStamp>
+                <when>1968-04-03</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Davor Šuker</name>
+            <address>Osijek</address>
+            <description>Davor Šuker, (born 1 January 1968 in Osijek) is a retired Croatian footballer. He is best known for his goal scoring ability, which has earned him a spot in FIFA top 100 greatest players. He played as a striker for a number of European clubs as well as the Croatian national team, where he is the all-time top goal scorer with 45 goals. Šuker began his footballing career in his hometown, playing for the local first division team Osijek as a 16-year-old.</description>
+            <TimeStamp>
+                <when>1968-01-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>18.679588317871094,45.55752944946289</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hugo Sánchez</name>
+            <address>Mexico City</address>
+            <description>Hugo Sánchez Márquez (born July 11, 1958), popularly nicknamed Pentapichichi, or Hugol, is a Mexican football coach and former striker. He played for four European clubs, including Real Madrid. Sanchez is considered the first highly talented mexican player. He was also a member of the Mexico national team, and participated in three World Cups. Sánchez played twelve seasons in the Spanish Primera División and is the second highest goalscorer in the history of that league.</description>
+            <TimeStamp>
+                <when>1958-07-11</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-99.13333129882812,19.433332443237305</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Luís Figo</name>
+            <address>Portugal</address>
+            <description>Luís Filipe Madeira Caeiro Figo,, (born 4 November 1972) is a former Portuguese football player. He played as a midfielder for Sporting CP, Barcelona, Real Madrid, and Internazionale, during a career which spanned over 20 years. He retired from football on 31 May 2009. He won 127 caps for the Portuguese national football team, a number that makes him the most capped player for Portugal.</description>
+            <TimeStamp>
+                <when>1972-11-04</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-9.183333396911621,38.70000076293945</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Paul Breitner</name>
+            <address>Kolbermoor</address>
+            <description>Paul Breitner is a former German football player. One of Germany's most controversial players, he was capped 48 times for his country.</description>
+            <TimeStamp>
+                <when>1951-09-05</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.066666603088379,47.849998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iván Zamorano</name>
+            <address>Santiago, Chile</address>
+            <description>Iván Luis Zamorano Zamora (born January 18, 1967 in Santiago) is a retired Chilean football striker. Along with Marcelo Salas, Roberto Rojas, Raimundo Tupper, Patricio Yanez and Sergio Livingstone he has been some of Chile's most recognized football players. He was a member of the Chilean national team and played in the 1998 World Cup. He played for several clubs, notably Spanish clubs Sevilla and Real Madrid C.F. as well as Italian club Internazionale.</description>
+            <TimeStamp>
+                <when>1967-01-18</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-70.66666412353516,-33.45000076293945</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Raymond Kopa</name>
+            <address>Nœux-les-Mines</address>
+            <description>Raymond Kopa (born Kopaszewski, on October 13, 1931 in Nœux-les-Mines, Pas-de-Calais), is a former French football striker, integral to the French national team of the 1950s. He was a great and versatile playmaker, who also scored plenty of goals.</description>
+            <TimeStamp>
+                <when>1931-10-13</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.665555477142334,50.48027801513672</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fernando Morientes</name>
+            <address>Spain</address>
+            <description>Fernando Morientes Sánchez (born 5 April 1976) is a former Spanish footballer, who played as a striker. Morientes' main asset was his aerial and strong goalscoring abilities. He played for a number of clubs throughout his career, including Real Madrid, AS Monaco, Liverpool, and Valencia CF. In La Liga, he scored 124 goals in 337 games, over the course of 15 seasons.</description>
+            <TimeStamp>
+                <when>1976-04-05</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Antonio Cassano</name>
+            <address>Bari</address>
+            <description>Antonio Cassano (born July 12, 1982) is an Italian footballer who plays for Serie A club Sampdoria, mainly as a second striker. Nicknamed Il Gioiello di Bari Vecchia (&quot;the jewel of Old Bari&quot;), he is known for his short temper as much as his ability on the pitch, which led to the coining of the neologism Cassanata by his former coach, Fabio Capello, in November 2002. The word is regularly used by Italian journalists as a euphemism for any behavior incompatible with team spirit in football.</description>
+            <TimeStamp>
+                <when>1982-07-12</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>16.866666793823242,41.12527847290039</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Arjen Robben</name>
+            <address>Bedum</address>
+            <description>Arjen Robben (born 23 January 1984) is a Dutch footballer who plays for the German Bundesliga club Bayern Munich. Though often classified as a forward, he usually plays behind the forwards (inside position) as a winger, and he is also known for his dribbling skills. He is also a part of the Netherlands national team and has appeared at Euro 2004, the 2006 World Cup, Euro 2008 and at the 2010 World Cup.</description>
+            <TimeStamp>
+                <when>1984-01-23</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>6.599999904632568,53.29999923706055</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Christian Panucci</name>
+            <address>Italy</address>
+            <description>Christian Panucci is a retired Italian footballer. He was a member of the Italian national team. Panucci is a right back, but can also play as a centre back.</description>
+            <TimeStamp>
+                <when>1973-04-12</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.483333587646484,41.900001525878906</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fernando Hierro</name>
+            <address>Vélez-Málaga</address>
+            <description>Fernando Ruiz Hierro is a former Spanish footballer. He is mostly known for his spells with Real Madrid and Spain. Equally at ease as a central defender or defensive midfielder, he had the ability, at his peak, to combine solid defensive play with a near-unlimited passing range and surprising goalscoring talent, which made him one of the world's most sought-after players. For the Merengues, he won five La Liga and three UEFA Champions League trophies, over the course of nearly 15 years.</description>
+            <TimeStamp>
+                <when>1968-03-23</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-4.099999904632568,36.78333282470703</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Wesley Sneijder</name>
+            <address>Netherlands</address>
+            <description>Wesley Benjamin Sneijder (born 9 June 1984) is a Dutch footballer playing as attacking midfielder for Internazionale. In 2004, Sneijder was awarded the Johan Cruijff Award for Young Player of the Year in the Netherlands. A product of the Ajax Academy, he previously played for AFC Ajax and Real Madrid, before signing for Internazionale in 2009. In his first season at the Italian club, Sneijder won the European Treble, consisting of Serie A, Coppa Italia and UEFA Champions League.</description>
+            <TimeStamp>
+                <when>1984-06-09</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>5.550000190734863,52.31666564941406</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rafael van der Vaart</name>
+            <address>Heemskerk</address>
+            <description>Rafael Ferdinand van der Vaart (born 11 February 1983) is a Dutch footballer who plays for Tottenham Hotspur and the Netherlands national team. His preferred position is as an attacking midfielder playmaker however he can also operate in wider positions. Van der Vaart began his career at Ajax's famous youth academy and worked his way into the first team debuting as a 17-year-old.</description>
+            <TimeStamp>
+                <when>1983-02-11</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>4.666666507720947,52.516666412353516</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Karim Benzema</name>
+            <address>Lyon</address>
+            <description>Karim Benzema (born 19 December 1987) is a French football player of Algerian heritage who currently plays as a striker for the La Liga club Real Madrid and internationally represents the French national football team. Benzema came through the youth academy at Lyon and has been capped at senior level for France. He played in UEFA Euro 2008 and was the top goalscorer in Ligue 1 for the 2007–08 season, just three seasons after making his professional debut.</description>
+            <TimeStamp>
+                <when>1987-12-19</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>4.842223167419434,45.75972366333008</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>José Antonio Reyes</name>
+            <address>Spain</address>
+            <description>José Antonio Reyes Calderón (born 1 September 1983) is a Spanish professional footballer who plays for Atlético Madrid. Mainly a left winger but also a forward, he made his professional debuts for hometown's Sevilla FC at only 16, signing with England's Arsenal aged 20. After a relatively successful career abroad, Reyes returned to his country, going on to represent both main sides in Madrid, Real and Atlético, also having a short loan spell in Portugal.</description>
+            <TimeStamp>
+                <when>1983-09-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pachín</name>
+            <address>Spain</address>
+            <description>Enrique Pérez Díaz (born 28 December 1938), nicknamed Pachín is a former Spanish footballer who played for Real Madrid and was part of European Cup victories in 1960 and 1966. He earned 8 caps for the Spain national football team and was included in their 1962 FIFA World Cup squad.</description>
+            <TimeStamp>
+                <when>1938-12-28</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sabino Barinaga Alberdi</name>
+            <address>Spain</address>
+            <description>Sabino Barinaga Alberdi (born 15 August 1922 in Durango, Basque - Dead 19 March 1988), is a former Spanish footballer and coach. Sabino Barinaga played for Southampton FC, Athletic de Bilbao, Real Madrid, Real Valladolid, Real Sociedad and Real Betis. Also was a coach for Real Betis, Osasuna, Málaga CF, Atlético de Madrid, Valencia CF, Sevilla FC, América de México, Real Oviedo, Real Mallorca, Cádiz CF.</description>
+            <TimeStamp>
+                <when>1922-08-15</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Manuel Sanchís Hontiyuelo</name>
+            <address>Spain</address>
+            <description>Manuel 'Manolo' Sanchís Hontiyuelo (born 23 May 1965 in Madrid) is a former Spanish footballer, who played as a sweeper. A part of the famous Quinta del Buitre which stemmed from the Real Madrid youth ranks, he was the only of its five members to play his entire career for the capital side. Sanchís' father, Manuel Sanchís Martínez, also played for Real Madrid (1964–71), and both were Spanish internationals.</description>
+            <TimeStamp>
+                <when>1965-05-23</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rolando Zárate</name>
+            <address>Argentina</address>
+            <description>Rolando David Zárate Riga, nicknamed Roly, is an Argentine football player who plays for Huracán in the Argentine Primera División.</description>
+            <TimeStamp>
+                <when>1978-08-06</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-58.38333511352539,-34.599998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tote (footballer)</name>
+            <address>Spain</address>
+            <description>Jorge López Marco (born 23 November 1978 in Madrid), aka Tote, is a Spanish footballer who plays for Hércules CF in La Liga, as a forward.</description>
+            <TimeStamp>
+                <when>1978-11-23</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Nicolas Anelka</name>
+            <address>Versailles</address>
+            <description>Nicolas Sebastien Anelka (born 14 March 1979) is a French professional footballer who plays as a striker for Chelsea in the Premier League. Anelka was also a regular starter for the French national team. Carlo Ancelotti describes him as a quick player with good aerial ability, technique, shooting, and movement off the ball. Anelka began his career at Paris Saint-Germain, but soon moved to Arsenal.</description>
+            <TimeStamp>
+                <when>1979-03-14</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.134999990463257,48.805301666259766</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Marañón (footballer)</name>
+            <address>Spain</address>
+            <description>Rafael Carlos Pérez González (born 23 July 1948), aka Marañón, is a former Spanish footballer, who played as a striker. Even though he started professionally at Real Madrid, his career was mainly associated with RCD Español.</description>
+            <TimeStamp>
+                <when>1948-07-23</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Álvaro Negredo</name>
+            <address>Spain</address>
+            <description>Álvaro Negredo Sánchez (born August 20, 1985) is a Spanish footballer who plays for Sevilla FC, as a striker. Nicknamed La fiera de Vallecas (The beast of Vallecas), his career was associated with Real Madrid, although he could never become a part of its first-team setup, going on to represent other teams in his country.</description>
+            <TimeStamp>
+                <when>1985-08-20</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iván Helguera</name>
+            <address>Spain</address>
+            <description>Iván Helguera Bujía (born 28 March 1975) is a retired Spanish footballer. Playing as either a central defender or defensive midfielder, he represented five clubs during his professional career, namely Real Madrid - achieving great team success as an important player - and Valencia CF; during his early 20's, he also had an unassuming abroad spell, with A.S. Roma.</description>
+            <TimeStamp>
+                <when>1975-03-28</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Júlio César Santos Correa</name>
+            <address>São Luís, Maranhão</address>
+            <description>Júlio César Santos Correa (born 18 November 1978 in São Luís, Maranhão), known as Júlio César, is a Brazilian footballer who plays for C.S. Marítimo, as a central defender.</description>
+            <TimeStamp>
+                <when>1978-11-18</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-44.299198150634766,-2.5833332538604736</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Henning Jensen</name>
+            <address>Denmark</address>
+            <description>Henning Jensen (born August 17, 1949) is a Danish former football (soccer) player, who played professionally for German club Borussia Mönchengladbach, Spanish club Real Madrid and Dutch club Ajax Amsterdam where he won the domestic league championship in each country. He scored 9 goals in 21 games for the Denmark national football team from 1972 to 1980.</description>
+            <TimeStamp>
+                <when>1949-08-17</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>10.0,55.71666717529297</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Geremi Njitap</name>
+            <address>Bafoussam</address>
+            <description>Geremi Sorele Njitap Fotso, known simply as Geremi, is a Cameroonian footballer who currently plays for Larisa F.C..</description>
+            <TimeStamp>
+                <when>1978-12-20</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>10.416666984558105,5.4666666984558105</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Aitor Karanka</name>
+            <address>Spain</address>
+            <description>Aitor Karanka de la Hoz (born September 18, 1973) is the current assistant coach for the Spanish football team Real Madrid. He is also a retired footballer, in the central defender position. On occasion, he occupied the left back slot. Save for a brief spell in the United States, at the age of 32, he played solely for Athletic Bilbao and Real Madrid, and was also a Spain and Euskadi XI international.</description>
+            <TimeStamp>
+                <when>1973-09-18</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ezequiel Garay</name>
+            <address>Argentina</address>
+            <description>Ezequiel Marcelo Garay (born 10 October 1986 in Rosario, Santa Fe) is an Argentine footballer who plays for Real Madrid, as a central defender.</description>
+            <TimeStamp>
+                <when>1986-10-10</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-58.38333511352539,-34.599998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Miguel Ángel González</name>
+            <address>Spain</address>
+            <description>Miguel Ángel González Suárez, known as Miguel Ángel, is a retired Spanish footballer, who played as a goalkeeper.</description>
+            <TimeStamp>
+                <when>1947-12-24</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Christoph Metzelder</name>
+            <address>Haltern</address>
+            <description>Christoph Tobias Metzelder is a German footballer who plays for FC Schalke 04, as a central defender. Most of his professional career, which was spent mostly at Borussia Dortmund, was blighted by injuries. He has managed, however, to collect nearly 50 caps for the German national team, appearing at two FIFA World Cups.</description>
+            <TimeStamp>
+                <when>1980-11-05</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>7.183333396911621,51.75</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ciriaco Errasti</name>
+            <address>Spain</address>
+            <description>Ciriaco Errasti Siunaga (Eibar, 8 August 1904 &amp;ndash; 8 November 1984) was a Spanish international footballer player who participated at the 1928 Summer Olympics and the 1934 FIFA World Cup. Errasti, a defender, played club football for Deportivo Alavés and Real Madrid between 1925 and 1938.</description>
+            <TimeStamp>
+                <when>1904-08-08</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>José Antonio García Calvo</name>
+            <address>Spain</address>
+            <description>José Antonio García Calvo (born April 1, 1975 in Madrid) is a former Spanish footballer, who played as a central defender. During his 15-year professional career, he represented both Madrid sides, Real and Atlético.</description>
+            <TimeStamp>
+                <when>1975-04-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fernand Goyvaerts</name>
+            <address>Mechelen</address>
+            <description>Fernand Goyvaerts (October 24, 1938 &amp;ndash; April 5, 2004) was a Belgian international footballer. He was an attacker. He made his début for the first team of Club Brugge at the age of 16. In 1958, his penalty kick against CS Verviers was decisive for the promotion of Club to the highest level in Belgian football. He left Club Brugge in 1962 after a conflict with the Romanian coach Norberto Höfling. FC Barcelona paid 5 million Belgian franc for him.</description>
+            <TimeStamp>
+                <when>1938-10-24</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>4.4666666984558105,51.016666412353516</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iván Pérez Muñoz</name>
+            <address>Spain</address>
+            <description>Iván Pérez Muñoz (born 29 January 1976 in Madrid) is a former Spanish professional footballer, who played as a forward.</description>
+            <TimeStamp>
+                <when>1976-01-29</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Miguel Muñoz</name>
+            <address>Spain</address>
+            <description>Miguel Muñoz Mozún (born 19 January 1922 – died 16 July 1990 in Madrid) was a Spanish football player and manager. A midfielder, he spent the majority of his career at Real Madrid, where he also coached with great success, then went on to have a six-year coaching spell with the Spanish national team.</description>
+            <TimeStamp>
+                <when>1922-01-19</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rogelio Domínguez</name>
+            <address>Argentina</address>
+            <description>Rogelio Antonio Domínguez López (9 March 1931 - 23 July 2004) was an Argentine football goalkeeper who played for Real Madrid and was part of their European Cup victories in 1959 and 1960. He was in Argentina's squad for the 1962 FIFA World Cup.</description>
+            <TimeStamp>
+                <when>1931-03-09</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-58.38333511352539,-34.599998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fernando Fernández Escribano</name>
+            <address>Spain</address>
+            <description>Fernando Miguel Fernández Escribano, simply Fernando, (is a Spanish footballer who plays for Málaga CF. Mainly an attacking midfielder, he can also appear as a supporting striker.</description>
+            <TimeStamp>
+                <when>1979-06-02</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jesús María Pereda</name>
+            <address>Spain</address>
+            <description>Jesús María Pereda Ruiz de Temiño,, also known as Chus Pereda or Txus Pereda, was a Spanish footballer who played for FC Barcelona during the 1960s. In 1964, together with Luis Suárez, Amancio Amaro, José Ángel Iribar and his FC Barcelona team mate, Josep Fusté he was a member of the Spanish team that won the European Championship in 1964. Apart from FC Barcelona, Pereda also played for six other La Liga teams, including Real Madrid.</description>
+            <TimeStamp>
+                <when>1938-06-23</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vicente del Bosque</name>
+            <address>Salamanca</address>
+            <description>Vicente del Bosque González (born 23 December 1950) is a retired Spanish footballer and World Cup winning manager. He is currently the manager of the Spanish national football team, taking over from Luis Aragonés following Spain's title success at Euro 2008, going on to lead Spain to win their first-ever World Cup two years later. He is known for coaching Real Madrid from 1999 to 2003, a very successful period in the club's history. He has worked for many years with assistant coach Toni Grande.</description>
+            <TimeStamp>
+                <when>1950-12-23</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-5.667606830596924,40.961612701416016</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Esteban Cambiasso</name>
+            <address>Argentina</address>
+            <description>Esteban Matías Cambiasso Deleau (born 18 August 1980 in Buenos Aires) is an Argentine footballer who currently plays as a defensive midfielder or central midfielder for Italian Serie A club Internazionale. He is nicknamed Cuchu.</description>
+            <TimeStamp>
+                <when>1980-08-18</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-58.38333511352539,-34.599998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Francisco Pavón</name>
+            <address>Spain</address>
+            <description>Francisco &quot;Paco&quot; Pavón Barahona (born January 9, 1980) is a Spanish footballer who plays for AC Arles-Avignon in France, as a central defender. His name became associated with the Los Galácticos policy when Real Madrid - where he spent most of his professional career - president Florentino Pérez promised to build a team full of Zidanes and Pavones - expensive high profile recruits like Zinedine Zidane and youth team graduates like Pavón.</description>
+            <TimeStamp>
+                <when>1980-01-09</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Óscar Miñambres</name>
+            <address>Spain</address>
+            <description>Óscar Miñambres Pascual is a former Spanish footballer. He could operate as either a defender or midfielder, on the right side, and had his unlucky career marred by constant injuries.</description>
+            <TimeStamp>
+                <when>1981-01-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Álvaro Arbeloa</name>
+            <address>Salamanca</address>
+            <description>Álvaro Arbeloa Coca (born 17 January 1983) is a Spanish World Cup winning football player currently playing for Real Madrid and the Spanish national team. He is predominantly a right back, although he can play as a central defender. During his return to Real Madrid, he has started most of the games as a left back. Arbeloa trained with Real Madrid as a youth player, and worked his way up to the first team, making his debut in the 2004–05 season.</description>
+            <TimeStamp>
+                <when>1983-01-17</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-5.667606830596924,40.961612701416016</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Adrián Martín Cardona</name>
+            <address>Spain</address>
+            <description>Adrián Martín Cardona is a Spanish footballer who plays for Zamora CF, as a midfielder.</description>
+            <TimeStamp>
+                <when>1982-10-10</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Alfonso Pérez</name>
+            <address>Spain</address>
+            <description>Alfonso Pérez Muñoz (born September 26, 1972 in Getafe), usually referred to as Alfonso, is a former Spanish footballer, who played as a striker. Having represented both Real Madrid and FC Barcelona during his career, Alfonso possessed above-average heading ability despite not reaching 180 cms; he appeared in 307 La Liga games for three teams, scoring 84 goals.</description>
+            <TimeStamp>
+                <when>1972-09-26</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Antonio Ruiz</name>
+            <address>Spain</address>
+            <description>Antonio Ruiz Cervilla (born 31 July 1937) is a Spanish footballer who played for Real Madrid and was part of their European Cup victory in 1959. He also played for Deportivo de La Coruña, CD Málaga, Real Murcia and CD Castellón.</description>
+            <TimeStamp>
+                <when>1937-07-31</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ricardo Roberto Barreto da Rocha</name>
+            <address>Brazil</address>
+            <description>Ricardo Roberto Barreto da Rocha (born September 11, 1962 in Recife) is a former Brazilian footballer, in the central defender position.</description>
+            <TimeStamp>
+                <when>1962-09-11</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-47.95000076293945,-15.75</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Josep Samitier</name>
+            <address>Barcelona</address>
+            <description>Josep Samitier Vilalta (2 February 1902 &amp;ndash; 5 May 1972), also known as José Samitier, was a Spanish footballer, manager and scout who played for FC Barcelona, Madrid CF, OGC Nice, the Catalan XI and Spain. He later coached Athletic Madrid, OGC Nice and CF Barcelona and worked as a scout for both CF Barcelona and Real Madrid. During his playing career with FC Barcelona he scored 326 goals and is second only to Paulino Alcántara as the clubs all time top goalscorer.</description>
+            <TimeStamp>
+                <when>1902-02-02</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.183333396911621,41.38333511352539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Carlos Secretário</name>
+            <address>Portugal</address>
+            <description>Carlos Alberto de Oliveira Secretário (born May 12, 1970 in São João da Madeira) is a former Portuguese footballer, who played mainly as a right defender.</description>
+            <TimeStamp>
+                <when>1970-05-12</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-9.183333396911621,38.70000076293945</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Andrés Sabido</name>
+            <address>Spain</address>
+            <description>Andrés Sabido Martín is a former Spanish footballer. He spent his career as a defender.</description>
+            <TimeStamp>
+                <when>1957-11-13</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Evaristo de Macedo</name>
+            <address>Rio de Janeiro</address>
+            <description>Evaristo de Macedo Filho (born June 22, 1933 in Rio de Janeiro) is a former Brazilian footballer currently working as a coach. He was capped by Brazil 14 games scoring 8 goals. He was the head coach of the Iraq national football team at the 1986 FIFA World Cup.</description>
+            <TimeStamp>
+                <when>1933-06-22</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-43.196388244628906,-22.90833282470703</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Diego León</name>
+            <address>Spain</address>
+            <description>Diego León Ayarza (born 16 January 1984 in Palencia) is a Spanish footballer who is currently a free agent.</description>
+            <TimeStamp>
+                <when>1984-01-16</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Luis Costa Juan</name>
+            <address>Spain</address>
+            <description>Luis Costa Juan is a former Spanish football striker and manager.</description>
+            <TimeStamp>
+                <when>1943-02-19</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jordi López</name>
+            <address>Granollers</address>
+            <description>Jordi López Felpeto is a Spanish footballer who plays for Swansea City, mainly as a defensive midfielder.</description>
+            <TimeStamp>
+                <when>1981-02-28</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.299999952316284,41.61666488647461</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Federico Magallanes</name>
+            <address>Montevideo</address>
+            <description>Gerardo Federico Magallanes González (born August 28, 1976) is an Uruguayan football player who currently plays for Mérida UD. He played for several clubs, including Defensor Sporting, Peñarol Montevideo, Atalanta B.C. , Real Madrid F.C. , Racing de Santander, S.S.C. Venezia, Torino F.C. , SD Eibar, Sevilla FC, and Dijon FCO, where his contract expired in June 2007.</description>
+            <TimeStamp>
+                <when>1976-08-28</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-56.16666793823242,-34.88333511352539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pahiño</name>
+            <address>Spain</address>
+            <description>Manuel Fernández Fernández, commonly referred to as Pahiño, is a former Spanish footballer who played for Celta de Vigo, Real Madrid, Deportivo de La Coruña and Spain during the 1940s and 1950s. A prolific goalscorer, he twice won the Pichichi.</description>
+            <TimeStamp>
+                <when>1923-01-21</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Raúl Albiol</name>
+            <address>Spain</address>
+            <description>Raúl Albiol Tortajada is a Spanish footballer who plays for Real Madrid and the Spanish national team. His main asset is his versatility, as he can play as a central defender, right back or defensive midfielder.</description>
+            <TimeStamp>
+                <when>1985-09-04</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pirri</name>
+            <address>Ceuta</address>
+            <description>José Martínez Sánchez, nicknamed Pirri (born 11 March 1945 in Ceuta) is a former Spanish footballer. He played for Real Madrid for 15 years, between 1964 and 1979, winning ten Spanish league titles, four Spanish cups, and the 1966 European Champion Clubs' Cup. He was part of the Real Madrid team that was known as the Ye-Ye team. Pirri played 41 times and scored 16 goals for Spain between 1966 and 1978, and was in the Spanish squads for the 1966 and 1978 World Cups.</description>
+            <TimeStamp>
+                <when>1945-03-11</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-5.316111087799072,35.88805389404297</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Isidoro San José</name>
+            <address>Spain</address>
+            <description>Isidoro San José Pozo (born 27 October 1955 in Madrid) is a retired Spanish footballer. Mainly a right defender, he could also play on the other flank, and even as a defensive midfielder. During one full decade, he represented La Liga giants Real Madrid, winning a total of nine major titles.</description>
+            <TimeStamp>
+                <when>1955-10-27</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>José Antonio Grande</name>
+            <address>Spain</address>
+            <description>José Antonio 'Toni' Grande Cereijo (born 17 September 1947) is a retired Spanish football central midfielder, and a current manager.</description>
+            <TimeStamp>
+                <when>1947-09-17</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>José Quirante</name>
+            <address>Spain</address>
+            <description>José Quirante Pineda was a soccer player and manager. He coached Real Madrid during the first Spanish league season. He played for FC Barcelona and Real Madrid. When playing for Real, he did not give up his attachment to Barcelona. He was the first footballer to play for the two rivals. He also coached Unión Sporting Club de Madrid, Sevilla FC, Real Murcia, Hércules CF, Málaga CF, Cádiz CF and Real Betis.</description>
+            <TimeStamp>
+                <when>1884-01-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mario Inchausti</name>
+            <address>Santa Clara, Cuba</address>
+            <description>Mario Inchausti Goitia (3 June 1915 &amp;ndash; 2 May 2006) was a Cuban footballer who played in Spain for Real Zaragoza, Real Betis and Real Madrid, before retiring in 1942 due to injury.</description>
+            <TimeStamp>
+                <when>1915-06-03</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-79.95417022705078,22.405277252197266</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Miguel Ángel Portugal</name>
+            <address>Spain</address>
+            <description>Miguel Angel Portugal Vicario is a former Spanish football midfielder, and a current manager.</description>
+            <TimeStamp>
+                <when>1955-11-28</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Luis Regueiro</name>
+            <address>Spain</address>
+            <description>Luis Regueiro Pagola (1 July 1908 &amp;mdash; 6 December 1995), sometimes nicknamed Corso, was a Spanish footballer. He played for Real Madrid from 1931 to 1936, scoring 53 goals in 92 matches. He also scored 16 goals in 25 matches for the Spain national football team, including a goal in the 1934 FIFA World Cup against Italy.</description>
+            <TimeStamp>
+                <when>1908-07-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>José Luis López Peinado</name>
+            <address>Morocco</address>
+            <description>José Luis López Peinado is a former Spanish professional association football player. He spent his career as a defender.</description>
+            <TimeStamp>
+                <when>1943-05-21</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-6.849999904632568,34.03333282470703</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Marcos Alonso Imaz</name>
+            <address>Spain</address>
+            <description>Marcos Alonso Imaz (born 16 April 1933 in Santander, Cantabria), nicknamed Marquitos, is a former Spanish footballer, who played as a defender. He was best known for his participation in Real Madrid's five European Cup conquests, mainly in the 50's.</description>
+            <TimeStamp>
+                <when>1933-04-16</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vicente Miera</name>
+            <address>Spain</address>
+            <description>Vicente Miera Campos (born 10 May 1940 in Santander, Cantabria) is a former Spanish football defender and manager.</description>
+            <TimeStamp>
+                <when>1940-05-10</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Juan Carlos Touriño</name>
+            <address>Argentina</address>
+            <description>Juan Carlos Touriño (born 14 July 1944) is a former Spanish-Argentine football defender who won two Spanish league titles and two Spanish Cup with Real Madrid and made one appearance for the Spanish national team.</description>
+            <TimeStamp>
+                <when>1944-07-14</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-58.38333511352539,-34.599998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jean Luciano</name>
+            <address>Nice</address>
+            <description>Jean Luciano (born January 2, 1921) is a French former football midfielder. He coached OGC Nice, Sporting C.P. , Vitória SC, SC Toulon, AS Monaco FC and GFCO Ajaccio.</description>
+            <TimeStamp>
+                <when>1921-01-02</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>7.2662739753723145,43.703392028808594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Juan Marrero Pérez</name>
+            <address>Spain</address>
+            <description>Juan Marrero Pérez, nicknamed Hilario (born 8 December 1905 in Las Palmas de Gran Canaria; died 1989) was a Spanish association footballer. He earned 2 caps and scored 1 goal for the Spain national football team, and participated in the 1934 FIFA World Cup. He then became a manager at Deportivo de La Coruña.</description>
+            <TimeStamp>
+                <when>1905-12-08</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Roberto Juan Martínez</name>
+            <address>Argentina</address>
+            <description>Roberto Juan Martínez Martínez (born 25 September 1946) is an Argentine-Spanish footballer.</description>
+            <TimeStamp>
+                <when>1946-09-25</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-58.38333511352539,-34.599998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>David Beckham</name>
+            <address>Leytonstone</address>
+            <description>David Robert Joseph Beckham, (born 2 May 1975) is an English footballer who plays in midfield for Los Angeles Galaxy in Major League Soccer, having previously played for Manchester United, Real Madrid, and Milan, as well as the England national team, for whom he holds the all-time appearance record for an outfield player. Beckham's career began when he signed a professional contract with Manchester United, making his first-team debut in 1992 aged 17.</description>
+            <TimeStamp>
+                <when>1975-05-02</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>0.009999999776482582,51.569000244140625</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Javier Saviola</name>
+            <address>Argentina</address>
+            <description>Javier Pedro Saviola Fernández (born 11 December 1981) is an Argentine professional footballer who plays for S.L. Benfica in Portugal, as a striker. Known for his speed and ability to score from almost any position, he represented both FC Barcelona and Real Madrid during his career (amongst others), and was named, as the youngest player, to Pelé's FIFA 100 list of the 125 greatest living footballers. Due to the many years spent in Spain, he also held Spanish nationality.</description>
+            <TimeStamp>
+                <when>1981-12-11</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-58.38333511352539,-34.599998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ronaldo</name>
+            <address>Bento Ribeiro</address>
+            <description>Ronaldo Luís Nazário de Lima (born 22 September 1976), nicknamed Il Fenomeno but commonly known as Ronaldo, is a Brazilian footballer who currently plays for Corinthians. Ronaldo was one of the most prolific scorers in the world in the 1990s and the early 2000s. He won his first Ballon d'Or as the European Footballer of the Year in 1997 and again won the award in 2002.</description>
+            <TimeStamp>
+                <when>1976-09-22</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-43.36083221435547,-22.86722183227539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Míchel (footballer)</name>
+            <address>Spain</address>
+            <description>José Miguel González Martín del Campo, aka Míchel (born 23 March 1963 in Madrid), is a retired Spanish footballer, who played as a right midfielder. He was most noted for his stellar crossing ability, also contributing with a fair share of goals. During his career, he mainly represented Real Madrid - over a decade - achieving great team and individual success, and subsequently becoming a coach.</description>
+            <TimeStamp>
+                <when>1963-03-23</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fabio Cannavaro</name>
+            <address>Italy</address>
+            <description>Fabio Cannavaro (born 13 September 1973 in Naples, Italy) is an Italian professional footballer who plays as a centre back for the UAE Football League club Al-Ahli Dubai. He spent the majority of his career in Italy. He started his career at Napoli, before spending seven years at Parma, with whom he won two Coppa Italias and the 1999 UEFA Cup.</description>
+            <TimeStamp>
+                <when>1973-09-13</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.483333587646484,41.900001525878906</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ferenc Puskás</name>
+            <address>Budapest</address>
+            <description>Ferenc Puskás (born Ferenc Purczeld; 2 April 1927 – 17 November 2006) was a Hungarian footballer and manager who is regarded as one of the greatest footballers of all time. He scored a remarkable 84 goals in 85 international matches for Hungary, and 514 goals in 529 matches in the Hungarian and Spanish leagues. He was voted one of the greatest players of the 20th century by World Soccer magazine. Puskás started his career in Hungary playing for Kispest and Budapest Honvéd.</description>
+            <TimeStamp>
+                <when>1927-04-02</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>19.050277709960938,47.47194290161133</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Raúl González</name>
+            <address>Spain</address>
+            <description>Raúl González Blanco, known simply as Raúl, is a Spanish footballer who plays as a striker. He currently plays for German club Schalke 04, in the Bundesliga. Raul has spent most of his career playing for Spanish club Real Madrid until 2010 and is the club's all-time top goalscorer. Raúl is a three-time winner of the UEFA Champions League and has long been the competition's all-time leading goal scorer. He left Real Madrid on 25 July 2010, having scored 323 goals in 740 appearances..</description>
+            <TimeStamp>
+                <when>1977-06-27</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cristiano Ronaldo</name>
+            <address>Funchal</address>
+            <description>Cristiano Ronaldo dos Santos Aveiro,, (born 5 February 1985), commonly known as Cristiano Ronaldo, is a Portuguese footballer who plays as a winger or a forward for Spanish La Liga club Real Madrid and serves as captain of the Portuguese national team. Ronaldo currently holds the distinction of being the most expensive player in football history after being transferred from Manchester United to Real Madrid in a transfer deal worth £80 million.</description>
+            <TimeStamp>
+                <when>1985-02-05</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-16.90972137451172,32.6511116027832</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Robert Prosinečki</name>
+            <address>West Germany</address>
+            <description>Robert Prosinečki (born 12 January 1969 in Villingen-Schwenningen) is a Croatian former football midfielder and current assistant manager of the Croatia national football team.</description>
+            <TimeStamp>
+                <when>1969-01-12</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>7.099999904632568,50.733333587646484</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Royston Drenthe</name>
+            <address>Rotterdam</address>
+            <description>Royston Ricky Drenthe (born 8 April 1987) is a Dutch footballer who plays for Hércules CF on loan from Real Madrid. Mainly a midfielder, and regarded as one of football's fastest players, he can also operate as a defender, always on the left side of the pitch.</description>
+            <TimeStamp>
+                <when>1987-04-08</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>4.479166507720947,51.92166519165039</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Thomas Gravesen</name>
+            <address>Vejle</address>
+            <description>Thomas Gravesen (born 11 March 1976) is a retired Danish professional football player who played as a midfielder. He has played for teams such as Hamburg, Everton, Real Madrid and Celtic. For the Denmark national football team, Gravesen was capped 66 times and scored five goals, from his debut in August 1998 until he ended his national team career in September 2006. He represented Denmark at the international Euro 2000, 2002 World Cup and Euro 2004 tournaments.</description>
+            <TimeStamp>
+                <when>1976-03-11</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>9.533333778381348,55.71666717529297</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sami Khedira</name>
+            <address>Stuttgart</address>
+            <description>Sami Khedira is a German footballer currently playing for Real Madrid. He is considered a dynamic midfielder with 'flawless aerial ability' who can cover a lot of ground and quickly join in the team attacks with his powerful mid-range shooting.</description>
+            <TimeStamp>
+                <when>1987-04-04</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>9.179444313049316,48.77861022949219</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Daniel García Lara</name>
+            <address>Spain</address>
+            <description>Daniel 'Dani' García Lara (born 22 December 1974) is a former Spanish footballer, who played as a striker. During his professional career, he played for both Real Madrid and FC Barcelona.</description>
+            <TimeStamp>
+                <when>1974-12-22</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kevin Franck</name>
+            <address>Belgium</address>
+            <description>Kevin Franck (born June 10, 1982 in Gand) is a Belgian football player, who currently plays for KSV Oudenaarde.</description>
+            <TimeStamp>
+                <when>1982-06-10</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>4.349999904632568,50.849998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Flávio Conceição</name>
+            <address>Santa Maria da Serra</address>
+            <description>Flávio da Conceição is a former Brazilian footballer, who played as a central midfielder. Conceição enjoyed a successful career in Spain, where he played for two clubs – including Real Madrid – and also represented Brazil on more than 40 occasions.</description>
+            <TimeStamp>
+                <when>1974-06-13</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-48.16055679321289,-22.567222595214844</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Diego López Rodríguez</name>
+            <address>Spain</address>
+            <description>Diego López Rodríguez is a Spanish footballer who plays for Villarreal CF, as a goalkeeper.</description>
+            <TimeStamp>
+                <when>1981-11-03</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sergio Ramos</name>
+            <address>Spain</address>
+            <description>Sergio Ramos García is a World Cup winning Spanish footballer who currently plays for Real Madrid and the Spanish national team.</description>
+            <TimeStamp>
+                <when>1986-03-30</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Günter Netzer</name>
+            <address>Mönchengladbach</address>
+            <description>Günter Netzer (born 14 September 1944 in Mönchengladbach) is a former German football player and team general manager currently working in the media business. As a player, he was considered to be one of the greatest passers in the game's history. As such, he was voted Footballer of the Year in Germany twice, in 1972 and 1973.</description>
+            <TimeStamp>
+                <when>1944-09-14</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>6.433333396911621,51.20000076293945</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Valmiro Lopes Rocha</name>
+            <address>Villablino</address>
+            <description>Valmiro Lopes Rocha, aka Valdo (born April 23, 1981) is a Spanish-Cape Verdean footballer who plays for Levante UD in the Spanish first division, mainly as a winger. During his professional career, he played for several clubs in La Liga, namely CA Osasuna.</description>
+            <TimeStamp>
+                <when>1981-04-23</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-6.316666603088379,42.93333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>José Manuel Jurado</name>
+            <address>Spain</address>
+            <description>José Manuel Jurado Marín is a Spanish footballer currently playing for FC Schalke 04 in Germany. Able to play as an attacking midfielder or on the left wing, he can also be placed &quot;in the hole&quot;. He possesses good playmaking and dribbling skills and has a very effective shot off the dribble. Jurado played for both major teams in Madrid during his career, Real and Atlético, albeit with no success whatsoever in the former.</description>
+            <TimeStamp>
+                <when>1986-06-29</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Antonio Núñez</name>
+            <address>Spain</address>
+            <description>Antonio Núñez Tena (born 15 January 1979 in Madrid) is a Spanish footballer who plays for Apollon Limassol, mainly as a right midfielder.</description>
+            <TimeStamp>
+                <when>1979-01-15</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Amancio Amaro</name>
+            <address>Spain</address>
+            <description>Amancio Amaro Varela, commonly known simply as Amancio, is a former Spanish football player. Nicknamed El Brujo (The Witch) he played for Deportivo de La Coruña, Real Madrid and the Spanish national team.</description>
+            <TimeStamp>
+                <when>1939-10-16</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Samuel Eto'o</name>
+            <address>Cameroon</address>
+            <description>Samuel Eto'o Fils (commonly known as Samuel Eto'o; born 10 March 1981) is a Cameroonian professional footballer who plays as a striker for Italian Serie A club Internazionale and is currently captain of the Cameroon national team. Eto'o trained at Kadji Sports Academy. He also holds a Spanish passport to enable him not to count among the 'foreign' players' in the European Union.</description>
+            <TimeStamp>
+                <when>1981-03-10</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>11.516666412353516,3.866666555404663</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Robinho</name>
+            <address>São Vicente, São Paulo</address>
+            <description>Robson de Souza (born 25 January 1984 in São Vicente, Brazil), more commonly known as Robinho, is a Brazilian professional footballer who currently plays as a striker for Serie A club AC Milan. He is also currently the captain of the Brazilian national team. Robinho was personally picked by Brazil legend Pelé as his heir apparent at only 15 years of age and went on to lead Santos to their first Campeonato Brasileiro title since Pelé himself played for the club.</description>
+            <TimeStamp>
+                <when>1984-01-25</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-46.3922233581543,-23.963333129882812</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Alberto Rivera Pizarro</name>
+            <address>Spain</address>
+            <description>Alberto Rivera Pizarro is a Spanish footballer who plays for Sporting de Gijón, as a central midfielder.</description>
+            <TimeStamp>
+                <when>1978-02-16</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Elvir Baljić</name>
+            <address>Sarajevo</address>
+            <description>Elvir Baljić is a retired Bosnian football player and current assistant manager in Bosnia-Herzegovina's national team. His career began in FK Željezničar, but in 1993, during the war in Bosnia, he left with FK Sarajevo on tour, which he played in the first Bosniaks First League. Later, he was transferred to Turkey where he played for Bursaspor. He was the best player at the club for several seasons, which made him an interesting target for the best Turkish clubs.</description>
+            <TimeStamp>
+                <when>1974-07-08</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>18.356399536132812,43.847599029541016</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Milan Janković (footballer)</name>
+            <address>Belgrade</address>
+            <description>Milan Janković is a retired Serbian footballer, who played as a midfielder.</description>
+            <TimeStamp>
+                <when>1959-12-31</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>20.462223052978516,44.820556640625</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ricardo Gallego</name>
+            <address>Spain</address>
+            <description>Ricardo Gallego Redondo (born 8 February 1959 in Madrid) is a retired Spanish footballer. He played in the defensive midfielder position.</description>
+            <TimeStamp>
+                <when>1959-02-08</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Santillana (footballer)</name>
+            <address>Santillana del Mar</address>
+            <description>Carlos Alonso González, aka Santillana (nickname taken from birthplace), is a retired Spanish footballer, who played as a striker. Best known for his Real Madrid spell, Santillana was known for his stellar heading ability, despite not reaching 1.80m, and is widely regarded as one of the best strikers in the history of Spanish football.</description>
+            <TimeStamp>
+                <when>1952-08-23</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-4.104722023010254,43.393333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cicinho</name>
+            <address>São Paulo (state)</address>
+            <description>Cícero João de Cézare, nicknamed Cicinho,, is a Brazilian footballer who currently plays for Roma. Currently married to longtime girlfriend, Reem Borriello. The two have one son, Heitor. In 2005, he won the Confederations Cup with the Brazilian National Team. He was one of 23 players called into the Brazilian squad for the 2006 FIFA World Cup. He also holds Italian nationality and therefore did not occupy a slot in the non-EU quota during his tenure at Real Madrid.</description>
+            <TimeStamp>
+                <when>1980-06-24</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-46.63333511352539,-23.53333282470703</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Guti (footballer)</name>
+            <address>Spain</address>
+            <description>José María Gutiérrez Hernández, commonly known as Guti (born October 31, 1976), is a Spanish footballer who plays for Beşiktaş JK in Turkey, as an attacking midfielder. During his professional career, he played almost exclusively for Real Madrid, serving as vice-captain and helping it to 15 trophies, most notably three UEFA Champions League and five La Liga titles.</description>
+            <TimeStamp>
+                <when>1976-10-31</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Miguel Torres Gómez</name>
+            <address>Spain</address>
+            <description>Miguel Torres Gómez (born January 28, 1986 in Madrid) is a Spanish footballer who plays for Getafe CF in La Liga. Usually a right defender, he is equally at ease on the other flank.</description>
+            <TimeStamp>
+                <when>1986-01-28</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jorge Valdano</name>
+            <address>Argentina</address>
+            <description>Jorge Alberto Francisco Valdano Castellanos is an Argentine former football player and the current General Manager of Real Madrid CF.</description>
+            <TimeStamp>
+                <when>1955-10-04</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-58.38333511352539,-34.599998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ignacio Zoco</name>
+            <address>Spain</address>
+            <description>Ignacio Zoco Esparza (born 31 July 1939) is a former Spanish footballer who played for Real Madrid and was part of their European Cup victory in 1966. He earned 25 caps for the Spain national football team and was in the squad for the 1964 European Nations' Cup and the 1966 FIFA World Cup.</description>
+            <TimeStamp>
+                <when>1939-07-31</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Santiago Cañizares</name>
+            <address>Spain</address>
+            <description>José Santiago Cañizares Ruiz (born December 18, 1969) is a retired Spanish footballer, who played as a goalkeeper. After playing with Real Madrid, mostly as a backup, he finished his career at Valencia CF, where he appeared in more than 400 official games since 1998. At his prime, he was regarded as one of the best goalkeepers in the world.</description>
+            <TimeStamp>
+                <when>1969-12-18</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Alberto Bueno</name>
+            <address>Spain</address>
+            <description>Alberto Bueno Calvo (born 20 March 1988) is a Spanish footballer who plays for Derby County on loan from Real Valladolid. His main position is as a second striker and he can also operate as a left winger.</description>
+            <TimeStamp>
+                <when>1988-03-20</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Míchel Salgado</name>
+            <address>Spain</address>
+            <description>Miguel Ángel &quot;Míchel&quot; Salgado Fernández (born 22 October 1975) is a Spanish professional footballer who plays for Premier League club Blackburn Rovers, as a right defender. Nicknamed Il Due, he is known for his combative tackling and attacking play. Attesting to his aggressive style, Salgado's former Real Madrid – where he spent an entire decade, after excellent displays at Celta de Vigo – teammate Steve McManaman once described him as &quot;the hardest person in the world....</description>
+            <TimeStamp>
+                <when>1975-10-22</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Roberto Rojas (Spanish footballer)</name>
+            <address>Spain</address>
+            <description>Roberto Rojas González (born 17 November 1974 in Madrid) is a former Spanish footballer, who played as a defender.</description>
+            <TimeStamp>
+                <when>1974-11-17</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Enrique Mateos</name>
+            <address>Spain</address>
+            <description>Enrique Mateos Mancebo (born 15 July 1934, died 6 July 2001) was a Spanish footballer who played for Real Madrid and was part of their European Cup victories in 1956, 1957, 1958, 1959 and 1960. He earned 8 caps for the Spain national football team. In 1968, he played for the Cleveland Stokers in the North American Soccer League.</description>
+            <TimeStamp>
+                <when>1934-07-15</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Antonio García Navajas</name>
+            <address>Spain</address>
+            <description>Antonio García Navajas is a former Spanish footballer who played as a defender.</description>
+            <TimeStamp>
+                <when>1958-03-08</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Carlos Diogo</name>
+            <address>Montevideo</address>
+            <description>Carlos Andrés Diogo Enseñat (born July 18, 1983 in Montevideo) is an Uruguayan footballer who plays for Real Zaragoza in La Liga. A player of great physical strength, he operates as a defender or midfielder, on the right side of the pitch.</description>
+            <TimeStamp>
+                <when>1983-07-18</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-56.16666793823242,-34.88333511352539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Antonio Maceda</name>
+            <address>Spain</address>
+            <description>Antonio Maceda Francés (born 16 May 1957) is a former Spanish footballer. Though a central defender by trade, he was known for his timely and predatorial goal-scoring (as attested by his national team record) in addition to his superb aerial ability. He started his career at Sporting de Gijón, and finished it with Real Madrid, where he was greatly hampered by injuries.</description>
+            <TimeStamp>
+                <when>1957-05-16</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Borja Fernández</name>
+            <address>Spain</address>
+            <description>Francisco de Borja Fernández Fernández, simply Borja (born January 14, 1981), is a Spanish footballer who plays for Getafe CF, as a defensive midfielder.</description>
+            <TimeStamp>
+                <when>1981-01-14</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Antonio Calpe</name>
+            <address>Valencia, Spain</address>
+            <description>Antonio Calpe Hernández (born 4 April 1940 in Valencia, Spain) was a Spanish professional association football player, who played as a defender.</description>
+            <TimeStamp>
+                <when>1940-04-04</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-0.37680500745773315,39.470237731933594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Miguel Pardeza</name>
+            <address>La Palma del Condado</address>
+            <description>Miguel Pardeza Pichardo is a former Spanish footballer, who played as a forward. He was part of Real Madrid's generation of footballers known as Quinta del Buitre, but spent the better part of his career at Real Zaragoza.</description>
+            <TimeStamp>
+                <when>1965-02-08</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-6.550000190734863,37.38333511352539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Miguel Ángel Pérez</name>
+            <address>Argentina</address>
+            <description>Miguel Ángel Pérez Pilipiux (born 10 April 1942 in Buenos Aires) is a former Argentine professional footballer. He played as a forward.</description>
+            <TimeStamp>
+                <when>1942-04-10</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-58.38333511352539,-34.599998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Edwin Congo</name>
+            <address>Colombia</address>
+            <description>Edwin Arturo Congo Murillo (born October 7, 1976 in Bogotá) is a Colombian footballer. A striker, he bases his game in inexhaustive physical display, and played most of his professional career in Spain, appearing for a host of clubs in various league levels. He represented La Liga powerhouse Real Madrid, without any impact.</description>
+            <TimeStamp>
+                <when>1976-10-07</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-74.05000305175781,4.650000095367432</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rafael Alkorta</name>
+            <address>Spain</address>
+            <description>Rafael Alkorta Martínez is a former Spanish footballer, who played mainly as a central defender.</description>
+            <TimeStamp>
+                <when>1968-09-16</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Daniel Parejo</name>
+            <address>Spain</address>
+            <description>Daniel &quot;Dani&quot; Parejo Muñoz is a Spanish footballer who plays for Getafe CF, as a central midfielder.</description>
+            <TimeStamp>
+                <when>1989-04-16</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hipólito Rincón</name>
+            <address>Spain</address>
+            <description>Hipólito 'Poli' Rincón Povedano is a former Spanish footballer, who played as a striker. During a 12-year professional career, he played mainly for and Real Madrid and Real Betis, amassing La Liga totals of 239 games and 81 goals.</description>
+            <TimeStamp>
+                <when>1957-04-28</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Miguel Palanca</name>
+            <address>Tarragona</address>
+            <description>Miguel Palanca Fernández is a Spanish footballer who plays for Elche CF, mainly as a right winger - he can also play as a forward.</description>
+            <TimeStamp>
+                <when>1987-12-18</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>1.2495944499969482,41.11569595336914</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Juan Santisteban</name>
+            <address>Spain</address>
+            <description>Juan Santisteban Troyano (born 8 December 1936, Seville) is a former Spanish football (soccer) player who played for Real Madrid and was part of their European Cup victories in 1958 and 1959. He earned 7 caps for the Spain national football team. Santisteban is known mostly for solid success on Youth Teams he managed. He has numerous achievement with Spanish U-19, U-18, U-17 and U-16 teams since 1988 in different cups or tournaments.</description>
+            <TimeStamp>
+                <when>1936-08-12</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Luis Marín Sabater</name>
+            <address>Spain</address>
+            <description>Luis Marín Sabater (born 4 September 1906, date of death unknown) was a Spanish-Basque football player of the 1930s and 1940s. A native of the Basque town of Ordizia (since the 1979 Statute of Gernika, a part of autonomous Basque Country), he was a striker for Real Madrid between 1936 and 1941. Before joining Real Madrid, he was a player for Atletico Madrid.</description>
+            <TimeStamp>
+                <when>1906-09-04</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Oscar Más</name>
+            <address>Villa Ballester</address>
+            <description>Oscar Más (born October 29, 1946) is an Argentine former football striker. He played the majority of his career for River Plate, and is the club's second highest goalscorer of all-time. He was born in the city of Villa Ballester in the Buenos Aires Province of Argentina. He made his debut in the Argentine First Division at the age of 17 in 1964, with River Plate. He would go on to win two titles with River Plate, both the titles contested in 1975.</description>
+            <TimeStamp>
+                <when>1946-10-29</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-58.53333282470703,-34.516666412353516</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gheorghe Hagi</name>
+            <address>Romania</address>
+            <description>Gheorghe Hagi (born February 5, 1965 in Săcele), is a former Romanian football player. He was famous for his passing, close control, long shots and was regarded as one of the best attacking midfielders in Europe during the 1980s and 1990s. Nicknamed &quot;The Maradona of the Carpathians&quot;, he is considered a hero in his homeland as well as in Turkey. He has won his country's &quot;Player of the Year&quot; award six times, and is regarded as one of the best football players of the 20th century.</description>
+            <TimeStamp>
+                <when>1965-02-05</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>26.100000381469727,44.41666793823242</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bernd Schuster</name>
+            <address>West Germany</address>
+            <description>Bernhard Schuster (born 22 December 1959 in Augsburg) is a German football manager and former player, currently managing Turkish Super Lig side Beşiktaş. His nickname is &quot;der Blonde Engel&quot; (the Blonde Angel).</description>
+            <TimeStamp>
+                <when>1959-12-22</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>7.099999904632568,50.733333587646484</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Zinedine Zidane</name>
+            <address>France</address>
+            <description>Zinedine Yazid Zidane (born 23 June 1972) is a retired French World Cup-winning footballer of Kabyle Muslim heritage. Zidane played for club teams in France, Italy and Spain, and was the captain of the French national team. He is widely considered as one of the greatest players in the history of football. He was the iconic figure of a generation of French players that won the 1998 World Cup and 2000 European Championship.</description>
+            <TimeStamp>
+                <when>1972-06-23</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.0,47.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Francisco Gento</name>
+            <address>Spain</address>
+            <description>Francisco &quot;Paco&quot; Gento López is a former Spanish football player.</description>
+            <TimeStamp>
+                <when>1933-10-21</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Clarence Seedorf</name>
+            <address>Paramaribo</address>
+            <description>Clarence Clyde Seedorf (born 1 April 1976) is a Dutch footballer, who plays as a midfielder for Italian club A.C. Milan. Along with Samuel Eto'o he is one of only two players to win the Champions League with three different clubs (Ajax, Real Madrid and twice with Milan). He was born in Paramaribo, the capital of Suriname, but grew up in Amsterdam, the Netherlands.</description>
+            <TimeStamp>
+                <when>1976-04-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-55.16666793823242,5.866666793823242</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Michael Laudrup</name>
+            <address>Frederiksberg</address>
+            <description>Michael Laudrup (born 15 June 1964 in Frederiksberg) is a retired Danish footballer, who currently manages La Liga side RCD Mallorca. His most prominent run of football came with Spanish club Barcelona, with whom he won four straight La Liga championships. He famously moved to arch rivals Real Madrid in 1994, with whom he won his fifth La Liga title in a row.</description>
+            <TimeStamp>
+                <when>1964-06-15</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.533333778381348,55.66666793823242</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jerzy Dudek</name>
+            <address>Rybnik</address>
+            <description>Jerzy &quot;Jurek&quot; Dudek; born 23 March 1973 in Rybnik) is a Polish footballer who plays for Real Madrid in La Liga, as a goalkeeper. After beginning his career in his home country, he went on to have successful spells in Netherlands and England, winning the UEFA Champions League with Liverpool in 2005. He is his country's second-most capped goalkeeper with 59 caps.</description>
+            <TimeStamp>
+                <when>1973-03-23</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>18.549999237060547,50.08333206176758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Roberto Carlos (footballer)</name>
+            <address>Garça</address>
+            <description>Roberto Carlos da Silva Rocha commonly known as simply Roberto Carlos, is a Brazilian footballer. He was a member of the Brazil national team in three World Cups, helping the team reach the final in 1998 and win the 2002 tournament. He is also known for his trademark free kicks, explosive running speed and powerful curling banana trajectory shot. Roberto Carlos plays for Corinthians in Brazil.</description>
+            <TimeStamp>
+                <when>1973-04-10</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-49.6511116027832,-22.21527862548828</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Raúl Bravo</name>
+            <address>Spain</address>
+            <description>Raúl Bravo Sanfélix is a Spanish footballer who plays for Olympiacos F.C. in Greece. Mainly a left back, he can also play in the centre. Having played in almost all the youth ranks at Real Madrid, he went on to have a six-year spell in the first team, where he almost always served as a backup; however, it was during that period that he reached the Spanish national team.</description>
+            <TimeStamp>
+                <when>1981-04-14</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Héctor Rial</name>
+            <address>Argentina</address>
+            <description>José Héctor Rial Laguía (14 October 1928 – 24 February 1991) was a football player from Argentina who played for Real Madrid between 1954 and 1961. He was part of the team that won five consecutive European Cups. He played professional football in Argentina, Colombia, Uruguay, Spain, France and Chile as well as representing the Spain national football team on five occasions. Rial started playing professional football in 1947 with San Lorenzo de Almagro in the Primera Division Argentina.</description>
+            <TimeStamp>
+                <when>1928-10-14</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-58.38333511352539,-34.599998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Edgar Pacheco</name>
+            <address>Luanda</address>
+            <description>Edgar Patrício de Carvalho Pacheco (born 7 August 1977 in Luanda), simply Edgar, is a retired Angolan-Portuguese footballer, who played as a forward. After making his professional debuts with Benfica at the age of 18, he appeared irregularly for the club, and spent most of his later career in Spain where, after a lightning spell with Real Madrid, he spent several seasons representing Málaga CF.</description>
+            <TimeStamp>
+                <when>1977-08-07</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>13.234444618225098,-8.838333129882812</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Emerson Ferreira da Rosa</name>
+            <address>Pelotas</address>
+            <description>Émerson Ferreira da Rosa (born April 4, 1976), simply known as Emerson, is a Brazilian football midfielder, who is currently free agent. He has 73 caps for Brazil from 1997 to 2006. He has scored 6 goals for his team but since has retired from international football.</description>
+            <TimeStamp>
+                <when>1976-04-04</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-52.342498779296875,-31.771944046020508</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Félix Ruiz</name>
+            <address>Spain</address>
+            <description>Félix Ruiz Gabari (born 14 July 1940 in Olite, died 11 February 1993 in Madrid) was a Spanish footballer. During his career he played for CA Osasuna, Real Madrid and Toluca de Santander. He also earned 4 caps for the Spain national football team, and participated in the 1964 European Nations' Cup, where Spain were the champions.</description>
+            <TimeStamp>
+                <when>1940-07-14</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pedro Contreras</name>
+            <address>Spain</address>
+            <description>Pedro Contreras González, nicknamed El Koke (born 7 January 1972 in Madrid), is a former Spanish footballer, who played as a goalkeeper.</description>
+            <TimeStamp>
+                <when>1972-01-07</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Juan Alonso</name>
+            <address>Spain</address>
+            <description>Juan Adelarpe Alonso (13 December 1927 – 8 September 1994), sometimes called Juanito Alonso, was a Spanish footballer who played for Real Madrid and was part of their European Cup victories in 1956, 1957 and 1958. He earned 2 caps for the Spain national football team. Alonso won the Ricardo Zamora Trophy in the season 1954–55.</description>
+            <TimeStamp>
+                <when>1927-12-13</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Valdir Pereira</name>
+            <address>Rio de Janeiro (state)</address>
+            <description>Waldyr Pereira (October 8, 1928 &amp;ndash; May 12, 2001), nicknamed Didi, was a Brazilian football midfielder. He played in three World Cups: 1954, 1958, and 1962, winning the latter two. He is considered to be one of the greatest midfielders in the sport. He had accurate passing, stamina and strength. Born in Rio de Janeiro, he nearly had his right leg amputated when he was 14 due to a severe infection. He recovered and played for some clubs in Campos dos Goytacazes.</description>
+            <TimeStamp>
+                <when>1928-10-08</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-43.20000076293945,-22.899999618530273</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ricardo Zamora</name>
+            <address>Barcelona</address>
+            <description>Ricard Zamora i Martínez (21 January 1901 — 8 September 1978) was a Spanish footballer and manager. He played as a goalkeeper for, among others, RCD Espanyol, FC Barcelona and Real Madrid. As an international he played for both the Catalan XI and Spain. As a manager he won two La Liga titles with Atlético Aviación and briefly managed Spain.</description>
+            <TimeStamp>
+                <when>1901-01-21</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.183333396911621,41.38333511352539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Walter Samuel</name>
+            <address>Argentina</address>
+            <description>Wálter Adrián Samuel (born Wálter Adrián Luján; 23 March 1978) is an Argentine footballer who currently plays for Italian Serie A club Internazionale. He also holds a Spanish passport. Throughout his career he has been regarded as one of football's toughest defenders, with team-mate and Inter captain Javier Zanetti referring to him as the &quot;hardest player&quot; he has played with.</description>
+            <TimeStamp>
+                <when>1978-03-23</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-58.38333511352539,-34.599998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lassana Diarra</name>
+            <address>Paris</address>
+            <description>Lassana Diarra is a French footballer who currently plays for La Liga club Real Madrid. His predominant position is defensive midfielder but he can also play in a more advanced role and has played at right back, which he did for both his other former clubs Chelsea and for the national team. In Spain, he was known as Lass to distinguish him from Real Madrid teammate Mahamadou Diarra, to whom he is not related.</description>
+            <TimeStamp>
+                <when>1985-03-10</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.350832939147949,48.856666564941406</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mahamadou Diarra</name>
+            <address>Mali</address>
+            <description>Mahamadou Diarra (born 18 May 1981 in Bamako) is a Malian footballer who plays as a defensive midfielder for Real Madrid and is captain of the Mali national team.</description>
+            <TimeStamp>
+                <when>1981-05-18</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-8.0,12.649999618530273</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Júlio Baptista</name>
+            <address>São Paulo</address>
+            <description>Júlio César Baptista (born 1 October 1981) is a Brazilian footballer who currently plays for the Italian team A.S. Roma as an attacking midfielder. Baptista is often nicknamed &quot;The Beast&quot; due to his physique. Baptista began his career as a defensive midfielder and after a series of impressive performances for his home town squad, São Paulo, Baptista signed for Sevilla in 2003.</description>
+            <TimeStamp>
+                <when>1981-10-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-46.63333511352539,-23.549999237060547</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Juan Gómez González</name>
+            <address>Fuengirola</address>
+            <description>Juan Gómez González (born 10 November 1954 in Fuengirola, Málaga; died 2 April 1992 in Calzada de Oropesa, Toledo), aka Juanito, was a Spanish footballer, who played as a forward. A player with tremendous dribbling ability whose career was overshadowed by a fierce character, Juanito was best known for his Real Madrid years. He died in a road accident at only 37. Growing up, Juanito supported Real Zaragoza, but as he approached his adulthood he began supporting Real Madrid.</description>
+            <TimeStamp>
+                <when>1954-11-10</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-4.625,36.53333282470703</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sandro (Spanish footballer)</name>
+            <address>Spain</address>
+            <description>Carlos Alejandro Sierra Fumero, aka Sandro, is a former Spanish professional footballer, who played as an attacking midfielder.</description>
+            <TimeStamp>
+                <when>1974-10-14</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Uli Stielike</name>
+            <address>West Germany</address>
+            <description>Ulrich &quot;Uli&quot; Stielike is a German football manager and former player.</description>
+            <TimeStamp>
+                <when>1954-11-15</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>7.099999904632568,50.733333587646484</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bodo Illgner</name>
+            <address>Koblenz</address>
+            <description>Bodo Illgner (born April 7, 1967) is a retired German footballer, who played as a goalkeeper. During his career, he played for 1. FC Köln and Real Madrid, and helped West Germany to the 1990 World Cup, where he became the first goalkeeper to keep a clean sheet in a World Cup final.</description>
+            <TimeStamp>
+                <when>1967-04-07</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>7.597777843475342,50.35972213745117</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Claude Makélélé</name>
+            <address>Zaire</address>
+            <description>Claude Makélelé Sinda (born 18 February 1973) is a French international football player who currently plays as a defensive midfielder for Paris Saint-Germain in Ligue 1. Prior to joining Paris Saint-Germain, Makélélé played for Nantes, Olympique de Marseille, Celta Vigo, Real Madrid, and Chelsea.</description>
+            <TimeStamp>
+                <when>1973-02-18</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>15.399999618530273,-4.400000095367432</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Christian Karembeu</name>
+            <address>New Caledonia</address>
+            <description>Christian Karembeu is a retired French association football player and current scout for Arsenal FC. He is currently a non-executive director of Grandtop International Holdings Limited, which recently took over Birmingham City. He is also part of a Paris-based consortium to expand the A-League with a Pacific Island team.</description>
+            <TimeStamp>
+                <when>1970-12-03</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>165.02000427246094,-20.992000579833984</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Freddy Rincón</name>
+            <address>Colombia</address>
+            <description>Freddy Eusebio Rincón Valencia, is a retired Colombian football midfielder who played 84 games for the Colombia national team between 1990 and 2001</description>
+            <TimeStamp>
+                <when>1966-08-14</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-74.05000305175781,4.650000095367432</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Robert Jarni</name>
+            <address>Čakovec</address>
+            <description>Robert Jarni (born 26 October 1968 in Čakovec) is a retired Croatian footballer who played as left winger or wingback. He is now a manager, but is currently without a club after resigning from his managerial post at Istra 1961 in September 2010. Jarni started his professional career with Hajduk Split in 1986, and went on to spend 10 years playing for various clubs in Italy and Spain before finishing his career as a player in Greece with Panathinaikos in 2002.</description>
+            <TimeStamp>
+                <when>1968-10-26</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>16.43332862854004,46.385963439941406</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Zé Roberto</name>
+            <address>São Paulo (state)</address>
+            <description>José Roberto da Silva Jr. (born 6 July 1974 in Ipiranga), commonly known as Zé Roberto, is a Brazilian footballer who plays for Hamburger SV in the German Bundesliga.</description>
+            <TimeStamp>
+                <when>1974-07-06</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-46.63333511352539,-23.53333282470703</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Borja Valero</name>
+            <address>Spain</address>
+            <description>Borja Valero Iglesias (born 12 January 1985 in Madrid) is a Spanish footballer who plays for Villarreal CF on loan from West Bromwich Albion, as a central midfielder.</description>
+            <TimeStamp>
+                <when>1985-01-12</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Carlos Sánchez García</name>
+            <address>Spain</address>
+            <description>Carlos Sánchez García (born January 18, 1978 in Madrid) is a Spanish footballer currently playing with CD Castellón in the Spanish second division, as a goalkeeper.</description>
+            <TimeStamp>
+                <when>1978-01-18</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Klaas-Jan Huntelaar</name>
+            <address>Achterhoek</address>
+            <description>Klaas-Jan Huntelaar, nicknamed The Hunter, is a Dutch professional footballer who currently plays as a striker for Schalke 04 and internationally for the Dutch national team. Huntelaar is a prolific striker with technique and athleticism and has been compared in style to players such as Marco van Basten and Ruud van Nistelrooy.</description>
+            <TimeStamp>
+                <when>1983-08-12</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>6.396789073944092,52.004329681396484</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Francisco Buyo</name>
+            <address>Spain</address>
+            <description>Francisco 'Paco' Buyo Sánchez is a former Spanish footballer, who played as a goalkeeper. Best known for his Sevilla FC and Real Madrid spells, he appeared in 542 first division matches, third all-time highest.</description>
+            <TimeStamp>
+                <when>1958-01-13</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pepe (footballer born 1983)</name>
+            <address>Maceió</address>
+            <description>Képler Laveran Lima Ferreira (born 26 February 1983), commonly known as Pepe, is a Brazilian-born Portuguese footballer who currently plays as a central defender for Spanish La Liga club Real Madrid, and the Portugal national football team.</description>
+            <TimeStamp>
+                <when>1983-02-26</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-35.73749923706055,-9.665833473205566</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Roberto Soldado</name>
+            <address>Spain</address>
+            <description>Roberto Soldado Rillo (born 27 May 1985) is a Spanish footballer who plays for Valencia CF, as a striker.</description>
+            <TimeStamp>
+                <when>1985-05-27</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>José Iglesias Fernández</name>
+            <address>Spain</address>
+            <description>José Iglesias Fernández (23 December 1926 - 12 July 2007), nicknamed Joseíto was a Spanish footballer. He played for Real Madrid and was part of their European Cup victories in 1956, 1957, 1958 and 1959, although he only played in the finals of 1956 and 1958. He also won 4 Spanish league titles with Real Madrid and played once for the Spain national football team in 1952 against Germany.</description>
+            <TimeStamp>
+                <when>1926-12-23</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mesut Özil</name>
+            <address>West Germany</address>
+            <description>Mesut Özil (born 15 October 1988) is a German footballer who plays for Spanish La Liga club Real Madrid and for the German national team. Özil has been a youth national team member since 2006, when he debuted for first professional league season and a member of the German national team since 2009. He gained international attention during the 2010 FIFA World Cup and was nominated for the Golden Ball Award which is awarded to the tournament's best player.</description>
+            <TimeStamp>
+                <when>1988-10-15</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>7.099999904632568,50.733333587646484</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iván Campo</name>
+            <address>Basque Country (autonomous community)</address>
+            <description>Iván Campo Ramos is a retired Spanish footballer. Originally a central defender, Campo featured in a defensive midfield role in his later years. He represented Real Madrid and played with the Spanish national team, and is also remembered for his spell in England with Bolton Wanderers.</description>
+            <TimeStamp>
+                <when>1974-02-21</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-2.683333396911621,42.83333206176758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rubén de la Red</name>
+            <address>Móstoles</address>
+            <description>Rubén de la Red Gutiérrez is a Spanish footballer, who plays as a central midfielder. He made a name for himself at Getafe CF after emerging through Real Madrid's cantera. Returning to his first club in 2008, he suffered a serious heart ailment which put his career on hold for several years. Additionally, de la Red was part of Spain's squad at the victorious UEFA Euro 2008 tournament.</description>
+            <TimeStamp>
+                <when>1985-06-05</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.865000009536743,40.322776794433594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jordi Codina</name>
+            <address>Barcelona</address>
+            <description>Jordi Codina Rodríguez is a Spanish footballer who plays for Getafe CF, as a goalkeeper.</description>
+            <TimeStamp>
+                <when>1982-04-27</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.183333396911621,41.38333511352539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>José Santamaría</name>
+            <address>Montevideo</address>
+            <description>José Emilio Santamaría Iglesias (born 31 July 1929) is an Spanish-Uruguayan former football player and coach. He is regarded by many as one of the all-time greatest central defenders. A strong, uncompromising player, he is one of the relatively few players to star for two national football teams.</description>
+            <TimeStamp>
+                <when>1929-07-31</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-56.16666793823242,-34.88333511352539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Antonio Adán</name>
+            <address>Spain</address>
+            <description>Antonio Adán Garrido (born 13 May 1987 in Madrid) is a Spanish footballer who plays for Real Madrid, as a goalkeeper.</description>
+            <TimeStamp>
+                <when>1987-05-13</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Juan Lozano</name>
+            <address>Spain</address>
+            <description>Juan Lozano Bohórquez is a retired Spanish footballer, who played as an attacking midfielder.</description>
+            <TimeStamp>
+                <when>1955-08-30</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Peter Dubovský</name>
+            <address>Bratislava</address>
+            <description>Peter Dubovský (May 7, 1972 – June 23, 2000) was a football striker from Slovakia. He debuted for the Czechoslovakian national team in 1991, at the age of 19. He scored 6 goals in 14 matches before Czechoslovakia was dissolved, and representing the new Slovak team he became their record scorer with 12 goals in 33 caps (the record has since been broken by Szilárd Németh). His club career started in FK Vinohrady Bratislava, and eventually got a transfer to ŠK Slovan Bratislava.</description>
+            <TimeStamp>
+                <when>1972-05-07</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>17.109722137451172,48.143890380859375</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>José Berraondo</name>
+            <address>Spain</address>
+            <description>José Angel Berraondo Insausti (born 4 November 1878 in San Sebastián) was a Spanish soccer player and manager. He coached Real Madrid for 2 years during 1927-29 period.</description>
+            <TimeStamp>
+                <when>1878-11-04</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Chendo</name>
+            <address>Spain</address>
+            <description>Miguel Porlán Noguera, nicknamed Chendo, is a former Spanish footballer, who played as a right defender. He spent his entire professional career with Real Madrid, also being a member of the Spanish national team.</description>
+            <TimeStamp>
+                <when>1961-10-12</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Quique Sánchez Flores</name>
+            <address>Spain</address>
+            <description>Enrique &quot;Quique&quot; Sánchez Flores (born 2 February 1965 in Madrid) is a retired Spanish footballer who played as a right back, and the current manager of Atlético Madrid.</description>
+            <TimeStamp>
+                <when>1965-02-02</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rubén González Rocha</name>
+            <address>Santiago de Compostela</address>
+            <description>Rubén González Rocha, simply Rubén (born 29 January 1982 in Conxo, Santiago de Compostela, Galicia), is a Spanish footballer who plays for RCD Mallorca in the Spanish first division, as a central defender.</description>
+            <TimeStamp>
+                <when>1982-01-29</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-8.546302795410156,42.88044738769531</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>César Sánchez</name>
+            <address>Spain</address>
+            <description>César Sánchez Domínguez, (born 2 September 1971), known as César or Sánchez, is a Spanish footballer who plays for Valencia CF, as a goalkeeper.</description>
+            <TimeStamp>
+                <when>1971-09-02</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>David Aganzo</name>
+            <address>Spain</address>
+            <description>David Aganzo Méndez (born January 10, 1981 in Madrid) is a Spanish footballer who plays for Rayo Vallecano, as a striker.</description>
+            <TimeStamp>
+                <when>1981-01-10</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Maicon Douglas Sisenando</name>
+            <address>Novo Hamburgo</address>
+            <description>Maicon Douglas Sisenando (born 26 July 1981 in Novo Hamburgo), commonly known as Maicon, is a Brazilian football player, who currently plays as a right back for Internazionale.</description>
+            <TimeStamp>
+                <when>1981-07-26</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-51.13333511352539,-29.683332443237305</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>José Manuel Ochotorena</name>
+            <address>Spain</address>
+            <description>José Manuel Ochotorena Santacruz is a retired Spanish footballer, who played as a goalkeeper.</description>
+            <TimeStamp>
+                <when>1961-01-16</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Adolfo Aldana</name>
+            <address>Spain</address>
+            <description>Adolfo Aldana Torres (born January 5, 1966 in San Roque, Cádiz) is a former Spanish footballer, who played as a right midfielder.</description>
+            <TimeStamp>
+                <when>1966-01-05</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ramón Grosso</name>
+            <address>Spain</address>
+            <description>Ramón Moreno Grosso (8 December 1943 – 13 February 2002) was a Spanish footballer who played for Real Madrid and was part of their European Cup victory in 1966. He earned 14 caps for the Spain national football team.</description>
+            <TimeStamp>
+                <when>1943-12-08</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Juan Francisco Torres</name>
+            <address>Crevillent</address>
+            <description>Juan Francisco Torres Belén, aka Juanfran, is a Spanish footballer who plays for CA Osasuna, as a right winger.</description>
+            <TimeStamp>
+                <when>1985-01-09</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-0.8088889122009277,38.24861145019531</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jacinto Quincoces</name>
+            <address>Barakaldo</address>
+            <description>Jacinto Francisco Fernández de Quincoces y López de Arbina (Barakaldo, 17 July 1905 &amp;mdash; Valencia, 10 May 1997) was a Spanish football player and manager, as well as President of the Valencian Pilota Federation. He played 25 matches for the Spain national football team from 1928 to 1936, and was part of Spain's 1934 FIFA World Cup team. He was Spain's national coach in 1945, taking charge for two matches.</description>
+            <TimeStamp>
+                <when>1905-07-17</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-2.991666555404663,43.29722213745117</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jaime Lazcano</name>
+            <address>Spain</address>
+            <description>Jaime Lazcano Escolá (December 30, 1909 - June 1, 1983), was a Spanish footballer who played for Real Madrid, Atletico Madrid and Spain during the 1920s and 1930s. He scored the first ever La Liga goal for Real Madrid on 10 February 1929.</description>
+            <TimeStamp>
+                <when>1909-12-30</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jaime Sánchez Fernández</name>
+            <address>Spain</address>
+            <description>Jaime Sánchez Fernández, simply Jaime (born 20 March 1973 in Madrid), is a former Spanish footballer, who played as a defensive midfielder.</description>
+            <TimeStamp>
+                <when>1973-03-20</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Marcelo Vieira</name>
+            <address>Rio de Janeiro</address>
+            <description>Marcelo Vieira da Silva Júnior (born 12 May 1988) is a Brazilian footballer who plays for Real Madrid and the Brazil national football team. Mainly a defender, he can also operate as a midfielder, always on the left side of the pitch.</description>
+            <TimeStamp>
+                <when>1988-05-12</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-43.196388244628906,-22.90833282470703</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Luis Molowny</name>
+            <address>Spain</address>
+            <description>Luis Molowny Arbelo (May 12, 1925 &amp;ndash; February 12, 2010) was a Spanish football (soccer) striker and coach.</description>
+            <TimeStamp>
+                <when>1925-05-12</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jonathan Pérez Olivero</name>
+            <address>Spain</address>
+            <description>Jonathan Pérez Olivero, aka Jotha, is a Spanish footballer who currently plays for UD Lanzarote of the Spanish third division, mainly as a right winger.</description>
+            <TimeStamp>
+                <when>1982-06-06</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Juan Esnáider</name>
+            <address>Argentina</address>
+            <description>Juan Eduardo Esnáider is a retired Argentine footballer, in the striker position. His surname is a Spanish spelling reform of the German Schneider, which means &quot;tailor&quot;. Esnáider is of Volga German and Spanish descent. Having spent most of his professional career in Spain, he was known as a powerful offensive player (an excellent aerial game) with a fierce character.</description>
+            <TimeStamp>
+                <when>1973-03-05</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-58.38333511352539,-34.599998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Julen Lopetegui</name>
+            <address>Spain</address>
+            <description>Julen Lopetegui Argote (born August 28, 1966) is a former Spanish football goalkeeper, and a current manager.</description>
+            <TimeStamp>
+                <when>1966-08-28</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Manuel Olivares</name>
+            <address>Son Servera</address>
+            <description>Manuel Olivares Lapeña (April 2, 1909 &amp;ndash; February 12, 1975) was a Spanish footballer who played for Deportivo Alavés, Madrid CF, Donostia CF, Zaragoza CF, Hércules CF, CD Málaga, Algeciras CF and also for Spain. He was the Pichichi of 1932-33 La Liga, the first Real Madrid player ever to win the trophy. He died on February 12, 1975.</description>
+            <TimeStamp>
+                <when>1909-04-02</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>3.3499999046325684,39.61666488647461</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lucien Muller</name>
+            <address>Bas-Rhin</address>
+            <description>Lucien Muller-Schmidt (born September 3, 1934) is a former French footballer and manager born in Bischwiller who played as a midfielder. He was part of France at FIFA World Cup 1966 but did not play any match.</description>
+            <TimeStamp>
+                <when>1934-09-03</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>7.7833333015441895,48.81666564941406</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Luis del Sol</name>
+            <address>Arcos de Jalón</address>
+            <description>Luis del Sol Cascajares is a former Spanish footballer. During his career, he played for Real Betis (1954–1960, 1972–1973), Real Madrid (1960–1962), Juventus (1962–1970) and A.S. Roma (1970–1972). He won the 1959–60 European Cup with Real Madrid. He earned 16 caps and scored 3 goals for the Spain national team, and played in the 1962 and 1966 World Cups. He was also part of the champion squad at the 1964 European Football Championship, although he did not play in the final phase.</description>
+            <TimeStamp>
+                <when>1935-04-06</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-2.2666666507720947,41.21666717529297</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Albano Bizzarri</name>
+            <address>Argentina</address>
+            <description>Albano Benjamín Bizzarri is an Argentine footballer who plays for Serie A side S.S. Lazio, as a goalkeeper. He also holds an Italian passport.</description>
+            <TimeStamp>
+                <when>1977-11-09</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-58.38333511352539,-34.599998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pedro Mosquera</name>
+            <address>Spain</address>
+            <description>Pedro Mosquera Parada is a Spanish footballer who plays for Getafe CF in La Liga, as a midfielder.</description>
+            <TimeStamp>
+                <when>1988-04-21</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Álvaro Morata</name>
+            <address>Spain</address>
+            <description>Álvaro Borja Morata Martín (born 23 October 1992 in Madrid) is a Spanish footballer who plays for Real Madrid Castilla.</description>
+            <TimeStamp>
+                <when>1992-10-23</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pedro León</name>
+            <address>Spain</address>
+            <description>Pedro León Sánchez Gil (born 24 November 1986), known as León, is a Spanish footballer who plays for Real Madrid, as a right winger.</description>
+            <TimeStamp>
+                <when>1986-11-24</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rafael García Cortés</name>
+            <address>Spain</address>
+            <description>Rafael García Cortés (born 18 January 1958 in Madrid) is a former Spanish footballer, who played as a defender.</description>
+            <TimeStamp>
+                <when>1958-01-18</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Roque Olsen</name>
+            <address>Argentina</address>
+            <description>Roque Germán Olsen Fontana commonly known as Roque Olsen (9 September, 1925 – 15 June 1992) was an Argentine football player and manager.</description>
+            <TimeStamp>
+                <when>1925-09-09</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-58.38333511352539,-34.599998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Louis Hon</name>
+            <address>France</address>
+            <description>Louis Hon (11 September 1924 &amp;ndash; 5 January 2008) was a French football defender and manager. He notably played for Real Madrid.</description>
+            <TimeStamp>
+                <when>1924-09-11</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.0,47.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Luis Milla</name>
+            <address>Spain</address>
+            <description>Luis Milla Aspas is a retired Spanish footballer, and a current coach. The central midfielder represented three teams - including both FC Barcelona and Real Madrid - during a 16 year-professional career.</description>
+            <TimeStamp>
+                <when>1966-03-12</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Miquel Soler</name>
+            <address>Spain</address>
+            <description>Miquel Soler Sararols is a retired Spanish footballer. Mainly a left defender who could also operate in midfield, his career spanned two Spanish first division decades, and he was the only player to represent both Barcelona and Madrid main teams.</description>
+            <TimeStamp>
+                <when>1965-03-13</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gabriel Alonso</name>
+            <address>Spain</address>
+            <description>Gabriel Alonso Aristeaguirre is a former football player who took part in the 1950 FIFA World Cup.</description>
+            <TimeStamp>
+                <when>1923-11-09</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pablo Gabriel García</name>
+            <address>Uruguay</address>
+            <description>Pablo Gabriel García Pérez is a Uruguayan footballer who currently plays for PAOK FC, as a defensive midfielder. A player of physical approach to the game (which earned him a reputation for being a dirty player), García's nickname is Canario, referring to his birthplace.</description>
+            <TimeStamp>
+                <when>1977-05-11</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-56.16666793823242,-34.88333511352539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>José Vicente Train</name>
+            <address>Barcelona</address>
+            <description>José Vicente Train (born 19 December 1931 in Barcelona) is a retired Spanish football goalkeeper. During his career he played for RCD Espanyol, Real Madrid, RCD Mallorca and Deportivo de La Coruña. He also earned 7 caps for the Spain national football team, and participated in the 1964 European Nations' Cup, where Spain were the champions.</description>
+            <TimeStamp>
+                <when>1931-12-19</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.183333396911621,41.38333511352539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Luis Olaso</name>
+            <address>Spain</address>
+            <description>Luis Olaso Anabitarte (born 15 August 1900 in Villabona, Guipúzcoa - Dead 1982), is a former Spanish footballer. Luis Olaso played for Atlético de Madrid and Real Madrid. He played 4 matches for the Spain national football team from 1921 to 1927</description>
+            <TimeStamp>
+                <when>1900-08-15</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Juan José Jiménez Collar</name>
+            <address>Spain</address>
+            <description>Juan José Jiménez Collar (born 29 July 1957), known as Juan José, is a former Spanish footballer, who played as a right defender. Nicknamed Sandokan, due to striking similarities with the fictional character, he is mainly associated with Cádiz CF, but also played three years for Real Madrid, appearing in 233 La Liga matches in exactly 10 seasons.</description>
+            <TimeStamp>
+                <when>1957-07-29</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fran Rico</name>
+            <address>Spain</address>
+            <description>Francisco Manuel Rico Castro (born 3 August 1987 in Portonovo) is a Spanish footballer who plays for Real Madrid Castilla.</description>
+            <TimeStamp>
+                <when>1987-08-03</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Carlos Aranda</name>
+            <address>Spain</address>
+            <description>Carlos Reina Aranda is a Spanish footballer who plays for CA Osasuna, mainly as a forward.</description>
+            <TimeStamp>
+                <when>1980-07-27</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Juan Carlos Pérez López</name>
+            <address>Spain</address>
+            <description>Juan Carlos Pérez López (born 30 March 1990) is a Spanish footballer currently playing for Real Madrid Castilla as a winger.</description>
+            <TimeStamp>
+                <when>1990-03-30</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Luis Miguel Ramis</name>
+            <address>Tarragona</address>
+            <description>Luis Miguel Ramis Monfort is a former Spanish footballer, who played mainly as a central defender.</description>
+            <TimeStamp>
+                <when>1970-07-25</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>1.2495944499969482,41.11569595336914</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sergio Canales</name>
+            <address>Spain</address>
+            <description>Sergio Canales Madrazo (born 16 February 1991 in Santander, Cantabria) is a Spanish footballer who plays for Real Madrid, as an attacking midfielder.</description>
+            <TimeStamp>
+                <when>1991-02-16</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Justo Tejada</name>
+            <address>Barcelona</address>
+            <description>Justo Tejada Martínez (born 6 January 1933 in Barcelona) is a former Spanish footballer. He was capped by Spain 8 games scoring 4 goals.</description>
+            <TimeStamp>
+                <when>1933-01-06</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.183333396911621,41.38333511352539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Marcos Alonso Mendoza</name>
+            <address>Spain</address>
+            <description>Marcos Alonso Mendoza (born 28 December 1990) is a Spanish footballer who plays for Bolton Wanderers in the Premier League. On the left side of the field, he can play as both a defender or a midfielder.</description>
+            <TimeStamp>
+                <when>1990-12-28</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Antonio Gómez Pérez</name>
+            <address>Spain</address>
+            <description>Antonio Gómez Pérez (born August 1, 1973) is a retired Spanish football midfielder, and the current coach of Real Valladolid.</description>
+            <TimeStamp>
+                <when>1973-08-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Juan Bautista Agüero</name>
+            <address>Paraguay</address>
+            <description>Juan Bautista Agüero Sánchez (born June 24, 1935 in Paraguay) is a former football striker.</description>
+            <TimeStamp>
+                <when>1935-06-24</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-57.66666793823242,-25.266666412353516</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gregorio Benito</name>
+            <address>Spain</address>
+            <description>Gregorio &quot;Goyo&quot; Benito Rubio is a former Spanish footballer who played for Real Madrid and Rayo Vallecano. Benito made 420 appearances for Real Madrid from 1968 to 1982. During those years, he won 6 La Liga titles and 5 Spanish Cups. He earned 22 caps for the Spain national football team and was in the squad for the 1968 Summer Olympics.</description>
+            <TimeStamp>
+                <when>1946-10-31</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Francisco Pineda</name>
+            <address>Spain</address>
+            <description>Francisco Pineda García is a retired Spanish footballer, who played as a forward.</description>
+            <TimeStamp>
+                <when>1959-01-31</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Agustín Rodríguez Santiago</name>
+            <address>Spain</address>
+            <description>Agustín Rodríguez Santiago, simply Agustín, is a former Spanish footballer, who played as a goalkeeper.</description>
+            <TimeStamp>
+                <when>1959-09-10</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sebastián Losada</name>
+            <address>Spain</address>
+            <description>Sebastián Losada Bestard (born September 3, 1967 in Madrid) is a retired Spanish footballer, who played as a striker.</description>
+            <TimeStamp>
+                <when>1967-09-03</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Juanmi García</name>
+            <address>Spain</address>
+            <description>Juan Miguel García Inglés, aka &quot;Juanmi&quot; (born March 9, 1971), is a former Spanish footballer, who played as a goalkeeper.</description>
+            <TimeStamp>
+                <when>1971-03-09</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Francisco Llorente Gento</name>
+            <address>Valladolid</address>
+            <description>Francisco 'Paco' Llorente Gento is a former Spanish footballer, who played mostly as a right winger. The nephew of legendary Real Madrid's Francisco Gento (also a winger), he also represented the other side from the city, Atlético.</description>
+            <TimeStamp>
+                <when>1965-05-21</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-4.7166666984558105,41.63333511352539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Manuel Tena</name>
+            <address>Spain</address>
+            <description>Manuel Tena López is a Spanish footballer. He plays as a central defender.</description>
+            <TimeStamp>
+                <when>1978-02-03</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Manuel Alday Marticorena</name>
+            <address>Spain</address>
+            <description>Manuel Alday Marticorena (5 September 1917), was a Spanish footballer who played for Real Madrid.</description>
+            <TimeStamp>
+                <when>1917-09-05</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Juan Francisco Moreno Fuertes</name>
+            <address>Spain</address>
+            <description>Juan Francisco Moreno Fuertes (born 11 September 1988 in Palma de Mallorca) is a Spanish footballer who plays for Real Madrid Castilla. Mainly a Winger, he can also play as a Striker. Juanfran made his Primera División debut with the first team on May 2, 2010 in a match against Osasuna at the Bernabeu in which Madrid won 3-2. He came in the last five minutes as a substitute for the Argentine Fernando Gago.</description>
+            <TimeStamp>
+                <when>1988-09-11</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Víctor Torres Mestre</name>
+            <address>Spain</address>
+            <description>Víctor Manuel Torres Mestre (born December 31, 1970 in Madrid) is a former Spanish footballer, who played as a left defender.</description>
+            <TimeStamp>
+                <when>1970-12-31</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Julio Álvarez</name>
+            <address>Venezuela</address>
+            <description>Julio Álvarez Mosquera (born May 1, 1981 in Caracas) is a Venezuelan-Spanish professional footballer who plays for CD Tenerife in the Spanish second division, mainly as an attacking midfielder.</description>
+            <TimeStamp>
+                <when>1981-05-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-66.96666717529297,10.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Juan Carlos Mandiá</name>
+            <address>Spain</address>
+            <description>Juan Carlos Mandiá Lorenzo (born January 17, 1967) is a former Spanish football defender, and a current manager.</description>
+            <TimeStamp>
+                <when>1967-01-17</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lionnel Franck Djimgou</name>
+            <address>Yaoundé</address>
+            <description>Lionnel Franck Djimgou Tchoumbou (born March 27, 1989 in Yaoundé) is a Cameroonian football player, who currently plays for FC Daugava.</description>
+            <TimeStamp>
+                <when>1989-03-27</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>11.516666412353516,3.866666555404663</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>John Fox Watson</name>
+            <address>Scotland</address>
+            <description>John Fox Watson (31 December 1917 - 1976) was a Scottish football player, believed to be the only Scottish player in Real Madrid's history. He was one of the first players from the British Isles to sign for a high-profile side abroad, leading the way for players like John Charles, Jimmy Greaves and Denis Law in the following decades.</description>
+            <TimeStamp>
+                <when>1917-12-31</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.200000047683716,55.95000076293945</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Alberto Vitoria</name>
+            <address>Spain</address>
+            <description>Alberto Vitoria Soria (11 January 1956 &amp;ndash; 26 April 2010) was a Spanish professional footballer who played as a midfielder for Real Madrid, Burgos, Granada and Rayo Vallecano. Vitoria also represented Spain at the 1976 Summer Olympics.</description>
+            <TimeStamp>
+                <when>1956-01-11</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

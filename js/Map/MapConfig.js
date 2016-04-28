@@ -83,18 +83,6 @@ function MapConfig(options) {
 					attribution: "© <a href='http://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units'>EuroGeographics for the administrative boundaries</a>"
 				},
 				{
-					name: 'Historical map of 1994 (affin)',
-					url: gsurl + '/historic/wms',
-					layer: 'historic:affin_cntry1994',
-					attribution: "© <a href='https://web.archive.org/web/20091012051813/http://library.thinkquest.org/C006628'>ThinkQuest Team C006628</a>"
-				},
-				{
-					name: 'Historical map of 1994 (move)',
-					url: gsurl + '/historic/wms',
-					layer: 'historic:move_cntry1994',
-					attribution: "© <a href='https://web.archive.org/web/20091012051813/http://library.thinkquest.org/C006628'>ThinkQuest Team C006628</a>"
-				},
-				{
 					name: 'Historical map of 1994',
 					url: gsurl + '/historic/wms',
 					layer: 'historic:cntry1994',

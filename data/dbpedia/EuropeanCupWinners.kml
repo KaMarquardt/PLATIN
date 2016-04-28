@@ -1,0 +1,2733 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Folder>
+        <Placemark>
+            <name>Dino Zoff</name>
+            <address>Italy</address>
+            <description>Dino Zoff (born February 28, 1942 in Mariano del Friuli) is an Italian former football goalkeeper and is the oldest winner ever of the World Cup, which he earned as captain of the Italian team in the 1982 tournament in Spain, at the age of 40. Zoff was a goalkeeper of outstanding ability and has a place in the history of the sport among the very best in this role, being named the 3rd greatest goalkeeper of the 20th century by the IFFHS behind Lev Yashin and Gordon Banks.</description>
+            <TimeStamp>
+                <when>1942-02-28</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.483333587646484,41.900001525878906</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bixente Lizarazu</name>
+            <address>Saint-Jean-de-Luz</address>
+            <description>Bixente Lizarazu (born Vincent Lizarazu on 9 December 1969 in Saint-Jean-de-Luz) is a former football left defender who played most notably for Girondins de Bordeaux and Bayern Munich, as well as the French national team.</description>
+            <TimeStamp>
+                <when>1969-12-09</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-1.6586110591888428,43.391109466552734</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Brian Laudrup</name>
+            <address>Austria</address>
+            <description>Brian Laudrup (born 22 February 1969) is a Danish former football player who is a commentator for TV3+ and runs a youth coaching camp. Married to Mette and has a son, Nicolai, and a daughter, Rasmine. During his active career, Laudrup represented a number of European clubs. He started his active career with Danish club Brøndby, winning two Danish championships in the late 1980s. He then played for German and Italian clubs, winning the 1994 Serie A title with AC Milan.</description>
+            <TimeStamp>
+                <when>1969-02-22</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>16.350000381469727,48.20000076293945</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Christophe Dugarry</name>
+            <address>Gironde</address>
+            <description>Christophe Jérôme Dugarry (born March 24, 1972) is a former French footballer. His clubs include Bordeaux, Milan, Barcelona, Marseille, Birmingham City and Qatar SC. He was also a member of the France side that won the 1998 World Cup and Euro 2000.</description>
+            <TimeStamp>
+                <when>1972-03-24</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>0.6666666865348816,44.83333206176758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lev Yashin</name>
+            <address>Soviet Union</address>
+            <description>Lev Ivanovich Yashin (22 October 1929 – 20 March 1990) nicknamed as &quot;The Black Spider&quot;, was a Russian-Soviet football goalkeeper, considered by many to be the greatest goalkeeper in the history of the game. He was known for his superior athleticism in goal, imposing stature, amazing reflex saves and inventing the idea of goalkeeper sweeping. Yashin was voted the best goalkeeper of the 20th century by the IFFHS.</description>
+            <TimeStamp>
+                <when>1929-10-22</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>37.61666488647461,55.75</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Emmanuel Petit</name>
+            <address>Dieppe, Seine-Maritime</address>
+            <description>Emmanuel &quot;Manu&quot; Laurent Petit (born 22 September 1970 in Dieppe, Seine-Maritime) is a retired French footballer, who played his club football for Monaco, Arsenal, Barcelona, and Chelsea. He represented France at international level, and scored the third goal in France's 3-0 victory in the 1998 FIFA World Cup Final.</description>
+            <TimeStamp>
+                <when>1970-09-22</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>1.0786000490188599,49.92219924926758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gerd Müller</name>
+            <address>Germany</address>
+            <description>Gerhard &quot;Gerd&quot; Müller (born 3 November 1945 in Nördlingen) is a former German football player and one of the most prolific goalscorers of all time. With national records of 68 goals in 62 international appearances, 365 goals in 427 Bundesliga games and the international record of 66 goals in 74 European Club games, he was one of the most successful goalscorers of his era.</description>
+            <TimeStamp>
+                <when>1945-11-03</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>13.383333206176758,52.516666412353516</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Oliver Bierhoff</name>
+            <address>Karlsruhe</address>
+            <description>Oliver Bierhoff (born May 1, 1968 in Karlsruhe) is a retired German former football striker, who scored the first golden goal in the history of major international football, for Germany in the Euro 96 final. He is mostly renowned for his excellent abilities as a target man being able to deliver pin-point headers towards goal.</description>
+            <TimeStamp>
+                <when>1968-05-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>8.399999618530273,49.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Thierry Henry</name>
+            <address>Paris</address>
+            <description>Thierry Daniel Henry (born 17 August 1977) is a French professional footballer who plays for the New York Red Bulls in Major League Soccer. Henry was born in Les Ulis, Essonne (a suburb of Paris) where he played for an array of local sides as a youngster and showed great promise as a goal-scorer. He was spotted by AS Monaco in 1990 and signed instantly, making his professional debut in 1994.</description>
+            <TimeStamp>
+                <when>1977-08-17</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.350832939147949,48.856666564941406</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Oliver Kahn</name>
+            <address>Karlsruhe</address>
+            <description>Oliver Rolf Kahn (born 15 June 1969) is a former German football goalkeeper. He started his career at Karlsruher SC and in 1994 was transferred to Bayern Munich, his last professional club. He is one of the most successful German players in recent history, having won eight German championships, six German cups, the UEFA Cup (1996), the UEFA Champions League and the Intercontinental Cup (both 2001).</description>
+            <TimeStamp>
+                <when>1969-06-15</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>8.399999618530273,49.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sepp Maier</name>
+            <address>Germany</address>
+            <description>Josef Dieter &quot;Sepp&quot; Maier (born 28 February 1944) is a German former professional football goalkeeper. His nickname was &quot;Die Katze von Anzing&quot; (&quot;the cat from Anzing&quot;) for his fast reflexes.</description>
+            <TimeStamp>
+                <when>1944-02-28</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>13.383333206176758,52.516666412353516</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iker Casillas</name>
+            <address>Móstoles</address>
+            <description>Iker Casillas Fernández (born 20 May 1981) is a World Cup-winning Spanish goalkeeper who plays for the Spanish La Liga club Real Madrid and serves as captain for both the Spanish national team and Real Madrid. As captain of the national side, he led a young Spanish team to their first European Championship in 44 years, his first senior international honour. In 2010, he led Spain to their first ever FIFA World Cup and won the Golden Glove for the tournament's best goalkeeper.</description>
+            <TimeStamp>
+                <when>1981-05-20</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.865000009536743,40.322776794433594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Robert Pirès</name>
+            <address>Reims</address>
+            <description>Robert Emmanuel Pirès (born 29 October 1973 in Reims) is a French footballer who is currently a free agent. He normally plays on the left wing but can play all across the midfield or in a position to support the striker(s).</description>
+            <TimeStamp>
+                <when>1973-10-29</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>4.034719944000244,49.262779235839844</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lilian Thuram</name>
+            <address>Guadeloupe</address>
+            <description>Lilian Thuram (born Ruddy Lilian Thuram-Ulien on 1 January 1972 in Pointe-à-Pitre) is a retired French professional football defender and is the most capped player in the history of the France national team. He played at the top flight in France, Italy and Spain for over 15 seasons, including ten in the Serie A with both Parma and Juventus. With France national football team, Thuram won the 1998 World Cup and the Euro 2000.</description>
+            <TimeStamp>
+                <when>1972-01-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-61.58333206176758,16.25</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gianni Rivera</name>
+            <address>Italy</address>
+            <description>Giovanni (&quot;Gianni&quot;) Rivera (born 18 August 1943 in Alessandria) is an Italian former football midfielder, mostly a deep-lying playmaker, who was awarded the Ballon d'Or, one of the most prestigious individual awards in football, in 1969. He played the majority of his career with Serie A side A.C. Milan. Internationally, he represented Italy, 60 times scoring 14 goals, at four World Cups as well as being part of the first Italian side to win the European Football Championship in 1968.</description>
+            <TimeStamp>
+                <when>1943-08-18</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.483333587646484,41.900001525878906</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Didier Six</name>
+            <address>Lille</address>
+            <description>Didier Six is a French former footballer. He played as a winger and he earned 52 caps and scored 13 goals for the France national football team. He played in the 1978 FIFA World Cup and the 1982 FIFA World Cup, and was also part of the winning team at Euro 84. He also acquired Turkish citizenship in order to play as a neutral player at Galatasaray. He played at Galatasaray as Dündar Siz and won Turkish First League championship with Galatasaray in 1987-88 season.</description>
+            <TimeStamp>
+                <when>1954-08-21</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>3.063333034515381,50.63722229003906</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Angelos Charisteas</name>
+            <address>Greece</address>
+            <description>Angelos Charisteas, but originates from Mani. He is a Greek footballer, who currently plays as a striker for Arles-Avignon. He is a member of the Greece national football team.</description>
+            <TimeStamp>
+                <when>1980-02-09</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>22.0,38.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Theodoros Zagorakis</name>
+            <address>Greece</address>
+            <description>Theodoros &quot;Thodoris&quot; Zagorakis (Greek: Θεόδωρος &quot;Θοδωρής&quot; Ζαγοράκης, born October 27, 1971 in Lydía, is a retired Greek footballer. He was the captain of the Greece national football team that won the 2004 UEFA European Football Championship, and is the current president of PAOK F.C..</description>
+            <TimeStamp>
+                <when>1971-10-27</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>22.0,38.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Angelos Basinas</name>
+            <address>Greece</address>
+            <description>Angelos Basinas is a Greek international footballer and the former captain of his country's national team. He plays as a defensive midfielder for Arles-Avignon in the Ligue 1.</description>
+            <TimeStamp>
+                <when>1976-01-03</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>22.0,38.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Luigi Riva</name>
+            <address>Italy</address>
+            <description>Luigi Riva (born November 7, 1944), best known as Gigi Riva or by his nickname Rombo di Tuono (Roar of Thunder), is a former Italian footballer, the all-time leading scorer for the Italian national team. Considered one of the best forwards of his generation, Riva enjoyed a remarkable scoring record for Cagliari thanks to his heading and left foot abilities and composure in front of goal.</description>
+            <TimeStamp>
+                <when>1944-11-07</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.483333587646484,41.900001525878906</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Dimitrios Papadopoulos</name>
+            <address>Soviet Union</address>
+            <description>Dimitrios Papadopoulos is a Greek footballer, currently playing for Celta Vigo.</description>
+            <TimeStamp>
+                <when>1981-10-20</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>37.61666488647461,55.75</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hans-Peter Briegel</name>
+            <address>Rodenbach, Rhineland-Palatinate</address>
+            <description>Hans-Peter Briegel is a former German football player and manager. One of the most popular players in his days, Hans-Peter Briegel's original sport was athletics, being successful in various events such as long jump, triple jump and specifically in heptathlon-forerunner pentathlon. Briegel gained his best result as an athlete in Decathlon, but the son of a farmer struggled to compete properly in javelin throw and the high jump.</description>
+            <TimeStamp>
+                <when>1955-10-11</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>7.651666641235352,49.473609924316406</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Marcos Senna</name>
+            <address>São Paulo</address>
+            <description>Marcos Antônio Senna da Silva (born 17 July 1976 in São Paulo), known as Senna, is a Brazilian-born Spanish footballer who plays for Villarreal CF, as a central midfielder. He is known for his passing range and long shooting and is also a penalty specialist.</description>
+            <TimeStamp>
+                <when>1976-07-17</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-46.63333511352539,-23.549999237060547</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sylvain Wiltord</name>
+            <address>Neuilly-sur-Marne</address>
+            <description>Sylvain Claude Wiltord (born 10 May 1974 in Neuilly-sur-Marne) is a French footballer who is currently a free agent. With the French national team, Wiltord has won Euro 2000 and reached the final of the 2006 FIFA World Cup.</description>
+            <TimeStamp>
+                <when>1974-05-10</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.5332999229431152,48.849998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Wim Kieft</name>
+            <address>Amsterdam</address>
+            <description>Willem &quot;Wim&quot; Cornelis Nicolaas Kieft (born 12 November 1962 in Amsterdam) is a retired Dutch footballer, who played as a centre forward. A prolific goalscorer whose main asset resided in his heading ability, he played in his country for two of the most important clubs, Ajax Amsterdam and PSV Eindhoven, with equal team and individual success; he also played abroad in Italy and France.</description>
+            <TimeStamp>
+                <when>1962-11-12</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>4.8922224044799805,52.37305450439453</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Marco Bode</name>
+            <address>Osterode am Harz</address>
+            <description>Marco Bode (born July 23, 1969 in Osterode am Harz) is a former German footballer.</description>
+            <TimeStamp>
+                <when>1969-07-23</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>10.252222061157227,51.72861099243164</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Luis Fernández</name>
+            <address>Spain</address>
+            <description>Luis Fernández (born on 2 October 1959 in Tarifa, Spain) is a Spanish-French former football (soccer) defender / midfielder, who retired in 1993 to become a manager. He has managed AS Cannes and Paris Saint-Germain among other clubs, and is the individual credited with bringing Ronaldinho to Europe. He is currently the head coach of the national team of Israel. As an active player, Fernández got 60 international caps and 6 goals for the French national team, between 1982 and 1992.</description>
+            <TimeStamp>
+                <when>1959-10-02</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fernando Navarro</name>
+            <address>Barcelona</address>
+            <description>Fernando Navarro i Corbacho is a Spanish footballer who plays for Sevilla FC, as a left defender.</description>
+            <TimeStamp>
+                <when>1982-06-25</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.183333396911621,41.38333511352539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Angelo Domenghini</name>
+            <address>Italy</address>
+            <description>Angelo Domenghini (born August 25, 1941) is an Italian former footballer. Born in Lallio, province of Bergamo, he played for Italy in both the finals of the 1968 European Championship and 1970 World Cup. He played 164 times for Internazionale scoring 54 goals for the club. He also played for Cagliari. He ended his career in A.S. Roma. In the 1968 European Championship final he equalised in the 80th minute against Yugoslavia with Italy trailing 1-0. They then went on to win the replay 2-0.</description>
+            <TimeStamp>
+                <when>1941-08-25</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.483333587646484,41.900001525878906</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Flemming Povlsen</name>
+            <address>Denmark</address>
+            <description>Flemming Søgaard Povlsen (born December 3, 1966 in Brabrand) is a Danish former professional football (soccer) player who most notably played as a striker for Borussia Dortmund in Germany.</description>
+            <TimeStamp>
+                <when>1966-12-03</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>10.0,55.71666717529297</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Roberto Rosato</name>
+            <address>Italy</address>
+            <description>Roberto Rosato (18 August 1943 – 20 June 2010) was an Italian footballer. He played for 15 seasons (351 games, 10 goals) in the Serie A for A.C. Torino, A.C. Milan and Genoa C.F.C. He also played 37 matches for the Italy national football team from 1965 to 1973. He participated in two World Cups, and was part of the Italy team that won the 1968 UEFA European Football Championship. He was also a member of the team that lost 4-1 to Brazil in the 1970 FIFA World Cup Final.</description>
+            <TimeStamp>
+                <when>1943-08-18</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.483333587646484,41.900001525878906</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Michael Bella</name>
+            <address>Duisburg</address>
+            <description>Michael Bella (born 29 September 1945 in Duisburg) is a former German footballer. Between 1964 and 1978 Bella played for MSV Duisburg in the Bundesliga, playing 405 games, a record for the club. He scored 13 goals in this time. He also stood with Duisburg in the German Cup finals of 1966 and 1975, however both finals were lost. Between 1968 and 1971 Bella played four times in the German national football team, as well as being a member of the squad for Euro 72.</description>
+            <TimeStamp>
+                <when>1945-09-29</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>6.766666889190674,51.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Frank Leboeuf</name>
+            <address>France</address>
+            <description>Frank Leboeuf (born Franck Alain James Leboeuf, or Lebœuf) on 22 January 1968 near Marseille, Bouches-du-Rhône) is a former French footballer, who played as a defender. With the French national team, Leboeuf won the 1998 FIFA World Cup.</description>
+            <TimeStamp>
+                <when>1968-01-22</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.0,47.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>František Štambachr</name>
+            <address>Czechoslovakia</address>
+            <description>František Štambachr or Štambacher, nicknamed &quot;Štambi&quot;, (born February 13, 1953 in Čebín) is a former Czechoslovakian footballer, gold medalist with the Czechoslovakian Olympic Football Team at the 1980 Summer Olympics in Moscow. He was considered as an allrounder who could play in almost every position of the midfield (especially left wing and defensive midfield).</description>
+            <TimeStamp>
+                <when>1953-02-13</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>14.466666221618652,50.08333206176758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Oliver Reck</name>
+            <address>Germany</address>
+            <description>Oliver Reck (born February 27, 1965 in Frankfurt am Main) is a former German footballer, who played as a goalkeeper. In a 20-year professional career, he was best known for his stints with Werder Bremen and Schalke 04, for whom he appeared in more than 500 official games combined, 471 in the Bundesliga alone.</description>
+            <TimeStamp>
+                <when>1965-02-27</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>13.383333206176758,52.516666412353516</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Feliciano Rivilla</name>
+            <address>Spain</address>
+            <description>Feliciano Rivilla Muñoz (born 21 August 1936 in Ávila) is a former Spanish footballer. He made 26 appearances for the Spain national football team, and was in the team for the 1962 FIFA World Cup, the 1964 European Football Championship (where Spain won the title), and the 1966 FIFA World Cup.</description>
+            <TimeStamp>
+                <when>1936-08-21</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Arnold Mühren</name>
+            <address>Volendam</address>
+            <description>Arnold Johannes Hyacinthus Mühren is a Dutch football manager and former midfielder. His older brother Gerrie, also a midfield player, won three European Cup titles with Ajax in the early 1970s. Mühren is among the few players to have won all three major UEFA-organised club competitions, the European Cup, the Cup Winners' Cup and the UEFA Cup. The last of which was won with Ipswich Town, while the other titles were all won while playing for Ajax.</description>
+            <TimeStamp>
+                <when>1951-06-02</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>5.067500114440918,52.49944305419922</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mario Basler</name>
+            <address>Neustadt an der Weinstraße</address>
+            <description>Mario Basler is a German former football winger, who is now manager of Wacker Burghausen.</description>
+            <TimeStamp>
+                <when>1968-12-18</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>8.149999618530273,49.349998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Isacio Calleja</name>
+            <address>Valle de Cerrato</address>
+            <description>Isacio Calleja García is a retired Spanish footballer. During his career he played for Atlético de Madrid. He also earned 13 caps for the Spain national football team, and participated in the 1964 European Nations' Cup, where Spain were the champions.</description>
+            <TimeStamp>
+                <when>1936-12-06</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-4.349999904632568,41.88333511352539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sergio García de la Fuente</name>
+            <address>Barcelona</address>
+            <description>Sergio García de la Fuente (born 9 June 1983) is a Spanish footballer who plays for RCD Espanyol in La Liga. Mainly a striker, he can also appear as a winger (preferably on the right).</description>
+            <TimeStamp>
+                <when>1983-06-09</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.183333396911621,41.38333511352539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Slava Metreveli</name>
+            <address>Sochi</address>
+            <description>Slava Kalistratovich Metreveli (30 May 1936 in Sochi - 7 January 1998 in Tbilisi) was a Georgian football player and later a football manager. Metreveli played most of his career for Torpedo Moscow (1956-1962) and Dinamo Tbilisi (1963-1971).</description>
+            <TimeStamp>
+                <when>1936-05-30</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>39.72027587890625,43.58527755737305</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Herbert Zimmermann (footballer)</name>
+            <address>Germany</address>
+            <description>Herbert Zimmermann (born 1 July 1954) is a former German football player. A successful forward, Herbert Zimmermann was signed by FC Bayern Munich and also appeared as defender for 1. FC Köln, the club he joined after he did not get enough games at Bayern. Injury worries of his new club made him appear as defender and doing well on that adopted position prevented him from giving up his new role.</description>
+            <TimeStamp>
+                <when>1954-07-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>13.383333206176758,52.516666412353516</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jozef Čapkovič</name>
+            <address>Bratislava</address>
+            <description>Jozef Čapkovič is a former Slovak football player. He played for Czechoslovakia, for which he played 16 matches. He was a participant at the 1976 UEFA European Championship, where Czechoslovakia won the gold medal. He played mostly for Slovan Bratislava. His twin brother Ján was also a successful footballer.</description>
+            <TimeStamp>
+                <when>1948-01-11</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>17.109722137451172,48.143890380859375</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lars Olsen</name>
+            <address>Denmark</address>
+            <description>Lars Christian Olsen (born 2 February 1961) is a Danish former professional association football player and current manager of Danish Superliga club Odense Boldklub. He started his coaching career with Randers FC in 2003, leading the team to the 2006 Danish Cup win, and Olsen was named 2006 Danish Manager of the Year award. In his active career, Olsen played in the central defense position. He won six Danish championships with Brøndby IF and the 1992 Turkish Cup with Trabzonspor.</description>
+            <TimeStamp>
+                <when>1961-02-02</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>10.0,55.71666717529297</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Joan Capdevila</name>
+            <address>Spain</address>
+            <description>Joan Capdevila i Méndez is a Spanish footballer who plays for Villarreal CF and Spain. His usual position is left defender, but he is also capable of operating as a winger and, from a defensive position, often contributes with goals.</description>
+            <TimeStamp>
+                <when>1978-02-03</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bernard Dietz</name>
+            <address>Hamm</address>
+            <description>Bernard Dietz is a former German football player and manager.</description>
+            <TimeStamp>
+                <when>1948-03-22</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>7.820277690887451,51.682498931884766</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bernard Genghini</name>
+            <address>France</address>
+            <description>Bernard Genghini is a French former football midfielder.</description>
+            <TimeStamp>
+                <when>1958-01-18</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.0,47.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kim Vilfort</name>
+            <address>Denmark</address>
+            <description>Kim Vilfort (born November 15, 1962) is a former Danish professional football (soccer) player who is now head talent scout at the Danish football club Brøndby IF. In his playing career, Vilfort played as a midfielder and he was a part of the Danish national football team which won the 1992 European Championships (Euro 92) tournament, following Vilfort's goal for the 2–0 result in the final game. In all, he represented the Danish national team in 77 matches and scored 14 goals.</description>
+            <TimeStamp>
+                <when>1962-11-15</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>10.0,55.71666717529297</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bruno Bellone</name>
+            <address>France</address>
+            <description>Bruno Bellone is a former football striker from France, who earned 34 caps and scored 2 goals for the France national football team from 1981 to 1988. One of the goals was in the final of the 1984 UEFA European Football Championship, where France defeated Spain 2-0 in the final to win the title. He was also in France's 1982 and 1986 World Cup teams.</description>
+            <TimeStamp>
+                <when>1962-03-14</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.0,47.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Yuriy Voynov</name>
+            <address>Korolyov (city)</address>
+            <description>Yuriy Mykolayovych Voynov was a Russian-Ukrainian football player and manager. He resided in Ukraine since moving to Kiev in 1956 (almost 50 years).</description>
+            <TimeStamp>
+                <when>1931-11-29</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>37.81666564941406,55.91666793823242</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Johnny Mølby</name>
+            <address>Denmark</address>
+            <description>Johnny Mølby (born February 4, 1969) is a Danish former professional football (soccer) player who played 16 matches for the Denmark national football team, and was a part of the team which won the Euro 1992, even though he did not play a single match at the tournament. He is a cousin of former Liverpool FC player Jan Mølby. Through his career he represented a number of clubs, including Danish teams Vejle BK, Aalborg BK and AGF Aarhus, FC Nantes in France and Borussia Mönchengladbach in Germany.</description>
+            <TimeStamp>
+                <when>1969-02-04</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>10.0,55.71666717529297</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Wolfgang Kleff</name>
+            <address>Schwerte</address>
+            <description>Wolfgang Kleff is a former German football player whose resemblance to German actor and comedian Otto Waalkes allowed him to pick up minor roles in motion pictures and his referring nickname &quot;Otto&quot; as well.</description>
+            <TimeStamp>
+                <when>1946-11-16</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>7.565277576446533,51.44583511352539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kim Christofte</name>
+            <address>Copenhagen</address>
+            <description>Kim Piitala Christofte (born August 24, 1960 in Copenhagen) is a former Danish professional footballer, who was part of the Denmark national football team that won the 1992 European Championship. Considered an elegant sweeper, left back or midfielder, his technique allowed him a nonchalant playing style.</description>
+            <TimeStamp>
+                <when>1960-08-24</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.568333625793457,55.676109313964844</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Dominique Rocheteau</name>
+            <address>Charente-Maritime</address>
+            <description>Dominique Rocheteau is a former football striker from France, who is currently the head of the National Commission of Ethics of the French Football Association. Rocheteau began his professional career with AS Saint-Étienne, when they were the most successful and popular football team in France. He was a sinuous and incisive outside right who was nicknamed the &quot;Green Angel&quot;. Injured, he played only the last eight minutes of the 1976 European Cup Final, which St.</description>
+            <TimeStamp>
+                <when>1955-01-14</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>0.9666666388511658,45.95000076293945</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Horst Hrubesch</name>
+            <address>Hamm</address>
+            <description>Horst Hrubesch (born 17 April 1951 in Hamm) is a retired German football player employed as of 2010 as a youth trainer at the German Football Association. His nickname was Das Kopfball-Ungeheuer (the Header Beast) for his heading skills.</description>
+            <TimeStamp>
+                <when>1951-04-17</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>7.820277690887451,51.682498931884766</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Eike Immel</name>
+            <address>Stadtallendorf</address>
+            <description>Eike Immel (born 27 November 1960 in Stadtallendorf) is a former German football goalkeeper and manager. A leading youth international goalkeeper for West Germany in 1978, Eike Immel was still seventeen years of age when he succeeded Horst Bertram as Borussia Dortmund's first-choice. He remained Dortmund's top choice until his two million Deutsche Mark transfer to VfB Stuttgart in 1986, the biggest fee ever paid for a goalkeeper in the history German football at that time.</description>
+            <TimeStamp>
+                <when>1960-11-27</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>9.016666412353516,50.83333206176758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ivo Viktor</name>
+            <address>Czechoslovakia</address>
+            <description>Ivo Viktor (born 21 May 1942 in Křelov) was a Czech football goalkeeper. He played for Czechoslovakia, 63 matches, from 1966 to 1977. His national team debut was in 1966 against Brazil at Maracanã. He was a participant in the 1970 FIFA World Cup. In 1976 he was one of the brightest stars at the 1976 UEFA European Championship, where Czechoslovakia won the gold medal. In the same year he came 3rd in the European Footballer of the Year awards.</description>
+            <TimeStamp>
+                <when>1942-05-21</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>14.466666221618652,50.08333206176758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Koloman Gögh</name>
+            <address>Czechoslovakia</address>
+            <description>Koloman Gögh was a professional Czechoslovak footballer. Gögh was born in what is today the Czech Republic, played in teams that are currently Slovakian and had ties with the Hungarian minority in Slovakia, there are partially contradicting claims as to whether he was a Slovak or Hungarian player. Most of his career took place in the Czechoslovak state, and because of his ties to all three nations all claims are partially correct.</description>
+            <TimeStamp>
+                <when>1948-01-07</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>14.466666221618652,50.08333206176758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Wilbert Suvrijn</name>
+            <address>Sittard</address>
+            <description>Wilbert Suvrijn is a retired Dutch footballer. Mainly a central defender, he could also operate as a defensive midfielder.</description>
+            <TimeStamp>
+                <when>1962-10-26</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>5.867499828338623,50.99861145019531</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ján Pivarník</name>
+            <address>Czechoslovakia</address>
+            <description>Ján Pivarník (born 13 November 1947 in Cejkov) is a former Slovak football player and later a football manager. He played for Czechoslovakia, for which he played 39 matches and scored one goal. He was a participant at the 1976 UEFA European Championship, where Czechoslovakia won the gold medal and at the 1970 FIFA World Cup. He played mostly for Slovan Bratislava and later worked as a coach in Portugal, Austria, Kuwait and Oman.</description>
+            <TimeStamp>
+                <when>1947-11-13</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>14.466666221618652,50.08333206176758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Marián Masný</name>
+            <address>Czechoslovakia</address>
+            <description>Marián Masný (born 13 August 1950 in Rybany) is a former Slovak football player. He played for Czechoslovakia, for which he played 75 matches and scored 18 goals. He was a participant at the 1976 UEFA European Championship, where Czechoslovakia won the gold medal, and at the 1980 UEFA European Championship where they came third and at the 1982 FIFA World Cup.</description>
+            <TimeStamp>
+                <when>1950-08-13</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>14.466666221618652,50.08333206176758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jean-Marc Ferreri</name>
+            <address>Charlieu</address>
+            <description>Jean-Marc Ferreri (born 26 December 1962 in Charlieu) is a former French footballer of Italian origin, who earned 37 caps and scored 3 goals for the France national football team. He played in the 1984 UEFA European Football Championship, where France won the title, and the 1986 FIFA World Cup, where France finished third.</description>
+            <TimeStamp>
+                <when>1962-12-26</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>4.172500133514404,46.15999984741211</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jens Todt</name>
+            <address>Hamelin</address>
+            <description>Jens Todt (born January 5, 1970 in Hamelin) is a former German football player. He played 208 times in the Bundesliga for SC Freiburg, Werder Bremen, and VfB Stuttgart between 1992 and 2003. Todt also earned 3 caps for the German national team in 1994 and 1995. He was called up to Germany's squad for Euro 96 as a late addition, due to injuries, but did not play. After retiring, he worked as a journalist for the magazine Der Spiegel, and now works for Hamburger SV as a youth team coordinator.</description>
+            <TimeStamp>
+                <when>1970-01-05</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>9.359999656677246,52.10305404663086</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Franz Beckenbauer</name>
+            <address>Germany</address>
+            <description>Franz Anton Beckenbauer (born 11 September 1945 in Munich) is a German football coach, manager, and former player, nicknamed Der Kaiser (&quot;The Emperor&quot;) because of his elegant style, his leadership, his first name &quot;Franz&quot; (reminiscent of the Austrian emperors), and his dominance on the football pitch. He is generally regarded as the greatest German footballer of all time and one of the greatest and most decorated footballers in the history of the game.</description>
+            <TimeStamp>
+                <when>1945-09-11</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>13.383333206176758,52.516666412353516</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Michel Platini</name>
+            <address>Jœuf</address>
+            <description>Michel François Platini (born 21 June 1955) is a French former football player, manager and current president of UEFA. Platini was a member of the French national team that won the 1984 European Championship, a tournament in which he was voted the best player and top goalscorer. He participated in the 1978, 1982 and 1986 World Cups, reaching the semi-finals in the latter two.</description>
+            <TimeStamp>
+                <when>1955-06-21</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>6.0097222328186035,49.23055648803711</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Peter Schmeichel</name>
+            <address>Gladsaxe Municipality</address>
+            <description>Peter Bolesław Schmeichel MBE (born 18 November 1963) is a retired Danish professional footballer who played as a goalkeeper, and was voted the &quot;World's Best Goalkeeper&quot; in 1992 and 1993. He is best remembered for his most successful years at English club Manchester United, whom he captained to the 1999 UEFA Champions League to complete The Treble. He was a key member of the Danish national team that won Euro 92.</description>
+            <TimeStamp>
+                <when>1963-11-18</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.483333587646484,55.733333587646484</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Youri Djorkaeff</name>
+            <address>Lyon</address>
+            <description>Youri Raffi Djorkaeff (born 9 March 1968 in Lyon) is a former French-Armenian football player who played as a forward or as an attacking midfielder. With the French national team, Djorkaeff won the 1998 FIFA World Cup and Euro 2000. He is the son of former player Jean Djorkaeff.</description>
+            <TimeStamp>
+                <when>1968-03-09</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>4.842223167419434,45.75972366333008</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Marcel Desailly</name>
+            <address>Ghana</address>
+            <description>Marcel Desailly (born Odenke Abbey 7 September 1968 in Accra, Ghana) is a retired French footballer and star of the France national football team squad, with whom he won the 1998 World Cup and Euro 2000. He also enjoyed a distinguished career at club level with several major European clubs.</description>
+            <TimeStamp>
+                <when>1968-09-07</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-0.25,5.550000190734863</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Paul Breitner</name>
+            <address>Kolbermoor</address>
+            <description>Paul Breitner is a former German football player. One of Germany's most controversial players, he was capped 48 times for his country.</description>
+            <TimeStamp>
+                <when>1951-09-05</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.066666603088379,47.849998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lothar Matthäus</name>
+            <address>Erlangen</address>
+            <description>Lothar Herbert Matthäus, is a German former football player who is currently the head coach of the Bulgaria national football team.</description>
+            <TimeStamp>
+                <when>1961-03-21</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>11.024444580078125,49.59111022949219</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>David Trezeguet</name>
+            <address>Rouen</address>
+            <description>David Sergio Trezeguet is a French footballer who currently plays for Hércules. He previously played for Juventus in the Italian Serie A for ten years and for the French national football team. He is the highest scoring non-Italian ever to play for Juventus. He is most famous for scoring the golden goal in the Euro 2000 final against Italy which gave France a 2–1 win in extra time.</description>
+            <TimeStamp>
+                <when>1977-10-15</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>1.0962719917297363,49.44120407104492</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Zisis Vryzas</name>
+            <address>Greece</address>
+            <description>Zisis Vryzas is a former football player, and had been the vice president of PAOK FC for the past 3 years. He was born 9 November 1973 in Kavala, city of northern Greece, located in the region of Macedonia (Greece). He played as a striker for various teams in Greece and abroad, as well as the Greek National team, with which he won the Euro 2004.</description>
+            <TimeStamp>
+                <when>1973-11-09</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>22.0,38.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bernhard Cullmann</name>
+            <address>West Germany</address>
+            <description>Bernhard Cullmann, (born 1 November 1949) nicknamed &quot;Bernd&quot;, is a former German footballer. He began his footballing career in 1969 with SpVgg Porz, until he was signed by 1. FC Köln in 1970. He played 341 matches in the Bundesliga for them before his retirement on health grounds in 1983. He played 40 matches for the German team between 1973 and 1980, scoring six goals. He participated at the 1974 FIFA World Cup, the 1978 FIFA World Cup, and the 1980 UEFA European Football Championship.</description>
+            <TimeStamp>
+                <when>1949-11-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>7.099999904632568,50.733333587646484</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Giorgos Karagounis</name>
+            <address>Greece</address>
+            <description>Giorgos Karagounis is a Greek football midfielder who currently plays for Panathinaikos FC. He is best remembered for scoring the first goal of UEFA Euro 2004, a very long range effort that helped his team to win the opening game of the tournament, in which the Greeks surprisingly emerged as champions. His style of play combined with his rather small stature have earned him comparisons with the former Greek midfield star Mimis Domazos.</description>
+            <TimeStamp>
+                <when>1977-03-06</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>22.0,38.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Giourkas Seitaridis</name>
+            <address>Greece</address>
+            <description>Georgios &quot;Giourkas&quot; Seitaridis is a Greek footballer who plays as a defender. He is currently playing for Panathinaikos and is a member of the Greek national football team. Giourkas (pronounced &quot;Yurkas&quot;) means &quot;George&quot; in the Pontic Greek dialect and is his grandfather's name.</description>
+            <TimeStamp>
+                <when>1981-06-04</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>22.0,38.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jürgen Kohler</name>
+            <address>Lambsheim</address>
+            <description>Jürgen Kohler (born October 6, 1965 in Lambsheim) is a World Cup-winning German centre back football player and football manager. Kohler has retired from professional sports, but still occasionally plays for Alemannia Adendorf in the Kreisliga C (the 11th tier of German club football). He is widely considered one of the best centre backs of his era and one of Germany's finest centre backs of all time.</description>
+            <TimeStamp>
+                <when>1965-10-06</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>8.287500381469727,49.51333236694336</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bernard Lacombe</name>
+            <address>Lyon</address>
+            <description>Bernard Lacombe (born August 15, 1952 in Lyon) is a former French football player. He played forward, mainly with Olympique Lyonnais, Girondins Bordeaux and the French national team.</description>
+            <TimeStamp>
+                <when>1952-08-15</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>4.842223167419434,45.75972366333008</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Stelios Giannakopoulos</name>
+            <address>Greece</address>
+            <description>Stylianos &quot;Stelios&quot; Giannakopoulos, popularly known as Stelios, is a Greek footballer that is currently out of contract and who last played for Greek Super League side Larissa as a midfielder. Stelios is one of the most well known Greek footballers internationally, due to his successful spells with Olympiacos and Bolton Wanderers as well as his appearances with the 2004 European championship winning Greek national team.</description>
+            <TimeStamp>
+                <when>1974-07-12</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>22.0,38.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fernando Torres</name>
+            <address>Madrid</address>
+            <description>Fernando José Torres Sanz (born 20 March 1984), nicknamed El Niño (The Kid in Spanish), is a Spanish footballer who plays for Liverpool and the Spain national team as a striker. Torres started his career with Atlético Madrid, progressing through their youth system. He made his first team debut in 2001 and finished his career with the club having scored 75 goals in 174 La Liga appearances.</description>
+            <TimeStamp>
+                <when>1984-03-20</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.7166666984558105,40.38333511352539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Felix Magath</name>
+            <address>Aschaffenburg</address>
+            <description>Wolfgang-Felix Magath (born 26 July 1953) is a former German football central midfielder, and the current manager of FC Schalke 04.</description>
+            <TimeStamp>
+                <when>1953-07-26</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>9.149999618530273,49.96666717529297</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Xabi Alonso</name>
+            <address>Spain</address>
+            <description>Xabier &quot;Xabi&quot; Alonso Olano is a Spanish World Cup-winning footballer who currently plays for La Liga club Real Madrid and the Spanish national team. He plays as a midfielder. Alonso began his career at Real Sociedad, and after a brief loan period at SD Eibar returned to the La Liga club. John Toshack appointed Alonso as his team captain and Alonso succeeded in the role, taking Real Socieded to second place in the 2002–03 season. The Spaniard moved to Liverpool in August 2004 for £10,5 million.</description>
+            <TimeStamp>
+                <when>1981-11-25</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bernard Lama</name>
+            <address>France</address>
+            <description>Bernard Pascal Maurice Lama (born April 7, 1963) is a French football coach and former goalkeeper. He was born in the Indre-et-Loire département but originated from French Guiana. He spent a number of years in goal for Lille and Paris Saint-Germain. He was also a member of the France national team that won the 1998 World Cup and the Euro 2000.</description>
+            <TimeStamp>
+                <when>1963-04-07</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.0,47.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Nicolas Anelka</name>
+            <address>Versailles</address>
+            <description>Nicolas Sebastien Anelka (born 14 March 1979) is a French professional footballer who plays as a striker for Chelsea in the Premier League. Anelka was also a regular starter for the French national team. Carlo Ancelotti describes him as a quick player with good aerial ability, technique, shooting, and movement off the ball. Anelka began his career at Paris Saint-Germain, but soon moved to Arsenal.</description>
+            <TimeStamp>
+                <when>1979-03-14</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.134999990463257,48.805301666259766</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mehmet Scholl</name>
+            <address>Karlsruhe</address>
+            <description>Mehmet Scholl (born Mehmet Yüksel on 16 October 1970) is a former German football player. He finished his career after the 2006–07 Bundesliga season. Scholl played most of his career as an attacking midfielder for Bayern Munich. He is one of the most successful German players in recent history.</description>
+            <TimeStamp>
+                <when>1970-10-16</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>8.399999618530273,49.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Laurent Blanc</name>
+            <address>Alès</address>
+            <description>Laurent Robert Blanc (born 19 November 1965 in Alès) is a French football manager and former player. He is the head coach of the French national team, having replaced Raymond Domenech in the wake of the 2010 World Cup in South Africa. He was previously the manager of Bordeaux. Blanc formerly played professional football for numerous clubs, notably Montpellier, Barcelona, Marseille, Internazionale, and Manchester United, often operating in the sweeper position.</description>
+            <TimeStamp>
+                <when>1965-11-19</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>4.081666469573975,44.128055572509766</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Andreas Köpke</name>
+            <address>Kiel</address>
+            <description>Andreas Köpke (born 12 March 1962 in Kiel) is a former German football goalkeeper, who was in the German squad that won the 1990 FIFA World Cup, and was also part of the 1994 FIFA World Cup squad. Though he did not appear in any of the matches, with Bodo Illgner preferred in goal, Köpke's chance to shine came soon after.</description>
+            <TimeStamp>
+                <when>1962-03-12</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>10.140555381774902,54.325279235839844</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Dušan Galis</name>
+            <address>Ružomberok</address>
+            <description>Dušan Galis (born 24 November 1949 in Ružomberok) is a Slovak politician, a football trainer and a former Czechoslovak football player. In Czechoslovak league he played 226 matches and with 89 goals. He was capped 8 times for Czechoslovakia, scored 1 goal. He was a participant at the 1976 European Football Championship where he became European Champion with his national team</description>
+            <TimeStamp>
+                <when>1949-11-24</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>19.308332443237305,49.078609466552734</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Thomas Häßler</name>
+            <address>West Germany</address>
+            <description>Thomas Häßler (born 30 May 1966 in West Berlin) is a former German football midfielder and is currently a coach for 1. FC Köln. He was formerly a coach for the Nigeria national team. With the German national team, Häßler won the 1990 World Cup and Euro 96.</description>
+            <TimeStamp>
+                <when>1966-05-30</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>7.099999904632568,50.733333587646484</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Maxime Bossis</name>
+            <address>France</address>
+            <description>Maxime Bossis is a retired football defender from France, who obtained 76 caps (one goal) for the French national team. He is mostly remembered for missing the last penalty in 1982 World Cup semifinal between Germany and France. While the score was tied at 4-4, Bossis missed the next penalty, allowing Horst Hrubesch to score the last penalty, and with 5-4, to drive his team to the final.</description>
+            <TimeStamp>
+                <when>1955-06-26</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.0,47.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Viktor Ponedelnik</name>
+            <address>Rostov-on-Don</address>
+            <description>Viktor Vladimirovich Ponedelnik (born May 22, 1937 in Rostov-on-Don) is a former Soviet football player, regarded as one of the best strikers in Soviet football history. Ponedelnik first started playing for a local team, Rostselmash, in 1956. In 1958 he switched to SKA Rostov-on-Don and was invited to join the Soviet national team.</description>
+            <TimeStamp>
+                <when>1937-05-22</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>39.70000076293945,47.233333587646484</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>František Veselý</name>
+            <address>Prague</address>
+            <description>František Veselý (December 7, 1943 in Prague - October 30, 2009) was a Czech football player. He played for Czechoslovakia, for whom he appeared in 34 matches and scored three goals. He was a participant in the 1970 FIFA World Cup and in the 1976 UEFA European Championship, where Czechoslovakia won the gold medal. He spent his best football years playing for SK Slavia Praha.</description>
+            <TimeStamp>
+                <when>1943-12-07</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>14.416666984558105,50.08333206176758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vassilis Lakis</name>
+            <address>Greece</address>
+            <description>Vasilis Lakis (born 10 September 1976 in Thessaloniki) is a Greek footballer and he was named &quot;Turbo&quot; for his speed on the attacking wing and making great cross in the area for the strikers.</description>
+            <TimeStamp>
+                <when>1976-09-10</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>22.0,38.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Xavi</name>
+            <address>Spain</address>
+            <description>Xavier Hernández Creus, commonly known as Xavi currently plays as a central midfielder for La Liga club FC Barcelona. Widely considered among the finest play-makers in the world, Xavi was named the official Man of the match of the 2009 Champions League Final as he helped Barcelona defeat Manchester United to win their third Champions League-title. He was named Player of the Tournament by UEFA at UEFA Euro 2008 and was one of the five finalists for the 2007–08 FIFA World Player of the Year.</description>
+            <TimeStamp>
+                <when>1980-01-25</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Erwin Koeman</name>
+            <address>Zaandam</address>
+            <description>Erwin Koeman is a Dutch football manager and former football player. He is the son of Dutch international footballer Martin Koeman, and, alongside his younger brother Ronald, has also represented the Netherlands. All three Koemans played for Groningen at some time during their careers. Erwin Koeman's son, Len, is also a footballer and currently plays for the Helmond Sport youth team.</description>
+            <TimeStamp>
+                <when>1961-09-20</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>4.833333492279053,52.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Erwin Kremers</name>
+            <address>Germany</address>
+            <description>Erwin Kremers (born 24 March 1949 in Germany) is a retired German international Footballer who played as a striker. His twin Helmut Kremers also played as a German international with the two brothers playing with each other regularly.</description>
+            <TimeStamp>
+                <when>1949-03-24</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>13.383333206176758,52.516666412353516</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Herbert Wimmer</name>
+            <address>Eupen</address>
+            <description>Herbert &quot;Hacki&quot; Wimmer is a former soccer player. Besides winning five national championships and two UEFA Cups with his club side Borussia Mönchengladbach he won the 1974 World Cup and the 1972 European Football Championship with Germany. Herbert Wimmer started his playing career with lowly Borussia Brand (a place close to the city of Aachen). Between 1966 and 1978 the played in 366 Bundesliga matches for Borussia Mönchengladbach and scored 51 goals.</description>
+            <TimeStamp>
+                <when>1944-11-09</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>6.0333333015441895,50.63333511352539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jesús María Pereda</name>
+            <address>Spain</address>
+            <description>Jesús María Pereda Ruiz de Temiño,, also known as Chus Pereda or Txus Pereda, was a Spanish footballer who played for FC Barcelona during the 1960s. In 1964, together with Luis Suárez, Amancio Amaro, José Ángel Iribar and his FC Barcelona team mate, Josep Fusté he was a member of the Spanish team that won the European Championship in 1964. Apart from FC Barcelona, Pereda also played for six other La Liga teams, including Real Madrid.</description>
+            <TimeStamp>
+                <when>1938-06-23</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Adri van Tiggelen</name>
+            <address>Oud-Beijerland</address>
+            <description>Adrianus A. &quot;Adri&quot; van Tiggelen (born 16 June 1957) is a former Dutch footballer, who played as a left defender. His career in football was intimately connected to Sparta Rotterdam, in which he began as a professional footballer, going on to manage the side in several categories and capacities, but he also played with success in Belgium for R.S.C. Anderlecht.</description>
+            <TimeStamp>
+                <when>1957-06-16</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>4.420000076293945,51.81999969482422</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Álvaro Arbeloa</name>
+            <address>Salamanca</address>
+            <description>Álvaro Arbeloa Coca (born 17 January 1983) is a Spanish World Cup winning football player currently playing for Real Madrid and the Spanish national team. He is predominantly a right back, although he can play as a central defender. During his return to Real Madrid, he has started most of the games as a left back. Arbeloa trained with Real Madrid as a youth player, and worked his way up to the first team, making his debut in the 2004–05 season.</description>
+            <TimeStamp>
+                <when>1983-01-17</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-5.667606830596924,40.961612701416016</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Alain Giresse</name>
+            <address>Gironde</address>
+            <description>Alain Giresse is a retired French professional football (soccer) midfielder.</description>
+            <TimeStamp>
+                <when>1952-08-02</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>0.6666666865348816,44.83333206176758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Alexander Vencel (footballer born 1944)</name>
+            <address>Hungary</address>
+            <description>Alexander Vencel (born 8 February 1944) is a former Slovak football goalkeeper. He played 25 matches for Czechoslovakia. He was a participant at the 1970 FIFA World Cup, and at the 1976 UEFA European Championship, where Czechoslovakia won the gold medal. He played mostly for Slovan Bratislava. His son, Alexander Vencel Jr. , also a goalkeeper, won a number of caps for Slovakia in the mid-1990s.</description>
+            <TimeStamp>
+                <when>1944-02-08</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>19.25,47.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Anton Ondruš</name>
+            <address>Solčany</address>
+            <description>Anton Ondruš is a former Slovak football player and considered one of the best defenders of the seventies.</description>
+            <TimeStamp>
+                <when>1950-03-27</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>18.200000762939453,48.53333282470703</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Antonio Juliano</name>
+            <address>Italy</address>
+            <description>Antonio Juliano (born 1 January 1943) is a former Italian footballer. He played the majority of his club career with Napoli, although he finished his playing days with Bologna. He earned 18 caps for the Italy national football team, and was in the championship-winning team of Euro 68. He was also in the Italy team for three World Cup finals: 1966, 1970 and 1974. However, he played only one World Cup match, the 4-1 defeat by Brazil in the 1970 final as a substitute.</description>
+            <TimeStamp>
+                <when>1943-01-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.483333587646484,41.900001525878906</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Nikos Dabizas</name>
+            <address>Ptolemaida</address>
+            <description>Nikolaos &quot;Nikos&quot; Dabizas (born 3 August 1973 in Ptolemaida) is a Greek professional footballer and former Newcastle United, Leicester City and Olympiacos defender, who now plays for Larissa. He was also in Greece's 2004 European Football Championship winning squad.</description>
+            <TimeStamp>
+                <when>1973-08-03</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>21.678054809570312,40.511112213134766</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>John Sivebæk</name>
+            <address>Vejle</address>
+            <description>John Sivebæk (born 25 October 1961 in Vejle) is a Danish former football defender, who most notably won the 1984 Danish championship with Vejle Boldklub and played for English club Manchester United. He scored one goal in 87 appearances for the Danish national team, and represented his country at the 1986 World Cup as well as three European Championships, including the triumphant 1992 European Championship tournament. His son Christian Sivebæk is also a professional football player.</description>
+            <TimeStamp>
+                <when>1961-10-25</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>9.533333778381348,55.71666717529297</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Berry van Aerle</name>
+            <address>Helmond</address>
+            <description>Hubertus &quot;Berry&quot; Aegidius Hermanus van Aerle (born December 8, 1962) is a former Dutch footballer, who played mainly as a right defender. A tough tackler, he is best known for his spell with PSV Eindhoven - which he helped capture the European Cup. Also a Dutch international, he won the UEFA Euro 1988.</description>
+            <TimeStamp>
+                <when>1962-12-08</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>5.666666507720947,51.483333587646484</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>David Villa</name>
+            <address>Spain</address>
+            <description>David Villa Sánchez (born 3 December 1981), nicknamed El Guaje (The Kid in Asturian), is a World Cup-winning Spanish footballer who currently plays as a striker for FC Barcelona and the Spanish national football team. Despite sustaining a serious injury as a child, he started his professional career with Sporting de Gijón. He moved to Real Zaragoza after two seasons, where he made his La Liga début, winning his first senior honours - the Copa del Rey and Supercopa de España.</description>
+            <TimeStamp>
+                <when>1981-12-03</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Klaus Allofs</name>
+            <address>Düsseldorf</address>
+            <description>Klaus Allofs (born 5 December 1956 in Düsseldorf) is a retired German footballer, who played as a striker. A prolific goalscorer for club and country (being crowned the Bundesliga's top scorer on two occasions, he represented the national team for an entire decade), his younger brother, Thomas, was also a professional footballer – and a striker.</description>
+            <TimeStamp>
+                <when>1956-12-05</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>6.7833333015441895,51.233333587646484</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bernd Förster</name>
+            <address>Mosbach</address>
+            <description>Bernhard &quot;Bernd&quot; Georg Josef Förster (born 3 May 1956) is a former German footballer, who played as a defender. His younger brother, Karlheinz, was also a footballer, and a defender. Both played extensively at VfB Stuttgart, and were crowned European champions in 1980.</description>
+            <TimeStamp>
+                <when>1956-05-03</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>9.146666526794434,49.35222244262695</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Stefan Kuntz</name>
+            <address>Neunkirchen, Saarland</address>
+            <description>Stefan Kuntz (born October 30, 1962 in Neunkirchen, Saarland) is a former German professional footballer and since April 2008 chairman of the German football team 1. FC Kaiserslautern. Kuntz's playing career lasted from 1983 until 1999, he made 449 appearances and scored 179 goals in the Bundesliga. He played for VfL Bochum, Bayer 05 Uerdingen, 1. FC Kaiserslautern and Arminia Bielefeld. He also played in Turkey for Beşiktaş J.K.. In 1986 and 1994 he was also the top scorer in the Bundesliga.</description>
+            <TimeStamp>
+                <when>1962-10-30</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>7.166666507720947,49.349998474121094</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>José Ángel Iribar</name>
+            <address>Spain</address>
+            <description>José Ángel Iribar Cortajarena, nicknamed El Chopo, is a former Spanish footballer and manager. Having played almost exclusively for Athletic Bilbao – during almost 20 years – the goalkeeper also represented the Spanish national team for 12.</description>
+            <TimeStamp>
+                <when>1943-03-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Caspar Memering</name>
+            <address>Bockhorst</address>
+            <description>Caspar Memering is a former German footballer.</description>
+            <TimeStamp>
+                <when>1953-06-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>7.583333492279053,53.03333282470703</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Giancarlo Bercellino</name>
+            <address>Gattinara</address>
+            <description>Giancarlo Bercellino (9 October 1941 in Gattinara), is a former Italian football player, his position was in defence. He is sometimes referred to as Bercellino I, because his brother Silvino Bercellino was also a football player. His father Teresio Bercellino also played football professionally in the Serie A. At club level Bercellino was most famous for his time with Juventus with whom he played over 200 games with in all competitions. He also played for Alessandria, Brescia and Lazio.</description>
+            <TimeStamp>
+                <when>1941-10-09</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>8.366666793823242,45.61666488647461</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>David Silva</name>
+            <address>Arguineguín</address>
+            <description>David Josué Jiménez Silva (born 8 January 1986) is a Spanish footballer who currently plays for Manchester City and the Spanish national team. Silva is capable of playing on the wing, as a traditional number 10 and sometimes as a supporting striker. He spent six years of his professional career with La Liga side Valencia CF where he won the Copa del Rey in the 2007–08 season, before moving to Manchester City.</description>
+            <TimeStamp>
+                <when>1986-01-08</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-15.683610916137695,27.762222290039062</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ulrich Ramé</name>
+            <address>France</address>
+            <description>Ulrich Ramé (born 19 September 1972 in Nantes) is a French footballer who plays for FC Girondins de Bordeaux, as a goalkeeper.</description>
+            <TimeStamp>
+                <when>1972-09-19</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.0,47.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Patrick Battiston</name>
+            <address>Amnéville</address>
+            <description>Patrick Battiston is a former French football player, who played for the France national team in three World Cups and won the 1984 European Football Championship.</description>
+            <TimeStamp>
+                <when>1957-03-12</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>6.142499923706055,49.261390686035156</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ferran Olivella</name>
+            <address>Spain</address>
+            <description>Ferran Olivella Pons (born 22 June 1936) is a former Spanish footballer. He earned 18 caps for the Spain national football team, and was their captain when they won the 1964 UEFA European Football Championship. He also participated in the 1966 FIFA World Cup. He played his club football mainly for FC Barcelona.</description>
+            <TimeStamp>
+                <when>1936-06-22</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ladislav Jurkemik</name>
+            <address>Czechoslovakia</address>
+            <description>Ladislav Jurkemik (born July 20, 1953 in Jacovce) is a former Slovak football player and later a football manager. He played for Czechoslovakia, for which he played 57 matches and scored 3 goals. He was a participant in the 1976 UEFA European Championship, where Czechoslovakia won the gold medal and at the 1982 FIFA World Cup.</description>
+            <TimeStamp>
+                <when>1953-07-20</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>14.466666221618652,50.08333206176758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Torben Piechnik</name>
+            <address>Denmark</address>
+            <description>Torben Piechnik (born 21 May 1963) is a Danish former professional football player who was a defender. He made a total of 15 appearances for the Danish national team, which he represented in the 1992 European Championship and 1996 European Championship.</description>
+            <TimeStamp>
+                <when>1963-05-21</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>10.0,55.71666717529297</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Giancarlo De Sisti</name>
+            <address>Rome</address>
+            <description>Giancarlo De Sisti (born 13 March 1943 in Rome) is a former Italian footballer and football manager. Best known by his nickname Picchio, during his career he played for A.S. Roma (1960–65, 1974–79) and ACF Fiorentina (1965–74). He earned 29 caps and scored 4 goals for the Italy national football team from 1967 to 1972, and played in the championship-winning team of Euro 1968 and the 1970 FIFA World Cup team which finished runners-up.</description>
+            <TimeStamp>
+                <when>1943-03-13</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.5,41.900001525878906</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Givi Chokheli</name>
+            <address>Telavi</address>
+            <description>Givi Dmitriyevich Chokheli (27 June 1937 in Telavi - 25 February 1994 in Tbilisi) was a Georgian football defender. Chokheli played most of his career for Dinamo Tbilisi. After ending his playing career he worked in various coaching positions for Dinamo Tbilisi and in 1969-1970 and 1974 was a head coach. He was classified as a Master of Sport of the USSR in 1959.</description>
+            <TimeStamp>
+                <when>1937-06-27</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>45.483333587646484,41.91666793823242</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Joël Bats</name>
+            <address>Mont-de-Marsan</address>
+            <description>Joël Bats is a retired French football goalkeeper who played 50 times for the French national football team. Bats began his professional career with FC Sochaux-Montbéliard in 1974, moving on to newly promoted AJ Auxerre the following year. He became undisputed number one at Auxerre (having had to contest the jersey with Albert Rust at Sochaux) and soon found his way into the France squad, being selected for the 1984 European Championship, which France won.</description>
+            <TimeStamp>
+                <when>1957-01-04</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-0.49944445490837097,43.891387939453125</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Raúl Albiol</name>
+            <address>Spain</address>
+            <description>Raúl Albiol Tortajada is a Spanish footballer who plays for Real Madrid and the Spanish national team. His main asset is his versatility, as he can play as a central defender, right back or defensive midfielder.</description>
+            <TimeStamp>
+                <when>1985-09-04</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Horst-Dieter Höttges</name>
+            <address>Mönchengladbach</address>
+            <description>Horst-Dieter Höttges (born 10 September 1943 in Mönchengladbach) is a former German footballer.</description>
+            <TimeStamp>
+                <when>1943-09-10</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>6.433333396911621,51.20000076293945</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sandro Salvadore</name>
+            <address>Milan</address>
+            <description>Sandro Salvadore (29 November 1939 &amp;ndash; 4 January 2007) was an Italian footballer. Born Milan, Lombardy, Sandro Salvadore was picked up by A.C. Milan’s scouts when he was 15, and played in their junior team until he made his debut in Serie A in the 1958/59 season aged 20. While wearing AC Milan’s number 6 shirt he won 2 League titles (1958&amp;ndash;59 and 1961&amp;ndash;62). He left Milan after 72 league matches. In 1962 Salvadore was purchased by Juventus and became soon a pillar of their defence.</description>
+            <TimeStamp>
+                <when>1939-11-29</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>9.190278053283691,45.464168548583984</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Thierry Tusseau</name>
+            <address>Noisy-le-Grand</address>
+            <description>Thierry Tusseau is a former football midfielder from France, who earned a total number of 22 international caps (no goals) for the French national team during the 1970s and 1980s. A player of Girondins de Bordeaux (1983–1986), he was a member of the French team in the 1986 FIFA World Cup.</description>
+            <TimeStamp>
+                <when>1958-01-19</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.552791118621826,48.84775161743164</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ladislav Petráš</name>
+            <address>Czechoslovakia</address>
+            <description>Ladislav Petráš is a former Slovak football player. He played for Czechoslovakia national team in 19 matches and scored 6 goals. Petráš was a participant at the 1970 FIFA World Cup, where he played in three matches and scored two goals. Petráš also played at the Euro 1976, where his team won the gold medal. Petráš played for Dukla Banská Bystrica and later Inter Bratislava.</description>
+            <TimeStamp>
+                <when>1946-12-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>14.466666221618652,50.08333206176758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Santi Cazorla</name>
+            <address>Spain</address>
+            <description>Santiago 'Santi' Cazorla González (born 13 December 1984 in Llanera, Asturias) is a Spanish footballer who plays for Villarreal CF in La Liga. A versatile winger, he can play on either flank, being ambidextrous. He is noted for his speed and capacity to change the rhythm of gameplay.</description>
+            <TimeStamp>
+                <when>1984-12-13</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Torben Frank</name>
+            <address>Copenhagen</address>
+            <description>Torben Frank (born June 16, 1968 in Copenhagen) is a Danish former footballer, who played in the striker role. He most successfully played for Danish clubs Lyngby Boldklub and Brøndby IF, and won four Danish championships. In addition, Frank received 5 international caps for the Denmark national football team and was a part of the Danish team that won the 1992 European Championship. Frank started playing football for Vallensbæk IF.</description>
+            <TimeStamp>
+                <when>1968-06-16</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.568333625793457,55.676109313964844</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Horst Köppel</name>
+            <address>Stuttgart</address>
+            <description>Horst Köppel (born on May 17, 1948 in Stuttgart, Germany) is a German football manager and former player, who last worked as Head coach for FC Ingolstadt 04.</description>
+            <TimeStamp>
+                <when>1948-05-17</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>9.179444313049316,48.77861022949219</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Yvon Le Roux</name>
+            <address>France</address>
+            <description>Yvon Le Roux (born March 19, 1960 in Plouvorn, Finistère) is a former football defender from France, who earned 28 international caps (one goal) for the French national team during the mid-1980s. A player of FC Nantes (1985–1987), he was a member of the French team in the 1986 FIFA World Cup.</description>
+            <TimeStamp>
+                <when>1960-03-19</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.0,47.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pierino Prati</name>
+            <address>Italy</address>
+            <description>Pierino Prati (born 13 December 1946 in Cinisello Balsamo) is a retired Italian footballer who played for A.C. Milan and was part of their European Cup victory in 1969, scoring a hat-trick in the 4-1 defeat of Ajax in the final. He is the last man to have scored a hat trick in the Champions League/European Cup Final. Ferenc Puskas (twice) and Alfredo Di Stefano (both of Real Madrid) are the only other players to have achieved this.</description>
+            <TimeStamp>
+                <when>1946-12-13</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.483333587646484,41.900001525878906</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fabien Barthez</name>
+            <address>Lavelanet</address>
+            <description>Fabien Alain Barthez (born 28 June 1971 in Lavelanet) is a former French football goalkeeper who won honours with Manchester United and the French national team, with whom he won the 1998 FIFA World Cup and Euro 2000 and reached the final of the 2006 World Cup. He shares the record for the most World Cup finals clean sheets with Peter Shilton, with 10. Professionally, he has kept goal for his clubs to a Champions League title and several Ligue 1 and Premier League titles.</description>
+            <TimeStamp>
+                <when>1971-06-28</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>1.8494443893432617,42.93361282348633</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jürgen Klinsmann</name>
+            <address>Göppingen</address>
+            <description>Jürgen Klinsmann (born 30 July 1964 in Göppingen) is a German football manager and former football player, who played for several prominent clubs in Europe and was part of the West German team that won the 1990 FIFA World Cup and the German one that won the 1996 UEFA European Championship. He was one of West Germany's/Germany's premier strikers during the 90s. Klinsmann scored in all 6 major international tournaments he participated, from Euro 1988 to 1998 World Cup.</description>
+            <TimeStamp>
+                <when>1964-07-30</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>9.652777671813965,48.70249938964844</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Giacinto Facchetti</name>
+            <address>Treviglio</address>
+            <description>Giacinto Facchetti (18 July 1942 – 4 September 2006) was an Italian football player. From January 2004 until his death, he was President of Internazionale, the club for which he played for his whole career during the 1960s and 1970s, playing 634 official games and scoring 75 goals. He played for the Internazionale team remembered as “La Grande Inter”. Facchetti is remembered as one of the first truly great attacking-full backs.</description>
+            <TimeStamp>
+                <when>1942-07-18</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>9.600000381469727,45.516666412353516</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Traianos Dellas</name>
+            <address>Greece</address>
+            <description>Traianos Dellas (born on 31 January 1976 in Thessaloniki, Greece) is a Greek international . He currently plays as a centre back for AEK Athens in the Greek Super League. He is known for being the only player to have scored a silver goal in the first half of extra time in a competitive match, in the Euro 2004 semi-final against the Czech Republic.</description>
+            <TimeStamp>
+                <when>1976-01-31</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>22.0,38.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ronald Koeman</name>
+            <address>Zaandam</address>
+            <description>Ronald Koeman is a former Dutch footballer and former manager of AZ. He is the younger brother of former Feyenoord coach Erwin Koeman and the son of former Dutch international Martin Koeman. He was renowned for his long-range accuracy, especially in free kicks.</description>
+            <TimeStamp>
+                <when>1963-03-21</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>4.833333492279053,52.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Thomas Helmer</name>
+            <address>Herford</address>
+            <description>Thomas Helmer is a former German footballer. His preferred playing position was sweeper, but he was primarily deployed as a central defender. Helmer spent most of his club career with Borussia Dortmund and Bayern Munich - appearing in nearly 400 Bundesliga games in 15 seasons - and won the European Championship in 1996.</description>
+            <TimeStamp>
+                <when>1965-04-21</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>8.683333396911621,52.13333511352539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Enrico Albertosi</name>
+            <address>Pontremoli</address>
+            <description>Enrico &quot;Ricky&quot; Albertosi (born 2 November 1939) is an Italian former football goalkeeper who played for the Italian national team in the 1966 World Cup and the 1970 World Cup. Born in Pontremoli, Albertosi made his debut for the national team in 1961, a 4-1 victory against Argentina. His final international game took place in June 1972, when Italy drew 1-1 with Bulgaria. In 1970 Albertosi was involved in the so-called &quot;Game of the Century&quot;, when Italy played Germany.</description>
+            <TimeStamp>
+                <when>1939-11-02</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>9.883333206176758,44.38333511352539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Antonios Nikopolidis</name>
+            <address>Greece</address>
+            <description>Antonios Nikopolidis is a Greek football player playing at the position of goalkeeper. He's regarded as one of the best Greek goalkeepers of all time having been awarded the most caps in the national team and playing an integral part in the UEFA Euro 2004 triumph.</description>
+            <TimeStamp>
+                <when>1971-01-14</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>22.0,38.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Henrik Larsen</name>
+            <address>Denmark</address>
+            <description>Henrik Larsen (born 17 May 1966 in Lyngby), nicknamed Store Larsen, is a Danish former professional football player who was last the manager of Lyngby Boldklub.</description>
+            <TimeStamp>
+                <when>1966-05-17</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>10.0,55.71666717529297</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vincent Candela</name>
+            <address>Bédarieux</address>
+            <description>Vincent Philippe Antoine Candela (born October 24, 1973, is a former French footballer. With the French national team, Candela won the 1998 FIFA World Cup, as well as Euro 2000. Candela was a skilled left and right back, playing with both feet and effective at joining the attack as well as being able in defence. On the club level, Candela played for Toulouse, Guingamp, A.S. Roma, Bolton Wanderers, Udinese and Siena . He won one scudetto with Roma.</description>
+            <TimeStamp>
+                <when>1973-10-24</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>3.159722328186035,43.616943359375</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Harald Schumacher</name>
+            <address>Düren</address>
+            <description>Harald Anton Schumacher, commonly known as Toni Schumacher, is a German former football goalkeeper, and a member of the West German national team. However, he is perhaps best remembered for a highly controversial incident in the 1982 FIFA World Cup semifinal against France when he collided with and seriously injured French defender Patrick Battiston.</description>
+            <TimeStamp>
+                <when>1954-03-06</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>6.483333110809326,50.79999923706055</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sergio Ramos</name>
+            <address>Spain</address>
+            <description>Sergio Ramos García is a World Cup winning Spanish footballer who currently plays for Real Madrid and the Spanish national team.</description>
+            <TimeStamp>
+                <when>1986-03-30</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Carles Puyol</name>
+            <address>La Pobla de Segur</address>
+            <description>Carles Puyol i Saforcada (born 13 April 1978) is a World Cup-winning Spanish footballer who plays for FC Barcelona and the Spanish national team. Mainly a central defender, he can also appear on either flanks, especially as a right back. He also serves as a longtime team captain for his only club FC Barcelona after taking over from Luis Enrique in August 2004.</description>
+            <TimeStamp>
+                <when>1978-04-13</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>0.9674999713897705,42.247501373291016</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Günter Netzer</name>
+            <address>Mönchengladbach</address>
+            <description>Günter Netzer (born 14 September 1944 in Mönchengladbach) is a former German football player and team general manager currently working in the media business. As a player, he was considered to be one of the greatest passers in the game's history. As such, he was voted Footballer of the Year in Germany twice, in 1972 and 1973.</description>
+            <TimeStamp>
+                <when>1944-09-14</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>6.433333396911621,51.20000076293945</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Steffen Freund</name>
+            <address>East Germany</address>
+            <description>Steffen Freund (born 19 January 1970 in Brandenburg) is a German former professional football player. He played as a defensive midfielder.</description>
+            <TimeStamp>
+                <when>1970-01-19</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>13.399999618530273,52.516666412353516</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Amancio Amaro</name>
+            <address>Spain</address>
+            <description>Amancio Amaro Varela, commonly known simply as Amancio, is a former Spanish football player. Nicknamed El Brujo (The Witch) he played for Deportivo de La Coruña, Real Madrid and the Spanish national team.</description>
+            <TimeStamp>
+                <when>1939-10-16</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Aron Winter</name>
+            <address>Paramaribo</address>
+            <description>Aron Mohamed Winter is a retired Dutch football midfielder. He has played for Ajax and Sparta Rotterdam in the Netherlands, for Italian sides Lazio and Internazionale, and for the Dutch national team. He was born to a Muslim father and a Jewish mother.</description>
+            <TimeStamp>
+                <when>1967-03-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-55.16666793823242,5.866666793823242</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tarcisio Burgnich</name>
+            <address>Italy</address>
+            <description>Tarcisio Burgnich is a former Italian football defender. After short spells at Udinese, Juventus and Palermo, it was with Internazionale that he found his spiritual home in the 1960s. Burgnich, a sweeper/right-back, played 467 times for the Nerazzurri, scoring 6 goals, and his aggressive, determined style was ideally suited to the catenaccio system operated by Helenio Herrera throughout Inter's glory years.</description>
+            <TimeStamp>
+                <when>1939-04-25</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.483333587646484,41.900001525878906</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sandro Mazzola</name>
+            <address>Italy</address>
+            <description>Alessandro (&quot;Sandro&quot;) Mazzola is an Italian former football player. He is the son of Valentino Mazzola, who was killed in the Superga air disaster in 1949, and one of the most renowned Italian football players of the 1960s. He played for the Internazionale team known as La Grande Inter. He was an attacking inside-right with goalscoring instincts. He was also blessed with creativity, helped by his passing range and close control.</description>
+            <TimeStamp>
+                <when>1942-11-08</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.483333587646484,41.900001525878906</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Juan Gutiérrez Moreno</name>
+            <address>Spain</address>
+            <description>Juan Gutiérrez Moreno, aka Juanito (born July 23, 1976), is a Spanish footballer who plays for Atlético Madrid, as a central defender. A player of physical display, Juanito is also noted for his superb aerial ability.</description>
+            <TimeStamp>
+                <when>1976-07-23</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jürgen Grabowski</name>
+            <address>Wiesbaden</address>
+            <description>Jürgen Grabowski (born July 7, 1944 in Wiesbaden) is a former German footballer. Grabowski, a forward, then midfielder, started his career with SV Biebrich 1919 and FV Biebrich 1902, both clubs in Wiesbaden. In 1965 he turned over to Eintracht Frankfurt. With this team he won the German Cup in 1974 and 1975 and the UEFA Cup in 1980. In European Cup competitions he made 40 appearances with 9 goals. He won 44 caps for the German national team and scored 5 goals.</description>
+            <TimeStamp>
+                <when>1944-07-07</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>8.25,50.08333206176758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Uli Hoeneß</name>
+            <address>Ulm</address>
+            <description>Ulrich “Uli” Hoeneß (born 5 January 1952) is a former German footballer, who played as a forward. During his career, he was mainly associated with Bayern Munich, later also serving as the club's general manager and president.</description>
+            <TimeStamp>
+                <when>1952-01-05</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>9.983333587646484,48.400001525878906</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Christian Ziege</name>
+            <address>Germany</address>
+            <description>Christian Ziege (born February 1, 1972 in Berlin) is a former German football (soccer) defender and midfielder. With the German national team, Ziege won Euro 96.</description>
+            <TimeStamp>
+                <when>1972-02-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>13.383333206176758,52.516666412353516</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ignacio Zoco</name>
+            <address>Spain</address>
+            <description>Ignacio Zoco Esparza (born 31 July 1939) is a former Spanish footballer who played for Real Madrid and was part of their European Cup victory in 1966. He earned 25 caps for the Spain national football team and was in the squad for the 1964 European Nations' Cup and the 1966 FIFA World Cup.</description>
+            <TimeStamp>
+                <when>1939-07-31</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mogens Krogh</name>
+            <address>Denmark</address>
+            <description>Mogens Krogh is a Danish retired professional football (soccer) player who is currently the goalkeeper coach for the youth teams of Brøndby IF. In his active career, Krogh was the first choice goalkeeper of Brøndby from 1991 to his retirement in December 2001, playing 464 first team matches, and Krogh also played 10 matches for the Denmark national football team.</description>
+            <TimeStamp>
+                <when>1963-10-31</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>10.0,55.71666717529297</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Thomas Strunz</name>
+            <address>Duisburg</address>
+            <description>Thomas Strunz (born 25 April 1968 in Duisburg) is a former German footballer, who played mostly as a defensive midfielder.</description>
+            <TimeStamp>
+                <when>1968-04-25</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>6.766666889190674,51.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Karlheinz Förster</name>
+            <address>Mosbach</address>
+            <description>Karlheinz Helmut Förster (born 25 July 1958) is a former German footballer, who played as a central defender. The younger brother of another football defender, Bernd Förster, he was regarded as one of the world's top man-markers at his peak, and played most of his career at VfB Stuttgart with Bernd. Both were crowned European champions in 1980.</description>
+            <TimeStamp>
+                <when>1958-07-25</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>9.146666526794434,49.35222244262695</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Walter Junghans</name>
+            <address>Hamburg</address>
+            <description>Walter Junghans (born 26 October 1958 in Hamburg) was a German football (soccer) player who played goalkeeper.</description>
+            <TimeStamp>
+                <when>1958-10-26</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>10.001388549804688,53.565277099609375</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Morten Bruun</name>
+            <address>Denmark</address>
+            <description>Morten Bruun (born June 28, 1965) is a Danish retired football (soccer) player, who played in a defending or midfielder role. He spent his entire club career at Silkeborg IF, with whom he won the 1994 Danish Superliga and 2001 Danish Cup trophies. He played 424 matches and scored 35 goals for the club from 1988 to 2001. He played 11 games for the Denmark national football team, and was an unused substitute when Denmark won the Euro 1992 tournament.</description>
+            <TimeStamp>
+                <when>1965-06-28</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>10.0,55.71666717529297</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Marcelino Martínez</name>
+            <address>Spain</address>
+            <description>Marcelino Martínez Cao, also known as Marcelino, was a former Spanish football player. During his career, he played mainly for Real Zaragoza. He played 14 times for the Spain national football team, participating in the 1964 European Football Championship and the 1966 FIFA World Cup. He scored the decisive goal in the 1964 final against the Soviet Union national football team, which Spain won 2–1 (21 June 1964).</description>
+            <TimeStamp>
+                <when>1940-04-29</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hans van Breukelen</name>
+            <address>Netherlands</address>
+            <description>Johannes Franciscus &quot;Hans&quot; van Breukelen (born October 4, 1956 in Utrecht) is a former footballer from the Netherlands. Van Breukelen was a goalkeeper for PSV Eindhoven and the Dutch national team during the 1980s. His professional debut came for FC Utrecht in March 1977, and he became their first-choice keeper in the 1978–79 season, helping them to a KNVB Cup final in 1982. After playing well he was called up to the national team, making his debut against Germany in October 11, 1980.</description>
+            <TimeStamp>
+                <when>1956-10-04</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>5.550000190734863,52.31666564941406</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hans-Georg Schwarzenbeck</name>
+            <address>Germany</address>
+            <description>Hans-Georg &quot;Katsche&quot; Schwarzenbeck (born on 3 April 1948 in Munich) is a retired German football player. He played in the Bundesliga from 1966 to 1979, appearing in 416 matches as a defender for Bayern Munich. He won six German championships, three German Cups, one European Cup Winners' Cup, and three European Cups. Schwarzenbeck played 44 times for Germany between 1971 and 1978. His greatest success was the victory in the 1974 World Cup.</description>
+            <TimeStamp>
+                <when>1948-04-03</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>13.383333206176758,52.516666412353516</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Carlos Marchena</name>
+            <address>Las Cabezas de San Juan</address>
+            <description>Carlos Marchena López (born 31 July 1979) is a Spanish footballer who plays for Villarreal CF and the Spanish national team. Mainly a central defender with an aggressive approach, he can also pitch in as a defensive midfielder. Most of his professional career was spent at Valencia CF (nine years), which he helped to five major titles, namely two La Liga championships.</description>
+            <TimeStamp>
+                <when>1979-07-31</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-5.940555572509766,36.981666564941406</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Angelo Anquilletti</name>
+            <address>San Donato Milanese</address>
+            <description>Angelo Anquilletti (born 25 April 1943 in San Donato Milanese) is a former Italian football (soccer) defender. Started his career in Serie D with Solbiatese. In 1964 he played with Atalanta in Serie A and from 1966 to 1976 played for AC Milan and was part of their European Cup victory in 1969. Close his career with Monza in Serie B. He earned 2 caps for the Italy national football team. Overall, he played 326 games in the Serie A for Atalanta and Milan.</description>
+            <TimeStamp>
+                <when>1943-04-25</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>9.266666412353516,45.41666793823242</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jupp Heynckes</name>
+            <address>Mönchengladbach</address>
+            <description>Josef &quot;Jupp&quot; Heynckes (born 9 May 1945 in Mönchengladbach) is a German football coach and former player. He is the current coach of Bundesliga club Bayer Leverkusen</description>
+            <TimeStamp>
+                <when>1945-05-09</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>6.433333396911621,51.20000076293945</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vassilios Tsiartas</name>
+            <address>Greece</address>
+            <description>Vassilios Tsiartas (born on 12 November 1972 in Alexandreia, Greece) is a retired Greek international football player who played as an attacking midfielder. Although he was famed for his lackadaisical playing style, his ability was never in question and he was in many ways the epitome of a player who wears the number 10 shirt. Tsiartas was predominantly left footed but was just as dangerous with his right.</description>
+            <TimeStamp>
+                <when>1972-11-12</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>22.0,38.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kent Nielsen</name>
+            <address>Frederiksberg</address>
+            <description>Kent Nielsen (born 28 December 1961) is a Danish association football manager and former player, who was named 2006 Danish Coach of the Year. He is the current head coach of Aalborg BK. He started his coaching career as caretaker of AGF Aarhus, before getting his breakthrough with AC Horsens, guiding the club to the top-flight Danish Superliga championship in 2005. He also coached Superliga club Brøndby IF for 15 months. In his active career, Nielsen played as a centre back.</description>
+            <TimeStamp>
+                <when>1961-12-28</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.533333778381348,55.66666793823242</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ernesto Castano</name>
+            <address>Italy</address>
+            <description>Ernesto Castano (2 May 1939) is a former Italian football player from Cinisello Balsamo in the Province of Milan. He played club football for three different clubs, most prominently with Juventus and played for the Italian national football team seven different times.</description>
+            <TimeStamp>
+                <when>1939-05-02</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.483333587646484,41.900001525878906</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Zdeněk Nehoda</name>
+            <address>Hulín</address>
+            <description>Zdeněk Nehoda (born 9 May 1952 in Hulín) is a Czech football forward. He played for Czechoslovakia, for which he played 90 matches and scored 31 goals as a tricky right-winger. He was a participant in the 1982 FIFA World Cup. He is currently an agent, representing a whole number of Czech and foreign players.</description>
+            <TimeStamp>
+                <when>1952-05-09</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>17.463611602783203,49.31694412231445</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Přemysl Bičovský</name>
+            <address>Czechoslovakia</address>
+            <description>Přemysl Bičovský (born 18 August 1950 in Košťany) is a Czech football player. He played 45 matches for Czechoslovakia. He was a participant in the 1982 FIFA World Cup. He played for FK Teplice and later spent his best football years at Bohemians Praha. Bičovský later began a coaching career with ASK Ybbs, FK Teplice, FC Chomutov, Lokomotíva Česká Lípa, SK Buldoci Karlovy Vary-Dvory, SIAD Braňany, FK SIAD Most, Chmel Blšany, MFK Ružomberok, SK Roudnice nad Labem and FC Zenit Čáslav.</description>
+            <TimeStamp>
+                <when>1950-08-18</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>14.466666221618652,50.08333206176758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jozef Barmoš</name>
+            <address>Czechoslovakia</address>
+            <description>Jozef Barmoš (born 28 August 1954 in Šurany) is a former Slovak football coach and former player. He played in defence for Czechoslovakia, and won 52 international caps. Barmoš played for Czechoslovakia at both Euro 80 and Espana 82. At the latter tournament, he scored an own goal as the Czechoslovaks lost 2-0 to England in Bilbao, during the first round of the competition. He coached the Slovak national U21 team, MŠK Žilina and Inter Bratislava.</description>
+            <TimeStamp>
+                <when>1954-08-28</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>14.466666221618652,50.08333206176758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Giacomo Bulgarelli</name>
+            <address>Italy</address>
+            <description>Giacomo Bulgarelli (24 October 1940 &amp;ndash; 12 February 2009) was an Italian footballer and television commentator.</description>
+            <TimeStamp>
+                <when>1940-10-24</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.483333587646484,41.900001525878906</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Giovanni Lodetti</name>
+            <address>Caselle Lurani</address>
+            <description>Giovanni Lodetti (born 10 August 1942) is an Italian former professional footballer who played as a midfielder.</description>
+            <TimeStamp>
+                <when>1942-08-10</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>9.333333015441895,45.31666564941406</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ján Švehlík</name>
+            <address>Lovča</address>
+            <description>Ján Švehlík (born 17 January 1950) is a former Slovak football player and later a football manager. He played for Czechoslovakia, for which he played 17 matches and scored 4 goals. He played mostly for ŠK Slovan Bratislava.</description>
+            <TimeStamp>
+                <when>1950-01-17</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>18.816667556762695,48.56666564941406</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hansi Müller</name>
+            <address>Stuttgart</address>
+            <description>Hans-Peter &quot;Hansi&quot; Müller (born 27 July 1957 in Stuttgart) is a former German footballer.</description>
+            <TimeStamp>
+                <when>1957-07-27</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>9.179444313049316,48.77861022949219</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Josep Fusté</name>
+            <address>Spain</address>
+            <description>Josep Maria Fusté Blanch (born 15 April 1941 in Linyola, Lleida, Catalonia), was a Spanish footballer and captain of FC Barcelona during the 1960s and early 1970s. In 1964, together with Luis Suárez, Amancio Amaro, José Ángel Iribar and his FC Barcelona team mate, Jesús María Pereda, he also helped Spain win the European Championship. He also played for CD Condal, CA Osasuna and Hércules CF.</description>
+            <TimeStamp>
+                <when>1941-04-15</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vicente Guillot</name>
+            <address>Spain</address>
+            <description>Vicente Guillot Fabián (born 15 July 1941 in Aldaya) is a retired Spanish footballer. During his career he played for Mestalla CF, Valencia CF and Elche CF. He also earned 6 caps for the Spain national football team, and participated in the 1964 European Nations' Cup, where Spain were the champions.</description>
+            <TimeStamp>
+                <when>1941-07-15</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Karl Del'Haye</name>
+            <address>West Germany</address>
+            <description>Karl (Kalle) Del'Haye (born August 18, 1955) is a German former footballer who played as a winger. He is best rembered as a Borussia Mönchengladbach player, but also played for Alemannia Aachen, Bayern Munich and Fortuna Düsseldorf. He was capped twice by West Germany, and was part of the winning squad at Euro 1980.</description>
+            <TimeStamp>
+                <when>1955-08-18</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>7.099999904632568,50.733333587646484</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bernd Schuster</name>
+            <address>West Germany</address>
+            <description>Bernhard Schuster (born 22 December 1959 in Augsburg) is a German football manager and former player, currently managing Turkish Super Lig side Beşiktaş. His nickname is &quot;der Blonde Engel&quot; (the Blonde Angel).</description>
+            <TimeStamp>
+                <when>1959-12-22</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>7.099999904632568,50.733333587646484</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Marco van Basten</name>
+            <address>Netherlands</address>
+            <description>Marcel &quot;Marco&quot; van Basten (31 October 1964) is a Dutch football manager and former football player, who played for AFC Ajax and A.C. Milan, as well as the Dutch national team, in the 1980s and early 1990s. He is regarded as one of the greatest forwards of all time and has scored 277 goals in a high-profile career cut short by injury. He was later the head coach of AFC Ajax and the Dutch national team.</description>
+            <TimeStamp>
+                <when>1964-10-31</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>5.550000190734863,52.31666564941406</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ruud Gullit</name>
+            <address>Amsterdam</address>
+            <description>(born as Ruud Dil, September 1, 1962 in Amsterdam) is a Dutch football manager and former football player, who played professionally in the 1980s and 1990s. He was the captain of the Netherlands national team that was victorious at Euro 88 and was also a member of the squad for the 1990 World Cup. He was named the European Footballer of the Year in 1987 and the World Soccer Player of the Year in 1987 and 1989. He was a versatile player, playing in numerous positions during his career.</description>
+            <TimeStamp>
+                <when>1962-09-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>4.8922224044799805,52.37305450439453</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Zinedine Zidane</name>
+            <address>France</address>
+            <description>Zinedine Yazid Zidane (born 23 June 1972) is a retired French World Cup-winning footballer of Kabyle Muslim heritage. Zidane played for club teams in France, Italy and Spain, and was the captain of the French national team. He is widely considered as one of the greatest players in the history of football. He was the iconic figure of a generation of French players that won the 1998 World Cup and 2000 European Championship.</description>
+            <TimeStamp>
+                <when>1972-06-23</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.0,47.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Patrick Vieira</name>
+            <address>Dakar</address>
+            <description>Patrick Vieira (born 23 June 1976 in Dakar) is a footballer who plays as a midfielder for Premier League club Manchester City and the French national team, of which he is the former captain. He rose to prominence during his stint at Arsenal from 1996 to 2005, where he won three Premier League titles – one unbeaten – and four FA Cups, eventually becoming club captain.</description>
+            <TimeStamp>
+                <when>1976-06-23</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-17.446666717529297,14.692777633666992</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Didier Deschamps</name>
+            <address>Bayonne</address>
+            <description>Didier Claude Deschamps (born 15 October 1968 in Bayonne) is a retired French footballer and current manager of Marseille. He played as a defensive midfielder. As an international, he assisted France with victories in the 1998 World Cup and Euro 2000. He is a first cousin of Nathalie Tauziat, the French tennis player who reached the Ladies' Final at Wimbledon eight days before Deschamps captained France to victory in the 1998 World Cup final against Brazil.</description>
+            <TimeStamp>
+                <when>1968-10-15</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-1.475000023841858,43.49359893798828</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Karl-Heinz Rummenigge</name>
+            <address>Lippstadt</address>
+            <description>Karl-Heinz &quot;Kalle&quot; Rummenigge (born 25 September 1955 in Lippstadt) is a German former football player. He had his greatest career success with German club Bayern Munich, where he won the Intercontinental Cup, the European Cup, as well as two league titles and two domestic cups. A member of the German national team, Rummenigge won the 1980 European Championship and was part of the squad that finished runner-up in the 1982 FIFA World Cup and at the 1986 World Cup.</description>
+            <TimeStamp>
+                <when>1955-09-25</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>8.350000381469727,51.66666793823242</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Frank Rijkaard</name>
+            <address>Amsterdam</address>
+            <description>Franklin Edmundo Rijkaard (born 30 September 1962) is a Dutch football manager and former player. Rijkaard has played for Ajax, Real Zaragoza and Milan, and represented his national side 73 times, scoring 10 goals. In his coaching career, he has been at the helm of the Dutch national side, Sparta Rotterdam and Barcelona. He is currently the head coach of Turkish Süper Lig side Galatasaray. His mother is Dutch and his father is Surinamese.</description>
+            <TimeStamp>
+                <when>1962-09-30</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>4.8922224044799805,52.37305450439453</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Daniel Bravo</name>
+            <address>Toulouse</address>
+            <description>Daniel Bravo (born February 9, 1963 in Toulouse is a former French international football player.</description>
+            <TimeStamp>
+                <when>1963-02-09</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>1.444025993347168,43.6045036315918</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>John Jensen</name>
+            <address>Copenhagen</address>
+            <description>John Jensen (born 3 May 1965), nicknamed Faxe, is a former Danish international footballer who was last manager of Danish Superliga side Randers FC. He is known for his temper and is often outspoken in interviews. His playing career lasted over a decade, during which he played most famously for Arsenal F.C.</description>
+            <TimeStamp>
+                <when>1965-05-03</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.568333625793457,55.676109313964844</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Berti Vogts</name>
+            <address>West Germany</address>
+            <description>Hans-Hubert &quot;Berti&quot; Vogts (born 30 December 1946 in Büttgen) is a retired German footballer and current manager of the Azerbaijan national team.</description>
+            <TimeStamp>
+                <when>1946-12-30</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>7.099999904632568,50.733333587646484</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jan Wouters</name>
+            <address>Netherlands</address>
+            <description>Jan Wouters is a former professional football midfielder. He used to play defensive midfielder and was Dutch Footballer of the Year in 1990. Wouters played for several clubs including PSV, FC Utrecht, Bayern Munich and Ajax Amsterdam. He was also a Dutch international (70 caps, 4 goals) and was hugely influential in 1988 when the Netherlands won the European Football Championship. He was coach of Scottish Premier League club Rangers under Dick Advocaat and then Alex McLeish.</description>
+            <TimeStamp>
+                <when>1960-07-17</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>5.550000190734863,52.31666564941406</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>John Bosman</name>
+            <address>Netherlands</address>
+            <description>Johannes (&quot;John&quot;) Jacobus Bosman (born February 1, 1965 in Bovenkerk, Amstelveen) is a former football striker from The Netherlands, who played thirty matches for the Netherlands national football team for which he scored seventeen goals. He was a member of the Dutch team when they won the European title in the 1988 European Football Championship in West Germany.</description>
+            <TimeStamp>
+                <when>1965-02-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>5.550000190734863,52.31666564941406</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Stefan Reuter</name>
+            <address>Dinkelsbühl</address>
+            <description>Stefan Reuter (born 16 October 1966 in Dinkelsbühl) is a German football coach and former player.</description>
+            <TimeStamp>
+                <when>1966-10-16</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>10.31944465637207,49.07083511352539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cesc Fàbregas</name>
+            <address>Vilassar de Mar</address>
+            <description>Francesc &quot;Cesc&quot; Fàbregas i Soler (born 4 May 1987) is a Spanish footballer who plays as a central midfielder. He captains the Premier League side Arsenal and also plays for the Spanish national team. Fàbregas started his career as a trainee with Barcelona but was signed by Arsenal in September 2003 at the age of 16. Following injuries to key midfielders in the 2004–05 season, he established himself as Arsenal's starting central midfielder and playmaker.</description>
+            <TimeStamp>
+                <when>1987-05-04</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.4000000953674316,41.5</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>José Manuel Reina</name>
+            <address>Spain</address>
+            <description>José Manuel &quot;Pepe&quot; Reina Páez (born 31 August 1982), is a Spanish footballer who is currently playing as a goalkeeper for the English Premier League side Liverpool and the Spain national football team. The son of famed FC Barcelona and Atlético Madrid goalkeeper Miguel Reina, Reina began his career with the FC Barcelona youth team and made his La Liga debut in the 2000-01 season. He signed for Villarreal in 2004. However, he soon moved on to Liverpool and making his debut in 2005.</description>
+            <TimeStamp>
+                <when>1982-08-31</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Félix Ruiz</name>
+            <address>Spain</address>
+            <description>Félix Ruiz Gabari (born 14 July 1940 in Olite, died 11 February 1993 in Madrid) was a Spanish footballer. During his career he played for CA Osasuna, Real Madrid and Toluca de Santander. He also earned 4 caps for the Spain national football team, and participated in the 1964 European Nations' Cup, where Spain were the champions.</description>
+            <TimeStamp>
+                <when>1940-07-14</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Matthias Sammer</name>
+            <address>East Germany</address>
+            <description>Matthias Sammer (born September 5, 1967 in Dresden) is a retired German football player and coach who is now working as technical director of the DFB (German Football Association). He played as a midfielder, and later in his career as a sweeper. He was named European Footballer of the Year in 1996, the year he led Germany to victory in the European Championship. Sammer retired with 74 total caps, 23 for East Germany and 51 for the unified side.</description>
+            <TimeStamp>
+                <when>1967-09-05</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>13.399999618530273,52.516666412353516</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Takis Fyssas</name>
+            <address>Greece</address>
+            <description>Panagiotis &quot;Takis&quot; Fyssas (born 12 June 1973) is a former Greek international footballer. He is currently technical director of the Hellenic Football Federation.</description>
+            <TimeStamp>
+                <when>1973-06-12</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>22.0,38.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Peter Nielsen (footballer)</name>
+            <address>Copenhagen</address>
+            <description>Peter Nielsen (born June 3, 1968) is a Danish former football (soccer) player, now a coach. He got 6 international caps and scored one goal for the Denmark national football team, with whom he won Euro 1992, though he didn't play at the tournament. He started his career in the Danish 3rd Division with BK Fremad Amager, and also played with Lyngby Boldklub. He moved abroad to play for Borussia Mönchengladbach in the German Bundesliga, before ending his career with F.C.</description>
+            <TimeStamp>
+                <when>1968-06-03</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.568333625793457,55.676109313964844</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Andreas Möller</name>
+            <address>West Germany</address>
+            <description>Andreas Möller is a retired German footballer who played as an attacking midfielder. He was a playmaker known for his range of passing and goalscoring ability. With the German national team, Möller won the 1990 World Cup and Euro 96. At club level, Möller played for Eintracht Frankfurt (1985–87, 1990–92, 2003–04), Borussia Dortmund (1988–90, 1994–2000), Juventus (1992–94), and Schalke 04 (2000–03).</description>
+            <TimeStamp>
+                <when>1967-09-02</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>7.099999904632568,50.733333587646484</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bent Christensen Arensøe</name>
+            <address>Copenhagen</address>
+            <description>Bent Christensen Arensøe, formerly known as Bent René Christensen, (born January 4, 1967) is a Danish former professional football (soccer) player who has been part of the coaching team at Brøndby IF since 2005. During his active career he earned the nickname &quot;Turbo&quot; for his tenacity in the attacking striker position. He played in a string of clubs, most notably Danish club Brøndby IF, where he scored a combined 116 goals in 208 games and won five Danish championships.</description>
+            <TimeStamp>
+                <when>1967-01-04</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>12.568333625793457,55.676109313964844</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Valentin Ivanov (footballer born 1934)</name>
+            <address>Soviet Union</address>
+            <description>Valentin Kozmich Ivanov is a football winger/striker, co-leading scorer at the 1962 World Cup and co-1960 European Nations' Cup top scorer. He was known for his blistering pace, excellent technique and great dribbling. He could score and create goals equally well. Overall, Ivanov appeared 59 times for the Soviet Union, scoring 26 goals. That number is third in national history behind Oleg Blokhin and Oleg Protasov.</description>
+            <TimeStamp>
+                <when>1934-11-19</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>37.61666488647461,55.75</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Markus Babbel</name>
+            <address>West Germany</address>
+            <description>Markus Babbel (born 8 September 1972) is a former international German football player, who became a manager. He played as a defender for clubs in Germany and England.</description>
+            <TimeStamp>
+                <when>1972-09-08</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>7.099999904632568,50.733333587646484</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Luis Suárez Miramontes</name>
+            <address>Spain</address>
+            <description>Luis Suárez Miramontes (born May 2, 1935) is a Spanish former footballer and manager. He played as a midfielder for Deportivo de La Coruña, CD España Industrial, CF Barcelona, Internazionale, Sampdoria and Spain. Suárez who usually played as an inside left, is regarded as one of Spain's greatest players.</description>
+            <TimeStamp>
+                <when>1935-05-02</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Antonín Panenka</name>
+            <address>Czechoslovakia</address>
+            <description>Antonín Panenka (born December 2, 1948 in Prague) is a Czech former footballer.</description>
+            <TimeStamp>
+                <when>1948-12-02</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>14.466666221618652,50.08333206176758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Adelardo Rodríguez</name>
+            <address>Spain</address>
+            <description>Adelardo Rodríguez Sánchez, usually referred to simply as Adelardo (born 26 September 1939 at Badajoz) is a former Spanish footballer. Adelardo enjoyed a 17-year spell at Atletico Madrid from 1959 to 1976. He was one of the most accomplished midfield schemers of his generation, combining skill, commitment and an eye for goal.</description>
+            <TimeStamp>
+                <when>1939-09-26</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Uli Stielike</name>
+            <address>West Germany</address>
+            <description>Ulrich &quot;Uli&quot; Stielike is a German football manager and former player.</description>
+            <TimeStamp>
+                <when>1954-11-15</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>7.099999904632568,50.733333587646484</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Christian Karembeu</name>
+            <address>New Caledonia</address>
+            <description>Christian Karembeu is a retired French association football player and current scout for Arsenal FC. He is currently a non-executive director of Grandtop International Holdings Limited, which recently took over Birmingham City. He is also part of a Paris-based consortium to expand the A-League with a Pacific Island team.</description>
+            <TimeStamp>
+                <when>1970-12-03</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>165.02000427246094,-20.992000579833984</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kostas Chalkias</name>
+            <address>Larissa</address>
+            <description>Konstadinos &quot;Kostas&quot; Chalias is a Greek footballer, born May 30, 1974 in Larissa, Greece. He stands 2.00 m (6 ft 6 1⁄2 in) tall and plays in the goalkeeper position. He currently plays for PAOK F.C..</description>
+            <TimeStamp>
+                <when>1974-05-30</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>22.422832489013672,39.62944412231445</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fredi Bobic</name>
+            <address>Maribor</address>
+            <description>Fredi Bobic is a former German football player. Currently, he works as a director of sport for German VfB Stuttgart.</description>
+            <TimeStamp>
+                <when>1971-10-30</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>15.649999618530273,46.54999923706055</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Georgios Georgiadis</name>
+            <address>Greece</address>
+            <description>Georgios Georgiadis is a former Greek footballer. He last played for PAOK Thessaloniki FC.</description>
+            <TimeStamp>
+                <when>1972-03-08</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>22.0,38.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jean Tigana</name>
+            <address>Bamako</address>
+            <description>Jean Amadou Tigana is a football manager and former player, having played in midfield and managed professional football extensively throughout France, including 52 appearances and 1 goal for the France national football team during the 1980s.</description>
+            <TimeStamp>
+                <when>1955-06-23</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-8.0,12.649999618530273</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Demis Nikolaidis</name>
+            <address>Gießen</address>
+            <description>Themistoklis &quot;Demis&quot; Nikolaidis (born on September 17, 1973 in Gießen, West Germany) was the forty second president of AEK Athens F.C. , and is considered one of the finest footballers Greece has ever produced. In his early childhood and teenage years he lived in the city of Alexandroupoli, in the north-east part of Greece.</description>
+            <TimeStamp>
+                <when>1973-09-17</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>8.666666984558105,50.58333206176758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rainer Bonhof</name>
+            <address>Emmerich am Rhein</address>
+            <description>Rainer Bonhof is a former German footballer. He was a defensive midfielder or wing-back.</description>
+            <TimeStamp>
+                <when>1952-03-29</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>6.2452778816223145,51.834999084472656</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rubén de la Red</name>
+            <address>Móstoles</address>
+            <description>Rubén de la Red Gutiérrez is a Spanish footballer, who plays as a central midfielder. He made a name for himself at Getafe CF after emerging through Real Madrid's cantera. Returning to his first club in 2008, he suffered a serious heart ailment which put his career on hold for several years. Additionally, de la Red was part of Spain's squad at the victorious UEFA Euro 2008 tournament.</description>
+            <TimeStamp>
+                <when>1985-06-05</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.865000009536743,40.322776794433594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Andrés Iniesta</name>
+            <address>Spain</address>
+            <description>Andrés Iniesta Luján is a World Cup-winning Spanish football midfielder who currently plays for Spanish La Liga club FC Barcelona. His willingness to play anywhere on the pitch, coupled with a natural humility, has earned him the sobriquet El Ilusionista (The Dreamer), El Cerebro (The Brain), El Caballero Pálido (The Pale Knight) and most recently Don Andrés from the Spanish press.</description>
+            <TimeStamp>
+                <when>1984-05-11</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Albert Rust (footballer)</name>
+            <address>Haut-Rhin</address>
+            <description>Albert Rust (born October 10, 1953) is a former French footballer, who currently works as Goalkeeper coach by AS Saint-Étienne.</description>
+            <TimeStamp>
+                <when>1953-10-10</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>7.3197221755981445,47.964168548583984</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lars Elstrup</name>
+            <address>Denmark</address>
+            <description>Lars Dahl Elstrup (born March 24, 1963 in Råby) is a Danish former professional footballer, who played for a number of Danish clubs, as well as Dutch club Feyenoord and Luton Town in England. He played 34 matches and scored 13 goals for the Denmark national football team, and was a part of the Denmark team which won the 1992 European Championship.</description>
+            <TimeStamp>
+                <when>1963-03-24</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>10.0,55.71666717529297</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kostas Katsouranis</name>
+            <address>Greece</address>
+            <description>Konstantinos &quot;Kostas&quot; Katsouranis (born 21 June 1979) is a Greek footballer who currently plays for Panathinaikos FC and the Greek national team as a defensive midfielder.</description>
+            <TimeStamp>
+                <when>1979-06-21</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>22.0,38.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Johan Micoud</name>
+            <address>France</address>
+            <description>Johan Micoud (born 24 July 1973) is a retired French footballer, who played mostly as an attacking midfielder. Left-footed, he was considered a skilled midfielder and a dead-ball expert; during a 16-year professional career, he played professionally, other than in his country, in Italy and Germany.</description>
+            <TimeStamp>
+                <when>1973-07-24</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.0,47.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Andrés Palop</name>
+            <address>L'Alcúdia</address>
+            <description>Andrés Palop Cervera is a Spanish footballer who plays for Sevilla FC, as a goalkeeper. After having languished on the bench of hometown side Valencia CF for most of his stay, he became a premiere player with Sevilla FC well into his 30's, helping it consolidate in both the domestic and European fronts.</description>
+            <TimeStamp>
+                <when>1973-10-22</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-0.5072222352027893,39.19583511352539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>John van 't Schip</name>
+            <address>Fort St. John, British Columbia</address>
+            <description>Johannes Nicolaas &quot;John&quot; van 't Schip (born 30 December 1963) is a former Dutch international footballer. He is the manager for the A-League team Melbourne Heart.</description>
+            <TimeStamp>
+                <when>1963-12-30</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-120.8476333618164,56.246463775634766</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Dieter Eilts</name>
+            <address>West Germany</address>
+            <description>Dieter Eilts (born 13 December 1964 in Upgant-Schott) was an acclaimed German footballer and was last the trainer of Hansa Rostock. His nickname was the Alemão of East Frisia, for his similarity with to Brazilian midfielder Alemão. The word Alemão means &quot;German&quot; in Portuguese (but then again, the Brazilian player earned his nickname precisely because of his blond &quot;German&quot; appearance).</description>
+            <TimeStamp>
+                <when>1964-12-13</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>7.099999904632568,50.733333587646484</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Stylianos Venetidis</name>
+            <address>Larissa</address>
+            <description>Stylianos &quot;Stelios&quot; Venetidis is a football defender who currently plays for Larissa. He is a very constant and composed player, attributes that gave him the chance to play for top class Greek football teams and be an important member for the Greek national football team, playing also in 3 games at UEFA Euro 2004.</description>
+            <TimeStamp>
+                <when>1976-11-19</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>22.422832489013672,39.62944412231445</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pantelis Kafes</name>
+            <address>Greece</address>
+            <description>Pantelis Kafes (born on June 24, 1978 in Veria, Greece) is a Greek footballer currently playing as a deep-lying playmaker for AEK Athens in the Greek Super League. He is known for being one of very few outfield players to have worn the number 1 jersey and has won acclaim for his creative abilities and passing skills.</description>
+            <TimeStamp>
+                <when>1978-06-24</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>22.0,38.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Karol Dobiaš</name>
+            <address>Czechoslovakia</address>
+            <description>Karol Dobiaš (born December 18, 1947), is a former Slovak football player and coach. During his career, he was a versatile player, mostly playing as defender or midfielder.</description>
+            <TimeStamp>
+                <when>1947-12-18</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>14.466666221618652,50.08333206176758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Michalis Kapsis</name>
+            <address>Greece</address>
+            <description>Michalis Kapsis (born on October 18, 1973 in Nikaia) is a Greek football player who currently plays for Ethnikos Piraeus F.C.. Kapsis played for the Greek national football team at the position of central defender. He is the son of Anthimos Kapsis, who played for Panathinaikos in the 1971 European Champion Clubs' Cup final, a 2-0 loss to AFC Ajax.</description>
+            <TimeStamp>
+                <when>1973-10-18</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>22.0,38.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Manuel Amoros</name>
+            <address>Lunel</address>
+            <description>Manuel Amoros (born February 1, 1962 in Nîmes) is a retired football defender from France with Valencian ancestry. He was capped 82 times (one goal) for the France national football team, and played in the Euro Cup finals of 1984 and 1992, and the World Cup finals in 1982 and 1986. Amoros played most of his career for AS Monaco in the French first division. He missed his penalty in the 1991 European Cup Final for Marseille and subsequently Red Star Belgrade won the match 5–3 on penalties.</description>
+            <TimeStamp>
+                <when>1962-02-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>4.136111259460449,43.67777633666992</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Severino Reija</name>
+            <address>Spain</address>
+            <description>Severino Reija Vázquez is a former footballer from Spain. He participated with the national team at the 1962 FIFA World Cup, the 1964 UEFA European Football Championship, and the 1966 FIFA World Cup.</description>
+            <TimeStamp>
+                <when>1938-11-25</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fanis Katergiannakis</name>
+            <address>Greece</address>
+            <description>Theofanis Katergiannakis (Θεοφάνης Κατεργιαννάκης) (born February 16, 1974) is a football (soccer) player who plays as a goalkeeper. He currently plays for Kavala FC in Greek First Division.</description>
+            <TimeStamp>
+                <when>1974-02-16</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>22.0,38.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jaroslav Pollák</name>
+            <address>Czechoslovakia</address>
+            <description>Jaroslav Pollák (born 11 July 1947 in Nižný Medzev) is a former Slovak football player. He played for Czechoslovakia national team in 49 matches and scored one goal. He was a participant at the 1970 FIFA World Cup, where he played in a match against England, and at the Euro 1976, where his team won the gold medal, and also at the Euro 1980. Pollák played for more than 10 years for FC Košice.</description>
+            <TimeStamp>
+                <when>1947-07-11</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>14.466666221618652,50.08333206176758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>René Schneider (footballer)</name>
+            <address>East Germany</address>
+            <description>René Schneider (born February 1, 1973) is a German football player. He played mostly for Hansa Rostock and Borussia Dortmund. He played for Germany national football team and was a participant at the 1996 UEFA European Championship.</description>
+            <TimeStamp>
+                <when>1973-02-01</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>13.399999618530273,52.516666412353516</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Miroslav Votava</name>
+            <address>Czechoslovakia</address>
+            <description>Miroslav &quot;Mirko&quot; Votava (born April 25, 1956) is a former German footballer and coach. A defensive midfielder of stamina and tactical awareness, Votava played 546 matches in the Bundesliga (fourth in the all-time list), retiring at the age of 41. Most of his professional career was spent in Germany with Werder Bremen, with which he won a total of five titles - he also spent eight years in the country with Borussia Dortmund.</description>
+            <TimeStamp>
+                <when>1956-04-25</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>14.466666221618652,50.08333206176758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jean-François Domergue</name>
+            <address>Bordeaux</address>
+            <description>Jean-François Domergue (born June 23, 1957) is a French former football defender, now manager of Montpellier HSC. Throughout his career he was called up nine times to the France national football team, where he scored only two goals - both in the semi-finals of the 1984 European Football Championship against Portugal, which France won 3-2 after extra time.</description>
+            <TimeStamp>
+                <when>1957-06-23</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-0.5783330202102661,44.8386116027832</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hannes Löhr</name>
+            <address>Germany</address>
+            <description>Johannes Löhr (born 5 July 1942) is a former German international football player and manager. Hannes Löhr was coach of the West German team that won Bronze at the 1988 Summer Olympics in Seoul.</description>
+            <TimeStamp>
+                <when>1942-07-05</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>13.383333206176758,52.516666412353516</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Henrik Andersen</name>
+            <address>Denmark</address>
+            <description>Henrik Andersen (born 7 May 1965) is a Danish former football player, who most famously played eight years at Belgian club RSC Anderlecht, with whom he won the 1983 UEFA Cup. He represented the Danish national team in 30 matches, and scored two goals. He represented Denmark at the 1986 World Cup and the triumphant Euro 1992 tournament, where he suffered a serious knee injury, during the semi-final. His son Kristoffer Andersen is also a professional footballer.</description>
+            <TimeStamp>
+                <when>1965-05-07</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>10.0,55.71666717529297</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jozef Móder</name>
+            <address>Czechoslovakia</address>
+            <description>Jozef Móder (born 19 September 1947) is a former Slovak football midfielder and later coach. He is a member of the Czechoslovakia winning team at the UEFA Euro 1976. He was known as corner kick specialist. He overall played 318 matches and scored 75 goals at the Czechoslovak First League. Móder made his international debut for the Czechoslovakia national football team in a 6-0 home win against Luxembourg on 26 April 1972.</description>
+            <TimeStamp>
+                <when>1947-09-19</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>14.466666221618652,50.08333206176758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Manfred Kaltz</name>
+            <address>West Germany</address>
+            <description>Manfred Kaltz (born 6 January 1953) is a former German football player and manager. Kaltz played in the Bundesliga for Hamburger SV and 13 times (1 goal) for FC Mulhouse in Ligue 1 after initially joining Mulhouse league rivals Girondins de Bordeaux 1989. He returned to Hamburg the season after, the consequence of the relegation of FC Mulhouse from Ligue 1 at the end of 1989–90.</description>
+            <TimeStamp>
+                <when>1953-01-06</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>7.099999904632568,50.733333587646484</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Luis del Sol</name>
+            <address>Arcos de Jalón</address>
+            <description>Luis del Sol Cascajares is a former Spanish footballer. During his career, he played for Real Betis (1954–1960, 1972–1973), Real Madrid (1960–1962), Juventus (1962–1970) and A.S. Roma (1970–1972). He won the 1959–60 European Cup with Real Madrid. He earned 16 caps and scored 3 goals for the Spain national team, and played in the 1962 and 1966 World Cups. He was also part of the champion squad at the 1964 European Football Championship, although he did not play in the final phase.</description>
+            <TimeStamp>
+                <when>1935-04-06</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-2.2666666507720947,41.21666717529297</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Giannis Goumas</name>
+            <address>Larissa</address>
+            <description>Giannis Goumas is a former Greek footballer.</description>
+            <TimeStamp>
+                <when>1975-05-24</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>22.422832489013672,39.62944412231445</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Daniel Güiza</name>
+            <address>Spain</address>
+            <description>Daniel Gonzalez Güiza (born 17 August 1980) is a Spanish footballer who plays for Fenerbahçe S.K. in Turkey, as a striker. A late bloomer, he made a name for himself at the age of 27, being crowned La Liga topscorer with RCD Mallorca. Subsequently, he helped the Spanish national team win the UEFA Euro 2008, and signed with Fenerbahçe in Turkey shortly afterwards.</description>
+            <TimeStamp>
+                <when>1980-08-17</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>José Vicente Train</name>
+            <address>Barcelona</address>
+            <description>José Vicente Train (born 19 December 1931 in Barcelona) is a retired Spanish football goalkeeper. During his career he played for RCD Espanyol, Real Madrid, RCD Mallorca and Deportivo de La Coruña. He also earned 7 caps for the Spain national football team, and participated in the 1964 European Nations' Cup, where Spain were the champions.</description>
+            <TimeStamp>
+                <when>1931-12-19</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>2.183333396911621,41.38333511352539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mikheil Meskhi</name>
+            <address>Tbilisi</address>
+            <description>Mikheil Meskhi was a Georgian footballer. Nicknamed the &quot;Georgian Garrincha&quot; for his dazzling wing play, Meskhi was a creative force on the left flank for the Soviet Union. During his career he played for Dynamo Tbilisi (1954-1969) and Lokomotiv Tbilisi (1970). He earned 35 caps for the USSR national football team, and participated in the 1962 World Cup. He also appeared on the Soviet squad for the first ever European Nations' Cup in 1960, which the Soviets won.</description>
+            <TimeStamp>
+                <when>1937-01-12</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>44.78333282470703,41.71666717529297</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Luis María Echeberría</name>
+            <address>Spain</address>
+            <description>Luis María Echeberría Igartua (born 24 March 1940) is a retired Spanish footballer who played for Athletic Bilbao during all his club career and played in the 1962 FIFA World Cup representing Spain.</description>
+            <TimeStamp>
+                <when>1940-03-24</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Enrique Collar</name>
+            <address>Spain</address>
+            <description>Enrique Collar Monterrubio is a former Spanish football player. He earned 16 caps and scored 4 goals for the Spain national football team from 1955 to 1963. He played in the 1962 FIFA World Cup, and also was in the squad (but did not play in the Finals) in the 1964 UEFA European Football Championship when Spain were champions.</description>
+            <TimeStamp>
+                <when>1934-11-02</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>-3.700000047683716,40.43333435058594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vladimir Maslachenko</name>
+            <address>Vasylkiv</address>
+            <description>Vladimir Nikitovich Maslachenko is a former Soviet footballer and a current football commentator.</description>
+            <TimeStamp>
+                <when>1936-03-05</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>30.315834045410156,50.1783332824707</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Yury Kovalyov</name>
+            <address>Orekhovo-Zuyevo</address>
+            <description>Yury Fyodorovich Kovalyov was a Soviet Russian footballer.</description>
+            <TimeStamp>
+                <when>1934-02-06</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>38.96666717529297,55.79999923706055</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>
