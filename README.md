@@ -3,13 +3,19 @@ Place and Time Navigator
 
 a fork and extension of [GeoTemCo](https://github.com/stjaenicke/GeoTemCo)
 
-developed at the [Max-Planck-Institute for the History of Science](http://www.mpiwg-berlin.mpg.de) with funding from [TOPOI](http://topoi.org) within the Project [Atlas der Innovationen](http://www.topoi.org/group/d-6/).
+developed at the [Max-Planck-Institute for the History of Science](http://www.mpiwg-berlin.mpg.de) with funding from [TOPOI](http://topoi.org) within the Project [Atlas der Innovationen](http://www.topoi.org/group/d-6/) and [DARIAH-DE](https://de.dariah.eu).
 
 ## Introduction
 
 PLATIN is a HTML5-based tool for presentation and analysis of spatial and temporal data, with a focus on historical data.
 
-The projects starting goal was to bring the functionality of the [DARIAH](http://www.dariah.eu) [GeoBrowser](http://dev2.dariah.eu/e4d/‎) to [GeoTemCo](http://www.informatik.uni-leipzig.de/geotemco/). 
+The projects starting goal was to bring the functionality of the first [DARIAH-DE](https://de.dariah.eu), former installation of [e4d](http://www.informatik.uni-leipzig.de:8080/e4D/‎) to [GeoTemCo](http://www.informatik.uni-leipzig.de/geotemco/). 
+
+This fork just configures PLATIN to be used in the DARIAH-DE [Geo-Browser](https://geobrowser.de.dariah.eu). Changes are:
+
+* configuration of maps taken from DARIAH-DE GeoServer
+* more static data
+* minor cosmetical adaptations
 
 Which added the following functionality:
 * CSV/XLS/XLSX loading
