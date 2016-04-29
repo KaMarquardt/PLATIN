@@ -9,7 +9,7 @@ developed at the [Max-Planck-Institute for the History of Science](http://www.mp
 
 PLATIN is a HTML5-based tool for presentation and analysis of spatial and temporal data, with a focus on historical data.
 
-The projects starting goal was to bring the functionality of the first [DARIAH-DE](https://de.dariah.eu) Geo-Browser (an installation of the [e4d](http://www.informatik.uni-leipzig.de:8080/e4D/‎)) to [GeoTemCo](http://www.informatik.uni-leipzig.de/geotemco/). 
+The projects starting goal was to bring the functionality of the first [DARIAH-DE](https://de.dariah.eu) Geo-Browser, an installation of the [e4d](http://www.informatik.uni-leipzig.de:8080/e4D/‎,) to [GeoTemCo](http://www.informatik.uni-leipzig.de/geotemco/). 
 
 This fork just configures PLATIN to be used in the DARIAH-DE [Geo-Browser](https://geobrowser.de.dariah.eu). Changes are:
 
