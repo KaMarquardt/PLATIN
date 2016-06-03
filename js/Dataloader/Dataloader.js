@@ -170,7 +170,9 @@ Dataloader.prototype = {
 				if (dataSet != null)
 					this.distributeDataset(dataSet);
 			} else
-				alert("Could not load file.");
+				alert("Could not load file. Please check your URL. If the URL is correct, our " +
+					"proxy may prevent the file from loading. In that case please send us an email, " +
+					"and we gladly add your host to the white list.");
 		},this));
 
 		$(this.parent.gui.loaders).append(this.KMLLoaderTab);
@@ -246,7 +248,9 @@ Dataloader.prototype = {
 					if (dataSet != null)
 						dataLoader.distributeDataset(dataSet);
 				} else
-					alert("Could not load file.");
+					alert("Could not load file. Please check your URL. If the URL is correct, our " +
+						"proxy may prevent the file from loading. In that case please send us an email, " +
+						"and we gladly add your host to the white list.");
 			});
 		},this));
 
