@@ -30,6 +30,7 @@
 function MapConfig(options) {
 
 	var gsurl = 'http://ref.dariah.eu/geoserver';
+	var mpiwgurl = 'http://geoserver.mpiwg-berlin.mpg.de/geoserver';
 
 	this.options = {
 		mapWidth : false, // false or desired width css definition for the map
@@ -224,9 +225,9 @@ function MapConfig(options) {
 //					name: '-----------------------------------',
 //				},
 //				{
-//					name: 'Historical map 1999-09-14',
-//					url: gsurl + '/mpiwg/wms',
-//					layer: 'mpiwg:borders_1999_9_14Polygon',
+//					name: 'CSHAPE borders 1994-12-15',
+//					url: mpiwgurl + '/mpiwg/wms',
+//					layer: 'mpiwg:borders_1994_12_15',
 //					attribution: "© <a href='++TODO++'>++TODO++</a>"
 //				},
 //				{
