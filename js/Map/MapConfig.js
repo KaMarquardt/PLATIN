@@ -64,9 +64,9 @@ function MapConfig(options) {
 				},
 				{
 					name: 'Barrington Roman Empire',
-					url: 'http://pelagios.dme.ait.ac.at/tilesets/imperium/${z}/${x}/${y}.png',
+					url: 'http://pelagios.org/tilesets/imperium/${z}/${x}/${y}.png',
 					type:'XYZ',
-					attribution: "© <a href='https://twitter.com/johanahlfeldt'>Johan Åhlfeldt</a>, <a href='http://pelagios-project.blogspot.de/'>Pelagios</a> (<a href='http://pelagios.dme.ait.ac.at/maps/greco-roman/about.html'>Digital Atlas of the Roman Empire</a>)"
+					attribution: "© <a href='https://twitter.com/johanahlfeldt'>Johan Åhlfeldt</a>, <a href='http://commons.pelagios.org/'>Pelagios</a> (<a href='http://pelagios.org/maps/greco-roman/about.html'>Digital Atlas of the Roman Empire</a>)"
 				},
 				{
 					name: '-----------------------------------',
