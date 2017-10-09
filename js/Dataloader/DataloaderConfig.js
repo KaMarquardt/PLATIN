@@ -30,6 +30,11 @@ function DataloaderConfig(options) {
 
 	this.options = {
 		staticKML : [
+		{ header: "" },
+			{
+				label: "Please choose file...",
+				uri: ""
+			},
 			// {header: "header label"},
 			// {label: "Johann Wolfgang von Goethe", url:"http://.../goethe.kml" },
 		{ header: "WebOPAC Göttingen" },
