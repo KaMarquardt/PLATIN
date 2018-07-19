@@ -29,7 +29,7 @@
  */
 function MapConfig(options) {
 
-	var gsurl = 'http://ref.dariah.eu/geoserver';
+	var gsurl = 'https://ref.de.dariah.eu/geoserver';
 	var mpiwgurl = 'http://geoserver.mpiwg-berlin.mpg.de/geoserver';
 
 	this.options = {
@@ -326,7 +326,7 @@ function MapConfig(options) {
 	if ( typeof options != 'undefined') {
 		$.extend(this.options, options);
 	}
-	
+
 	//if the user can change shape/color graphics have to be used
 	//but this will use circles as default shape
 	if (GeoTemConfig.allowUserShapeAndColorChange){
@@ -344,7 +344,7 @@ MapConfig.prototype.getGraphic = function(id){
 	} else{
 		graphic = this.options.graphics[id % this.options.graphics.length];
 	}
-	
+
 	var color;
 	if (typeof dataset.color !== "undefined"){
 		color = dataset.color;
