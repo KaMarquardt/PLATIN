@@ -100,7 +100,7 @@ StorytellingWidget.prototype = {
 			} else {
 				if (storytellingWidget.options.dariahStorage){
 					var uploadToDARIAH = document.createElement('a');
-					$(uploadToDARIAH).append("Upload to DARIAH Storage");
+					$(uploadToDARIAH).append(" [upload to DARIAH storage]");
 					uploadToDARIAH.title = "";
 					uploadToDARIAH.href = dataset.url;
 					
@@ -108,7 +108,7 @@ StorytellingWidget.prototype = {
 					$(uploadToDARIAH).click(function(){
 						var csv = GeoTemConfig.createCSVfromDataset(localDatasetIndex);
 						// taken from dariah.storage.js
-						var storageURL = "http://ref.dariah.eu/storage/"
+						var storageURL = "https://geobrowser.de.dariah.eu/storage/"
 					    $.ajax({
 							url: storageURL,
 							type: 'POST',
