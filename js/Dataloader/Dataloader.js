@@ -140,44 +140,48 @@ Dataloader.prototype = {
 			$(this.parent.gui.loaders).append(this.StaticLoaderTab);
 		}
 	},
+    
+    addKMLLoader : function() {
+	$(this.parent.gui.loaderTypeSelect).append("<option value='KMLLoader'>KML File URL</option>");
 	
-	addKMLLoader : function() {
-		$(this.parent.gui.loaderTypeSelect).append("<option value='KMLLoader'>KML File URL</option>");
-		
-		this.KMLLoaderTab = document.createElement("div");
-		$(this.KMLLoaderTab).attr("id","KMLLoader");
-		
-		this.kmlURL = document.createElement("input");
-		$(this.kmlURL).attr("type","text");
-		$(this.KMLLoaderTab).append(this.kmlURL);
-		
-		this.loadKMLButton = document.createElement("button");
-		$(this.loadKMLButton).text("load KML");
-		$(this.KMLLoaderTab).append(this.loadKMLButton);
-
-		$(this.loadKMLButton).click($.proxy(function(){
-			var kmlURL = $(this.kmlURL).val();
-			if (kmlURL.length === 0)
-				return;
-			var origURL = kmlURL;
-			var fileName = this.getFileName(kmlURL);
-			if (typeof GeoTemConfig.proxy != 'undefined')
-				kmlURL = GeoTemConfig.proxy + kmlURL;
-			var kml = GeoTemConfig.getKml(kmlURL);
-			if ((typeof kml !== "undefined") && (kml != null)) {
-				var dataSet = new Dataset(GeoTemConfig.loadKml(kml), fileName, origURL);
-				
-				if (dataSet != null)
-					this.distributeDataset(dataSet);
-			} else
-				alert("Could not load file. Please check your URL. If the URL is correct, our " +
-					"proxy may prevent the file from loading. In that case please send us an email, " +
-					"and we gladly add your host to the white list.");
-		},this));
-
-		$(this.parent.gui.loaders).append(this.KMLLoaderTab);
-	},
+	this.KMLLoaderTab = document.createElement("div");
+	$(this.KMLLoaderTab).attr("id","KMLLoader");
 	
+	this.kmlURL = document.createElement("input");
+	$(this.kmlURL).attr("type","text");
+	$(this.KMLLoaderTab).append(this.kmlURL);
+	
+	this.loadKMLButton = document.createElement("button");
+	$(this.loadKMLButton).text("load KML");
+	$(this.KMLLoaderTab).append(this.loadKMLButton);
+	
+	$(this.loadKMLButton).click($.proxy(function(){
+	    var kmlURL = $(this.kmlURL).val();
+	    
+	    if (kmlURL.length === 0)
+		return;
+	    var origURL = kmlURL;
+	    var fileName = this.getFileName(kmlURL);
+	    
+	    if (typeof GeoTemConfig.proxy != 'undefined') {
+		kmlURL = GeoTemConfig.proxy + kmlURL;
+	    }
+	    
+	    var kml = GeoTemConfig.getKml(kmlURL);
+	    if ((typeof kml !== "undefined") && (kml != null)) {
+		var dataSet = new Dataset(GeoTemConfig.loadKml(kml), fileName, origURL);
+		
+		if (dataSet != null)
+		    this.distributeDataset(dataSet);
+	    } else
+		alert("Could not load file. Please check your URL. If the URL is correct, our " +
+		      "proxy may prevent the file from loading. In that case please send us an email, " +
+		      "and we gladly add your host to the white list.");
+	},this));
+	
+	$(this.parent.gui.loaders).append(this.KMLLoaderTab);
+    },
+    
 	addKMZLoader : function() {
 		$(this.parent.gui.loaderTypeSelect).append("<option value='KMZLoader'>KMZ File URL</option>");
 		

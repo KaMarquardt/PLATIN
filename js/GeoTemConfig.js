@@ -565,9 +565,9 @@ GeoTemConfig.getKml = function(url,asyncFunc) {
 			if( asyncFunc ){
 				asyncFunc(xml);
 			}
-			else {
-				data = xml;
-			}
+		    else {
+			data = xml;
+		    }
 		}
 	});
 	if( !async ){
