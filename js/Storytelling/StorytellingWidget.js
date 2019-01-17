@@ -37,14 +37,14 @@ StorytellingWidget = function(core, div, options) {
 
 	this.options = (new StorytellingConfig(options)).options;
 	this.gui = new StorytellingGui(this, div, this.options);
-	
+
 	this.datasetLink;
-	
+
 	Publisher.Subscribe('mapChanged', this, function(mapName) {
 		this.client.currentStatus["mapChanged"] = mapName;
 		this.client.createLink();
 	});
-	
+
 	var currentStatus = $.url().param("currentStatus");
 	if (typeof currentStatus !== "undefined"){
 		this.currentStatus = $.deparam(currentStatus);
@@ -59,17 +59,17 @@ StorytellingWidget.prototype = {
 	initWidget : function(data) {
 		var storytellingWidget = this;
 		var gui = storytellingWidget.gui;
-		
+
 		storytellingWidget.datasets = data;
-		
+
 		$(gui.storytellingContainer).empty();
-		
+
 		var magneticLinkParam = "";
 		var datasetIndex = 0;
 		var linkCount = 1;
 		$(storytellingWidget.datasets).each(function(){
 			var dataset = this;
-			
+
 			if (magneticLinkParam.length > 0)
 				magneticLinkParam += "&";
 
@@ -78,7 +78,7 @@ StorytellingWidget.prototype = {
 			if (typeof dataset.url !== "undefined"){
 				//TODO: makes only sense for KML or CSV URLs, so "type" of
 				//URL should be preserved (in dataset).
-				//startsWith and endsWith defined in SIMILE Ajax (string.js) 
+				//startsWith and endsWith defined in SIMILE Ajax (string.js)
 				var type="csv";
 				if (typeof dataset.type !== "undefined")
 					type = dataset.type;
@@ -90,7 +90,7 @@ StorytellingWidget.prototype = {
 				magneticLinkParam += type+linkCount+"=";
 				linkCount++;
 				magneticLinkParam += dataset.url;
-				
+
 				var tableLinkDiv = document.createElement('a');
 				tableLinkDiv.title = dataset.url;
 				tableLinkDiv.href = dataset.url;
@@ -103,7 +103,7 @@ StorytellingWidget.prototype = {
 					$(uploadToDARIAH).append(" [upload to DARIAH storage]");
 					uploadToDARIAH.title = "";
 					uploadToDARIAH.href = dataset.url;
-					
+
 					var localDatasetIndex = new Number(datasetIndex);
 					$(uploadToDARIAH).click(function(){
 						var csv = GeoTemConfig.createCSVfromDataset(localDatasetIndex);
@@ -118,7 +118,7 @@ StorytellingWidget.prototype = {
 								var location = xhr.getResponseHeader('Location');
 								// the dariah storage id
 							    dsid = location.substring(location.lastIndexOf('/')+1);
-							    
+
 							    //add URL to dataset
 							    storytellingWidget.datasets[localDatasetIndex].url = location;
 							    storytellingWidget.datasets[localDatasetIndex].type = "csv";
@@ -126,12 +126,12 @@ StorytellingWidget.prototype = {
 							    storytellingWidget.initWidget(storytellingWidget.datasets);
 							},
 							error: function (data, text, error) {
-								alert('error creating new file in dariah storage because ' + text);
+								alert('Could not create file in DARIAH storage: ' + text);
 								console.log(data);
 								console.log(text);
 								console.log(error);
 							}
-					    });					
+					    });
 						//discard link click-event
 						return(false);
 					});
@@ -140,10 +140,10 @@ StorytellingWidget.prototype = {
 				// TODO: if layout is more usable, both options could be used ("else" removed)
 				else if (storytellingWidget.options.localStorage){
 					var saveToLocalStorage = document.createElement('a');
-					$(saveToLocalStorage).append("Save to Local Storage");
+					$(saveToLocalStorage).append(" [save to local storage]");
 					saveToLocalStorage.title = "";
 					saveToLocalStorage.href = dataset.url;
-					
+
 					var localDatasetIndex = new Number(datasetIndex);
 					$(saveToLocalStorage).click(function(){
 						var csv = GeoTemConfig.createCSVfromDataset(localDatasetIndex);
@@ -159,22 +159,22 @@ StorytellingWidget.prototype = {
 					    storytellingWidget.datasets[localDatasetIndex].type = "local";
 					    //refresh list
 					    storytellingWidget.initWidget(storytellingWidget.datasets);
-						
+
 						//discard link click-event
 						return(false);
 					});
 					paragraph.append(saveToLocalStorage);
 				}
 			}
-			
+
 			$(gui.storytellingContainer).append(paragraph);
 			datasetIndex++;
 		});
-		
+
 		this.datasetLink = magneticLinkParam;
 		this.createLink();
 	},
-	
+
 	createLink : function() {
 		$(this.gui.storytellingContainer).find('.magneticLink').remove();
 
@@ -189,7 +189,7 @@ StorytellingWidget.prototype = {
 		magneticLink.target = '_';
 		$(this.gui.storytellingContainer).prepend(magneticLink);
 	},
-	
+
 	highlightChanged : function(objects) {
 	},
 
