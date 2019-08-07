@@ -100,7 +100,7 @@ StorytellingWidget.prototype = {
 			} else {
 				if (storytellingWidget.options.dariahStorage){
 					var uploadToDARIAH = document.createElement('a');
-					$(uploadToDARIAH).append(" [upload to DARIAH-DE Storage]");
+					$(uploadToDARIAH).append(" [upload to DARIAH-DE OwnStorage]");
 					uploadToDARIAH.title = "";
 					uploadToDARIAH.href = dataset.url;
 
