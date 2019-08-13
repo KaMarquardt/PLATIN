@@ -636,6 +636,8 @@ GeoTemConfig.getCsv = function(url,asyncFunc) {
     // Set token and logID as HTTP header, if token is existing.
     // FIXME Set these only for DARIAH-DE OwnStorage??
 
+    console.log("url: " + url);
+
     console.log("tok: " + sessionStorage.getItem('tok'));
 
     if (sessionStorage.getItem('tok')) {
