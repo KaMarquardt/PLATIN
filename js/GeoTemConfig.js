@@ -54,6 +54,7 @@ GeoTemConfig = {
 	allowColumnRenaming : true,
 	proxy : 'php/proxy.php?address=', //set this if a HTTP proxy shall be used (e.g. to bypass X-Domain problems)
 	//colors for several datasets; rgb1 will be used for selected objects, rgb0 for unselected
+    dariahOwnStorageURL : 'https://cdstar.de.dariah.eu/test/dariah/',
 	colors : [{
 		r1 : 255,
 		g1 : 101,
@@ -638,12 +639,14 @@ GeoTemConfig.getCsv = function(url,asyncFunc) {
 
     console.log("url: " + url);
 
+    console.log(url.startsWith(dariahOwnStorageURL));
+
     console.log("tok: " + sessionStorage.getItem('tok'));
 
-    if (sessionStorage.getItem('tok')) {
+    if (sessionStorage.getItem('tok') && url.startsWith(dariahOwnStorageURL)) {
         var token = 'bearer ' + sessionStorage.getItem('tok');
         var logID = 'GEO-BRO_' + (new Date()).getMilliseconds();
-        req.setRequestHeader('Authorization', token);
+        req.setRequestHeader('X-Tok', token);
         req.setRequestHeader('X-Transaction-ID', logID);
 
         console.log("tok: " + token);
