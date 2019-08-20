@@ -639,17 +639,17 @@ GeoTemConfig.getCsv = function(url,asyncFunc) {
 
     console.log("url: " + url);
 
-    console.log(url.startsWith(dariahOwnStorageURL));
+    console.log(url.startsWith(GeoTemConfig.dariahOwnStorageURL));
 
     console.log("tok: " + sessionStorage.getItem('tok'));
 
-    if (sessionStorage.getItem('tok') && url.startsWith(dariahOwnStorageURL)) {
+    if (sessionStorage.getItem('tok') && url.startsWith(GeoTemConfig.dariahOwnStorageURL)) {
         var token = 'bearer ' + sessionStorage.getItem('tok');
         var logID = 'GEO-BRO_' + (new Date()).getMilliseconds();
         req.setRequestHeader('X-Tok', token);
         req.setRequestHeader('X-Transaction-ID', logID);
 
-        console.log("tok: " + token);
+        console.log("tokwb: " + token);
         console.log("logID: " + logID);
     }
 
