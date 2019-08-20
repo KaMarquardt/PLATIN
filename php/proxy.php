@@ -1,1 +1,0 @@
-/etc/geobrowser/proxy.php

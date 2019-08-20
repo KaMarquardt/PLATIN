@@ -52,7 +52,7 @@ GeoTemConfig = {
 										// this turns MapConfig.useGraphics auto-on, but uses circles as default
 	loadColorFromDataset : false, // if DataObject color should be loaded automatically (from column "color")
 	allowColumnRenaming : true,
-	proxy : 'php/proxy.php?address=', //set this if a HTTP proxy shall be used (e.g. to bypass X-Domain problems)
+	proxy : 'php/proxy_beta.php?address=', //set this if a HTTP proxy shall be used (e.g. to bypass X-Domain problems)
 	//colors for several datasets; rgb1 will be used for selected objects, rgb0 for unselected
 	colors : [{
 		r1 : 255,
@@ -634,7 +634,7 @@ GeoTemConfig.getCsv = function(url,asyncFunc) {
     req.open("GET",url,async);
 
     // Set token and logID as HTTP header, if token is existing.
-    // FIXME Set these only for DARIAH-DE OwnStorage??
+    // FIXME Set these only for DARIAH-DE OwnStorage!!
 
     console.log("url: " + url);
 
@@ -645,6 +645,9 @@ GeoTemConfig.getCsv = function(url,asyncFunc) {
         var logID = 'GEO-BRO_' + (new Date()).getMilliseconds();
         req.setRequestHeader('Authorization', token);
         req.setRequestHeader('X-Transaction-ID', logID);
+
+        console.log("tok: " + token);
+        console.log("logID: " + logID);
     }
 
     //can only be set on asynchronous now

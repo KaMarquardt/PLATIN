@@ -19,20 +19,20 @@
 * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 * MA 02110-1301  USA
 */
- 
+
 if (!empty($_POST['file'])) {
-	
+
 	$file = $_POST['file'];
 	$filesize = strlen($file);
-	
+
 	$mime = array('application/octet-stream');
-	
+
 	header('Content-Type: '.$mime);
 	header('Content-Disposition: attachment; filename="test.kml"');
 	header('Content-Transfer-Encoding: binary');
 	header('Content-Length: '.sprintf('%d', $filesize));
 	header('Expires: 0');
-	
+
 	// check for IE only headers
 	// credits to: cballou, http://stackoverflow.com/questions/2019964/php-form-download-to-zip
 	if (isset($_SERVER['HTTP_USER_AGENT']) && (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== false)) {
@@ -41,7 +41,7 @@ if (!empty($_POST['file'])) {
 	} else {
 	  header('Pragma: no-cache');
 	}
-	
+
 	echo $file;
 }
 ?>
