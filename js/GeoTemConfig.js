@@ -638,12 +638,12 @@ GeoTemConfig.getCsv = function(url,asyncFunc) {
     // FIXME Set these only for DARIAH-DE OwnStorage!!
 
     console.log("url: " + url);
-
-    console.log(url.startsWith(GeoTemConfig.dariahOwnStorageURL));
+    console.log("arl: " + GeoTemConfig.dariahOwnStorageURL);
+    console.log(url.contains("adress=" + GeoTemConfig.dariahOwnStorageURL));
 
     console.log("tok: " + sessionStorage.getItem('tok'));
 
-    if (sessionStorage.getItem('tok') && url.startsWith(GeoTemConfig.dariahOwnStorageURL)) {
+    if (sessionStorage.getItem('tok') && url.contains("adress=" + GeoTemConfig.dariahOwnStorageURL)) {
         var token = 'bearer ' + sessionStorage.getItem('tok');
         var logID = 'GEO-BRO_' + (new Date()).getMilliseconds();
         req.setRequestHeader('X-Tok', token);
