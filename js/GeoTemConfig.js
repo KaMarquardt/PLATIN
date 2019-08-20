@@ -639,11 +639,11 @@ GeoTemConfig.getCsv = function(url,asyncFunc) {
 
     console.log("url: " + url);
     console.log("arl: " + GeoTemConfig.dariahOwnStorageURL);
-    console.log(url.contains("adress=" + GeoTemConfig.dariahOwnStorageURL));
+    console.log(url.includes("adress=" + GeoTemConfig.dariahOwnStorageURL));
 
     console.log("tok: " + sessionStorage.getItem('tok'));
 
-    if (sessionStorage.getItem('tok') && url.contains("adress=" + GeoTemConfig.dariahOwnStorageURL)) {
+    if (sessionStorage.getItem('tok') && url.includes("adress=" + GeoTemConfig.dariahOwnStorageURL)) {
         var token = 'bearer ' + sessionStorage.getItem('tok');
         var logID = 'GEO-BRO_' + (new Date()).getMilliseconds();
         req.setRequestHeader('X-Tok', token);
