@@ -52,10 +52,10 @@ GeoTemConfig = {
 										// this turns MapConfig.useGraphics auto-on, but uses circles as default
 	loadColorFromDataset : false, // if DataObject color should be loaded automatically (from column "color")
 	allowColumnRenaming : true,
-	proxy : 'php/proxy.php?address=', //set this if a HTTP proxy shall be used (e.g. to bypass X-Domain problems)
+	proxy : 'php/proxy.php?address=', // set this if a HTTP proxy shall be used (e.g. to bypass X-Domain problems)
+    dariahOwnStorageURL : 'https://cdstar.de.dariah.eu/test/dariah/', // URL of DARIAH-DE OwnStorage
 	//colors for several datasets; rgb1 will be used for selected objects, rgb0 for unselected
-    dariahOwnStorageURL : 'https://cdstar.de.dariah.eu/test/dariah/',
-	colors : [{
+    colors : [{
 		r1 : 255,
 		g1 : 101,
 		b1 : 0,
@@ -634,9 +634,7 @@ GeoTemConfig.getCsv = function(url,asyncFunc) {
     var req = new XMLHttpRequest();
     req.open("GET",url,async);
 
-    // Set token and logID as HTTP header, if token is existing.
-    // FIXME Set these only for DARIAH-DE OwnStorage!!
-
+    // Set token and logID as HTTP header, if token is existing (only for DARIAH-DE OwnStorage!).
     console.log("url: " + url);
     console.log("arl: " + GeoTemConfig.dariahOwnStorageURL);
     console.log(url.includes("address=" + GeoTemConfig.dariahOwnStorageURL));
