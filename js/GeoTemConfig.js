@@ -635,36 +635,30 @@ GeoTemConfig.getCsv = function(url,asyncFunc) {
     req.open("GET",url,async);
 
     // Set token and logID as HTTP header, if token is existing (only for DARIAH-DE OwnStorage!).
-    console.log("url: " + url);
-    console.log("arl: " + GeoTemConfig.dariahOwnStorageURL);
-    console.log(url.includes("address=" + GeoTemConfig.dariahOwnStorageURL));
-
-    console.log("tok: " + sessionStorage.getItem('tok'));
-
     if (sessionStorage.getItem('tok') && url.includes("address=" + GeoTemConfig.dariahOwnStorageURL)) {
         var token = 'bearer ' + sessionStorage.getItem('tok');
         var logID = 'GEO-BRO_' + (new Date()).getMilliseconds();
+        // NOTE PHP proxy takes X-Tok and transforms it to X-Authorization!
         req.setRequestHeader('X-Tok', token);
         req.setRequestHeader('X-Transaction-ID', logID);
-
-        console.log("tokwb: " + token);
-        console.log("logID: " + logID);
     }
+
+    // FIXME handle errors from proxy!
+
+    // FOXME handle forwarding to PDP!
 
     //can only be set on asynchronous now
     //req.responseType = "text";
     var json;
     req.onload = function() {
-
-        console.log("response: ", req.response);
-
         json = GeoTemConfig.convertCsv(req.response);
-    	if( asyncFunc )
+    	if (asyncFunc) {
     		asyncFunc(json);
+        }
     };
 	req.send();
 
-	if( !async ){
+	if(!async) {
 		return json;
 	}
 };
