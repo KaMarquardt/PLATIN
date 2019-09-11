@@ -31,8 +31,8 @@
 
 // credits: user76888, The Digital Gabeg (http://stackoverflow.com/questions/1539367)
 $.fn.cleanWhitespace = function() {
-	textNodes = this.contents().filter(	function() { 
-		return (this.nodeType == 3 && !/\S/.test(this.nodeValue)); 
+	textNodes = this.contents().filter(	function() {
+		return (this.nodeType == 3 && !/\S/.test(this.nodeValue));
 	}).remove();
 	return this;
 };
@@ -46,9 +46,9 @@ GeoTemConfig = {
 	allowFilter : true, // if filtering should be allowed
 	highlightEvents : true, // if updates after highlight events
 	selectionEvents : true, // if updates after selection events
-	tableExportDataset : true, // export dataset to KML 
+	tableExportDataset : true, // export dataset to KML
 	allowCustomColoring : false, // if DataObjects can have an own color (useful for weighted coloring)
-	allowUserShapeAndColorChange: false, // if the user can change the shapes and color of datasets 
+	allowUserShapeAndColorChange: false, // if the user can change the shapes and color of datasets
 										// this turns MapConfig.useGraphics auto-on, but uses circles as default
 	loadColorFromDataset : false, // if DataObject color should be loaded automatically (from column "color")
 	allowColumnRenaming : true,
@@ -263,7 +263,7 @@ GeoTemConfig.assignedColorCount = 0;
 GeoTemConfig.getColor = function(id){
 	if (typeof GeoTemConfig.datasets[id].color === "undefined"){
 		var color;
-		
+
 		while (true){
 			if( GeoTemConfig.colors.length <= GeoTemConfig.assignedColorCount ){
 				color = {
@@ -276,17 +276,17 @@ GeoTemConfig.getColor = function(id){
 				};
 			} else
 				color = GeoTemConfig.colors[GeoTemConfig.assignedColorCount];
-			
+
 			//make sure that no other dataset has this color
 			//TODO: one could also check that they are not too much alike
 			var found = false;
 			for (var i = 0; i < GeoTemConfig.datasets.length; i++){
 				var dataset = GeoTemConfig.datasets[i];
-				
+
 				if (typeof dataset.color === "undefined")
 					continue;
 
-				if (	(dataset.color.r1 == color.r1) && 
+				if (	(dataset.color.r1 == color.r1) &&
 						(dataset.color.g1 == color.g1) &&
 						(dataset.color.b1 == color.b1) ){
 					found = true;
@@ -331,7 +331,7 @@ GeoTemConfig.getAverageDatasetColor = function(id, objects){
 	avgColor.r1 = 0;
 	avgColor.g1 = 0;
 	avgColor.b1 = 0;
-	
+
 	$(objects).each(function(){
 		if (this.hasColorInformation){
 			avgColor.r0 += this.color.r0;
@@ -349,14 +349,14 @@ GeoTemConfig.getAverageDatasetColor = function(id, objects){
 			avgColor.b1 += datasetColor.b1;
 		}
 	});
-	
+
 	c.r0 = Math.floor(avgColor.r0/objects.length);
 	c.g0 = Math.floor(avgColor.g0/objects.length);
 	c.b0 = Math.floor(avgColor.b0/objects.length);
 	c.r1 = Math.floor(avgColor.r1/objects.length);
 	c.g1 = Math.floor(avgColor.g1/objects.length);
 	c.b1 = Math.floor(avgColor.b1/objects.length);
-	
+
 	return c;
 };
 
@@ -391,7 +391,7 @@ GeoTemConfig.getJson = function(url,asyncFunc) {
 	if( asyncFunc ){
 		async = true;
 	}
-	
+
 	var data;
 	$.ajax({
 		url : url,
@@ -404,7 +404,7 @@ GeoTemConfig.getJson = function(url,asyncFunc) {
 			}
 		}
 	});
-	
+
 	if (async){
 		return data;
 	}
@@ -443,7 +443,7 @@ GeoTemConfig.addDataset = function(newDataset){
 GeoTemConfig.addDatasets = function(newDatasets){
 	$(newDatasets).each(function(){
 		GeoTemConfig.datasets.push(this);
-	});	
+	});
 	Publisher.Publish('filterData', GeoTemConfig.datasets, null);
 };
 
@@ -454,7 +454,7 @@ GeoTemConfig.removeDataset = function(index){
 
 /**
  * converts the csv-file into json-format
- * 
+ *
  * @param {String}
  *            text
  */
@@ -471,7 +471,7 @@ GeoTemConfig.convertCsv = function(text){
 	for (var i = 1; i < csvArray.length; i++) {
 		var innerArray = csvArray[i];
 		var dataObject = new Object();
-		var tableContent = new Object(); 
+		var tableContent = new Object();
 		/* exclude lines with no content */
 		var hasContent = false;
 		for (var j = 0; j < innerArray.length; j++) {
@@ -483,7 +483,7 @@ GeoTemConfig.convertCsv = function(text){
 					hasContent = true;
 				}
 			}
-			
+
 			if (hasContent === true)
 				break;
 		}
@@ -517,17 +517,17 @@ GeoTemConfig.convertCsv = function(text){
 			/* TimeSpan:end */
 			else if (usedHeaders[j] == expectedHeaders[7]) {
 				tableContent["TimeSpan:end"] = ""+innerArray[j];
-			}   						
+			}
 			/* weight */
 			else if (usedHeaders[j] == expectedHeaders[8]) {
 				dataObject["weight"] = ""+innerArray[j];
-			}   						
-			/* Longitude */                                                          
-			else if (usedHeaders[j] == expectedHeaders[3]) {                              
-				dataObject["lon"] = parseFloat(innerArray[j]);                                           
-			}                                                                        
-			/* Latitude */                                                           
-			else if (usedHeaders[j] == expectedHeaders[4]) {                              
+			}
+			/* Longitude */
+			else if (usedHeaders[j] == expectedHeaders[3]) {
+				dataObject["lon"] = parseFloat(innerArray[j]);
+			}
+			/* Latitude */
+			else if (usedHeaders[j] == expectedHeaders[4]) {
 				dataObject["lat"] = parseFloat(innerArray[j]);
 			}
 			else {
@@ -537,12 +537,12 @@ GeoTemConfig.convertCsv = function(text){
 				tableContent[header] = ""+innerArray[j];
 			}
 		}
-		
+
 		dataObject["tableContent"] = tableContent;
-		
+
 		json.push(dataObject);
 	}
-	
+
 	return json;
 };
 
@@ -576,12 +576,12 @@ GeoTemConfig.getKml = function(url,asyncFunc) {
 }
 
 /**
- * returns an array of all xml dom object of the kmls 
+ * returns an array of all xml dom object of the kmls
  * found in the zip file from the given url
- * 
- * can only be used with asyncFunc (because of browser 
+ *
+ * can only be used with asyncFunc (because of browser
  * constraints regarding arraybuffer)
- * 
+ *
  * @param {String} url the url of the file to load
  * @return xml dom object of given file
  */
@@ -593,8 +593,8 @@ GeoTemConfig.getKmz = function(url,asyncFunc) {
 		//if no asyncFunc is given return an empty array
 		return kmlDom;
 	}
-	
-	//use XMLHttpRequest as "arraybuffer" is not 
+
+	//use XMLHttpRequest as "arraybuffer" is not
 	//supported in jQuery native $.get
     var req = new XMLHttpRequest();
     req.open("GET",url,async);
@@ -603,21 +603,21 @@ GeoTemConfig.getKmz = function(url,asyncFunc) {
     	var zip = new JSZip();
     	zip.load(req.response, {base64:false});
     	var kmlFiles = zip.file(new RegExp("kml$"));
-    	
+
     	$(kmlFiles).each(function(){
 			var kml = this;
 			if (kml.data != null) {
 				kmlDom.push($.parseXML(kml.data));
 			}
     	});
-    	
+
     	asyncFunc(kmlDom);
     };
 	req.send();
 };
 
 /**
- * returns the JSON "object"  
+ * returns the JSON "object"
  * from the csv file from the given url
  * @param {String} url the url of the file to load
  * @return xml dom object of given file
@@ -627,8 +627,8 @@ GeoTemConfig.getCsv = function(url,asyncFunc) {
 	if( asyncFunc ){
 		async = true;
 	}
-	
-	//use XMLHttpRequest as synchronous behaviour 
+
+	//use XMLHttpRequest as synchronous behaviour
 	//is not supported in jQuery native $.get
     var req = new XMLHttpRequest();
     req.open("GET",url,async);
@@ -641,14 +641,14 @@ GeoTemConfig.getCsv = function(url,asyncFunc) {
     		asyncFunc(json);
     };
 	req.send();
-	
+
 	if( !async ){
 		return json;
 	}
 };
 
 /**
- * loads a binary file  
+ * loads a binary file
  * @param {String} url of the file to load
  * @return binary data
  */
@@ -658,7 +658,7 @@ GeoTemConfig.getBinary = function(url,asyncFunc) {
 	var req = new XMLHttpRequest();
     req.open("GET",url,async);
     req.responseType = "arraybuffer";
-    
+
     var binaryData;
 	req.onload = function() {
 		var arrayBuffer = req.response;
@@ -732,13 +732,13 @@ GeoTemConfig.getTimeData = function(xmlTime) {
 			isValidDate = false;
 	} else
 		isValidDate = false;
-	
+
 	if (!isValidDate){
 		if ((GeoTemConfig.debug)&&(typeof console !== "undefined"))
 			console.error(xmlTime + " is no valid time format");
 		return null;
 	}
-	
+
 	return {
 		date : date,
 		granularity : granularity
@@ -808,14 +808,14 @@ GeoTemConfig.loadJson = function(JSON) {
 			var weight = parseInt(item.weight) || 1;
 			//add all "other" attributes to table data
 			//this is a hack to allow "invalid" JSONs
-			var specialAttributes = ["id", "name", "description", "lon", "lat", "place", "time", 
+			var specialAttributes = ["id", "name", "description", "lon", "lat", "place", "time",
 			                        "tableContent", "location", "time"];
 			for (var attribute in item){
 				if ($.inArray(attribute, specialAttributes) == -1){
 					tableContent[attribute] = item[attribute];
 				}
 			}
-			
+
 			var mapTimeObject = new DataObject(name, description, locations, dates, weight, tableContent);
 			mapTimeObject.setIndex(index);
 			mapTimeObjects.push(mapTimeObject);
@@ -842,8 +842,8 @@ GeoTemConfig.loadKml = function(kml) {
 	}
 	var index = 0;
 	var descriptionTableHeaders = [];
-	var xmlSerializer = new XMLSerializer();	
-	
+	var xmlSerializer = new XMLSerializer();
+
 	for (var i = 0; i < elements.length; i++) {
 		var placemark = elements[i];
 		var name, description, place, granularity, lon, lat, tableContent = [], time = [], location = [];
@@ -852,12 +852,12 @@ GeoTemConfig.loadKml = function(kml) {
 
 		try {
 			description = placemark.getElementsByTagName("description")[0].childNodes[0].nodeValue;
-			
+
 			//cleanWhitespace removes non-sense text-nodes (space, tab)
 			//and is an addition to jquery defined above
 			try {
 				var descriptionDocument = $($.parseXML(description)).cleanWhitespace();
-				
+
 				//check whether the description element contains a table
 				//if yes, this data will be loaded as separate columns
 				$(descriptionDocument).find("table").each(function(){
@@ -865,7 +865,7 @@ GeoTemConfig.loadKml = function(kml) {
 						function() {
 							var isHeader = true;
 							var lastHeader = "";
-							
+
 							$(this).find("td").each(
 								function() {
 									if (isHeader) {
@@ -873,7 +873,7 @@ GeoTemConfig.loadKml = function(kml) {
 										isHeader = false;
 									} else {
 										var value = "";
-	
+
 										//if this td contains HTML, serialize all
 										//it's children (the "content"!)
 										$(this).children().each(
@@ -881,22 +881,22 @@ GeoTemConfig.loadKml = function(kml) {
 												value += xmlSerializer.serializeToString(this);
 											}
 										);
-										
+
 										//no HTML content (or no content at all)
 										if (value.length == 0)
 											value = $(this).text();
 										if (typeof value === "undefined")
 											value = "";
-										
+
 										if ($.inArray(lastHeader, descriptionTableHeaders) === -1)
 											descriptionTableHeaders.push(lastHeader);
-	
+
 										if (tableContent[lastHeader] != null)
-											//append if a field occures more than once 
+											//append if a field occures more than once
 											tableContent[lastHeader] += "\n" + value;
 										else
 											tableContent[lastHeader] = value;
-	
+
 										isHeader = true;
 									}
 								}
@@ -908,29 +908,29 @@ GeoTemConfig.loadKml = function(kml) {
 				//couldn't be parsed, so it contains no html table
 				//or is not in valid XHTML syntax
 			}
-			
+
 			//check whether the description element contains content in the form of equations
 			//e.g. someDescriptor = someValue, where these eqations are separated by <br/>
 			//if yes, this data will be loaded as separate columns
-			var descriptionRows = description.replace(/<\s*br\s*[\/]*\s*>/g,"<br/>"); 
+			var descriptionRows = description.replace(/<\s*br\s*[\/]*\s*>/g,"<br/>");
 			$(descriptionRows.split("<br/>")).each(function(){
 				var row = this;
-				
+
 				if (typeof row === "undefined")
 					return;
-				
+
 				var headerAndValue = row.split("=");
 				if (headerAndValue.length != 2)
 					return;
 
 				var header = $.trim(headerAndValue[0]);
 				var value = $.trim(headerAndValue[1]);
-				
+
 				if ($.inArray(header, descriptionTableHeaders) === -1)
 					descriptionTableHeaders.push(header);
 
 				if (tableContent[header] != null)
-					//append if a field occures more than once 
+					//append if a field occures more than once
 					tableContent[header] += "\n" + value;
 				else
 					tableContent[header] = value;
@@ -949,7 +949,7 @@ GeoTemConfig.loadKml = function(kml) {
 				name = tableContent["name"];
 			else
 				name = "";
-		}		
+		}
 
 		try {
 			place = placemark.getElementsByTagName("address")[0].childNodes[0].nodeValue;
@@ -994,7 +994,7 @@ GeoTemConfig.loadKml = function(kml) {
 						(typeof tableContent["TimeSpan:end"] === "undefined") ){
 					var timeStart = $(placemark).find("TimeSpan begin").text();
 					var timeEnd = $(placemark).find("TimeSpan end").text();
-					
+
 					if ( (timeStart != "") && (timeStart != "") ){
 						tableContent["TimeSpan:begin"] = timeStart;
 						tableContent["TimeSpan:end"] = timeEnd;
@@ -1013,7 +1013,7 @@ GeoTemConfig.loadKml = function(kml) {
 		index++;
 		mapObjects.push(object);
 	}
-	
+
 	//make sure that all "description table" columns exists in all rows
 	if (descriptionTableHeaders.length > 0){
 		$(mapObjects).each(function(){
@@ -1060,10 +1060,10 @@ GeoTemConfig.createKMLfromDataset = function(index){
 				ISOString += '.' + String( (date.getMilliseconds()/1000).toFixed(3) ).slice( 2, 5 );
 			ISOString += 'Z';
 		}
-		
+
 		return ISOString;
 	};
-      
+
 	$(GeoTemConfig.datasets[index].objects).each(function(){
 		var name = this.name;
 		var description = this.description;
@@ -1071,14 +1071,14 @@ GeoTemConfig.createKMLfromDataset = function(index){
 		var place = this.getPlace(0,0);
 		var lat = this.getLatitude(0);
 		var lon = this.getLongitude(0);
-		
+
 		var kmlEntry = "<Placemark>";
-		
+
 		kmlEntry += "<name><![CDATA[" + name + "]]></name>";
 		kmlEntry += "<address><![CDATA[" + place + "]]></address>";
 		kmlEntry += "<description><![CDATA[" + description + "]]></description>";
 		kmlEntry += "<Point><coordinates>" + lon + "," + lat + "</coordinates></Point>";
-		  
+
 		if (this.isTemporal){
 			kmlEntry += "<TimeStamp><when>" + dateToISOString(this.getDate(0), this.getTimeGranularity(0)) + "</when></TimeStamp>";
 		} else if (this.isFuzzyTemporal){
@@ -1087,14 +1087,14 @@ GeoTemConfig.createKMLfromDataset = function(index){
 							"<end>" + dateToISOString(this.TimeSpanEnd.utc().toDate(), this.TimeSpanEndGranularity) + "</end>" +
 						"</TimeSpan>";
 		}
-		
+
 		kmlEntry += "</Placemark>";
-		      
+
 		kmlContent += kmlEntry;
 	});
-	  
+
 	kmlContent += "</Document></kml>";
-	  
+
 	return(kmlContent);
 };
 
@@ -1102,23 +1102,23 @@ GeoTemConfig.createCSVfromDataset = function(index){
 	var csvContent = "";
 	var header = ["name", "description", "weight"];
 	var tableContent = [];
-	
+
 	var firstDataObject = GeoTemConfig.datasets[index].objects[0];
-	
+
 	for(var key in firstDataObject.tableContent){
 		var found = false;
 		$(header).each(function(index,val){
 			if (val === key){
 				found = true;
 				return false;
-			}				
+			}
 		});
 		if (found === true)
 			continue;
 		else
 			tableContent.push(key);
 	}
-	
+
 	var isFirst = true;
 	$(header).each(function(key,val){
 		if (isFirst){
@@ -1145,17 +1145,17 @@ GeoTemConfig.createCSVfromDataset = function(index){
 	//Names according to CSV import definition
 	csvContent +=  ",\"Address\",\"Latitude\",\"Longitude\",\"TimeStamp\"";
 	csvContent += "\n";
-	
+
 	var isFirstRow = true;
 	$(GeoTemConfig.datasets[index].objects).each(function(){
 		var elem = this;
-		
+
 		if (isFirstRow){
 			isFirstRow = false;
 		} else {
 			csvContent += "\n";
 		}
-		
+
 		var isFirst = true;
 		$(header).each(function(key,val){
 			if (isFirst){
@@ -1173,7 +1173,7 @@ GeoTemConfig.createCSVfromDataset = function(index){
 			}
 			csvContent += "\""+elem.tableContent[val]+"\"";
 		});
-		
+
 		csvContent += ",";
 		csvContent += "\"";
 		if (elem.isGeospatial){
@@ -1194,16 +1194,16 @@ GeoTemConfig.createCSVfromDataset = function(index){
 			csvContent += elem.getLongitude(0);
 		}
 		csvContent += "\"";
-		
+
 		csvContent += ",";
 		csvContent += "\"";
-		if ( (elem.isTemporal) && (typeof elem.getDate(0) !== "undefined") ){
+        // also convert time if fuzzy temporal?! (see https://projects.gwdg.de/projects/geo-browser/work_packages/29197)
+        if ( (elem.isTemporal || elem.isFuzzyTemporal) && (typeof elem.getDate(0) !== "undefined") ){
 			//TODO: not supported in IE8 switch to moment.js
 			csvContent += elem.getDate(0).toISOString();
 		}
 		csvContent += "\"";
 	});
-	  
 	return(csvContent);
 };
 /**
@@ -1233,7 +1233,7 @@ GeoTemConfig.loadDataObjectColoring = function(dataObjects) {
 			    b1 = parseInt("0x"+color.substr(5,2));
 			}
 		}
-		
+
 		if (	(typeof r0 !== "undefined") && (typeof g0 !== "undefined") && (typeof b0 !== "undefined") &&
 				(typeof r1 !== "undefined") && (typeof g1 !== "undefined") && (typeof b1 !== "undefined") ){
 			this.setColor(r0,g0,b0,r1,g1,b1);
@@ -1304,7 +1304,7 @@ GeoTemConfig.renameColumns = function(dataset, renames){
 
 		for (var i = 0; i < dataset.objects.length; i++){
 			var dataObject = dataset.objects[i];
-			
+
 			//get value from old column name
 			var value;
 			if (oldColumObject.type == 1){
@@ -1326,7 +1326,7 @@ GeoTemConfig.renameColumns = function(dataset, renames){
 				if (!keepOld){
 					delete dataObject[oldColumObject.name][oldColumObject.arrayIndex][oldColumObject.attribute];
 				}
-			} 
+			}
 
 			//create new column
 			if (newColumObject.type == 1){
@@ -1344,7 +1344,7 @@ GeoTemConfig.renameColumns = function(dataset, renames){
 				if (typeof dataObject[newColumObject.name][newColumObject.arrayIndex] == "undefined"){
 					dataObject[newColumObject.name][newColumObject.arrayIndex] = {};
 				}
-				dataObject[newColumObject.name][newColumObject.arrayIndex][newColumObject.attribute] = value; 
+				dataObject[newColumObject.name][newColumObject.arrayIndex][newColumObject.attribute] = value;
 			}
 		}
 	}
@@ -1355,7 +1355,7 @@ GeoTemConfig.renameColumns = function(dataset, renames){
 		//save index
 		var index = dataObject.index;
 
-		dataset.objects[i] = new DataObject(dataObject.name, dataObject.description, dataObject.locations, 
+		dataset.objects[i] = new DataObject(dataObject.name, dataObject.description, dataObject.locations,
 			dataObject.dates, dataObject.weight, dataObject.tableContent, dataObject.projection);
 		//set index
 		dataset.objects[i].setIndex(index);
