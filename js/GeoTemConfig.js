@@ -1213,13 +1213,17 @@ GeoTemConfig.createCSVfromDataset = function(index){
 
 		csvContent += ",";
 		csvContent += "\"";
-		if ( (elem.isTemporal) && (typeof elem.getDate(0) !== "undefined") ){
+        // also convert time if fuzzy temporal?! (see https://projects.gwdg.de/projects/geo-browser/work_packages/29197)
+        if ( (elem.isTemporal || elem.isFuzzyTemporal) && (typeof elem.getDate(0) !== "undefined") ){
 			//TODO: not supported in IE8 switch to moment.js
 			csvContent += elem.getDate(0).toISOString();
 		}
 		csvContent += "\"";
 	});
+<<<<<<< HEAD
 
+=======
+>>>>>>> develop
 	return(csvContent);
 };
 /**
