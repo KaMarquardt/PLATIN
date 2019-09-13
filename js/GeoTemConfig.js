@@ -1220,10 +1220,7 @@ GeoTemConfig.createCSVfromDataset = function(index){
 		}
 		csvContent += "\"";
 	});
-<<<<<<< HEAD
 
-=======
->>>>>>> develop
 	return(csvContent);
 };
 /**
