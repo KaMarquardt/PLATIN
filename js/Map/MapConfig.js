@@ -58,15 +58,15 @@ function MapConfig(options) {
 				},
 				{
 					name: 'Maps-for-Free relief map',
-					url: 'http://maps-for-free.com/layer/relief/z${z}/row${y}/${z}_${x}-${y}.jpg',
+					url: 'https://maps-for-free.com/layer/relief/z${z}/row${y}/${z}_${x}-${y}.jpg',
 					type:'XYZ',
-					attribution: "© <a href='http://www.maps-for-free.com/html/about.html'>Maps for Free</a>"
+					attribution: "© <a href='https://www.maps-for-free.com/html/about.html'>Maps for Free</a>"
 				},
 				{
-					name: 'Barrington Roman Empire',
-					url: 'http://pelagios.org/tilesets/imperium/${z}/${x}/${y}.png',
+					name: 'Digital Atlas of the Roman Empire',
+					url: 'https://dh.gu.se/tiles/imperium/${z}/${x}/${y}.png',
 					type:'XYZ',
-					attribution: "© <a href='https://twitter.com/johanahlfeldt'>Johan Åhlfeldt</a>, <a href='http://commons.pelagios.org/'>Pelagios</a> (<a href='http://pelagios.org/maps/greco-roman/about.html'>Digital Atlas of the Roman Empire</a>)"
+					attribution: "© <a href='https://twitter.com/johanahlfeldt'>Johan Åhlfeldt</a>, <a href='https://dh.gu.se/dare/'>Digital Atlas of the Roman Empire (DARE)</a>"
 				},
 				{
 					name: '-----------------------------------',
