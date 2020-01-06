@@ -29,7 +29,7 @@
 function Overlayloader(parent) {
 
 	this.overlayLoader = this;
-	
+
 	this.parent = parent;
 	this.options = parent.options;
 	this.attachedMapWidgets = parent.attachedMapWidgets;
@@ -58,17 +58,17 @@ Overlayloader.prototype = {
 		this.addRomanEmpireLoader();
 		this.addMapsForFreeWaterLayer();
 		this.addConfigLoader();
-		
-		// trigger change event on the select so 
+
+		// trigger change event on the select so
 		// that only the first loader div will be shown
 		$(this.parent.gui.loaderTypeSelect).change();
 	},
-	
+
 	distributeKML : function(kmlURL) {
 		var newOverlay = new Object();
 		newOverlay.name = kmlURL;
 		newOverlay.layers = [];
-		
+
 		$(this.attachedMapWidgets).each(function(){
 			var newLayer = new OpenLayers.Layer.Vector("KML", {
 				projection: this.openlayersMap.displayProjection,
@@ -81,21 +81,21 @@ Overlayloader.prototype = {
 	                })
 	            })
 	        });
-			
+
 			newOverlay.layers.push({map:this.openlayersMap,layer:newLayer});
 
 			this.openlayersMap.addLayer(newLayer);
 		});
-		
+
 		this.overlays.push(newOverlay);
 		this.parent.gui.refreshOverlayList();
 	},
-	
+
 	distributeKMZ : function(kmzURL) {
 		var newOverlay = new Object();
 		newOverlay.name = kmzURL;
 		newOverlay.layers = [];
-		
+
 		$(this.attachedMapWidgets).each(function(){
 			var newLayer = new OpenLayers.Layer.Vector("KML", {
 				projection: this.openlayersMap.displayProjection,
@@ -103,11 +103,11 @@ Overlayloader.prototype = {
 				format: OpenLayers.Format.KML,
 				extractAttributes: true
 			});
-			
+
 			newOverlay.layers.push({map:this.openlayersMap,layer:newLayer});
-			
+
 			var map = this.openlayersMap;
-					
+
 			GeoTemConfig.getKmz(kmzURL, function(kmlDoms){
 				$(kmlDoms).each(function(){
 					var kml = new OpenLayers.Format.KML().read(this);
@@ -116,16 +116,16 @@ Overlayloader.prototype = {
 				});
 			});
 		});
-		
+
 		this.overlays.push(newOverlay);
 		this.parent.gui.refreshOverlayList();
 	},
-	
+
 	distributeArcGISWMS : function(wmsURL, wmsLayer) {
 		var newOverlay = new Object();
 		newOverlay.name = wmsURL + " - " + wmsLayer;
 		newOverlay.layers = [];
-		
+
 		var newLayer = new OpenLayers.Layer.WMS("ArcGIS WMS label", wmsURL, {
 				layers: wmsLayer,
 				format: "image/png",
@@ -141,9 +141,9 @@ Overlayloader.prototype = {
 		newLayer.setIsBaseLayer(false);
 		$(this.attachedMapWidgets).each(function(){
 			this.openlayersMap.addLayer(newLayer);
-			newOverlay.layers.push({map:this.openlayersMap,layer:newLayer});			
+			newOverlay.layers.push({map:this.openlayersMap,layer:newLayer});
 		});
-		
+
 		this.overlays.push(newOverlay);
 		this.parent.gui.refreshOverlayList();
 	},
@@ -152,7 +152,7 @@ Overlayloader.prototype = {
 		var newOverlay = new Object();
 		newOverlay.name = xyzURL;
 		newOverlay.layers = [];
-		
+
         var newLayer = new OpenLayers.Layer.XYZ(
                 "XYZ Layer",
                 [
@@ -173,21 +173,21 @@ Overlayloader.prototype = {
 			this.openlayersMap.addLayer(newLayer);
 			newOverlay.layers.push({map:this.openlayersMap,layer:newLayer});
 		});
-		
+
 		this.overlays.push(newOverlay);
 		this.parent.gui.refreshOverlayList();
 	},
-	
+
 	addKMLLoader : function() {
 		$(this.parent.gui.loaderTypeSelect).append("<option value='KMLLoader'>KML File URL</option>");
-		
+
 		this.KMLLoaderTab = document.createElement("div");
 		$(this.KMLLoaderTab).attr("id","KMLLoader");
-		
+
 		this.kmlURL = document.createElement("input");
 		$(this.kmlURL).attr("type","text");
 		$(this.KMLLoaderTab).append(this.kmlURL);
-		
+
 		this.loadKMLButton = document.createElement("button");
 		$(this.loadKMLButton).text("load KML");
 		$(this.KMLLoaderTab).append(this.loadKMLButton);
@@ -198,23 +198,23 @@ Overlayloader.prototype = {
 				return;
 			if (typeof GeoTemConfig.proxy != 'undefined')
 				kmlURL = GeoTemConfig.proxy + kmlURL;
-			
+
 			this.distributeKML(kmlURL);
 		},this));
 
 		$(this.parent.gui.loaders).append(this.KMLLoaderTab);
 	},
-	
+
 	addKMZLoader : function() {
 		$(this.parent.gui.loaderTypeSelect).append("<option value='KMZLoader'>KMZ File URL</option>");
-		
+
 		this.KMZLoaderTab = document.createElement("div");
 		$(this.KMZLoaderTab).attr("id","KMZLoader");
-		
+
 		this.kmzURL = document.createElement("input");
 		$(this.kmzURL).attr("type","text");
 		$(this.KMZLoaderTab).append(this.kmzURL);
-		
+
 		this.loadKMZButton = document.createElement("button");
 		$(this.loadKMZButton).text("load KMZ");
 		$(this.KMZLoaderTab).append(this.loadKMZButton);
@@ -225,31 +225,31 @@ Overlayloader.prototype = {
 				return;
 			if (typeof GeoTemConfig.proxy != 'undefined')
 				kmzURL = GeoTemConfig.proxy + kmzURL;
-			
+
 			this.distributeKMZ(kmzURL);
 		},this));
 
 		$(this.parent.gui.loaders).append(this.KMZLoaderTab);
 	},
-	
+
 	addArcGISWMSLoader : function() {
 		$(this.parent.gui.loaderTypeSelect).append("<option value='ArcGISWMSLoader'>ArcGIS WMS</option>");
-		
+
 		this.ArcGISWMSLoaderTab = document.createElement("div");
 		$(this.ArcGISWMSLoaderTab).attr("id","ArcGISWMSLoader");
-		
+
 		$(this.ArcGISWMSLoaderTab).append("URL: ");
-		
+
 		this.wmsURL = document.createElement("input");
 		$(this.wmsURL).attr("type","text");
 		$(this.ArcGISWMSLoaderTab).append(this.wmsURL);
-		
+
 		$(this.ArcGISWMSLoaderTab).append("Layer: ");
-		
+
 		this.wmsLayer = document.createElement("input");
 		$(this.wmsLayer).attr("type","text");
 		$(this.ArcGISWMSLoaderTab).append(this.wmsLayer);
-		
+
 		this.loadArcGISWMSButton = document.createElement("button");
 		$(this.loadArcGISWMSButton).text("load Layer");
 		$(this.ArcGISWMSLoaderTab).append(this.loadArcGISWMSButton);
@@ -259,25 +259,25 @@ Overlayloader.prototype = {
 			var wmsLayer = $(this.wmsLayer).val();
 			if (wmsURL.length == 0)
 				return;
-			
+
 			this.distributeArcGISWMS(wmsURL, wmsLayer);
 		},this));
 
 		$(this.parent.gui.loaders).append(this.ArcGISWMSLoaderTab);
 	},
-	
+
 	addXYZLoader : function() {
 		$(this.parent.gui.loaderTypeSelect).append("<option value='XYZLoader'>XYZ Layer</option>");
-		
+
 		this.XYZLoaderTab = document.createElement("div");
 		$(this.XYZLoaderTab).attr("id","XYZLoader");
-		
+
 		$(this.XYZLoaderTab).append("URL (with x,y,z variables): ");
-		
+
 		this.xyzURL = document.createElement("input");
 		$(this.xyzURL).attr("type","text");
 		$(this.XYZLoaderTab).append(this.xyzURL);
-		
+
 		this.loadXYZButton = document.createElement("button");
 		$(this.loadXYZButton).text("load Layer");
 		$(this.XYZLoaderTab).append(this.loadXYZButton);
@@ -286,16 +286,17 @@ Overlayloader.prototype = {
 			var xyzURL = $(this.xyzURL).val();
 			if (xyzURL.length == 0)
 				return;
-			
+
 			this.distributeXYZ(xyzURL);
 		},this));
 
 		$(this.parent.gui.loaders).append(this.XYZLoaderTab);
 	},
-	
+
+    // The map is licenced under a Creative Commons Attribution 4.0 International license (CC BY 4.0)
 	addRomanEmpireLoader : function() {
-		$(this.parent.gui.loaderTypeSelect).append("<option value='RomanEmpireLoader'>Roman Empire</option>");
-		
+		$(this.parent.gui.loaderTypeSelect).append("<option value='RomanEmpireLoader'>Digital Atlas of the Roman Empire</option>");
+
 		this.RomanEmpireLoaderTab = document.createElement("div");
 		$(this.RomanEmpireLoaderTab).attr("id","RomanEmpireLoader");
 
@@ -304,15 +305,15 @@ Overlayloader.prototype = {
 		$(this.RomanEmpireLoaderTab).append(this.loadRomanEmpireButton);
 
 		$(this.loadRomanEmpireButton).click($.proxy(function(){
-			this.distributeXYZ("http://pelagios.org/tilesets/imperium/${z}/${x}/${y}.png",1);
+			this.distributeXYZ("https://dh.gu.se/tiles/imperium/${z}/${x}/${y}.png",1);
 		},this));
 
 		$(this.parent.gui.loaders).append(this.RomanEmpireLoaderTab);
 	},
-	
+
 	addMapsForFreeWaterLayer : function() {
 		$(this.parent.gui.loaderTypeSelect).append("<option value='MapsForFreeWaterLayerLoader'>Water Layer (Maps-For-Free)</option>");
-		
+
 		this.MapsForFreeWaterTab = document.createElement("div");
 		$(this.MapsForFreeWaterTab).attr("id","MapsForFreeWaterLayerLoader");
 
@@ -326,14 +327,14 @@ Overlayloader.prototype = {
 
 		$(this.parent.gui.loaders).append(this.MapsForFreeWaterTab);
 	},
-	
+
 	addConfigLoader : function() {
 		if (	(this.parent.options.wms_overlays instanceof Array) &&
 				(this.parent.options.wms_overlays.length > 0) ){
 			var overlayloader = this;
-			
+
 			$(this.parent.gui.loaderTypeSelect).append("<option value='ConfigLoader'>Other WMS maps</option>");
-			
+
 			this.ConfigLoaderTab = document.createElement("div");
 			$(this.ConfigLoaderTab).attr("id","ConfigLoader");
 
@@ -341,14 +342,14 @@ Overlayloader.prototype = {
 			$(this.parent.options.wms_overlays).each(function(){
 				var name = this.name, server = this.server, layer = this.layer;
 				$(overlayloader.ConfigMapSelect).append("<option layer='"+layer+"' server='"+server+"' >"+name+"</option>");
-			});		
+			});
 
 			$(this.ConfigLoaderTab).append(this.ConfigMapSelect);
 
 			this.loadConfigMapButton = document.createElement("button");
 			$(this.loadConfigMapButton).text("load Layer");
 			$(this.ConfigLoaderTab).append(this.loadConfigMapButton);
-			
+
 			$(this.loadConfigMapButton).click($.proxy(function(){
 				var server = $(this.ConfigMapSelect).find(":selected").attr("server");
 				var layer = $(this.ConfigMapSelect).find(":selected").attr("layer");
