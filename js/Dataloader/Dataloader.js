@@ -36,6 +36,8 @@ function Dataloader(parent) {
 	this.initialize();
 }
 
+var addToProxysWhitelistMessage = "Could not load file. Please check your URL. If the URL is correct, our proxy may prevent the file from loading. In that case please send us an email, we gladly add your host to the proxy's white list.";
+
 Dataloader.prototype = {
 
 	show : function() {
@@ -164,7 +166,7 @@ Dataloader.prototype = {
 	    var fileName = this.getFileName(kmlURL);
 
 	    if (typeof GeoTemConfig.proxy != 'undefined') {
-		kmlURL = GeoTemConfig.proxy + kmlURL;
+		    kmlURL = GeoTemConfig.proxy + kmlURL;
 	    }
 
 	    var kml = GeoTemConfig.getKml(kmlURL);
@@ -174,9 +176,7 @@ Dataloader.prototype = {
 		if (dataSet != null)
 		    this.distributeDataset(dataSet);
 	    } else
-		alert("Could not load file. Please check your URL. If the URL is correct, our " +
-		      "proxy may prevent the file from loading. In that case please send us an email, " +
-		      "and we gladly add your host to the white list.");
+		    alert(addToProxysWhitelistMessage);
 	},this));
 
 	$(this.parent.gui.loaders).append(this.KMLLoaderTab);
@@ -252,8 +252,7 @@ Dataloader.prototype = {
 					if (dataSet != null)
 						dataLoader.distributeDataset(dataSet);
 				} else
-					alert("Could not load file. Please check your URL. If the URL is correct, our " +
-						"proxy may prevent the file from loading. In that case please send us an email, " + "and we gladly add your host to the white list.");
+					alert(addToProxysWhitelistMessage);
 			});
 		},this));
 

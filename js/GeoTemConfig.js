@@ -52,7 +52,8 @@ GeoTemConfig = {
 										// this turns MapConfig.useGraphics auto-on, but uses circles as default
 	loadColorFromDataset : false, // if DataObject color should be loaded automatically (from column "color")
 	allowColumnRenaming : true,
-	proxy : 'php/proxy_beta.php?address=', // set this if a HTTP proxy shall be used (e.g. to bypass X-Domain problems)
+	// proxy : '/php/proxy.php?address=', // set this if a HTTP proxy shall be used (e.g. to bypass X-Domain problems)
+    proxy : 'https://geobrowser.de.dariah.eu/beta/php/proxy_beta.php?address=',
     dariahOwnStorageURL : 'https://cdstar.de.dariah.eu/test/dariah/', // URL of DARIAH-DE OwnStorage
 	//colors for several datasets; rgb1 will be used for selected objects, rgb0 for unselected
     colors : [{
@@ -629,30 +630,8 @@ GeoTemConfig.getCsv = function(url,asyncFunc) {
 		async = true;
 	}
 
-	//use XMLHttpRequest as synchronous behaviour
-	//is not supported in jQuery native $.get
+	// Use XMLHttpRequest as synchronous behaviour (is not supported in jQuery native $.get)
     var req = new XMLHttpRequest();
-
-    /*
-    0: request not initialized
-    1: server connection established
-    2: request received
-    3: processing request
-    4: request finished and response is ready
-    */
-    // FIXME handle errors from proxy!
-    req.onreadystatechange = function() {
-        if (this.readyState == 4) {
-            if (this.status == 200) {
-                // Action to be performed when the document is read;
-                console.log("status " + this.status);
-            } else (this.status == 401) {
-                console.log("noauth " + this.status);
-            } else {
-                console.log("error " + this.status);
-            }
-       }
-    };
 
     req.open("GET",url,async);
 
@@ -664,6 +643,29 @@ GeoTemConfig.getCsv = function(url,asyncFunc) {
         req.setRequestHeader('X-Tok', token);
         req.setRequestHeader('X-Transaction-ID', logID);
     }
+
+    /*
+    0: request not initialized
+    1: server connection established
+    2: request received
+    3: processing request
+    4: request finished and response is ready
+    */
+    // Handle errors from proxy!
+/*
+    req.onreadystatechange = function() {
+        if (this.readyState == 4) {
+            if (this.status == 200) {
+                // Action to be performed when the document is read;
+                console.log("status " + this.status);
+            } else if (this.status == 401) {
+                console.log("noauth " + this.status);
+            } else {
+                console.log("error " + this.status);
+            }
+        }
+    };
+*/
 
     // FOXME handle forwarding to PDP!
 
