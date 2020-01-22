@@ -632,6 +632,28 @@ GeoTemConfig.getCsv = function(url,asyncFunc) {
 	//use XMLHttpRequest as synchronous behaviour
 	//is not supported in jQuery native $.get
     var req = new XMLHttpRequest();
+
+    /*
+    0: request not initialized
+    1: server connection established
+    2: request received
+    3: processing request
+    4: request finished and response is ready
+    */
+    // FIXME handle errors from proxy!
+    req.onreadystatechange = function() {
+        if (this.readyState == 4) {
+            if (this.status == 200) {
+                // Action to be performed when the document is read;
+                console.log("status " + this.status);
+            } else (this.status == 401) {
+                console.log("noauth " + this.status);
+            } else {
+                console.log("error " + this.status);
+            }
+       }
+    };
+
     req.open("GET",url,async);
 
     // Set token and logID as HTTP header, if token is existing (only for DARIAH-DE OwnStorage!).
@@ -642,8 +664,6 @@ GeoTemConfig.getCsv = function(url,asyncFunc) {
         req.setRequestHeader('X-Tok', token);
         req.setRequestHeader('X-Transaction-ID', logID);
     }
-
-    // FIXME handle errors from proxy!
 
     // FOXME handle forwarding to PDP!
 
