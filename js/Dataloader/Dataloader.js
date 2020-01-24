@@ -243,12 +243,10 @@ Dataloader.prototype = {
 				return;
 			var origURL = csvURL;
 			var fileName = dataLoader.getFileName(csvURL);
-			if (typeof GeoTemConfig.proxy != 'undefined')
-				csvURL = GeoTemConfig.proxy + csvURL;
+            // Chose proxy or direct access in GeoTemConfig.getCSV().
 			GeoTemConfig.getCsv(csvURL, function(json){
 				if ((typeof json !== "undefined") && (json.length > 0)) {
 					var dataSet = new Dataset(GeoTemConfig.loadJson(json), fileName, origURL);
-
 					if (dataSet != null)
 						dataLoader.distributeDataset(dataSet);
 				} else

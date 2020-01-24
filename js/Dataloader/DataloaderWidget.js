@@ -35,9 +35,9 @@ DataloaderWidget = function(core, div, options) {
 
 	this.options = (new DataloaderConfig(options)).options;
 	this.gui = new DataloaderGui(this, div, this.options);
-	
+
 	this.dataLoader = new Dataloader(this);
-	
+
 	this.datasets = [];
 }
 
@@ -80,7 +80,7 @@ DataloaderWidget.prototype = {
 
 	reset : function() {
 	},
-	
+
 	loadRenames : function(){
 		//load (optional!) attribute renames
 		//each rename param is {latitude:..,longitude:..,place:..,date:..,timeSpanBegin:..,timeSpanEnd:..}
@@ -103,15 +103,15 @@ DataloaderWidget.prototype = {
 
 				if (typeof dataset === "undefined")
 					return;
-				
+
 				var renameFunc = function(index,latAttr,lonAttr,placeAttr,dateAttr,timespanBeginAttr,
 						timespanEndAttr,indexAttr){
 					var renameArray = [];
-					
+
 					if (typeof index === "undefined"){
 						index = 0;
 					}
-					
+
 					if ((typeof latAttr !== "undefined") && (typeof lonAttr !== "undefined")){
 						renameArray.push({
 							oldColumn:latAttr,
@@ -122,7 +122,7 @@ DataloaderWidget.prototype = {
 							newColumn:"locations["+index+"].longitude"
 						});
 					}
-					
+
 					if (typeof placeAttr !== "undefined"){
 						renameArray.push({
 							oldColumn:placeAttr,
@@ -137,7 +137,7 @@ DataloaderWidget.prototype = {
 						});
 					}
 
-					if ((typeof timespanBeginAttr !== "undefined") && 
+					if ((typeof timespanBeginAttr !== "undefined") &&
 							(typeof timespanEndAttr !== "undefined")){
 						renameArray.push({
 							oldColumn:timespanBeginAttr,
@@ -155,10 +155,10 @@ DataloaderWidget.prototype = {
 							newColumn:"index"
 						});
 					}
-					
+
 					GeoTemConfig.renameColumns(dataset,renameArray);
 				};
-				
+
 				var renames = JSON.parse(paramValue);
 
 				if (renames instanceof Array){
@@ -173,7 +173,7 @@ DataloaderWidget.prototype = {
 			}
 		});
 	},
-	
+
 	loadFilters : function(){
 		//load (optional!) filters
 		//those will create a new(!) dataset, that only contains the filtered IDs
@@ -191,10 +191,10 @@ DataloaderWidget.prototype = {
 					}
 				}
 				dataset = datasets[datasetID];
-				
+
 				if (typeof dataset === "undefined")
 					return;
-				
+
 				var filterValues = function(paramValue){
 					var filter = JSON.parse(paramValue);
 					var filteredObjects = [];
@@ -207,7 +207,7 @@ DataloaderWidget.prototype = {
 					var filteredDataset = new Dataset(filteredObjects, dataset.label + " (filtered)", dataset.url, dataset.type);
 					datasets.push(filteredDataset);
 				}
-				
+
 				if (paramValue instanceof Array){
 					for (var i=0; i < paramValue.length; i++){
 						filterValues(paramValue[i]);
@@ -217,9 +217,9 @@ DataloaderWidget.prototype = {
 				}
 
 			}
-		});		
+		});
 	},
-	
+
 	loadColors : function(){
 		//Load the (optional!) dataset colors
 		var dataLoaderWidget = this;
@@ -234,21 +234,21 @@ DataloaderWidget.prototype = {
 						var colorsSelectedUnselected = paramValue.split(",");
 						if (colorsSelectedUnselected.length > 2)
 							return;
-						
+
 						var color1 = colorsSelectedUnselected[0];
 						if (color1.length != 6)
 							return;
-						
+
 						color.r1 = parseInt(color1.substr(0,2),16);
 						color.g1 = parseInt(color1.substr(2,2),16);
 						color.b1 = parseInt(color1.substr(4,2),16);
-						
+
 						//check if a unselected color is given
 						if (colorsSelectedUnselected.length == 2){
 							var color0 = colorsSelectedUnselected[1];
 							if (color0.length != 6)
 								return;
-							
+
 							color.r0 = parseInt(color0.substr(0,2),16);
 							color.g0 = parseInt(color0.substr(2,2),16);
 							color.b0 = parseInt(color0.substr(4,2),16);
@@ -258,14 +258,14 @@ DataloaderWidget.prototype = {
 							color.g0 = Math.round(color.g1/2);
 							color.b0 = Math.round(color.b1/2);
 						}
-						
+
 						datasets[datasetID].color = color;
-					}	
+					}
 				}
-			}	
-		});		
+			}
+		});
 	},
-	
+
 	loadFromURL : function() {
 		var dataLoaderWidget = this;
 		dataLoaderWidget.datasets = [];
@@ -276,9 +276,9 @@ DataloaderWidget.prototype = {
 		$.each(parametersHash,function(paramName, paramValue){
 			parametersArray.push({paramName:paramName, paramValue:paramValue});
 		});
-		
+
 		var parseParam = function(paramNr){
-			
+
 			if (paramNr==parametersArray.length){
 				dataLoaderWidget.loadRenames();
 				dataLoaderWidget.loadFilters();
@@ -295,31 +295,33 @@ DataloaderWidget.prototype = {
 					}
 				}
 				datasets = tempDatasets;
-				
+
 				if (datasets.length > 0){
 					dataLoaderWidget.dataLoader.distributeDatasets(datasets);
 				}
 				return;
 			}
-			
+
 			var paramName = parametersArray[paramNr].paramName;
 			var paramValue = parametersArray[paramNr].paramValue;
-
 			var datasetID = parseInt(paramName.replace(/\D/g,''));
-			
+
 			//startsWith and endsWith defined in SIMILE Ajax (string.js)
 			var fileName = dataLoaderWidget.dataLoader.getFileName(paramValue);
 			var origURL = paramValue;
-			if (typeof GeoTemConfig.proxy != 'undefined')
-				paramValue = GeoTemConfig.proxy + paramValue;
 			if (paramName.toLowerCase().startsWith("kml")){
+                // Add proxy to KML data URL.
+                // FIXME Use direct download for KML files, too!
+                if (typeof GeoTemConfig.proxy != 'undefined') {
+                    paramValue = GeoTemConfig.proxy + paramValue;
+                }
 				GeoTemConfig.getKml(paramValue, function(kmlDoc){
 					var dataSet = new Dataset(GeoTemConfig.loadKml(kmlDoc), fileName, origURL);
 					if (dataSet != null){
 						if (!isNaN(datasetID)){
 							datasets[datasetID] = dataSet;
 						} else {
-							datasets.push(dataSet);							
+							datasets.push(dataSet);
 						}
 					}
 					setTimeout(function(){parseParam(paramNr+1)},1);
@@ -332,20 +334,20 @@ DataloaderWidget.prototype = {
 						if (!isNaN(datasetID)){
 							datasets[datasetID] = dataSet;
 						} else {
-							datasets.push(dataSet);							
+							datasets.push(dataSet);
 						}
 					}
 					setTimeout(function(){parseParam(paramNr+1)},1);
 				});
 			}
 			else if (paramName.toLowerCase().startsWith("json")){
-				GeoTemConfig.getJson(paramValue,function(json ){
+				GeoTemConfig.getJson(paramValue,function(json){
 					var dataSet = new Dataset(GeoTemConfig.loadJson(json), fileName, origURL);
 					if (dataSet != null){
 						if (!isNaN(datasetID)){
 							datasets[datasetID] = dataSet;
 						} else {
-							datasets.push(dataSet);							
+							datasets.push(dataSet);
 						}
 					}
 					setTimeout(function(){parseParam(paramNr+1)},1);
@@ -362,7 +364,7 @@ DataloaderWidget.prototype = {
 					if (!isNaN(datasetID)){
 						datasets[datasetID] = dataSet;
 					} else {
-						datasets.push(dataSet);							
+						datasets.push(dataSet);
 					}
 				}
 				setTimeout(function(){parseParam(paramNr+1)},1);
@@ -373,7 +375,7 @@ DataloaderWidget.prototype = {
 					for(var i = 0; i != data.length; ++i){
 						arr[i] = String.fromCharCode(data[i]);
 					}
-					
+
 					var workbook;
 		        	var json;
 		        	if (paramName.toLowerCase().startsWith("xlsx")){
@@ -385,13 +387,13 @@ DataloaderWidget.prototype = {
 		        		var csv = XLS.utils.sheet_to_csv(workbook.Sheets[workbook.SheetNames[0]]);
 		        		var json = GeoTemConfig.convertCsv(csv);
 		        	}
-		        	
+
 					var dataSet = new Dataset(GeoTemConfig.loadJson(json), fileName, origURL);
 					if (dataSet != null){
 						if (!isNaN(datasetID)){
 							datasets[datasetID] = dataSet;
 						} else {
-							datasets.push(dataSet);							
+							datasets.push(dataSet);
 						}
 					}
 					setTimeout(function(){parseParam(paramNr+1)},1);
@@ -400,7 +402,7 @@ DataloaderWidget.prototype = {
 				setTimeout(function(){parseParam(paramNr+1)},1);
 			}
 		};
-		
+
 		if (parametersArray.length>0){
 			parseParam(0)
 		}
