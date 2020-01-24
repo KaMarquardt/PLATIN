@@ -180,12 +180,13 @@ StorytellingWidget.prototype = {
 
 		var magneticLink = document.createElement('a');
 		magneticLink.setAttribute('class', 'magneticLink');
-		$(magneticLink).append("Magnetic Link");
-		magneticLink.title = "Use this link to reload currently loaded (online) data.";
+		$(magneticLink).append("Magnetic link");
+		magneticLink.title = "Use this link to reload or share currently loaded view of online datasets.";
 		magneticLink.href = "?"+this.datasetLink;
 		var currentStatusParam = $.param(this.currentStatus);
-		if (currentStatusParam.length > 0)
+		if (currentStatusParam.length > 0) {
 			magneticLink.href += "&currentStatus="+currentStatusParam;
+        }
 		magneticLink.target = '_';
 		$(this.gui.storytellingContainer).prepend(magneticLink);
 	},

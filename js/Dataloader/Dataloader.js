@@ -90,7 +90,7 @@ Dataloader.prototype = {
 
 	addStaticLoader : function() {
 		if (this.options.staticKML.length > 0){
-			$(this.parent.gui.loaderTypeSelect).append("<option value='StaticLoader'>Static Data</option>");
+			$(this.parent.gui.loaderTypeSelect).append("<option value='StaticLoader'>Static data</option>");
 
 			this.StaticLoaderTab = document.createElement("div");
 			$(this.StaticLoaderTab).attr("id","StaticLoader");
@@ -144,7 +144,7 @@ Dataloader.prototype = {
 	},
 
     addKMLLoader : function() {
-	$(this.parent.gui.loaderTypeSelect).append("<option value='KMLLoader'>KML File URL</option>");
+	$(this.parent.gui.loaderTypeSelect).append("<option value='KMLLoader'>KML file URL</option>");
 
 	this.KMLLoaderTab = document.createElement("div");
 	$(this.KMLLoaderTab).attr("id","KMLLoader");
@@ -183,7 +183,7 @@ Dataloader.prototype = {
     },
 
 	addKMZLoader : function() {
-		$(this.parent.gui.loaderTypeSelect).append("<option value='KMZLoader'>KMZ File URL</option>");
+		$(this.parent.gui.loaderTypeSelect).append("<option value='KMZLoader'>KMZ file URL</option>");
 
 		this.KMZLoaderTab = document.createElement("div");
 		$(this.KMZLoaderTab).attr("id","KMZLoader");
@@ -222,7 +222,7 @@ Dataloader.prototype = {
 	},
 
 	addCSVLoader : function() {
-		$(this.parent.gui.loaderTypeSelect).append("<option value='CSVLoader'>CSV File URL</option>");
+		$(this.parent.gui.loaderTypeSelect).append("<option value='CSVLoader'>CSV file URL</option>");
 
 		this.CSVLoaderTab = document.createElement("div");
 		$(this.CSVLoaderTab).attr("id","CSVLoader");
@@ -258,7 +258,7 @@ Dataloader.prototype = {
 	},
 
 	addLocalKMLLoader : function() {
-		$(this.parent.gui.loaderTypeSelect).append("<option value='LocalKMLLoader'>local KML File</option>");
+		$(this.parent.gui.loaderTypeSelect).append("<option value='LocalKMLLoader'>Local KML file</option>");
 
 		this.localKMLLoaderTab = document.createElement("div");
 		$(this.localKMLLoaderTab).attr("id","LocalKMLLoader");
@@ -294,7 +294,7 @@ Dataloader.prototype = {
 	},
 
 	addLocalCSVLoader : function() {
-		$(this.parent.gui.loaderTypeSelect).append("<option value='LocalCSVLoader'>local CSV File</option>");
+		$(this.parent.gui.loaderTypeSelect).append("<option value='LocalCSVLoader'>Local CSV file</option>");
 
 		this.localCSVLoaderTab = document.createElement("div");
 		$(this.localCSVLoaderTab).attr("id","LocalCSVLoader");
@@ -384,7 +384,7 @@ Dataloader.prototype = {
 			return o;
 		}
 
-		$(this.parent.gui.loaderTypeSelect).append("<option value='LocalXLSXLoader'>local XLS/XLSX File</option>");
+		$(this.parent.gui.loaderTypeSelect).append("<option value='LocalXLSXLoader'>Local XLS/XLSX file</option>");
 
 		this.LocalXLSXLoader = document.createElement("div");
 		$(this.LocalXLSXLoader).attr("id","LocalXLSXLoader");
