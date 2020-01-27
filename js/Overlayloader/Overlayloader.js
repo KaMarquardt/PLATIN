@@ -154,7 +154,7 @@ Overlayloader.prototype = {
 		newOverlay.layers = [];
 
         var newLayer = new OpenLayers.Layer.XYZ(
-                "XYZ Layer",
+                "XYZ layer",
                 [
                   xyzURL
                 ], {
@@ -179,7 +179,7 @@ Overlayloader.prototype = {
 	},
 
 	addKMLLoader : function() {
-		$(this.parent.gui.loaderTypeSelect).append("<option value='KMLLoader'>KML File URL</option>");
+		$(this.parent.gui.loaderTypeSelect).append("<option value='KMLLoader'>KML file URL</option>");
 
 		this.KMLLoaderTab = document.createElement("div");
 		$(this.KMLLoaderTab).attr("id","KMLLoader");
@@ -206,7 +206,7 @@ Overlayloader.prototype = {
 	},
 
 	addKMZLoader : function() {
-		$(this.parent.gui.loaderTypeSelect).append("<option value='KMZLoader'>KMZ File URL</option>");
+		$(this.parent.gui.loaderTypeSelect).append("<option value='KMZLoader'>KMZ file URL</option>");
 
 		this.KMZLoaderTab = document.createElement("div");
 		$(this.KMZLoaderTab).attr("id","KMZLoader");
@@ -251,7 +251,7 @@ Overlayloader.prototype = {
 		$(this.ArcGISWMSLoaderTab).append(this.wmsLayer);
 
 		this.loadArcGISWMSButton = document.createElement("button");
-		$(this.loadArcGISWMSButton).text("load Layer");
+		$(this.loadArcGISWMSButton).text("load layer");
 		$(this.ArcGISWMSLoaderTab).append(this.loadArcGISWMSButton);
 
 		$(this.loadArcGISWMSButton).click($.proxy(function(){
@@ -267,7 +267,7 @@ Overlayloader.prototype = {
 	},
 
 	addXYZLoader : function() {
-		$(this.parent.gui.loaderTypeSelect).append("<option value='XYZLoader'>XYZ Layer</option>");
+		$(this.parent.gui.loaderTypeSelect).append("<option value='XYZLoader'>XYZ layer</option>");
 
 		this.XYZLoaderTab = document.createElement("div");
 		$(this.XYZLoaderTab).attr("id","XYZLoader");
@@ -279,7 +279,7 @@ Overlayloader.prototype = {
 		$(this.XYZLoaderTab).append(this.xyzURL);
 
 		this.loadXYZButton = document.createElement("button");
-		$(this.loadXYZButton).text("load Layer");
+		$(this.loadXYZButton).text("load layer");
 		$(this.XYZLoaderTab).append(this.loadXYZButton);
 
 		$(this.loadXYZButton).click($.proxy(function(){
@@ -301,7 +301,7 @@ Overlayloader.prototype = {
 		$(this.RomanEmpireLoaderTab).attr("id","RomanEmpireLoader");
 
 		this.loadRomanEmpireButton = document.createElement("button");
-		$(this.loadRomanEmpireButton).text("load Layer");
+		$(this.loadRomanEmpireButton).text("load layer");
 		$(this.RomanEmpireLoaderTab).append(this.loadRomanEmpireButton);
 
 		$(this.loadRomanEmpireButton).click($.proxy(function(){
@@ -312,13 +312,13 @@ Overlayloader.prototype = {
 	},
 
 	addMapsForFreeWaterLayer : function() {
-		$(this.parent.gui.loaderTypeSelect).append("<option value='MapsForFreeWaterLayerLoader'>Water Layer (Maps-For-Free)</option>");
+		$(this.parent.gui.loaderTypeSelect).append("<option value='MapsForFreeWaterLayerLoader'>Water layer (Maps-For-Free)</option>");
 
 		this.MapsForFreeWaterTab = document.createElement("div");
 		$(this.MapsForFreeWaterTab).attr("id","MapsForFreeWaterLayerLoader");
 
 		this.loadMapsForFreeWaterLayerButton = document.createElement("button");
-		$(this.loadMapsForFreeWaterLayerButton).text("load Layer");
+		$(this.loadMapsForFreeWaterLayerButton).text("load layer");
 		$(this.MapsForFreeWaterTab).append(this.loadMapsForFreeWaterLayerButton);
 
 		$(this.loadMapsForFreeWaterLayerButton).click($.proxy(function(){
@@ -347,7 +347,7 @@ Overlayloader.prototype = {
 			$(this.ConfigLoaderTab).append(this.ConfigMapSelect);
 
 			this.loadConfigMapButton = document.createElement("button");
-			$(this.loadConfigMapButton).text("load Layer");
+			$(this.loadConfigMapButton).text("load layer");
 			$(this.ConfigLoaderTab).append(this.loadConfigMapButton);
 
 			$(this.loadConfigMapButton).click($.proxy(function(){

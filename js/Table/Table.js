@@ -143,7 +143,7 @@ Table.prototype = {
 				table.parent.tableSelection();
 			}
 		}
-		
+
 		this.showSelectedItems = false;
 		if (table.options.tableShowSelected) {
 			this.showSelected = document.createElement('div');
@@ -171,7 +171,7 @@ Table.prototype = {
 				table.update();
 			}
 		}
-		
+
 		if (table.options.tableSelectByText) {
 			this.selectByTextDiv = document.createElement('div');
 			$(this.selectByTextDiv).css("float","left");
@@ -188,14 +188,14 @@ Table.prototype = {
 			//TODO: add button-image
 			$(this.selectByTextButton).val("search");
 			$(this.selectByTextDiv).append(this.selectByTextButton);
-			
+
 			table.selectByTextDiv.title = GeoTemConfig.getString('selectByTextHelp');
 			selectors.appendChild(this.selectByTextDiv);
 			$(this.selectByTextButton).click($.proxy(function() {
 				this.selectByText($(this.selectByTextInput).val());
 			},this));
-		}		
-		
+		}
+
 		if (table.options.tableCreateNewFromSelected) {
 			this.createNewFromSelected = document.createElement('div');
 			this.createNewFromSelected.setAttribute('class', 'smallButton createNewRefined');
@@ -211,15 +211,15 @@ Table.prototype = {
 					if (this.selected)
 						newObjects.push(this.object);
 				});
-				
+
 				var newDataset = new Dataset();
 				newDataset.label = tableWidget.datasets[copyID].label + " refined";
 				newDataset.objects = newObjects;
-				
+
 				GeoTemConfig.addDataset(newDataset);
 			};
-		}		
-		
+		}
+
 		this.selectors = selectors;
 
 		//		selectors.style.width = (this.filter.offsetWidth + this.selectAll.offsetWidth + this.selectPage.offsetWidth)+"px";
@@ -260,7 +260,7 @@ Table.prototype = {
 			}
 		}
 		dropdown.div.title = GeoTemConfig.getString('paginationDropdownHelp');
-		
+
 		this.firstPage = document.createElement('div');
 		this.firstPage.setAttribute('class', 'paginationButton');
 		this.firstPage.title = GeoTemConfig.getString('paginationFirsPageHelp');
@@ -330,13 +330,13 @@ Table.prototype = {
 			var cell = document.createElement('th');
 			this.elementListHeader.appendChild(cell);
 		}
-		
+
 		//Bottom pagination elements
 		this.bottomToolbar = document.createElement("table");
 		this.bottomToolbar.setAttribute('class', 'ddbToolbar');
 		this.bottomToolbar.style.overflow = 'auto';
 		this.tableDiv.appendChild(this.bottomToolbar);
-		
+
 		var bottomNavigation = document.createElement("tr");
 		this.bottomToolbar.appendChild(bottomNavigation);
 
@@ -366,7 +366,7 @@ Table.prototype = {
 				table.update();
 			}
 		}
-		
+
 		this.bottomPageInfo = document.createElement('div');
 		this.bottomPageInfo.setAttribute('class', 'pageInfo');
 		$(this.bottomPageInfo).css('float', 'right');
@@ -465,13 +465,13 @@ Table.prototype = {
 		}
 		this.elements.sort(sortFunction);
 	},
-	
+
 	selectByText : function(text) {
 		//deselect all elements
 		$(this.elements).each(function(){
 			this.selected = false;
 		});
-		
+
 		var selectedCount = 0;
 		$(this.elements).filter(function(index){
 			return this.object.contains(text);
@@ -479,12 +479,12 @@ Table.prototype = {
 			this.selected = true;
 			selectedCount++;
 		});
-		
+
 		//only show selected elements
 		this.showSelectedItems = true;
 		this.showElementsLength = selectedCount;
 		this.showSelected.setAttribute('class', 'smallButton showAll');
-		
+
 		this.update();
 		this.parent.tableSelection();
 	},
@@ -499,7 +499,7 @@ Table.prototype = {
 
 	setResultsText : function() {
 		if (this.elements.length == 0) {
-			this.resultsInfo.innerHTML = '0 Results';
+			this.resultsInfo.innerHTML = '0 results';
 		} else {
 			var infoText = GeoTemConfig.getString('resultsInfo');
 			var first = this.page * this.resultsPerPage + 1;

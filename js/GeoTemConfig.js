@@ -28,7 +28,6 @@
  * @version date: 2012-07-27
  */
 
-
 // credits: user76888, The Digital Gabeg (http://stackoverflow.com/questions/1539367)
 $.fn.cleanWhitespace = function() {
 	textNodes = this.contents().filter(	function() {
@@ -37,6 +36,9 @@ $.fn.cleanWhitespace = function() {
 	return this;
 };
 
+/*
+ * Configuration
+ */
 GeoTemConfig = {
 	debug : false, //show debug output (esp. regarding corrupt datasets)
 	incompleteData : true, // show/hide data with either temporal or spatial metadata
@@ -49,12 +51,17 @@ GeoTemConfig = {
 	tableExportDataset : true, // export dataset to KML
 	allowCustomColoring : false, // if DataObjects can have an own color (useful for weighted coloring)
 	allowUserShapeAndColorChange: false, // if the user can change the shapes and color of datasets
-										// this turns MapConfig.useGraphics auto-on, but uses circles as default
+										 // this turns MapConfig.useGraphics auto-on, but uses circles as
+                                         // default
 	loadColorFromDataset : false, // if DataObject color should be loaded automatically (from column "color")
 	allowColumnRenaming : true,
-	proxy : 'php/proxy.php?address=', //set this if a HTTP proxy shall be used (e.g. to bypass X-Domain problems)
+	proxy : '/php/proxy.php?address=', // set this if a HTTP proxy shall be used (e.g. to bypass
+                                       // X-Domain problems)
+    dariahOwnStorageURL : 'https://cdstar.de.dariah.eu/test/dariah/', // URL of DARIAH-DE OwnStorage
+    dariahOwnStorageBearerPrefix : 'bearer ',
+    dariahOwnStorageLogIDPrefix : 'GEOBRO_',
 	//colors for several datasets; rgb1 will be used for selected objects, rgb0 for unselected
-	colors : [{
+    colors : [{
 		r1 : 255,
 		g1 : 101,
 		b1 : 0,
@@ -212,6 +219,9 @@ if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
 	}
 }
 
+/*
+ *
+ */
 GeoTemConfig.getIndependentId = function(target){
 	if( target == 'map' ){
 		return ++GeoTemConfig.independentMapId;
@@ -222,6 +232,9 @@ GeoTemConfig.getIndependentId = function(target){
 	return 0;
 };
 
+/*
+ *
+ */
 GeoTemConfig.setHexColor = function(hex,index,fill){
 	var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
 	if( fill ){
@@ -236,6 +249,9 @@ GeoTemConfig.setHexColor = function(hex,index,fill){
 	}
 }
 
+/*
+ *
+ */
 GeoTemConfig.setRgbColor = function(r,g,b,index,fill){
 	if( fill ){
 		GeoTemConfig.colors[index].r0 = r;
@@ -249,16 +265,24 @@ GeoTemConfig.setRgbColor = function(r,g,b,index,fill){
 	}
 }
 
+/*
+ *
+ */
 GeoTemConfig.configure = function(urlPrefix) {
 	GeoTemConfig.urlPrefix = urlPrefix;
 	GeoTemConfig.path = GeoTemConfig.urlPrefix + "images/";
 }
 
+/*
+ *
+ */
 GeoTemConfig.applySettings = function(settings) {
 	$.extend(this, settings);
 };
 
-//Keeps track of how many colors where assigned yet.
+/*
+ * Keeps track of how many colors where assigned yet.
+ */
 GeoTemConfig.assignedColorCount = 0;
 GeoTemConfig.getColor = function(id){
 	if (typeof GeoTemConfig.datasets[id].color === "undefined"){
@@ -311,6 +335,9 @@ GeoTemConfig.getColor = function(id){
 	return GeoTemConfig.datasets[id].color;
 };
 
+/*
+ *
+ */
 GeoTemConfig.getAverageDatasetColor = function(id, objects){
 	var c = new Object();
 	var datasetColor = GeoTemConfig.getColor(id);
@@ -360,12 +387,16 @@ GeoTemConfig.getAverageDatasetColor = function(id, objects){
 	return c;
 };
 
+/*
+ *
+ */
 GeoTemConfig.getString = function(field) {
 	if ( typeof Tooltips[GeoTemConfig.language] == 'undefined') {
 		GeoTemConfig.language = 'en';
 	}
 	return Tooltips[GeoTemConfig.language][field];
 }
+
 /**
  * returns the actual mouse position
  * @param {Event} e the mouseevent
@@ -381,6 +412,7 @@ GeoTemConfig.getMousePosition = function(e) {
 		left : e.pageX ? e.pageX : e.clientX
 	};
 }
+
 /**
  * returns the json object of the file from the given url
  * @param {String} url the url of the file to load
@@ -410,6 +442,9 @@ GeoTemConfig.getJson = function(url,asyncFunc) {
 	}
 }
 
+/*
+ *
+ */
 GeoTemConfig.mergeObjects = function(set1, set2) {
 	var inside = [];
 	var newSet = [];
@@ -433,20 +468,20 @@ GeoTemConfig.mergeObjects = function(set1, set2) {
 	return newSet;
 };
 
+/*
+ *
+ */
 GeoTemConfig.datasets = [];
-
 GeoTemConfig.addDataset = function(newDataset){
 	GeoTemConfig.datasets.push(newDataset);
 	Publisher.Publish('filterData', GeoTemConfig.datasets, null);
 };
-
 GeoTemConfig.addDatasets = function(newDatasets){
 	$(newDatasets).each(function(){
 		GeoTemConfig.datasets.push(this);
 	});
 	Publisher.Publish('filterData', GeoTemConfig.datasets, null);
 };
-
 GeoTemConfig.removeDataset = function(index){
 	GeoTemConfig.datasets.splice(index,1);
 	Publisher.Publish('filterData', GeoTemConfig.datasets, null);
@@ -455,8 +490,7 @@ GeoTemConfig.removeDataset = function(index){
 /**
  * converts the csv-file into json-format
  *
- * @param {String}
- *            text
+ * @param {String} text Text to convert.
  */
 GeoTemConfig.convertCsv = function(text){
 	/* convert here from CSV to JSON */
@@ -483,7 +517,6 @@ GeoTemConfig.convertCsv = function(text){
 					hasContent = true;
 				}
 			}
-
 			if (hasContent === true)
 				break;
 		}
@@ -539,7 +572,6 @@ GeoTemConfig.convertCsv = function(text){
 		}
 
 		dataObject["tableContent"] = tableContent;
-
 		json.push(dataObject);
 	}
 
@@ -617,34 +649,68 @@ GeoTemConfig.getKmz = function(url,asyncFunc) {
 };
 
 /**
- * returns the JSON "object"
- * from the csv file from the given url
- * @param {String} url the url of the file to load
+ * Loads the CSV file from the given URL and converts it to KML.
+ *
+ * @param {String} url The url of the file to load.
+ * @param {boolean} asyncFunc Method to call if using async data loading.
  * @return xml dom object of given file
  */
-GeoTemConfig.getCsv = function(url,asyncFunc) {
-	var async = false;
-	if( asyncFunc ){
-		async = true;
-	}
+GeoTemConfig.getCsv = function(url, asyncFunc) {
 
-	//use XMLHttpRequest as synchronous behaviour
-	//is not supported in jQuery native $.get
-    var req = new XMLHttpRequest();
-    req.open("GET",url,async);
-    //can only be set on asynchronous now
-    //req.responseType = "text";
-    var json;
-    req.onload = function() {
-    	json = GeoTemConfig.convertCsv(req.response);
-    	if( asyncFunc )
-    		asyncFunc(json);
-    };
-	req.send();
+    // For DARIAH-DE OwnStorage do load data directly...
+    if (url.includes(GeoTemConfig.dariahOwnStorageURL)) {
 
-	if( !async ){
-		return json;
-	}
+        console.log("  ##  DIRECT ACCESS: " + url);
+/*
+        // Set token and logID, if existing.
+        if (sessionStorage.getItem('tok')) {
+            var token = 'bearer ' + sessionStorage.getItem('tok');
+            var logID = 'GEO-BRO_' + (new Date()).getMilliseconds();
+            // NOTE PHP proxy takes X-Tok and transforms it to X-Authorization!
+            req.setRequestHeader('X-Tok', token);
+            req.setRequestHeader('X-Transaction-ID', logID);
+        }
+*/
+
+        // Load file from storage directly.
+        GeoTemConfig.loadFromDariahStorage(url, asyncFunc);
+    }
+
+    // ...handle proxy requests otherwise.
+    else {
+
+        // Check proxy setting and add proxy URL.
+        if (typeof GeoTemConfig.proxy != 'undefined') {
+            url = GeoTemConfig.proxy + url;
+        }
+
+        console.log("  ##  PROXY ACCESS: " + url);
+
+        var async = false;
+        if(asyncFunc) {
+	        async = true;
+        }
+
+	    // Use XMLHttpRequest as synchronous behaviour (is not supported in jQuery native $.get)
+        var req = new XMLHttpRequest();
+
+        req.open("GET", url, async);
+
+        //can only be set on asynchronous now
+        //req.responseType = "text";
+        var json;
+        req.onload = function() {
+            json = GeoTemConfig.convertCsv(req.response);
+    	    if (asyncFunc) {
+    		    asyncFunc(json);
+            }
+        };
+	    req.send();
+
+	    if(!async) {
+		    return json;
+	    }
+    }
 };
 
 /**
@@ -1204,6 +1270,7 @@ GeoTemConfig.createCSVfromDataset = function(index){
 		}
 		csvContent += "\"";
 	});
+
 	return(csvContent);
 };
 /**
@@ -1360,4 +1427,37 @@ GeoTemConfig.renameColumns = function(dataset, renames){
 		//set index
 		dataset.objects[i].setIndex(index);
 	}
+}
+
+/**
+ * Load file from DARIAH-DE storage.
+ */
+GeoTemConfig.loadFromDariahStorage = function(url, asyncFunc) {
+    // Assemble bearer token and logID.
+    var token = GeoTemConfig.dariahOwnStorageBearerPrefix + sessionStorage.getItem('tok');
+    var logID = GeoTemConfig.dariahOwnStorageLogIDPrefix + (new Date()).getMilliseconds();
+    $.ajax({
+		url: url,
+		type: 'GET',
+        headers: { 'Authorization': token, 'X-Transaction-ID': logID },
+		success: function(data) {
+            json = GeoTemConfig.convertCsv(data);
+    	    asyncFunc(json);
+		},
+        error: function(xhr, textStatus, errorThrown) {
+            // Have we got a token already? If not, just do authenticate first!
+            if (sessionStorage.getItem('tok') === null) {
+                // FIXME do redirect to authentication!
+                console.log("DO AUTHENTICATE!");
+            }
+            // If a token does exist and no read access is granted, just give the correct error.
+            else {
+                var title = 'Error loading dataset: ' + xhr.status + ' ' + errorThrown + '! ';
+                var message = 'The dataset with URL ' + url + ' could not be loaded from the DARIAH-DE Storage!';
+                alert(title + message);s
+                // FIXME DO HANDLE ERROR!
+                console.log("ERROR: ", xhr);
+            }
+		}
+	});
 };

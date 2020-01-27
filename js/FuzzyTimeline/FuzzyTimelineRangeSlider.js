@@ -29,27 +29,27 @@
 function FuzzyTimelineRangeSlider(parent) {
 
 	var rangeSlider = this;
-	
+
 	this.parent = parent;
 	this.options = parent.options;
-	
+
 	this.spans;
-	
+
 	this.datasets;
-	
+
 	this.sliderParentTable = this.parent.gui.sliderTable;
 	var headerRow = $("<tr></tr>");
 	var controlsRow = $("<tr></tr>");
 	$(this.sliderParentTable).append(headerRow).append(controlsRow);
-	
+
 	headerRow.append("<td>Time start</td>");
 	this.rangeStart = document.createElement("select");
 	controlsRow.append($("<td></td>").append(this.rangeStart));
-	
+
 	headerRow.append("<td>Time unit</td>");
 	this.rangeDropdown = document.createElement("select");
 	controlsRow.append($("<td></td>").append(this.rangeDropdown));
-	
+
 	headerRow.append("<td>Scaling</td>");
 	this.scalingDropdown = document.createElement("select");
 	controlsRow.append($("<td></td>").append(this.scalingDropdown));
@@ -67,8 +67,8 @@ function FuzzyTimelineRangeSlider(parent) {
 	this.pauseAnimation = document.createElement("div");
 	$(this.pauseAnimation).addClass("smallButton pauseDisabled");
 	controlsRow.append($("<td></td>").append(this.startAnimation).append(this.pauseAnimation));
-	
-	headerRow.append("<td>Dated Objects</td>");
+
+	headerRow.append("<td>Dated objects</td>");
 	this.numberDatedObjects = 0;
 	this.numberDatedObjectsDIV = document.createElement("div");
 	$(this.numberDatedObjectsDIV).addClass("ddbElementsCount");
@@ -105,10 +105,10 @@ FuzzyTimelineRangeSlider.prototype = {
 			if ((typeof smallestSpan !== 'undefined') && (smallestSpan.asMilliseconds() === 1))
 				return false;
 		});
-		
+
 		//show number of objects that have a time in header
 		$(rangeSlider.numberDatedObjectsDIV).empty().append(rangeSlider.numberDatedObjects + " results");
-		
+
 		if (typeof smallestSpan === 'undefined')
 			return;
 
@@ -158,9 +158,9 @@ FuzzyTimelineRangeSlider.prototype = {
 					))
 				rangeSlider.spans.push(fixedSpans[i]);
 		}
-		
+
 		$(rangeSlider.rangeDropdown).empty();
-		
+
 		$(rangeSlider.rangeDropdown).append("<option>continuous</option>");
 		var index = 0;
 		$(rangeSlider.spans).each(function(){
@@ -196,16 +196,16 @@ FuzzyTimelineRangeSlider.prototype = {
 		$(rangeSlider.rangeDropdown).change(function( eventObject ){
 			var handlePosition = $(rangeSlider.rangeDropdown).find("option:selected").first().attr("index");
 			//if there is no index, "continuous" is selected - so the density plot will be drawn
-			
+
 			if (typeof handlePosition === "undefined"){
 				rangeSlider.parent.switchViewMode("density");
 			} else {
 				rangeSlider.parent.switchViewMode("barchart");
 			}
-			
+
 			rangeSlider.parent.slidePositionChanged(rangeSlider.spans[handlePosition]);
 		});
-			
+
 		$(rangeSlider.rangeStart).empty();
 		//add start of timeline selections
 		//TODO: add Months/Days/etc., atm there are only years
@@ -225,24 +225,24 @@ FuzzyTimelineRangeSlider.prototype = {
 			last = date;
 		}
 		$(starts).each(function(){
-			$(rangeSlider.rangeStart).append("<option>"+this+"</option>");				
+			$(rangeSlider.rangeStart).append("<option>"+this+"</option>");
 		});
 
 		$(rangeSlider.rangeStart).change(function( eventObject ){
 			var handlePosition = rangeSlider.rangeStart.selectedIndex;
 			var start = starts[handlePosition];
-				
+
 			rangeSlider.parent.overallMin = moment().year(start);
 			$(rangeSlider.rangeDropdown).change();
 		});
 
 		$(rangeSlider.rangeDropdown).change();
-		
+
 		$(rangeSlider.startAnimation).click(function(){
 			if ($(rangeSlider.startAnimation).hasClass("playEnabled")){
 				$(rangeSlider.startAnimation).removeClass("playEnabled").addClass("playDisabled");
 				$(rangeSlider.pauseAnimation).removeClass("pauseDisabled").addClass("pauseEnabled");
-				
+
 				rangeSlider.parent.startAnimation();
 			}
 		});
@@ -252,12 +252,12 @@ FuzzyTimelineRangeSlider.prototype = {
 			if ($(rangeSlider.pauseAnimation).hasClass("pauseEnabled")){
 				$(rangeSlider.startAnimation).removeClass("playDisabled").addClass("playEnabled");
 				$(rangeSlider.pauseAnimation).removeClass("pauseEnabled").addClass("pauseDisabled");
-				
+
 				rangeSlider.parent.pauseAnimation();
 			}
 		});
 	},
-	
+
 	triggerHighlight : function(columnElement) {
 
 	},
@@ -280,8 +280,8 @@ FuzzyTimelineRangeSlider.prototype = {
 
 	reset : function() {
 	},
-	
-	show : function() {		
+
+	show : function() {
 	},
 
 	hide : function() {

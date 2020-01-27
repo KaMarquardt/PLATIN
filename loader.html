@@ -54,7 +54,7 @@
 			<td rowspan=2 width=50% valign=top>
 				<fieldset id="storytellingContainerDiv" style="position:relative;">
 					<legend>Data History</legend>
-				</fieldset>			
+				</fieldset>
 			</td>
 		</tr>
 		<tr>
@@ -81,17 +81,17 @@
 		var mapDiv = document.getElementById("mapContainerDiv");
 		var map = new WidgetWrapper();
 		var mapWidget = new MapWidget(map,mapDiv,{
-			mapTitle: "Publication Place"
+			mapTitle: "Publication place"
 		});
 		var timeDiv = document.getElementById("plotContainerDiv");
 		var time = new WidgetWrapper();
 		var timeWidget = new FuzzyTimelineWidget(time,timeDiv,{
-			timeTitle: "Publication Date"
+			timeTitle: "Publication date"
 		});
 		var tableDiv = document.getElementById("tableContainerDiv");
 		var table = new WidgetWrapper();
 		var tableWidget = new TableWidget(table,tableDiv);
-		
+
         var dataloaderDiv = document.getElementById("dataloaderContainerDiv");
         var dataloader = new WidgetWrapper();
         var dataloaderWidget = new DataloaderWidget(dataloader,dataloaderDiv);
