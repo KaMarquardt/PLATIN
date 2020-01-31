@@ -659,20 +659,6 @@ GeoTemConfig.getCsv = function(url, asyncFunc) {
 
     // For DARIAH-DE OwnStorage do load data directly...
     if (url.includes(GeoTemConfig.dariahOwnStorageURL)) {
-
-        console.log("  ##  DIRECT ACCESS: " + url);
-/*
-        // Set token and logID, if existing.
-        if (sessionStorage.getItem('tok')) {
-            var token = 'bearer ' + sessionStorage.getItem('tok');
-            var logID = 'GEO-BRO_' + (new Date()).getMilliseconds();
-            // NOTE PHP proxy takes X-Tok and transforms it to X-Authorization!
-            req.setRequestHeader('X-Tok', token);
-            req.setRequestHeader('X-Transaction-ID', logID);
-        }
-*/
-
-        // Load file from storage directly.
         GeoTemConfig.loadFromDariahStorage(url, asyncFunc);
     }
 
@@ -684,8 +670,6 @@ GeoTemConfig.getCsv = function(url, asyncFunc) {
             url = GeoTemConfig.proxy + url;
         }
 
-        console.log("  ##  PROXY ACCESS: " + url);
-
         var async = false;
         if(asyncFunc) {
 	        async = true;
@@ -693,11 +677,9 @@ GeoTemConfig.getCsv = function(url, asyncFunc) {
 
 	    // Use XMLHttpRequest as synchronous behaviour (is not supported in jQuery native $.get)
         var req = new XMLHttpRequest();
-
         req.open("GET", url, async);
 
-        //can only be set on asynchronous now
-        //req.responseType = "text";
+        // Can only be set on asynchronous now
         var json;
         req.onload = function() {
             json = GeoTemConfig.convertCsv(req.response);
@@ -706,7 +688,6 @@ GeoTemConfig.getCsv = function(url, asyncFunc) {
             }
         };
 	    req.send();
-
 	    if(!async) {
 		    return json;
 	    }
@@ -1430,7 +1411,7 @@ GeoTemConfig.renameColumns = function(dataset, renames){
 }
 
 /**
- * Load file from DARIAH-DE storage.
+ * Load file from DARIAH-DE OwnStorage.
  */
 GeoTemConfig.loadFromDariahStorage = function(url, asyncFunc) {
     // Assemble bearer token and logID.
@@ -1441,23 +1422,52 @@ GeoTemConfig.loadFromDariahStorage = function(url, asyncFunc) {
 		type: 'GET',
         headers: { 'Authorization': token, 'X-Transaction-ID': logID },
 		success: function(data) {
-            json = GeoTemConfig.convertCsv(data);
+            var json = GeoTemConfig.convertCsv(data);
     	    asyncFunc(json);
 		},
         error: function(xhr, textStatus, errorThrown) {
-            // Have we got a token already? If not, just do authenticate first!
+            // Have we got a token already? If not, tell the user to authenticate first!
             if (sessionStorage.getItem('tok') === null) {
-                // FIXME do redirect to authentication!
-                console.log("DO AUTHENTICATE!");
+                var title = 'Error loading dataset: ' + xhr.status + ' ' + errorThrown + '!';
+                var message = 'The dataset with URL ' + url + ' could not be loaded from the DARIAH-DE Storage! It seems the above resource is not yours or not shared yet! Please do login to view your dataset or share it in the Datasheet Editor!';
+                alert(title + "\n\n" + message);
             }
             // If a token does exist and no read access is granted, just give the correct error.
             else {
-                var title = 'Error loading dataset: ' + xhr.status + ' ' + errorThrown + '! ';
-                var message = 'The dataset with URL ' + url + ' could not be loaded from the DARIAH-DE Storage!';
-                alert(title + message);s
-                // FIXME DO HANDLE ERROR!
-                console.log("ERROR: ", xhr);
+                var title = 'Error loading dataset: ' + xhr.status + ' ' + errorThrown + '!';
+                var message = 'The dataset with URL ' + url + ' could not be loaded from the DARIAH-DE Storage! It seems the above resource is not publicly available!';
+                alert(title + "\n\n" + message);
             }
 		}
 	});
 };
+
+/*
+ * Store file to DARIAH-DE OwnStorage.
+ */
+GeoTemConfig.storeToDariahStorage = function(postdata, asyncFunc) {
+    // Assemble bearer token and logID.
+    var token = GeoTemConfig.dariahOwnStorageBearerPrefix + sessionStorage.getItem('tok');
+    var logID = GeoTemConfig.dariahOwnStorageLogIDPrefix + (new Date()).getMilliseconds();
+    $.ajax({
+		url: GeoTemConfig.dariahOwnStorageURL,
+		type: 'POST',
+        headers: { 'Authorization': token, 'X-Transaction-ID': logID },
+		contentType: 'text/csv',
+		data: postdata,
+		success: function(data, status, xhr) {
+			var location = xhr.getResponseHeader('Location');
+            var id = location.substring(location.lastIndexOf('/') + 1);
+            // Prevent getting false locations from storage, such as http instead of https and or productive locations from test storage... therefore set new dataset location.
+            var newLocation =  GeoTemConfig.dariahOwnStorageURL + id;
+            asyncFunc(newLocation, id);
+            var title = 'Dataset has been stored to DARIAH-DE Storage!';
+            var message = 'Your dataset has been successfully stored to the the DARIAH-DE Storage! It has got the ID ' + id + ' and URL: ' + newLocation;
+            alert(title + "\n\n" + message);
+        },
+        error: function(xhr, textStatus, errorThrown) {
+            var title = 'Error storing dataset to the DARIAH-DE Storage: ' + xhr.status + ' ' + errorThrown + '!';
+            var message = 'The dataset with URL ' + url + ' could not be stored to the DARIAH-DE Storage!';
+            alert(title + "\n\n" + message);        }
+	});
+}
