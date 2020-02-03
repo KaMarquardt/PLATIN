@@ -80,32 +80,43 @@ StorytellingWidget.prototype = {
 			var paragraph = $("<p style='background-color:" + color + ";margin-bottom:5px;'></p>");
 			paragraph.append(dataset.label);
 			if (typeof dataset.url !== "undefined"){
-				//TODO: makes only sense for KML or CSV URLs, so "type" of
-				//URL should be preserved (in dataset).
-				//startsWith and endsWith defined in SIMILE Ajax (string.js)
+				// TODO: makes only sense for KML or CSV URLs, so "type" of
+				// URL should be preserved (in dataset).
+				// startsWith and endsWith defined in SIMILE Ajax (string.js)
 				var type="csv";
-				if (typeof dataset.type !== "undefined")
+				if (typeof dataset.type !== "undefined") {
 					type = dataset.type;
-				else {
-					if (dataset.url.toLowerCase().endsWith("kml"))
+                } else {
+					if (dataset.url.toLowerCase().endsWith("kml")) {
 						type = "kml";
+                    }
 				}
 
 				magneticLinkParam += type+linkCount+"=";
 				linkCount++;
 				magneticLinkParam += dataset.url;
 
-				var tableLinkDiv = document.createElement('a');
-				tableLinkDiv.title = dataset.url;
+                var tableLinkDiv = document.createElement('a');
+				tableLinkDiv.title = 'Open dataset ' + dataset.label + ' directly in DARIAH-DE OwnStorage. The dataset must be public or you need to be owner of the dataset.';
 				tableLinkDiv.href = dataset.url;
 				tableLinkDiv.target = '_';
 				tableLinkDiv.setAttribute('class', 'externalLink');
 				paragraph.append(tableLinkDiv);
+                // Provide link to Datasheet Editor if stored in DARIAH-DE OwnStorage.
+                if (dataset.url.includes(GeoTemConfig.dariahOwnStorageURL)) {
+                    var datasheetLinkDiv = document.createElement('a');
+					$(datasheetLinkDiv).append("[open datasheet]");
+                    datasheetLinkDiv.title = 'Open datasheet ' + dataset.label + ' from DARIAH-DE OwnStorage in Datasheet Editor. The dataset must be public or you need to be owner of the dataset.';
+                    datasheetLinkDiv.href = GeoTemConfig.datasheetEditorURL + '?id=' + dataset.label;
+                    datasheetLinkDiv.target = '_';
+                    paragraph.append(' ');
+                    paragraph.append(datasheetLinkDiv);
+                }
 			} else {
 				if (storytellingWidget.options.dariahStorage){
 					var uploadToDARIAH = document.createElement('a');
 					$(uploadToDARIAH).append(" [upload to DARIAH-DE Storage]");
-					uploadToDARIAH.title = "Only CSV documents can be uploaded to the DARIAH-DE Storage, so you can edit them using the Datasheet Editor. The filename of your uploaded file will be lost, we apologise for the inconvenience!";
+					uploadToDARIAH.title = "Only CSV documents can be uploaded to the DARIAH-DE Storage, so you can edit them using the Datasheet Editor. If the dataset is not already in CSV format, it will be comverted automatically and then be uploaded. The filename of your uploaded file will be lost, we apologise for the inconvenience!";
 					uploadToDARIAH.href = dataset.url;
 					var localDatasetIndex = new Number(datasetIndex);
                     $(uploadToDARIAH).click(function(){
@@ -164,7 +175,7 @@ StorytellingWidget.prototype = {
 
 		var magneticLink = document.createElement('a');
 		magneticLink.setAttribute('class', 'magneticLink');
-		$(magneticLink).append("Magnetic link (online datasets only)");
+		$(magneticLink).append("Magnetic link");
 		magneticLink.title = "Use this link to reload or share currently loaded view of online datasets.";
 		magneticLink.href = "?"+this.datasetLink;
 		var currentStatusParam = $.param(this.currentStatus);
@@ -174,6 +185,7 @@ StorytellingWidget.prototype = {
 		magneticLink.target = '_';
         var paragraph = $("<p></p>");
         paragraph.append(magneticLink);
+        paragraph.append(' (online datasets only)');
 		$(this.gui.storytellingContainer).prepend(paragraph);
 	},
 
