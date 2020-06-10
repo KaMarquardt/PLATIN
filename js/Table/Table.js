@@ -667,7 +667,7 @@ Table.prototype = {
 				//vhz
 				var text = e.object.tableContent[key];
 
-                console.log(k + ". key: " + key + " - text: " + text);
+//                console.log(k + ". key: " + key + " - text: " + text);
 
 				if (typeof text === "undefined")
 					text = "";

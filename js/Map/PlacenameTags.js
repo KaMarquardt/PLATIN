@@ -32,7 +32,7 @@ function PlacenameTags(circle, map) {
 	this.circle = circle;
 	this.map = map;
 
-	this.placeLabels
+    this.placeLabels
 	this.selectedLabel
 
 	this.allLabel
@@ -51,10 +51,11 @@ function PlacenameTags(circle, map) {
 		var labels = [];
 
 		var levelOfDetail = 0;
-		if (this.map.options.placenameTagsStyle === 'zoom')
+		if (this.map.options.placenameTagsStyle === 'zoom') {
 			levelOfDetail = this.map.getLevelOfDetail();
+        }
 
-		if (this.map.options.placenameTagsStyle === 'value'){
+		if (this.map.options.placenameTagsStyle === 'value') {
 			//find max level that _all_ elements have a value for
 			var maxLevel;
 			for (var i = 0; i < elements.length; i++) {
@@ -84,11 +85,19 @@ function PlacenameTags(circle, map) {
 		for (var i = 0; i < elements.length; i++) {
 			weight += elements[i].weight;
 			var found = false;
-			var label = elements[i].getPlace(this.map.options.mapIndex, levelOfDetail);
+
+            // First take "name" as label...
+            var label = elements[i].name;
+            // ...if "name" is empty, try place...
+            if (label == "") {
+                label = elements[i].getPlace(this.map.options.mapIndex, levelOfDetail);
+            }
+            // In the end, set to unknown.
 			if (label == "") {
 				label = "unknown";
 			}
-			for (var j = 0; j < labels.length; j++) {
+
+            for (var j = 0; j < labels.length; j++) {
 				if (labels[j].place == label) {
 					labels[j].elements.push(elements[i]);
 					labels[j].weight += elements[i].weight;
@@ -305,14 +314,7 @@ function PackPlacenameTags(circle, map) {
 			if (label == "") {
 				label = "unknown";
 			}
-
-            console.log("label: " + label);
-
 			for (var j = 0; j < labels.length; j++) {
-
-                console.log("labels: ", labels[j]);
-                console.log("elements: ", elements[i]);
-
 				if (labels[j].place == label) {
 					labels[j].elements.push(elements[i]);
 					labels[j].weight += elements[i].weight;
