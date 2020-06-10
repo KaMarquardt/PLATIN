@@ -302,6 +302,15 @@ function PackPlacenameTags(circle, map) {
 			weight += elements[i].weight;
 			var found = false;
 			var label = elements[i].getPlace(this.map.options.mapIndex, levelOfDetail);
+
+            // ++TODO++
+
+            var nameLabel = elements[i].getName(this.map.options.mapIndex, levelOfDetail);
+
+            console.log(label + " " + nameLabel);
+
+            // ++TODO++
+
 			if (label == "") {
 				label = "unknown";
 			}
