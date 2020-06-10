@@ -294,9 +294,6 @@ function PackPlacenameTags(circle, map) {
 	this.getLabelList = function(circle) {
 
 		var elements = circle.elements;
-
-        console.log("elements: ", elements);
-
 		var k = circle.search;
 		var weight = 0;
 		var labels = [];
@@ -304,22 +301,18 @@ function PackPlacenameTags(circle, map) {
 		for (var i = 0; i < elements.length; i++) {
 			weight += elements[i].weight;
 			var found = false;
-            // Take "name" as label per default.
-
-
-            console.log("elements: ", elements);
-
-
-            var label = elements[i].getName(this.map.options.mapIndex, levelOfDetail);
-            // If name value is empty, take label from "Address" (Place).
-            if (label == "") {
-                label = elements[i].getPlace(this.map.options.mapIndex, levelOfDetail);
-            }
-            // If label still is empty, set to "unknown".
+			var label = elements[i].getPlace(this.map.options.mapIndex, levelOfDetail);
 			if (label == "") {
 				label = "unknown";
 			}
+
+            console.log("label: " + label);
+
 			for (var j = 0; j < labels.length; j++) {
+
+                console.log("labels: ", labels[j]);
+                console.log("elements: ", elements[i]);
+
 				if (labels[j].place == label) {
 					labels[j].elements.push(elements[i]);
 					labels[j].weight += elements[i].weight;

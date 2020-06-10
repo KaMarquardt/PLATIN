@@ -443,7 +443,7 @@ Table.prototype = {
 		}
 		for (var key in this.elements[0].object.tableContent) {
 
-            console.log("key: " + key + " - tableContent: " + this.elements[0].object.tableContent);
+//            console.log("key: " + key + " - tableContent: " + this.elements[0].object.tableContent);
 
 			addSortButton(key);
 		}
