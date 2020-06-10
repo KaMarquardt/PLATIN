@@ -302,6 +302,11 @@ function PackPlacenameTags(circle, map) {
 			weight += elements[i].weight;
 			var found = false;
             // Take "name" as label per default.
+
+
+            console.log("elements: ", elements);
+
+
             var label = elements[i].getName(this.map.options.mapIndex, levelOfDetail);
             // If name value is empty, take label from "Address" (Place).
             if (label == "") {
