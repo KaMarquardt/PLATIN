@@ -442,6 +442,9 @@ Table.prototype = {
 			}
 		}
 		for (var key in this.elements[0].object.tableContent) {
+
+            console.log("key: " + key + " - tableContent: " + this.elements[0].object.tableContent);
+
 			addSortButton(key);
 		}
 	},
@@ -663,6 +666,9 @@ Table.prototype = {
 				var key = table.keyHeaderList[k];
 				//vhz
 				var text = e.object.tableContent[key];
+
+                console.log(k + ". key: " + key + " - text: " + text);
+
 				if (typeof text === "undefined")
 					text = "";
 				var cell = $("<td></td>").appendTo(itemRow);

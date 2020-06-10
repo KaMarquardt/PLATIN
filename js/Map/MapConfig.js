@@ -263,7 +263,7 @@ function MapConfig(options) {
 		bingApiKey : 'none', // bing maps api key, see informations at http://bingmapsportal.com/
 		osmMaps : true, // enable/disable OSM maps
 		osmMapsMapQuest : false, // enable/disable OSM maps with MapQuest tiles
-		baseLayer : 'Open Street Map', // initial layer to show (e.g. 'Google Streets')
+		baseLayer : 'OpenStreetMap', // initial layer to show (e.g. 'Google Streets')
 		resetMap : true, // show/hide map reset button
 		countrySelect : true, // show/hide map country selection control button
 		polygonSelect : true, // show/hide map polygon selection control button

@@ -97,7 +97,7 @@ StorytellingWidget.prototype = {
 				magneticLinkParam += dataset.url;
 
                 var tableLinkDiv = document.createElement('a');
-				tableLinkDiv.title = 'Open dataset ' + dataset.label + ' directly in DARIAH-DE OwnStorage. The dataset must be public or you need to be owner of the dataset.';
+				tableLinkDiv.title = 'Open/download dataset ' + dataset.label + ' directly from source location. Datasets from DARIAH-DE OwnStorage must be public or you need to be owner of the dataset.';
 				tableLinkDiv.href = dataset.url;
 				tableLinkDiv.target = '_';
 				tableLinkDiv.setAttribute('class', 'externalLink');

@@ -541,7 +541,7 @@ MapWidget.prototype = {
 			this.zoomSlider.setMaxAndLevels(1000, this.openlayersMap.getNumZoomLevels());
 			this.zoomSlider.setValue(this.getZoom());
 		}
-		
+
 		Publisher.Subscribe('mapChanged', this, function(mapName) {
 			this.client.setBaseLayerByName(mapName);
 			this.client.gui.setMap();
@@ -562,7 +562,7 @@ MapWidget.prototype = {
 			        			layers[i].name,
 				                [
 				                 	layers[i].url
-				                ], 
+				                ],
 				                {
 					                sphericalMercator: true,
 					                transitionEffect: "resize",
@@ -570,20 +570,20 @@ MapWidget.prototype = {
 					                numZoomLevels: 12,
 					                transparent : true,
 					                attribution: layers[i].attribution
-				                }, 
+				                },
 								{
 									isBaseLayer : true
 								}
 			            );
 				} else {
 					layer = new OpenLayers.Layer.WMS(
-							layers[i].name, layers[i].url, 
+							layers[i].name, layers[i].url,
 							{
 								projection : "EPSG:4326",
 								layers : layers[i].layer,
 								transparent : "true",
 								format : "image/png"
-							}, 
+							},
 							{
 				                attribution: layers[i].attribution,
 								isBaseLayer : true
@@ -651,18 +651,18 @@ MapWidget.prototype = {
 			this.baseLayers.push(aerial);
 		}
 		if (this.options.osmMaps) {
-			this.baseLayers.push(new OpenLayers.Layer.OSM('Open Street Map', '', {
+			this.baseLayers.push(new OpenLayers.Layer.OSM('OpenStreetMap', '', {
 				sphericalMercator : true,
 				zoomOffset : 1,
 				resolutions : this.resolutions
 			}));
 		}
 		if (this.options.osmMapsMapQuest) {
-			this.baseLayers.push(new OpenLayers.Layer.OSM('Open Street Map (MapQuest)', 
+			this.baseLayers.push(new OpenLayers.Layer.OSM('OpenStreetMap (MapQuest)',
 				["http://otile1.mqcdn.com/tiles/1.0.0/map/${z}/${x}/${y}.png",
 				 "http://otile2.mqcdn.com/tiles/1.0.0/map/${z}/${x}/${y}.png",
 				 "http://otile3.mqcdn.com/tiles/1.0.0/map/${z}/${x}/${y}.png",
-				 "http://otile4.mqcdn.com/tiles/1.0.0/map/${z}/${x}/${y}.png"], 
+				 "http://otile4.mqcdn.com/tiles/1.0.0/map/${z}/${x}/${y}.png"],
 	            {
 					sphericalMercator : true,
 					zoomOffset : 1,
@@ -1101,7 +1101,7 @@ MapWidget.prototype = {
 				hideEmptyCircles = true;
 			}
 		}
-		
+
 		if( !GeoTemConfig.highlightEvents ){
 			return;
 		}
@@ -1116,13 +1116,13 @@ MapWidget.prototype = {
 		for (var i in points ) {
 			for (var j in points[i] ) {
 				var point = points[i][j];
-				
+
 				if (hideEmptyCircles){
 					point.feature.style.display = 'none';
 				} else {
 					point.feature.style.display = '';
-				} 
-					
+				}
+
 				this.updatePoint(points[i][j], polygon);
 			}
 		}
@@ -1230,7 +1230,7 @@ MapWidget.prototype = {
 		this.core.triggerSelection(this.selection);
 		this.filterBar.reset(true);
 	},
-	
+
 	triggerMapChanged : function(mapName) {
 		Publisher.Publish('mapChanged', mapName, this);
 	},
@@ -1380,12 +1380,12 @@ MapWidget.prototype = {
 		}
 		this.openlayersMap.zoomTo(Math.floor(this.getZoom()));
 		this.openlayersMap.setBaseLayer(this.baseLayers[index]);
-		if (this.baseLayers[index].name == 'Open Street Map') {
+		if (this.baseLayers[index].name == 'OpenStreetMap') {
 			this.gui.osmLink.style.visibility = 'visible';
 		} else {
 			this.gui.osmLink.style.visibility = 'hidden';
 		}
-		if (this.baseLayers[index].name == 'Open Street Map (MapQuest)') {
+		if (this.baseLayers[index].name == 'OpenStreetMap (MapQuest)') {
 			this.gui.osmMapQuestLink.style.visibility = 'visible';
 		} else {
 			this.gui.osmMapQuestLink.style.visibility = 'hidden';
@@ -1524,7 +1524,7 @@ MapWidget.prototype = {
 				}
 			}
 		} else {
-			//if there are no points on the map, zoom to max 
+			//if there are no points on the map, zoom to max
 			this.openlayersMap.zoomTo(0);
 			if (this.zoomSlider) {
 				this.zoomSlider.setValue(this.getZoom());
