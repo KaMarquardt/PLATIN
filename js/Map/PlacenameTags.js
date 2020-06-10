@@ -294,6 +294,9 @@ function PackPlacenameTags(circle, map) {
 	this.getLabelList = function(circle) {
 
 		var elements = circle.elements;
+
+        console.log("elements: ", elements);
+
 		var k = circle.search;
 		var weight = 0;
 		var labels = [];
