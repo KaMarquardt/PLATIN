@@ -301,16 +301,13 @@ function PackPlacenameTags(circle, map) {
 		for (var i = 0; i < elements.length; i++) {
 			weight += elements[i].weight;
 			var found = false;
-			var label = elements[i].getPlace(this.map.options.mapIndex, levelOfDetail);
-
-            // ++TODO++
-
-            var nameLabel = elements[i].getName(this.map.options.mapIndex, levelOfDetail);
-
-            console.log(label + " " + nameLabel);
-
-            // ++TODO++
-
+            // Take "name" as label per default.
+            var label = elements[i].getName(this.map.options.mapIndex, levelOfDetail);
+            // If name value is empty, take label from "Address" (Place).
+            if (label == "") {
+                label = elements[i].getPlace(this.map.options.mapIndex, levelOfDetail);
+            }
+            // If label still is empty, set to "unknown".
 			if (label == "") {
 				label = "unknown";
 			}
