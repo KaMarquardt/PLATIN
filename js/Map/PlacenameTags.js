@@ -97,7 +97,7 @@ function PlacenameTags(circle, map) {
 				label = "unknown";
 			}
 
-            for (var j = 0; j < labels.length; j++) {
+			for (var j = 0; j < labels.length; j++) {
 				if (labels[j].place == label) {
 					labels[j].elements.push(elements[i]);
 					labels[j].weight += elements[i].weight;
