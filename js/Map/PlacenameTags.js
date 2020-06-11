@@ -49,7 +49,7 @@ function PlacenameTags(circle, map) {
 		var k = this.circle.search;
 		var weight = 0;
 		var labels = [];
-		
+
 		var levelOfDetail = 0;
 		if (this.map.options.placenameTagsStyle === 'zoom')
 			levelOfDetail = this.map.getLevelOfDetail();
@@ -59,7 +59,7 @@ function PlacenameTags(circle, map) {
 			var maxLevel;
 			for (var i = 0; i < elements.length; i++) {
 				var level = elements[i].placeDetails[this.map.options.mapIndex].length-1;
-				 
+
 				if (typeof maxLevel === "undefined")
 					maxLevel = level;
 				if (maxLevel > level)
@@ -72,22 +72,30 @@ function PlacenameTags(circle, map) {
 			for (levelOfDetail = 0; levelOfDetail < maxLevel; levelOfDetail++){
 				var differenceFound = false;
 				for (var i = 0; i < (elements.length-1); i++) {
-					if (	elements[i].getPlace(this.map.options.mapIndex, levelOfDetail) !== 
+					if (	elements[i].getPlace(this.map.options.mapIndex, levelOfDetail) !==
 							elements[i+1].getPlace(this.map.options.mapIndex, levelOfDetail))
 						differenceFound = true;
 				}
-				if (differenceFound === true) 
+				if (differenceFound === true)
 					break;
-			}			
+			}
 		}
-		
+
 		for (var i = 0; i < elements.length; i++) {
 			weight += elements[i].weight;
 			var found = false;
-			var label = elements[i].getPlace(this.map.options.mapIndex, levelOfDetail);
+
+            // First take "name" as label...
+            var label = elements[i].name;
+            // ...if "name" is empty, try place...
+            if (label == "") {
+                label = elements[i].getPlace(this.map.options.mapIndex, levelOfDetail);
+            }
+            // In the end, set to unknown.
 			if (label == "") {
 				label = "unknown";
 			}
+
 			for (var j = 0; j < labels.length; j++) {
 				if (labels[j].place == label) {
 					labels[j].elements.push(elements[i]);
