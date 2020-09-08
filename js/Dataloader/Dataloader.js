@@ -36,7 +36,8 @@ function Dataloader(parent) {
 	this.initialize();
 }
 
-var addToProxysWhitelistMessage = "Could not load file!\n\nPlease check your URL. If the URL is correct, our proxy may prevent the file from loading. In that case please send us an email, we gladly add your host to the proxy's white list.";
+var addToProxysWhitelistMessage1 = "Could not load data!\n\nPlease check your URL: ";
+var addToProxysWhitelistMessage2 = ". If the URL is correct, our proxy may prevent the file from loading. In that case please send us an email, we gladly add your host to the proxy's white list.";
 
 Dataloader.prototype = {
 
@@ -176,7 +177,7 @@ Dataloader.prototype = {
 		if (dataSet != null)
 		    this.distributeDataset(dataSet);
 	    } else
-		    alert(addToProxysWhitelistMessage);
+		    alert(addToProxysWhitelistMessage1 + kmlURL + addToProxysWhitelistMessage2);
 	},this));
 
 	$(this.parent.gui.loaders).append(this.KMLLoaderTab);
@@ -245,12 +246,15 @@ Dataloader.prototype = {
 			var fileName = dataLoader.getFileName(csvURL);
             // Choose proxy or direct access in GeoTemConfig.getCSV().
 			GeoTemConfig.getCsv(csvURL, function(json){
+
+                console.log("type of json: ", json, json.length);
+
 				if ((typeof json !== "undefined") && (json.length > 0)) {
 					var dataSet = new Dataset(GeoTemConfig.loadJson(json), fileName, origURL);
 					if (dataSet != null)
 						dataLoader.distributeDataset(dataSet);
 				} else
-					alert(addToProxysWhitelistMessage);
+					alert(addToProxysWhitelistMessage1 + csvURL + addToProxysWhitelistMessage2);
 			});
 		},this));
 
