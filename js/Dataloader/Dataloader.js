@@ -36,8 +36,8 @@ function Dataloader(parent) {
 	this.initialize();
 }
 
-var addToProxysWhitelistMessage1 = "Could not load data!\n\nPlease check your URL: ";
-var addToProxysWhitelistMessage2 = ". If the URL is correct, our proxy may prevent the file from loading. In that case please send us an email, we gladly add your host to the proxy's white list.";
+var addToProxysWhitelistMessage1 = "Could not load data!\n\nPlease check your URL <";
+var addToProxysWhitelistMessage2 = ">. If the URL is correct, our proxy may prevent the file from loading. In that case please send us an email, we gladly add your host to the proxy's white list.";
 
 Dataloader.prototype = {
 
@@ -247,7 +247,8 @@ Dataloader.prototype = {
             // Choose proxy or direct access in GeoTemConfig.getCSV().
 			GeoTemConfig.getCsv(csvURL, function(json){
 
-                console.log("type of json: ", json, json.length);
+                console.log("json          -->  ", json);
+                console.log("type of json  -->  ", typeof json);
 
 				if ((typeof json !== "undefined") && (json.length > 0)) {
 					var dataSet = new Dataset(GeoTemConfig.loadJson(json), fileName, origURL);
