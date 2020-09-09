@@ -503,6 +503,9 @@ GeoTemConfig.convertCsv = function(text){
 	var expectedHeaders = new Array("Name","Address","Description","Longitude","Latitude","TimeStamp","TimeSpan:begin","TimeSpan:end","weight");
 	/* convert csv string to array of arrays using ucsv library */
 	var csvArray = CSV.csvToArray(text);
+
+    console.log("array  -->  ", csvArray);
+
 	/* get real used table headers from csv file (first line) */
 	var usedHeaders = csvArray[0];
 	/* loop outer array, begin with second line */
