@@ -508,6 +508,9 @@ GeoTemConfig.convertCsv = function(text){
 
 	/* get real used table headers from csv file (first line) */
 	var usedHeaders = csvArray[0];
+
+    console.log("usedHeaders  -->  ", usedHeaders);
+
 	/* loop outer array, begin with second line */
 	for (var i = 1; i < csvArray.length; i++) {
 		var innerArray = csvArray[i];
