@@ -494,6 +494,9 @@ GeoTemConfig.removeDataset = function(index){
  * @param {String} text Text to convert.
  */
 GeoTemConfig.convertCsv = function(text){
+
+    console.log("text  -->  ", text);
+
 	/* convert here from CSV to JSON */
 	var json = [];
 	/* define expected csv table headers (first line) */
@@ -575,6 +578,8 @@ GeoTemConfig.convertCsv = function(text){
 		dataObject["tableContent"] = tableContent;
 		json.push(dataObject);
 	}
+
+    console.log("json  -->  ", json);
 
 	return json;
 };
