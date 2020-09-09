@@ -37,7 +37,7 @@ function Dataloader(parent) {
 }
 
 var addToProxysWhitelistMessage1 = "Could not load data!\n\nPlease check your URL <";
-var addToProxysWhitelistMessage2 = ">. If the URL is correct, and the file is a non-empty Geo-Browser CSV data file, our proxy may prevent the file from loading. In that case please send us an email, we gladly add your host to the proxy's white list.";
+var addToProxysWhitelistMessage2 = "> and CSV or KML file content. If the URL is correct, and the file is a non-empty Geo-Browser CSV or KML data file, our proxy may prevent the file from loading. In that case please send us an email, we gladly add your host to the proxy's white list.";
 
 Dataloader.prototype = {
 
