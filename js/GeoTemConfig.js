@@ -495,7 +495,7 @@ GeoTemConfig.removeDataset = function(index){
  */
 GeoTemConfig.convertCsv = function(text){
 
-    console.log("text  -->  ", text);
+//    console.log("text  -->  ", text);
 
 	/* convert here from CSV to JSON */
 	var json = [];
@@ -504,12 +504,12 @@ GeoTemConfig.convertCsv = function(text){
 	/* convert csv string to array of arrays using ucsv library */
 	var csvArray = CSV.csvToArray(text);
 
-    console.log("array  -->  ", csvArray);
+//    console.log("array  -->  ", csvArray);
 
 	/* get real used table headers from csv file (first line) */
 	var usedHeaders = csvArray[0];
 
-    console.log("usedHeaders  -->  ", usedHeaders);
+//    console.log("usedHeaders  -->  ", usedHeaders);
 
 	/* loop outer array, begin with second line */
 	for (var i = 1; i < csvArray.length; i++) {
@@ -585,7 +585,9 @@ GeoTemConfig.convertCsv = function(text){
 		json.push(dataObject);
 	}
 
-    console.log("json  -->  ", json);
+//    console.log("json  -->  ", json);
+
+    // TODO We should devide three cases here for not displaying the data: (i) proxy could not load file, (ii) file is empty or invalid and non-interpretable Geo-Browser CSV data, and (iii) file is a Geo-Browser CSV file (at least some of the expectedHeaders existing) and no content!!
 
 	return json;
 };
