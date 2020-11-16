@@ -187,7 +187,7 @@ StorytellingWidget.prototype = {
 
         // Add paragraph containing newly created magnetic link.
         var paragraph = document.createElement('p');
-        paragraphg.setAttribute('class', 'magneticLink');
+        paragraph.setAttribute('class', 'magneticLink');
         paragraph.append(magneticLink);
         paragraph.append(' (online datasets only)');
 		$(this.gui.storytellingContainer).prepend(paragraph);
