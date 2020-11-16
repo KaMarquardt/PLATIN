@@ -30,7 +30,11 @@
 function MapConfig(options) {
 
 	var gsurl = 'https://ref.de.dariah.eu/geoserver';
-	var mpiwgurl = 'http://geoserver.mpiwg-berlin.mpg.de/geoserver';
+
+    var euroGraphicsAttribution = "© <a href='https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units'>EuroGeographics</a> for the administrative boundaries";
+    var mapsForFreeAttribution = "© <a href='https://www.maps-for-free.com'>Maps for Free</a>, released under <a href='https://creativecommons.org/publicdomain/zero/1.0/'>Creative Commons CC0</a>";
+    var dareAttribution = "© <a href='https://twitter.com/johanahlfeldt'>Johan Åhlfeldt</a>, Digital Atlas of the Roman Empire (<a href='https://dh.gu.se/dare/'>DARE</a>)";
+    var thinkQuestAttribution = "© ThinkQuest <a href='https://web.archive.org/web/20091012051813/http://library.thinkquest.org/C006628'>Team C006628</a>";
 
 	this.options = {
 		mapWidth : false, // false or desired width css definition for the map
@@ -42,16 +46,28 @@ function MapConfig(options) {
 					name: '-----------------------------------',
 				},
 				{
-					name: 'Contemporary map 2014',
+					name: 'Contemporary map of 2014',
 					url: gsurl + '/eurostat/wms',
 					layer: 'eurostat:CNTR_RG_03M_2014',
-					attribution: "© <a href='http://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units'>EuroGeographics for the administrative boundaries</a>"
+					attribution: euroGraphicsAttribution
 				},
 				{
-					name: 'Contemporary map 2013',
+					name: 'Contemporary map of 2013',
 					url: gsurl + '/eurostat/wms',
 					layer: 'eurostat:CNTR_RG_03M_2013',
-					attribution: "© <a href='http://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units'>EuroGeographics for the administrative boundaries</a>"
+					attribution: euroGraphicsAttribution
+				},
+                {
+					name: 'Contemporary map of 2010',
+					url: gsurl + '/eurostat/wms',
+					layer: 'eurostat:CNTR_RG_03M_2010',
+					attribution: euroGraphicsAttribution
+				},
+				{
+					name: 'Contemporary map of 2006',
+					url: gsurl + '/eurostat/wms',
+					layer: 'eurostat:CNTR_RG_03M_2006 ',
+					attribution: euroGraphicsAttribution
 				},
 				{
 					name: '-----------------------------------',
@@ -60,182 +76,155 @@ function MapConfig(options) {
 					name: 'Maps-for-Free relief map',
 					url: 'https://maps-for-free.com/layer/relief/z${z}/row${y}/${z}_${x}-${y}.jpg',
 					type:'XYZ',
-					attribution: "© <a href='https://www.maps-for-free.com/html/about.html'>Maps for Free</a>"
+					attribution: mapsForFreeAttribution
 				},
 				{
 					name: 'Digital Atlas of the Roman Empire',
 					url: 'https://dh.gu.se/tiles/imperium/${z}/${x}/${y}.png',
 					type:'XYZ',
-					attribution: "© <a href='https://twitter.com/johanahlfeldt'>Johan Åhlfeldt</a>, <a href='https://dh.gu.se/dare/'>Digital Atlas of the Roman Empire (DARE)</a>"
+					attribution: dareAttribution
 				},
 				{
 					name: '-----------------------------------',
 				},
 				{
-					name: 'Historical map of 2010',
-					url: gsurl + '/eurostat/wms',
-					layer: 'eurostat:CNTR_RG_03M_2010',
-					attribution: "© <a href='http://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units'>EuroGeographics for the administrative boundaries</a>"
-				},
-				{
-					name: 'Historical map of 2006',
-					url: gsurl + '/eurostat/wms',
-					layer: 'eurostat:CNTR_RG_03M_2006 ',
-					attribution: "© <a href='http://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units'>EuroGeographics for the administrative boundaries</a>"
-				},
-				{
 					name: 'Historical map of 1994',
 					url: gsurl + '/historic/wms',
 					layer: 'historic:cntry1994',
-					attribution: "© <a href='https://web.archive.org/web/20091012051813/http://library.thinkquest.org/C006628'>ThinkQuest Team C006628</a>"
+					attribution: thinkQuestAttribution
 				},
 				{
 					name: 'Historical map of 1949',
 					url: gsurl + '/historic/wms',
 					layer: 'historic:cntry1949',
-					attribution: "© <a href='https://web.archive.org/web/20091012051813/http://library.thinkquest.org/C006628'>ThinkQuest Team C006628</a>"
+					attribution: thinkQuestAttribution
 				},
 				{
 					name: 'Historical map of 1938',
 					url: gsurl + '/historic/wms',
 					layer: 'historic:cntry1938',
-					attribution: "© <a href='https://web.archive.org/web/20091012051813/http://library.thinkquest.org/C006628'>ThinkQuest Team C006628</a>"
+					attribution: thinkQuestAttribution
 				},
 				{
 					name: 'Historical map of 1920',
 					url: gsurl + '/historic/wms',
 					layer: 'historic:cntry1920',
-					attribution: "© <a href='https://web.archive.org/web/20091012051813/http://library.thinkquest.org/C006628'>ThinkQuest Team C006628</a>"
+					attribution: thinkQuestAttribution
 				},
 				{
 					name: 'Historical map of 1914',
 					url: gsurl + '/historic/wms',
 					layer: 'historic:cntry1914',
-					attribution: "© <a href='https://web.archive.org/web/20091012051813/http://library.thinkquest.org/C006628'>ThinkQuest Team C006628</a>"
+					attribution: thinkQuestAttribution
 				},
 				{
 					name: 'Historical map of 1880',
 					url: gsurl + '/historic/wms',
 					layer: 'historic:cntry1880',
-					attribution: "© <a href='https://web.archive.org/web/20091012051813/http://library.thinkquest.org/C006628'>ThinkQuest Team C006628</a>"
+					attribution: thinkQuestAttribution
 				},
 				{
 					name: 'Historical map of 1815',
 					url: gsurl + '/historic/wms',
 					layer: 'historic:cntry1815',
-					attribution: "© <a href='https://web.archive.org/web/20091012051813/http://library.thinkquest.org/C006628'>ThinkQuest Team C006628</a>"
+					attribution: thinkQuestAttribution
 				},
 				{
 					name: 'Historical map of 1783',
 					url: gsurl + '/historic/wms',
 					layer: 'historic:cntry1783',
-					attribution: "© <a href='https://web.archive.org/web/20091012051813/http://library.thinkquest.org/C006628'>ThinkQuest Team C006628</a>"
+					attribution: thinkQuestAttribution
 				},
 				{
 					name: 'Historical map of 1715',
 					url: gsurl + '/historic/wms',
 					layer: 'historic:cntry1715',
-					attribution: "© <a href='https://web.archive.org/web/20091012051813/http://library.thinkquest.org/C006628'>ThinkQuest Team C006628</a>"
+					attribution: thinkQuestAttribution
 				},
 				{
 					name: 'Historical map of 1650',
 					url: gsurl + '/historic/wms',
 					layer: 'historic:cntry1650',
-					attribution: "© <a href='https://web.archive.org/web/20091012051813/http://library.thinkquest.org/C006628'>ThinkQuest Team C006628</a>"
-				},
+					attribution: thinkQuestAttribution
+                },
 				{
 					name: 'Historical map of 1530',
 					url: gsurl + '/historic/wms',
 					layer: 'historic:cntry1530',
-					attribution: "© <a href='https://web.archive.org/web/20091012051813/http://library.thinkquest.org/C006628'>ThinkQuest Team C006628</a>"
+					attribution: thinkQuestAttribution
 				},
 				{
 					name: 'Historical map of 1492',
 					url: gsurl + '/historic/wms',
 					layer: 'historic:cntry1492',
-					attribution: "© <a href='https://web.archive.org/web/20091012051813/http://library.thinkquest.org/C006628'>ThinkQuest Team C006628</a>"
+					attribution: thinkQuestAttribution
 				},
 				{
 					name: 'Historical map of 1279',
 					url: gsurl + '/historic/wms',
 					layer: 'historic:cntry1279',
-					attribution: "© <a href='https://web.archive.org/web/20091012051813/http://library.thinkquest.org/C006628'>ThinkQuest Team C006628</a>"
+					attribution: thinkQuestAttribution
 				},
 				{
 					name: 'Historical map of 1000',
 					url: gsurl + '/historic/wms',
 					layer: 'historic:cntry1000',
-					attribution: "© <a href='https://web.archive.org/web/20091012051813/http://library.thinkquest.org/C006628'>ThinkQuest Team C006628</a>"
+					attribution: thinkQuestAttribution
 				},
 				{
 					name: 'Historical map of 800',
 					url: gsurl + '/historic/wms',
 					layer: 'historic:cntry800',
-					attribution: "© <a href='https://web.archive.org/web/20091012051813/http://library.thinkquest.org/C006628'>ThinkQuest Team C006628</a>"
+					attribution: thinkQuestAttribution
 				},
 				{
 					name: 'Historical map of 600',
 					url: gsurl + '/historic/wms',
 					layer: 'historic:cntry600',
-					attribution: "© <a href='https://web.archive.org/web/20091012051813/http://library.thinkquest.org/C006628'>ThinkQuest Team C006628</a>"
+					attribution: thinkQuestAttribution
 				},
 				{
 					name: 'Historical map of 400',
 					url: gsurl + '/historic/wms',
 					layer: 'historic:cntry400',
-					attribution: "© <a href='https://web.archive.org/web/20091012051813/http://library.thinkquest.org/C006628'>ThinkQuest Team C006628</a>"
+					attribution: thinkQuestAttribution
 				},
 				{
 					name: 'Historical map of 1 BC',
 					url: gsurl + '/historic/wms',
 					layer: 'historic:cntry1bc',
-					attribution: "© <a href='https://web.archive.org/web/20091012051813/http://library.thinkquest.org/C006628'>ThinkQuest Team C006628</a>"
+					attribution: thinkQuestAttribution
 				},
 				{
 					name: 'Historical map of 200 BC',
 					url: gsurl + '/historic/wms',
 					layer: 'historic:cntry200bc',
-					attribution: "© <a href='https://web.archive.org/web/20091012051813/http://library.thinkquest.org/C006628'>ThinkQuest Team C006628</a>"
+					attribution: thinkQuestAttribution
 				},
 				{
 					name: 'Historical map of 323 BC',
 					url: gsurl + '/historic/wms',
 					layer: 'historic:cntry323bc',
-					attribution: "© <a href='https://web.archive.org/web/20091012051813/http://library.thinkquest.org/C006628'>ThinkQuest Team C006628</a>"
+					attribution: thinkQuestAttribution
 				},
 				{
 					name: 'Historical map of 500 BC',
 					url: gsurl + '/historic/wms',
 					layer: 'historic:cntry500bc',
-					attribution: "© <a href='https://web.archive.org/web/20091012051813/http://library.thinkquest.org/C006628'>ThinkQuest Team C006628</a>"
+					attribution: thinkQuestAttribution
 				},
 				{
 					name: 'Historical map of 1000 BC',
 					url: gsurl + '/historic/wms',
 					layer: 'historic:cntry1000bc',
-					attribution: "© <a href='https://web.archive.org/web/20091012051813/http://library.thinkquest.org/C006628'>ThinkQuest Team C006628</a>"
+					attribution: thinkQuestAttribution
 				},
 				{
 					name: 'Historical map of 2000 BC',
 					url: gsurl + '/historic/wms',
 					layer: 'historic:cntry2000bc',
-					attribution: "© <a href='https://web.archive.org/web/20091012051813/http://library.thinkquest.org/C006628'>ThinkQuest Team C006628</a>"
+					attribution: thinkQuestAttribution
 				},
-//				{
-//					name: '-----------------------------------',
-//				},
-//				{
-//					name: 'CSHAPE borders 1994-12-15',
-//					url: mpiwgurl + '/mpiwg/wms',
-//					layer: 'mpiwg:borders_1994_12_15',
-//					attribution: "© <a href='++TODO++'>++TODO++</a>"
-//				},
-//				{
-//					name: 'Historical map 1957-03-06',
-//					url: gsurl + '/mpiwg/wms',
-//					layer: 'mpiwg:borders_1957_3_6Polygon',
-//					attribution: "© <a href='++TODO++'>++TODO++</a>"
-//				},
 		],
 		legend : true, // if a legend at the bottom of the map should be shown or not
 		mapMerge : false, // if the elements of distinct datasets should be merged into one set or not

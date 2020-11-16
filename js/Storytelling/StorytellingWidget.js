@@ -83,7 +83,7 @@ StorytellingWidget.prototype = {
 				// TODO: makes only sense for KML or CSV URLs, so "type" of
 				// URL should be preserved (in dataset).
 				// startsWith and endsWith defined in SIMILE Ajax (string.js)
-				var type="csv";
+				var type = "csv";
 				if (typeof dataset.type !== "undefined") {
 					type = dataset.type;
                 } else {
@@ -92,7 +92,7 @@ StorytellingWidget.prototype = {
                     }
 				}
 
-				magneticLinkParam += type+linkCount+"=";
+				magneticLinkParam += type+linkCount + "=";
 				linkCount++;
 				magneticLinkParam += dataset.url;
 
@@ -137,7 +137,7 @@ StorytellingWidget.prototype = {
 					paragraph.append(uploadToDARIAH);
 				}
 				// TODO: if layout is more usable, both options could be used ("else" removed)
-				else if (storytellingWidget.options.localStorage){
+				else if (storytellingWidget.options.localStorage) {
 					var saveToLocalStorage = document.createElement('a');
 					$(saveToLocalStorage).append(" [save to local storage]");
 					saveToLocalStorage.title = "";
@@ -145,7 +145,7 @@ StorytellingWidget.prototype = {
 					var localDatasetIndex = new Number(datasetIndex);
 					$(saveToLocalStorage).click(function(){
 						var csv = GeoTemConfig.createCSVfromDataset(localDatasetIndex);
-						var storageName = "GeoBrowser_dataset_"+GeoTemConfig.datasets[localDatasetIndex].label;
+						var storageName = "GeoBrowser_dataset_" + GeoTemConfig.datasets[localDatasetIndex].label;
 						$.remember({
 							name:storageName,
 							value:csv
@@ -177,7 +177,7 @@ StorytellingWidget.prototype = {
 		magneticLink.setAttribute('class', 'magneticLink');
 		$(magneticLink).append("Magnetic link");
 		magneticLink.title = "Use this link to reload or share currently loaded view of online datasets.";
-		magneticLink.href = "?"+this.datasetLink;
+		magneticLink.href = "?" + this.datasetLink;
 		var currentStatusParam = $.param(this.currentStatus);
 		if (currentStatusParam.length > 0) {
 			magneticLink.href += "&currentStatus="+currentStatusParam;
