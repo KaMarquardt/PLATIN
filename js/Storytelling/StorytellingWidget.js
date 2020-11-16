@@ -70,7 +70,7 @@ StorytellingWidget.prototype = {
 		$(storytellingWidget.datasets).each(function(){
 			var dataset = this;
 
-            console.log("dataset: " + dataset);
+            console.log(dataset);
 
 			if (magneticLinkParam.length > 0) {
 				magneticLinkParam += "&";
