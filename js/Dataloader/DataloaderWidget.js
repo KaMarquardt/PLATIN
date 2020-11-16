@@ -316,7 +316,7 @@ DataloaderWidget.prototype = {
                     paramValue = GeoTemConfig.proxy + paramValue;
                 }
 				GeoTemConfig.getKml(paramValue, function(kmlDoc){
-					var dataSet = new Dataset(GeoTemConfig.loadKml(kmlDoc), fileName, origURL);
+					var dataSet = new Dataset(GeoTemConfig.loadKml(kmlDoc), fileName, origURL, "kml");
 					if (dataSet != null){
 						if (!isNaN(datasetID)){
 							datasets[datasetID] = dataSet;
@@ -329,7 +329,7 @@ DataloaderWidget.prototype = {
 			}
 			else if (paramName.toLowerCase().startsWith("csv")){
 				GeoTemConfig.getCsv(paramValue,function(json){
-					var dataSet = new Dataset(GeoTemConfig.loadJson(json), fileName, origURL);
+					var dataSet = new Dataset(GeoTemConfig.loadJson(json), fileName, origURL, "csv");
 					if (dataSet != null){
 						if (!isNaN(datasetID)){
 							datasets[datasetID] = dataSet;
@@ -342,7 +342,7 @@ DataloaderWidget.prototype = {
 			}
 			else if (paramName.toLowerCase().startsWith("json")){
 				GeoTemConfig.getJson(paramValue,function(json){
-					var dataSet = new Dataset(GeoTemConfig.loadJson(json), fileName, origURL);
+					var dataSet = new Dataset(GeoTemConfig.loadJson(json), fileName, origURL, "json");
 					if (dataSet != null){
 						if (!isNaN(datasetID)){
 							datasets[datasetID] = dataSet;
@@ -382,13 +382,14 @@ DataloaderWidget.prototype = {
 		        		workbook = XLSX.read(arr.join(""), {type:"binary"});
 		        		var csv = XLSX.utils.sheet_to_csv(workbook.Sheets[workbook.SheetNames[0]]);
 		        		var json = GeoTemConfig.convertCsv(csv);
-		        	} else {
+					    var dataSet = new Dataset(GeoTemConfig.loadJson(json), fileName, origURL, "xlsx");
+                	} else {
 		        		workbook = XLS.read(arr.join(""), {type:"binary"});
 		        		var csv = XLS.utils.sheet_to_csv(workbook.Sheets[workbook.SheetNames[0]]);
 		        		var json = GeoTemConfig.convertCsv(csv);
+                        var dataSet = new Dataset(GeoTemConfig.loadJson(json), fileName, origURL, "xls");
 		        	}
 
-					var dataSet = new Dataset(GeoTemConfig.loadJson(json), fileName, origURL);
 					if (dataSet != null){
 						if (!isNaN(datasetID)){
 							datasets[datasetID] = dataSet;

@@ -1481,7 +1481,10 @@ GeoTemConfig.storeToDariahStorage = function(postdata, asyncFunc) {
         },
         error: function(xhr, textStatus, errorThrown) {
             var title = 'Error storing dataset to the DARIAH-DE Storage: ' + xhr.status + ' ' + errorThrown + '!';
-            var message = 'The dataset with URL ' + url + ' could not be stored to the DARIAH-DE Storage!';
+            var message = 'The dataset could not be stored to the DARIAH-DE Storage!';
+            if (xhr.status == "401") {
+                message += " Please try logging in first and then re-load your local file. We apologise for the inconvenience!";
+            }
             alert(title + "\n\n" + message);        }
 	});
 }

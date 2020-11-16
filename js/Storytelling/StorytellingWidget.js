@@ -82,6 +82,10 @@ StorytellingWidget.prototype = {
 			var paragraph = $("<p style='background-color:" + color + ";margin-bottom:5px;'></p>");
 			paragraph.append(dataset.label);
 			if (typeof dataset.url !== "undefined"){
+
+                console.log(dataset.url);
+                console.log(dataset.type);
+
 				// TODO: makes only sense for KML or CSV URLs, so "type" of
 				// URL should be preserved (in dataset).
 				// startsWith and endsWith defined in SIMILE Ajax (string.js)
