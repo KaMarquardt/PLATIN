@@ -70,8 +70,6 @@ StorytellingWidget.prototype = {
 		$(storytellingWidget.datasets).each(function(){
 			var dataset = this;
 
-            console.log(dataset);
-
 			if (magneticLinkParam.length > 0) {
 				magneticLinkParam += "&";
             }
@@ -82,9 +80,6 @@ StorytellingWidget.prototype = {
 			var paragraph = $("<p style='background-color:" + color + ";margin-bottom:5px;'></p>");
 			paragraph.append(dataset.label);
 			if (typeof dataset.url !== "undefined"){
-
-                console.log(dataset.url);
-                console.log(dataset.type);
 
 				// TODO: makes only sense for KML or CSV URLs, so "type" of
 				// URL should be preserved (in dataset).
@@ -122,7 +117,7 @@ StorytellingWidget.prototype = {
 				if (storytellingWidget.options.dariahStorage){
 					var uploadToDARIAH = document.createElement('a');
 					$(uploadToDARIAH).append(" [upload to DARIAH-DE Storage]");
-					uploadToDARIAH.title = "Only CSV documents can be uploaded to the DARIAH-DE Storage, so you can edit them using the Datasheet Editor. If the dataset is not already in CSV format, it will be converted automatically and then be uploaded. The filename of your uploaded file will be lost, we apologise for the inconvenience!";
+					uploadToDARIAH.title = "Only CSV documents can be uploaded to the DARIAH-DE Storage, so you can edit them using the Datasheet Editor. If the dataset is not already in CSV format, it will be converted automatically and then be uploaded. The filename of your uploaded file will be lost and you have to login first! We apologise for the inconvenience!";
 					uploadToDARIAH.href = dataset.url;
 					var localDatasetIndex = new Number(datasetIndex);
                     $(uploadToDARIAH).click(function(){

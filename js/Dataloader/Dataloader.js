@@ -246,10 +246,6 @@ Dataloader.prototype = {
 			var fileName = dataLoader.getFileName(csvURL);
             // Choose proxy or direct access in GeoTemConfig.getCSV().
 			GeoTemConfig.getCsv(csvURL, function(json){
-
-//                console.log("json          -->  ", json);
-//                console.log("type of json  -->  ", typeof json);
-
 				if ((typeof json !== "undefined") && (json.length > 0)) {
 					var dataSet = new Dataset(GeoTemConfig.loadJson(json), fileName, origURL);
 					if (dataSet != null)
