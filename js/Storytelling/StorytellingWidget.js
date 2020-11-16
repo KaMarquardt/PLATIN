@@ -171,10 +171,11 @@ StorytellingWidget.prototype = {
 	},
 
 	createLink : function() {
-		$(this.gui.storytellingContainer).find('.magneticLink').remove();
+        // Remove <p class="magneticLink"/> first.
+        $(this.gui.storytellingContainer).find('.magneticLink').remove();
 
+        // Create new magnetic link reference.
 		var magneticLink = document.createElement('a');
-		magneticLink.setAttribute('class', 'magneticLink');
 		$(magneticLink).append("Magnetic link");
 		magneticLink.title = "Use this link to reload or share currently loaded view of online datasets.";
 		magneticLink.href = "?" + this.datasetLink;
@@ -183,7 +184,10 @@ StorytellingWidget.prototype = {
 			magneticLink.href += "&currentStatus="+currentStatusParam;
         }
 		magneticLink.target = '_';
-        var paragraph = $("<p></p>");
+
+        // Add paragraph containing newly created magnetic link.
+        var paragraph = document.createElement('p');
+        paragraphg.setAttribute('class', 'magneticLink');
         paragraph.append(magneticLink);
         paragraph.append(' (online datasets only)');
 		$(this.gui.storytellingContainer).prepend(paragraph);
