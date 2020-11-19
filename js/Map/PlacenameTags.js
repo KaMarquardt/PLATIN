@@ -32,7 +32,7 @@ function PlacenameTags(circle, map) {
 	this.circle = circle;
 	this.map = map;
 
-	this.placeLabels
+    this.placeLabels
 	this.selectedLabel
 
 	this.allLabel
@@ -51,10 +51,11 @@ function PlacenameTags(circle, map) {
 		var labels = [];
 
 		var levelOfDetail = 0;
-		if (this.map.options.placenameTagsStyle === 'zoom')
+		if (this.map.options.placenameTagsStyle === 'zoom') {
 			levelOfDetail = this.map.getLevelOfDetail();
+        }
 
-		if (this.map.options.placenameTagsStyle === 'value'){
+		if (this.map.options.placenameTagsStyle === 'value') {
 			//find max level that _all_ elements have a value for
 			var maxLevel;
 			for (var i = 0; i < elements.length; i++) {

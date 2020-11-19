@@ -746,4 +746,3 @@ Binning.prototype = {
 
 	}
 }
-

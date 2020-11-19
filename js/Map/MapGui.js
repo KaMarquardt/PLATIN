@@ -114,7 +114,7 @@ function MapGui(map, div, options, iid) {
 		mapSum.appendChild(this.mapElements);
 		tools.appendChild(mapSum);
 	}
-	
+
 	this.lockTitle = document.createElement("td");
 	titles.appendChild(this.lockTitle);
 	this.lockIcon = document.createElement("td");
@@ -236,16 +236,12 @@ function MapGui(map, div, options, iid) {
 		this.mapWindow.appendChild(this.legendDiv);
 	}
 
-	var linkForOsm = 'http://www.openstreetmap.org/';
-	var linkForLicense = 'http://creativecommons.org/licenses/by-sa/2.0/';
 	this.osmLink = document.createElement("div");
 	this.osmLink.setAttribute('class', 'osmLink');
-	this.osmLink.innerHTML = '(c) <a href=' + linkForOsm + '>OpenStreetMap contributors</a>, <a href=' + linkForLicense + '>CC-BY-SA</a>';
 	this.mapWindow.appendChild(this.osmLink);
 
-  this.osmMapQuestLink = document.createElement("div");
+    this.osmMapQuestLink = document.createElement("div");
 	this.osmMapQuestLink.setAttribute('class', 'osmLink');
-	this.osmMapQuestLink.innerHTML = '(c) Data, imagery and map information provided by MapQuest <a href="http://www.mapquest.com/" target="_blank">MapQuest</a> <a href=' + linkForOsm + '>OpenStreetMap contributors</a>, <a href=' + linkForLicense + '>CC-BY-SA</a>';
 	this.mapWindow.appendChild(this.osmMapQuestLink);
 
 	//		var tooltip = document.createElement("div");
@@ -342,7 +338,7 @@ function MapGui(map, div, options, iid) {
 				var stroke = 'rgb(' + c.r1 + ',' + c.g1 + ',' + c.b1 + ')';
 				var svg = '<svg style="width:20px;height:20px;"><circle cx="10" cy="10" r="7" stroke="'+stroke+'" stroke-width="2" fill="'+fill+'"/></svg>';
 				$('<td>'+svg+'</td>').appendTo(row);
-			}			
+			}
 			$('<td>'+datasets[i].label+'</td>').appendTo(row);
 		}
 	};

@@ -84,7 +84,7 @@ function DataloaderConfig(options) {
 				url: dl +"data/flickr/U2.kml"
 			},
 			{
-				label: "Muse", 
+				label: "Muse",
 				url: dl +"data/flickr/Muse.kml"
 			},
 		{ header: "Political Data" },

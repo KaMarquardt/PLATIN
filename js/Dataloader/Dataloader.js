@@ -29,12 +29,15 @@
 function Dataloader(parent) {
 
 	this.dataLoader = this;
-	
+
 	this.parent = parent;
 	this.options = parent.options;
 
 	this.initialize();
 }
+
+var addToProxysWhitelistMessage1 = "Could not load data!\n\nPlease check your URL <";
+var addToProxysWhitelistMessage2 = "> and CSV or KML file content. If the URL is correct, and the file is a non-empty Geo-Browser CSV or KML data file, our proxy may prevent the file from loading. In that case please send us an email, we gladly add your host to the proxy's white list.";
 
 Dataloader.prototype = {
 
@@ -56,17 +59,17 @@ Dataloader.prototype = {
 		this.addLocalKMLLoader();
 		this.addLocalCSVLoader();
 		this.addLocalXLSXLoader();
-		
-		// trigger change event on the select so 
+
+		// trigger change event on the select so
 		// that only the first loader div will be shown
 		$(this.parent.gui.loaderTypeSelect).change();
 	},
-	
+
 	getFileName : function(url) {
 		var fileName = $.url(url).attr('file');
 		if ( (typeof fileName === "undefined") || (fileName.length === 0) ){
 			fileName = $.url(url).attr('path');
-			//startsWith and endsWith defined in SIMILE Ajax (string.js) 
+			//startsWith and endsWith defined in SIMILE Ajax (string.js)
 			while (fileName.endsWith("/")){
 				fileName = fileName.substr(0,fileName.length-1);
 			}
@@ -77,25 +80,25 @@ Dataloader.prototype = {
 		}
 		return fileName;
 	},
-	
+
 	distributeDataset : function(dataSet) {
 		GeoTemConfig.addDataset(dataSet);
 	},
-	
+
 	distributeDatasets : function(datasets) {
 		GeoTemConfig.addDatasets(datasets);
 	},
-	
+
 	addStaticLoader : function() {
 		if (this.options.staticKML.length > 0){
-			$(this.parent.gui.loaderTypeSelect).append("<option value='StaticLoader'>Static Data</option>");
-			
+			$(this.parent.gui.loaderTypeSelect).append("<option value='StaticLoader'>Static data</option>");
+
 			this.StaticLoaderTab = document.createElement("div");
 			$(this.StaticLoaderTab).attr("id","StaticLoader");
-			
+
 			this.staticKMLList = document.createElement("select");
 			$(this.StaticLoaderTab).append(this.staticKMLList);
-			
+
 			var staticKMLList = this.staticKMLList;
 			var isFirstHeader = true;
 			$(this.options.staticKML).each(function(){
@@ -113,7 +116,7 @@ Dataloader.prototype = {
 			//close last optgroup (if there were any)
 			if (!isFirstHeader)
 				$(staticKMLList).append("</optgroup>");
-			
+
 			this.loadStaticKMLButton = document.createElement("button");
 			$(this.loadStaticKMLButton).text("load");
 			$(this.loadStaticKMLButton).addClass(GeoTemConfig.buttonCssClass);
@@ -130,76 +133,74 @@ Dataloader.prototype = {
 				var kml = GeoTemConfig.getKml(kmlURL);
 				if ((typeof kml !== "undefined") && (kml != null)) {
 					var dataSet = new Dataset(GeoTemConfig.loadKml(kml), fileName, origURL);
-					
+
 					if (dataSet != null)
 						this.distributeDataset(dataSet);
 				} else
-					alert("Could not load file.");
+					alert("Could not load file!\n\nData type seems not to be KML!");
 			},this));
 
 			$(this.parent.gui.loaders).append(this.StaticLoaderTab);
 		}
 	},
-    
+
     addKMLLoader : function() {
-	$(this.parent.gui.loaderTypeSelect).append("<option value='KMLLoader'>KML File URL</option>");
-	
+	$(this.parent.gui.loaderTypeSelect).append("<option value='KMLLoader'>KML file URL</option>");
+
 	this.KMLLoaderTab = document.createElement("div");
 	$(this.KMLLoaderTab).attr("id","KMLLoader");
-	
+
 	this.kmlURL = document.createElement("input");
 	$(this.kmlURL).attr("type","text");
 	$(this.KMLLoaderTab).append(this.kmlURL);
-	
+
 	this.loadKMLButton = document.createElement("button");
 	$(this.loadKMLButton).text("load KML");
 	$(this.KMLLoaderTab).append(this.loadKMLButton);
-	
+
 	$(this.loadKMLButton).click($.proxy(function(){
 	    var kmlURL = $(this.kmlURL).val();
-	    
+
 	    if (kmlURL.length === 0)
 		return;
 	    var origURL = kmlURL;
 	    var fileName = this.getFileName(kmlURL);
-	    
+
 	    if (typeof GeoTemConfig.proxy != 'undefined') {
-		kmlURL = GeoTemConfig.proxy + kmlURL;
+		    kmlURL = GeoTemConfig.proxy + kmlURL;
 	    }
-	    
+
 	    var kml = GeoTemConfig.getKml(kmlURL);
 	    if ((typeof kml !== "undefined") && (kml != null)) {
 		var dataSet = new Dataset(GeoTemConfig.loadKml(kml), fileName, origURL);
-		
+
 		if (dataSet != null)
 		    this.distributeDataset(dataSet);
 	    } else
-		alert("Could not load file. Please check your URL. If the URL is correct, our " +
-		      "proxy may prevent the file from loading. In that case please send us an email, " +
-		      "and we gladly add your host to the white list.");
+		    alert(addToProxysWhitelistMessage1 + kmlURL + addToProxysWhitelistMessage2);
 	},this));
-	
+
 	$(this.parent.gui.loaders).append(this.KMLLoaderTab);
     },
-    
+
 	addKMZLoader : function() {
-		$(this.parent.gui.loaderTypeSelect).append("<option value='KMZLoader'>KMZ File URL</option>");
-		
+		$(this.parent.gui.loaderTypeSelect).append("<option value='KMZLoader'>KMZ file URL</option>");
+
 		this.KMZLoaderTab = document.createElement("div");
 		$(this.KMZLoaderTab).attr("id","KMZLoader");
-		
+
 		this.kmzURL = document.createElement("input");
 		$(this.kmzURL).attr("type","text");
 		$(this.KMZLoaderTab).append(this.kmzURL);
-		
+
 		this.loadKMZButton = document.createElement("button");
 		$(this.loadKMZButton).text("load KMZ");
 		$(this.KMZLoaderTab).append(this.loadKMZButton);
 
 		$(this.loadKMZButton).click($.proxy(function(){
-	    	
+
 	    	var dataLoader = this;
-			
+
 			var kmzURL = $(this.kmzURL).val();
 			if (kmzURL.length === 0)
 				return;
@@ -207,11 +208,11 @@ Dataloader.prototype = {
 			var fileName = dataLoader.getFileName(kmzURL);
 			if (typeof GeoTemConfig.proxy != 'undefined')
 				kmzURL = GeoTemConfig.proxy + kmzURL;
-			
+
 			GeoTemConfig.getKmz(kmzURL, function(kmlArray){
 		    	$(kmlArray).each(function(){
 					var dataSet = new Dataset(GeoTemConfig.loadKml(this), fileName, origURL);
-						
+
 					if (dataSet != null)
 						dataLoader.distributeDataset(dataSet);
 		    	});
@@ -220,57 +221,53 @@ Dataloader.prototype = {
 
 		$(this.parent.gui.loaders).append(this.KMZLoaderTab);
 	},
-	
+
 	addCSVLoader : function() {
-		$(this.parent.gui.loaderTypeSelect).append("<option value='CSVLoader'>CSV File URL</option>");
-		
+		$(this.parent.gui.loaderTypeSelect).append("<option value='CSVLoader'>CSV file URL</option>");
+
 		this.CSVLoaderTab = document.createElement("div");
 		$(this.CSVLoaderTab).attr("id","CSVLoader");
-		
+
 		this.csvURL = document.createElement("input");
 		$(this.csvURL).attr("type","text");
 		$(this.CSVLoaderTab).append(this.csvURL);
-		
+
 		this.loadCSVButton = document.createElement("button");
 		$(this.loadCSVButton).text("load CSV");
 		$(this.CSVLoaderTab).append(this.loadCSVButton);
 
 		$(this.loadCSVButton).click($.proxy(function(){
 			var dataLoader = this;
-			
+
 			var csvURL = $(this.csvURL).val();
 			if (csvURL.length === 0)
 				return;
 			var origURL = csvURL;
 			var fileName = dataLoader.getFileName(csvURL);
-			if (typeof GeoTemConfig.proxy != 'undefined')
-				csvURL = GeoTemConfig.proxy + csvURL;
+            // Choose proxy or direct access in GeoTemConfig.getCSV().
 			GeoTemConfig.getCsv(csvURL, function(json){
 				if ((typeof json !== "undefined") && (json.length > 0)) {
 					var dataSet = new Dataset(GeoTemConfig.loadJson(json), fileName, origURL);
-					
 					if (dataSet != null)
 						dataLoader.distributeDataset(dataSet);
 				} else
-					alert("Could not load file. Please check your URL. If the URL is correct, our " +
-						"proxy may prevent the file from loading. In that case please send us an email, " +
-						"and we gladly add your host to the white list.");
+					alert(addToProxysWhitelistMessage1 + csvURL + addToProxysWhitelistMessage2);
 			});
 		},this));
 
 		$(this.parent.gui.loaders).append(this.CSVLoaderTab);
-	},	
-	
+	},
+
 	addLocalKMLLoader : function() {
-		$(this.parent.gui.loaderTypeSelect).append("<option value='LocalKMLLoader'>local KML File</option>");
-		
+		$(this.parent.gui.loaderTypeSelect).append("<option value='LocalKMLLoader'>Local KML file</option>");
+
 		this.localKMLLoaderTab = document.createElement("div");
 		$(this.localKMLLoaderTab).attr("id","LocalKMLLoader");
-		
+
 		this.kmlFile = document.createElement("input");
 		$(this.kmlFile).attr("type","file");
 		$(this.localKMLLoaderTab).append(this.kmlFile);
-		
+
 		this.loadLocalKMLButton = document.createElement("button");
 		$(this.loadLocalKMLButton).text("load KML");
 		$(this.localKMLLoaderTab).append(this.loadLocalKMLButton);
@@ -281,7 +278,7 @@ Dataloader.prototype = {
 				var file = filelist[0];
 				var fileName = file.name;
 				var reader = new FileReader();
-				
+
 				reader.onloadend = ($.proxy(function(theFile) {
 			        return function(e) {
 						var dataSet = new Dataset(GeoTemConfig.loadKml($.parseXML(reader.result)), fileName);
@@ -296,17 +293,17 @@ Dataloader.prototype = {
 
 		$(this.parent.gui.loaders).append(this.localKMLLoaderTab);
 	},
-	
+
 	addLocalCSVLoader : function() {
-		$(this.parent.gui.loaderTypeSelect).append("<option value='LocalCSVLoader'>local CSV File</option>");
-		
+		$(this.parent.gui.loaderTypeSelect).append("<option value='LocalCSVLoader'>Local CSV file</option>");
+
 		this.localCSVLoaderTab = document.createElement("div");
 		$(this.localCSVLoaderTab).attr("id","LocalCSVLoader");
-		
+
 		this.csvFile = document.createElement("input");
 		$(this.csvFile).attr("type","file");
 		$(this.localCSVLoaderTab).append(this.csvFile);
-		
+
 		this.loadLocalCSVButton = document.createElement("button");
 		$(this.loadLocalCSVButton).text("load CSV");
 		$(this.localCSVLoaderTab).append(this.loadLocalCSVButton);
@@ -317,13 +314,13 @@ Dataloader.prototype = {
 				var file = filelist[0];
 				var fileName = file.name;
 				var reader = new FileReader();
-				
+
 				reader.onloadend = ($.proxy(function(theFile) {
 			        return function(e) {
 			        	var json = GeoTemConfig.convertCsv(reader.result);
 						var dataSet = new Dataset(GeoTemConfig.loadJson(json), fileName);
 						if (dataSet != null)
-							this.distributeDataset(dataSet);			
+							this.distributeDataset(dataSet);
 			        };
 			    }(file),this));
 
@@ -333,12 +330,12 @@ Dataloader.prototype = {
 
 		$(this.parent.gui.loaders).append(this.localCSVLoaderTab);
 	},
-	
+
 	addLocalStorageLoader : function() {
 		var dataLoader = this;
 		this.localStorageLoaderTab = document.createElement("div");
 		$(this.localStorageLoaderTab).attr("id","LocalStorageLoader");
-		
+
 		var localDatasets = document.createElement("select");
 		$(this.localStorageLoaderTab).append(localDatasets);
 
@@ -353,7 +350,7 @@ Dataloader.prototype = {
 				$(localDatasets).append("<option value='"+url+"'>"+decodeURIComponent(label)+"</option>");
 			}
 		}
-		
+
 		//only show if there are datasets
 		if (localStorageDatasetCount > 0)
 			$(this.parent.gui.loaderTypeSelect).append("<option value='LocalStorageLoader'>browser storage</option>");
@@ -378,7 +375,7 @@ Dataloader.prototype = {
 
 		$(this.parent.gui.loaders).append(this.localStorageLoaderTab);
 	},
-	
+
 	addLocalXLSXLoader : function() {
 		//taken from http://oss.sheetjs.com/js-xlsx/
 		var fixdata = function(data) {
@@ -387,16 +384,16 @@ Dataloader.prototype = {
 			o+=String.fromCharCode.apply(null, new Uint8Array(data.slice(o.length)));
 			return o;
 		}
-		
-		$(this.parent.gui.loaderTypeSelect).append("<option value='LocalXLSXLoader'>local XLS/XLSX File</option>");
-		
+
+		$(this.parent.gui.loaderTypeSelect).append("<option value='LocalXLSXLoader'>Local XLS/XLSX file</option>");
+
 		this.LocalXLSXLoader = document.createElement("div");
 		$(this.LocalXLSXLoader).attr("id","LocalXLSXLoader");
-		
+
 		this.xlsxFile = document.createElement("input");
 		$(this.xlsxFile).attr("type","file");
 		$(this.LocalXLSXLoader).append(this.xlsxFile);
-		
+
 		this.loadLocalXLSXButton = document.createElement("button");
 		$(this.loadLocalXLSXButton).text("load XLS/XLSX");
 		$(this.LocalXLSXLoader).append(this.loadLocalXLSXButton);
@@ -407,7 +404,7 @@ Dataloader.prototype = {
 				var file = filelist[0];
 				var fileName = file.name;
 				var reader = new FileReader();
-				
+
 				reader.onloadend = ($.proxy(function(theFile) {
 			        return function(e) {
 			        	var workbook;
@@ -421,10 +418,10 @@ Dataloader.prototype = {
 			        		var csv = XLS.utils.sheet_to_csv(workbook.Sheets[workbook.SheetNames[0]]);
 			        		var json = GeoTemConfig.convertCsv(csv);
 			        	}
-			        	
+
 						var dataSet = new Dataset(GeoTemConfig.loadJson(json), fileName);
 						if (dataSet != null)
-							this.distributeDataset(dataSet);			
+							this.distributeDataset(dataSet);
 			        };
 			    }(file),this));
 

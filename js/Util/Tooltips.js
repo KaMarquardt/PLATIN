@@ -81,7 +81,7 @@ var Tooltips = {
 		"timeFeather" : "Adjust time range feather to smoothen map animations",
 		"allResults" : "all",
 		"pageInfo" : "Page PAGE_ID of PAGES_ID",
-		"resultsInfo" : "RESULTS_FROM_ID-RESULTS_TO_ID of RESULTS_ID Results",
+		"resultsInfo" : "RESULTS_FROM_ID-RESULTS_TO_ID of RESULTS_ID results",
 		"otherResults" : "others",
 		"mapAggregation" : "Aggregation",
 		"aggregation" : "Circle aggregation",
