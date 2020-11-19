@@ -57,9 +57,8 @@ GeoTemConfig = {
 	allowColumnRenaming : true,
 	proxy : '/php/proxy.php?address=', // set this if a HTTP proxy shall be used (e.g. to bypass
                                        // X-Domain problems)
-    dariahOwnStorageURL : 'https://cdstar.de.dariah.eu/test/dariah/', // URL of DARIAH-DE OwnStorage
-    // FIXME REMOVE the "/beta" for Release!
-    datasheetEditorURL : '/beta/edit/index.html', // URL of the Datasheet Editor
+    dariahOwnStorageURL : 'https://cdstar.de.dariah.eu/dariah/', // URL of DARIAH-DE OwnStorage
+    datasheetEditorURL : '/edit/index.html', // URL of the Datasheet Editor
     dariahOwnStorageBearerPrefix : 'bearer ',
     dariahOwnStorageLogIDPrefix : 'GEOBRO_',
 	//colors for several datasets; rgb1 will be used for selected objects, rgb0 for unselected
