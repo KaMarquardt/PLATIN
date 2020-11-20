@@ -57,8 +57,9 @@ GeoTemConfig = {
 	allowColumnRenaming : true,
 	proxy : '/php/proxy.php?address=', // set this if a HTTP proxy shall be used (e.g. to bypass
                                        // X-Domain problems)
-    dariahOwnStorageURL : 'https://cdstar.de.dariah.eu/dariah/', // URL of DARIAH-DE OwnStorage
-    // remove /beta if releasing!!!
+    // FIXME Please change for release!
+    dariahOwnStorageURL : 'https://cdstar.de.dariah.eu/test/dariah/', // URL of DARIAH-DE OwnStorage
+    // FIXME Please change for release!
     datasheetEditorURL : '/beta/edit/index.html', // URL of the Datasheet Editor
     dariahOwnStorageBearerPrefix : 'bearer ',
     dariahOwnStorageLogIDPrefix : 'GEOBRO_',
