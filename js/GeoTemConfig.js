@@ -1431,7 +1431,7 @@ GeoTemConfig.renameColumns = function(dataset, renames){
  */
 GeoTemConfig.loadFromDariahStorage = function(url, asyncFunc) {
     // Assemble bearer token and logID.
-    var token = GeoTemConfig.dariahOwnStorageBearerPrefix + sessionStorage.getItem('tok');
+    var token = GeoTemConfig.dariahOwnStorageBearerPrefix + readToken();
     var logID = GeoTemConfig.dariahOwnStorageLogIDPrefix + (new Date()).getMilliseconds();
     $.ajax({
 		url: url,
@@ -1443,7 +1443,7 @@ GeoTemConfig.loadFromDariahStorage = function(url, asyncFunc) {
 		},
         error: function(xhr, textStatus, errorThrown) {
             // Have we got a token already? If not, tell the user to authenticate first!
-            if (sessionStorage.getItem('tok') === null) {
+            if (readToken() === null) {
                 var title = 'Error loading dataset: ' + xhr.status + ' ' + errorThrown + '!';
                 var message = 'The dataset with URL ' + url + ' could not be loaded from the DARIAH-DE Storage! It seems the above resource is not yours or not shared yet! Please do login to view your dataset or share it in the Datasheet Editor!';
                 alert(title + "\n\n" + message);
@@ -1463,7 +1463,7 @@ GeoTemConfig.loadFromDariahStorage = function(url, asyncFunc) {
  */
 GeoTemConfig.storeToDariahStorage = function(postdata, asyncFunc) {
     // Assemble bearer token and logID.
-    var token = GeoTemConfig.dariahOwnStorageBearerPrefix + sessionStorage.getItem('tok');
+    var token = GeoTemConfig.dariahOwnStorageBearerPrefix + readToken();
     var logID = GeoTemConfig.dariahOwnStorageLogIDPrefix + (new Date()).getMilliseconds();
     $.ajax({
 		url: GeoTemConfig.dariahOwnStorageURL,
