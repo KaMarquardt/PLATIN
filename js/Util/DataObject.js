@@ -66,7 +66,7 @@ DataObject = function(name, description, locations, dates, weight, tableContent,
 			place:$.trim(this.place)
 		});
 	});
-	
+
 	//Check if locations are valid
 	if (!(projection instanceof OpenLayers.Projection)){
 		//per default GeoTemCo uses WGS84 (-90<=lat<=90, -180<=lon<=180)
@@ -90,10 +90,10 @@ DataObject = function(name, description, locations, dates, weight, tableContent,
 					tempLocations.push(this);
 				else{
 					if ((GeoTemConfig.debug)&&(typeof console !== undefined)){
-							console.error("Object " + name + " has no valid coordinate. ("+this.latitude+","+this.longitude+")");						
+							console.error("Object " + name + " has no valid coordinate. ("+this.latitude+","+this.longitude+")");
 					}
-				}					
-				
+				}
+
 				//solve lat=-90 bug
 				if( this.longitude == 180 ){
 					this.longitude = 179.999;
@@ -111,7 +111,7 @@ DataObject = function(name, description, locations, dates, weight, tableContent,
 		});
 		this.locations = tempLocations;
 	}
-	
+
 	this.isGeospatial = false;
 	if ((typeof this.locations !== "undefined") && (this.locations.length > 0)) {
 		this.isGeospatial = true;
@@ -147,7 +147,7 @@ DataObject = function(name, description, locations, dates, weight, tableContent,
 				var date = GeoTemConfig.getTimeData(this.dates[i]);
 				//check whether we got valid dates
 				if ((typeof date !== "undefined")&&(date != null)){
-					this.dates[i] = date; 
+					this.dates[i] = date;
 				} else {
 					//at least one date is invalid, so this dataObject has
 					//no valid date information and is therefor not "temporal"
@@ -163,12 +163,12 @@ DataObject = function(name, description, locations, dates, weight, tableContent,
 	if (this.isTemporal) {
 		this.isTemporal = false;
 		this.isFuzzyTemporal = true;
-		
+
 		var date = this.dates[0].date;
 		var granularity = this.dates[0].granularity;
-		
+
 		this.TimeSpanGranularity = granularity;
-		
+
 		if (granularity === SimileAjax.DateTime.YEAR){
 			this.TimeSpanBegin = moment(date).startOf("year");
 			this.TimeSpanEnd = moment(date).endOf("year");
@@ -207,14 +207,14 @@ DataObject = function(name, description, locations, dates, weight, tableContent,
 		               ];
 		this.TimeSpanBegin = moment(this.tableContent["TimeSpan:begin"],formats.slice());
 		this.TimeSpanEnd = moment(this.tableContent["TimeSpan:end"],formats.slice());
-		if ((this.TimeSpanBegin instanceof Object) && this.TimeSpanBegin.isValid() && 
+		if ((this.TimeSpanBegin instanceof Object) && this.TimeSpanBegin.isValid() &&
 			(this.TimeSpanEnd instanceof Object) && this.TimeSpanEnd.isValid()){
 			//check whether dates are correctly sorted
 			if (this.TimeSpanBegin>this.TimeSpanEnd){
 				//dates are in the wrong order
 				if ((GeoTemConfig.debug)&&(typeof console !== undefined))
 					console.error("Object " + this.name + " has wrong fuzzy dating (twisted start/end?).");
-				
+
 			} else {
 				var timeSpanBeginGranularity = formats.indexOf(this.TimeSpanBegin._f);
 				var timeSpanEndGranularity = formats.indexOf(this.TimeSpanEnd._f);
@@ -237,7 +237,7 @@ DataObject = function(name, description, locations, dates, weight, tableContent,
 				} else if (timeSpanGranularity === 6){
 					this.TimeSpanGranularity = SimileAjax.DateTime.MILLISECOND;
 				}
-				
+
 				if (timeSpanBeginGranularity === 0){
 					this.TimeSpanBeginGranularity = SimileAjax.DateTime.YEAR;
 				} else if (timeSpanBeginGranularity === 1){
@@ -253,7 +253,7 @@ DataObject = function(name, description, locations, dates, weight, tableContent,
 				} else if (timeSpanBeginGranularity === 6){
 					this.TimeSpanBeginGranularity = SimileAjax.DateTime.MILLISECOND;
 				}
-				
+
 				if (timeSpanEndGranularity === 0){
 					this.TimeSpanEndGranularity = SimileAjax.DateTime.YEAR;
 				} else if (timeSpanEndGranularity === 1){
@@ -269,14 +269,14 @@ DataObject = function(name, description, locations, dates, weight, tableContent,
 				} else if (timeSpanEndGranularity === 6){
 					this.TimeSpanEndGranularity = SimileAjax.DateTime.MILLISECOND;
 				}
-				
+
 				if (this.TimeSpanEnd.year()-this.TimeSpanBegin.year() >= 1000)
 					this.TimeSpanGranularity = SimileAjax.DateTime.MILLENNIUM;
 				else if (this.TimeSpanEnd.year()-this.TimeSpanBegin.year() >= 100)
 					this.TimeSpanGranularity = SimileAjax.DateTime.CENTURY;
 				else if (this.TimeSpanEnd.year()-this.TimeSpanBegin.year() >= 10)
 					this.TimeSpanGranularity = SimileAjax.DateTime.DECADE;
-				
+
 				//also set upper bounds according to granularity
 				//(lower bound is already correct)
 				if (timeSpanEndGranularity === 0){
@@ -300,7 +300,7 @@ DataObject = function(name, description, locations, dates, weight, tableContent,
 		}
 	}
 
-	
+
 	this.getDate = function(dateId) {
 		return this.dates[dateId].date;
 	}
@@ -323,31 +323,31 @@ DataObject = function(name, description, locations, dates, weight, tableContent,
 
 	this.contains = function(text) {
 		var allCombined = this.name + " " + this.description + " " + this.weight + " ";
-		
+
 		$.each(this.dates, function(key, value){
 			$.each(value, function(){
 				allCombined += this + " ";
 			});
 		});
-		
+
 		$.each(this.locations, function(key, value){
 			$.each(value, function(){
 				allCombined += this + " ";
 			});
 		});
-		
+
 		$.each(this.tableContent, function(key, value){
 			allCombined += value + " ";
 		});
-		
+
 		return (allCombined.indexOf(text) != -1);
 	};
-	
+
 	this.hasColorInformation = false;
-	
+
 	this.setColor = function(r0,g0,b0,r1,g1,b1) {
 		this.hasColorInformation = true;
-		
+
 		this.color = new Object();
 		this.color.r0 = r0;
 		this.color.g0 = g0;
@@ -360,7 +360,7 @@ DataObject = function(name, description, locations, dates, weight, tableContent,
 	this.getColor = function() {
 		if (!this.hasColorInformation)
 			return;
-		
+
 		color = new Object();
 		color.r0 = this.r0;
 		color.g0 = this.g0;
@@ -368,10 +368,9 @@ DataObject = function(name, description, locations, dates, weight, tableContent,
 		color.r1 = this.r1;
 		color.g1 = this.g1;
 		color.b1 = this.b1;
-		
+
 		return color;
 	};
-	
+
 	Publisher.Publish('dataobjectAfterCreation', this);
 };
-
