@@ -58,8 +58,10 @@ GeoTemConfig = {
 	proxy : '/php/proxy.php?address=', // set this if a HTTP proxy shall be used (e.g. to bypass
                                        // X-Domain problems)
     // FIXME Please change for release!
+//    dariahOwnStorageURL : 'https://cdstar.de.dariah.eu/dariah/', // URL of DARIAH-DE OwnStorage
     dariahOwnStorageURL : 'https://cdstar.de.dariah.eu/test/dariah/', // URL of DARIAH-DE OwnStorage
     // FIXME Please change for release!
+//    datasheetEditorURL : '/edit/index.html', // URL of the Datasheet Editor
     datasheetEditorURL : '/beta/edit/index.html', // URL of the Datasheet Editor
     dariahOwnStorageBearerPrefix : 'bearer ',
     dariahOwnStorageLogIDPrefix : 'GEOBRO_',
@@ -675,7 +677,7 @@ GeoTemConfig.getCsv = function(url, asyncFunc) {
 
     // For DARIAH-DE OwnStorage do load data directly...
     if (url.includes(GeoTemConfig.dariahOwnStorageURL)) {
-        GeoTemConfig.loadFromDariahStorage(url, asyncFunc);
+        GeoTemConfig.loadJSONFromDariahStorage(url, asyncFunc);
     }
 
     // ...handle proxy requests otherwise.
@@ -1427,9 +1429,9 @@ GeoTemConfig.renameColumns = function(dataset, renames){
 }
 
 /**
- * Load file from DARIAH-DE OwnStorage.
+ * Load file from DARIAH-DE OwnStorage, convert toi JSON immediately.
  */
-GeoTemConfig.loadFromDariahStorage = function(url, asyncFunc) {
+GeoTemConfig.loadJSONFromDariahStorage = function(url, asyncFunc) {
     // Assemble bearer token and logID.
     var token = GeoTemConfig.dariahOwnStorageBearerPrefix + readToken();
     var logID = GeoTemConfig.dariahOwnStorageLogIDPrefix + (new Date()).getMilliseconds();
@@ -1440,6 +1442,53 @@ GeoTemConfig.loadFromDariahStorage = function(url, asyncFunc) {
 		success: function(data) {
             var json = GeoTemConfig.convertCsv(data);
     	    asyncFunc(json);
+		},
+        error: function(xhr, textStatus, errorThrown) {
+            // Have we got a token already? If not, tell the user to authenticate first!
+            if (readToken() === null) {
+                var title = 'Error loading dataset: ' + xhr.status + ' ' + errorThrown + '!';
+                var message = 'The dataset with URL ' + url + ' could not be loaded from the DARIAH-DE Storage! It seems the above resource is not yours or not shared yet! Please do login to view your dataset or share it in the Datasheet Editor!';
+                alert(title + "\n\n" + message);
+            }
+            // If a token does exist and no read access is granted, just give the correct error.
+            else {
+                var title = 'Error loading dataset: ' + xhr.status + ' ' + errorThrown + '!';
+                var message = 'The dataset with URL ' + url + ' could not be loaded from the DARIAH-DE Storage! It seems the above resource is not publicly available!';
+                alert(title + "\n\n" + message);
+            }
+		}
+	});
+};
+
+/**
+ * Load file directly from DARIAH-DE OwnStorage using existing token.
+ */
+GeoTemConfig.downloadRawDataDirectlyFromDariahStorage = function(url) {
+    // Assemble bearer token and logID.
+    var token = GeoTemConfig.dariahOwnStorageBearerPrefix + readToken();
+    var logID = GeoTemConfig.dariahOwnStorageLogIDPrefix + (new Date()).getMilliseconds();
+    var dsid = url.substring(url.lastIndexOf('/') + 1);
+    $.ajax({
+		url: url,
+		type: 'GET',
+        headers: { 'Authorization': token, 'X-Transaction-ID': logID },
+		success: function(data) {
+            // TODO Put together with fancyA implemenataion in /edit/dariah.workflow.js!
+            // Create new a element.
+            var fancyA = document.createElement('a');
+            document.body.appendChild(fancyA);
+            fancyA.style = 'display:none';
+            // TODO Maybe use csvStorageMimetype here?
+            var blob = new Blob([data], {type: 'text/csv;charset=utf-8'});
+            var blobURL = window.URL.createObjectURL(blob);
+            // Fill a element with URL and filename.
+            fancyA.href = blobURL;
+            fancyA.download = dsid + ".csv";
+            fancyA.target = "_blank";
+            // Click on a :-)
+            fancyA.click();
+            // Remove URL.
+            window.URL.revokeObjectURL(blobURL);
 		},
         error: function(xhr, textStatus, errorThrown) {
             // Have we got a token already? If not, tell the user to authenticate first!

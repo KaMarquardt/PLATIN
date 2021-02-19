@@ -63,7 +63,7 @@ TableWidget.prototype = {
 
 		var tableWidget = this;
 		var addTab = function(name, index) {
-			var dataSet = GeoTemConfig.datasets[index];
+			var dataset = GeoTemConfig.datasets[index];
 			var tableTab = document.createElement('div');
 			var tableTabTable = document.createElement('table');
 			$(tableTab).append(tableTabTable);
@@ -77,29 +77,36 @@ TableWidget.prototype = {
 			}
 			var tableNameDiv = document.createElement('div');
 			$(tableNameDiv).append(name);
-			
-			if (typeof dataSet.url !== "undefined"){
+
+			if (typeof dataset.url !== "undefined"){
 				var tableLinkDiv = document.createElement('a');
-				tableLinkDiv.title = dataSet.url;
-				tableLinkDiv.href = dataSet.url;
+                tableLinkDiv.title = 'Open/download dataset ' + dataset.label + ' directly from source location [' + dataset.url + ']. Datasets from DARIAH-DE OwnStorage must be public or you need to be owner of the dataset.';
+                // Provide download from DARIAH-DE OwnStorage if stored there AND logged in. Fixes #34656.
+                if (readToken() && dataset.url.includes(GeoTemConfig.dariahOwnStorageURL)) {
+                    tableLinkDiv.href = "#";
+                    tableLinkDiv.setAttribute('onclick', "GeoTemConfig.downloadRawDataDirectlyFromDariahStorage('" + dataset.url + "')");
+                } else {
+                    tableLinkDiv.href = dataset.url;
+                }
+
 				tableLinkDiv.target = '_';
 				tableLinkDiv.setAttribute('class', 'externalLink');
 				$(tableNameDiv).append(tableLinkDiv);
 			}
 			$(tableTabTableRow).append($(document.createElement('td')).append(tableNameDiv));
-			
+
 			var removeTabDiv = document.createElement('div');
 			removeTabDiv.setAttribute('class', 'smallButton removeDataset');
 			removeTabDiv.title = GeoTemConfig.getString('removeDatasetHelp');
 			removeTabDiv.onclick = $.proxy(function(e) {
 				GeoTemConfig.removeDataset(index);
-				//don't let the event propagate to the DIV above			
+				//don't let the event propagate to the DIV above
 				e.stopPropagation();
 				//discard link click
 				return(false);
 			},{index:index});
 			$(tableTabTableRow).append($(document.createElement('td')).append(removeTabDiv));
-			
+
 			if (GeoTemConfig.tableExportDataset){
 				var exportTabDiv = document.createElement('div');
 				exportTabDiv.setAttribute('class', 'smallButton exportDataset');
@@ -115,7 +122,7 @@ TableWidget.prototype = {
 				exportTabDiv.onclick = $.proxy(function(e) {
 					$(exportTabHiddenValue).val(GeoTemConfig.createKMLfromDataset(index));
 					$(exportTabForm).submit();
-					//don't let the event propagate to the DIV				
+					//don't let the event propagate to the DIV
 					e.stopPropagation();
 					//discard link click
 					return(false);
@@ -123,14 +130,14 @@ TableWidget.prototype = {
 				exportTabDiv.appendChild(exportTabForm);
 				$(tableTabTableRow).append($(document.createElement('td')).append(exportTabDiv));
 			}
-			
+
 			if (GeoTemConfig.allowUserShapeAndColorChange){
 				var dataset = GeoTemConfig.datasets[index];
 
 				var changeColorShapeSelect = $("<select></select>");
 				changeColorShapeSelect.attr("title", GeoTemConfig.getString("colorShapeDatasetHelp"));
 				changeColorShapeSelect.css("font-size","1.5em");
-				
+
 				var currentOptgroup = $("<optgroup label='Current'></optgroup>");
 				var currentOption = $("<option value='current'></option>");
 				var color = GeoTemConfig.getColor(index);
@@ -158,14 +165,14 @@ TableWidget.prototype = {
 				defaultOption.append("●");
 				defaultOptgroup.append(defaultOption);
 				changeColorShapeSelect.append(defaultOptgroup);
-				
+
 				var shapeOptgroup = $("<optgroup label='Shapes'></optgroup>");
 				shapeOptgroup.append("<option>○</option>");
 				shapeOptgroup.append("<option>□</option>");
 				shapeOptgroup.append("<option>◇</option>");
 				shapeOptgroup.append("<option>△</option>");
 				changeColorShapeSelect.append(shapeOptgroup);
-				
+
 				var colorOptgroup = $("<optgroup label='Colors'></optgroup>");
 				var red = $("<option style='color:red'>■</option>");
 				red.data("color",{r1:255,g1:0,b1:0});
@@ -180,7 +187,7 @@ TableWidget.prototype = {
 				yellow.data("color",{r1:255,g1:255,b1:0});
 				colorOptgroup.append(yellow);
 				changeColorShapeSelect.append(colorOptgroup);
-				
+
 				changeColorShapeSelect.change($.proxy(function(e) {
 					var selected = changeColorShapeSelect.find("option:selected");
 
@@ -191,7 +198,7 @@ TableWidget.prototype = {
 					}
 
 					var color = selected.data("color");
-					
+
 					if (typeof color !== "undefined"){
 						if (	(typeof color.r0 === "undefined") ||
 								(typeof color.g0 === "undefined") ||
@@ -199,7 +206,7 @@ TableWidget.prototype = {
 							var shadedrgb = shadeRGBColor("rgb("+color.r1+","+color.g1+","+color.b1+")",0.7);
 							shadedrgb = shadedrgb.replace("rgb(","").replace(")","");
 							shadedrgb = shadedrgb.split(",");
-							
+
 							color.r0 = parseInt(shadedrgb[0]);
 							color.g0 = parseInt(shadedrgb[1]);
 							color.b0 = parseInt(shadedrgb[2]);
@@ -229,7 +236,7 @@ TableWidget.prototype = {
 								rotation: 0
 						};
 					}
-					
+
 					if (shapeOptgroup.has(selected).length>0){
 						//shape change
 						dataset.graphic = graphic;
@@ -241,22 +248,22 @@ TableWidget.prototype = {
 						dataset.graphic = graphic;
 						dataset.color = color;
 					}
-					
+
 					//reload data
 					Publisher.Publish('filterData', GeoTemConfig.datasets, null);
-					
-					//don't let the event propagate to the DIV				
+
+					//don't let the event propagate to the DIV
 					e.stopPropagation();
 					//discard link click
 					return(false);
 				},{index:index}));
 				$(tableTabTableRow).append($(document.createElement('td')).append(changeColorShapeSelect));
 			}
-			
+
 			return tableTab;
 		}
 		tableWidget.addTab = addTab;
-		
+
 		for (var i in data ) {
 			this.tableHash.push([]);
 			var tableTab = addTab(data[i].label, i);

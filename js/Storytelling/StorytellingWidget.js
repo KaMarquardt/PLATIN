@@ -98,8 +98,14 @@ StorytellingWidget.prototype = {
 				magneticLinkParam += dataset.url;
 
                 var tableLinkDiv = document.createElement('a');
-				tableLinkDiv.title = 'Open/download dataset ' + dataset.label + ' directly from source location. Datasets from DARIAH-DE OwnStorage must be public or you need to be owner of the dataset.';
-				tableLinkDiv.href = dataset.url;
+                tableLinkDiv.title = 'Open/download dataset ' + dataset.label + ' directly from source location [' + dataset.url + ']. Datasets from DARIAH-DE OwnStorage must be public or you need to be owner of the dataset.';
+                // Provide download from DARIAH-DE OwnStorage if stored there AND logged in. Fixes #34656.
+                if (readToken() && dataset.url.includes(GeoTemConfig.dariahOwnStorageURL)) {
+                    tableLinkDiv.href = "#";
+    				tableLinkDiv.setAttribute('onclick', "GeoTemConfig.downloadRawDataDirectlyFromDariahStorage('" + dataset.url + "')");
+                } else {
+                    tableLinkDiv.href = dataset.url;
+                }
 				tableLinkDiv.target = '_';
 				tableLinkDiv.setAttribute('class', 'externalLink');
 				paragraph.append(tableLinkDiv);
