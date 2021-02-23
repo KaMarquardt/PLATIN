@@ -29,7 +29,7 @@
  *
  * @param {String} name name of the data object
  * @param {String} description description of the data object
- * @param {JSON} locations a list of locations with longitude, latitide and place name
+ * @param {JSON} locations a list of locations with longitude, latitude and place name
  * @param {JSON} dates a list of dates
  * @param {float} lon longitude value of the given place
  * @param {float} lat latitude value of the given place
@@ -81,13 +81,10 @@ DataObject = function(name, description, locations, dates, weight, tableContent,
 			this.latitude = parseFloat(this.latitude);
 			this.longitude = parseFloat(this.longitude);
 			if (projection.getCode() === "EPSG:4326"){
-				if (	(typeof this.latitude === "number") &&
-						(this.latitude>=-90) &&
-						(this.latitude<=90) &&
-						(typeof this.longitude === "number") &&
-						(this.longitude>=-180) &&
-						(this.longitude<=180) )
+				if ((typeof this.latitude === "number") && (this.latitude>=-90) && (this.latitude<=90) &&
+					(typeof this.longitude === "number") && (this.longitude>=-180) && (this.longitude<=180)) {
 					tempLocations.push(this);
+                }
 				else{
 					if ((GeoTemConfig.debug) && (typeof console !== undefined)) {
 						console.error("Object " + name + " has no valid coordinates: (" + this.latitude + ", " + this.longitude + ")");
@@ -118,10 +115,6 @@ DataObject = function(name, description, locations, dates, weight, tableContent,
 	}
 
 	this.placeDetails = [];
-    // Fix #34662: We also need the place name for undefined long and lat!
-    if (this.locations.length == 0) {
-        this.placeDetails.push(this.locations[i].place);
-    }
 	for (var i = 0; i < this.locations.length; i++) {
 		this.placeDetails.push(this.locations[i].place.split("/"));
 	}
@@ -130,11 +123,19 @@ DataObject = function(name, description, locations, dates, weight, tableContent,
         if (this.locations[locationId] !== undefined) {
 		    return this.locations[locationId].latitude;
         }
+        // Return the original given longitude in case we have not got valid coords (the original locations object is being deleted in line "this.locations = tempLocations;", whatever!?
+        else {
+            return objectLocations[locationId].latitude;
+        }
 	}
 
 	this.getLongitude = function(locationId) {
         if (this.locations[locationId] !== undefined) {
 		    return this.locations[locationId].longitude;
+        }
+        // Return the original given longitude in case we have not got valid coords (the original locations object is being deleted in line "this.locations = tempLocations;", whatever!?
+        else {
+            return objectLocations[locationId].longitude;
         }
 	}
 
@@ -145,11 +146,10 @@ DataObject = function(name, description, locations, dates, weight, tableContent,
 		    }
 		    return this.placeDetails[locationId][level];
         }
-/*
+        // Return the original given place in case we have not got valid coords (the original locations object is being deleted in line "this.locations = tempLocations;", whatever!?
         else {
-            return this.place;
+            return objectLocations[locationId].place;
         }
-*/
 	}
 
 	this.dates = dates;
