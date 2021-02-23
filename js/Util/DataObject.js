@@ -89,8 +89,8 @@ DataObject = function(name, description, locations, dates, weight, tableContent,
 						(this.longitude<=180) )
 					tempLocations.push(this);
 				else{
-					if ((GeoTemConfig.debug)&&(typeof console !== undefined)){
-							console.error("Object " + name + " has no valid coordinate. ("+this.latitude+","+this.longitude+")");
+					if ((GeoTemConfig.debug) && (typeof console !== undefined)) {
+						console.error("Object " + name + " has no valid coordinates: (" + this.latitude + ", " + this.longitude + ")");
 					}
 				}
 
@@ -118,6 +118,10 @@ DataObject = function(name, description, locations, dates, weight, tableContent,
 	}
 
 	this.placeDetails = [];
+    // Fix #34662: We also need the place name for undefined long and lat!
+    if (this.locations.length == 0) {
+        this.placeDetails.push(this.locations[i].place);
+    }
 	for (var i = 0; i < this.locations.length; i++) {
 		this.placeDetails.push(this.locations[i].place.split("/"));
 	}
@@ -141,6 +145,11 @@ DataObject = function(name, description, locations, dates, weight, tableContent,
 		    }
 		    return this.placeDetails[locationId][level];
         }
+/*
+        else {
+            return this.place;
+        }
+*/
 	}
 
 	this.dates = dates;
