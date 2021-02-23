@@ -123,18 +123,24 @@ DataObject = function(name, description, locations, dates, weight, tableContent,
 	}
 
 	this.getLatitude = function(locationId) {
-		return this.locations[locationId].latitude;
+        if (this.locations[locationId] !== undefined) {
+		    return this.locations[locationId].latitude;
+        }
 	}
 
 	this.getLongitude = function(locationId) {
-		return this.locations[locationId].longitude;
+        if (this.locations[locationId] !== undefined) {
+		    return this.locations[locationId].longitude;
+        }
 	}
 
 	this.getPlace = function(locationId, level) {
-		if (level >= this.placeDetails[locationId].length) {
-			return this.placeDetails[locationId][this.placeDetails[locationId].length - 1];
-		}
-		return this.placeDetails[locationId][level];
+        if (this.placeDetails[locationId] !== undefined) {
+		    if (level >= this.placeDetails[locationId].length) {
+			    return this.placeDetails[locationId][this.placeDetails[locationId].length - 1];
+		    }
+		    return this.placeDetails[locationId][level];
+        }
 	}
 
 	this.dates = dates;
