@@ -1136,17 +1136,20 @@ GeoTemConfig.createKMLfromDataset = function(index){
 		try {
             var place = this.getPlace(0,0);
         } catch (err) {
+            // Catch error from DataObject if invalid original coords given.
             var place = this.origLocations[index].place;
         }
 		try {
             var lat = this.getLatitude(0);
         } catch (err) {
+            // Catch error from DataObject if invalid original coords given.
             var lat = this.origLocations[index].latitude;
         }
 		try {
             var lon = this.getLongitude(0);
         } catch (err) {
-            this.origLocations[index].longitude;
+            // Catch error from DataObject if invalid original coords given.
+            var lon = this.origLocations[index].longitude;
         }
 
 		var kmlEntry = "<Placemark>";
