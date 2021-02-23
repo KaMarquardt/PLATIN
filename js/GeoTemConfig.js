@@ -1133,9 +1133,21 @@ GeoTemConfig.createKMLfromDataset = function(index){
 		var name = this.name;
 		var description = this.description;
 		//TODO: allow multiple time/date
-		var place = this.getPlace(0,0);
-		var lat = this.getLatitude(0);
-		var lon = this.getLongitude(0);
+		try {
+            var place = this.getPlace(0,0);
+        } catch (err) {
+            var place = this.origLocations[index].place;
+        }
+		try {
+            var lat = this.getLatitude(0);
+        } catch (err) {
+            var lat = this.origLocations[index].latitude;
+        }
+		try {
+            var lon = this.getLongitude(0);
+        } catch (err) {
+            this.origLocations[index].longitude;
+        }
 
 		var kmlEntry = "<Placemark>";
 

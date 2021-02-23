@@ -66,6 +66,8 @@ DataObject = function(name, description, locations, dates, weight, tableContent,
 			place:$.trim(this.place)
 		});
 	});
+    // Store original locations in DataObject's origLocation object (the original locations object is being deleted in line "this.locations = tempLocations;" if invalid coords... whatever! We'd rather not change that!
+    this.origLocations = objectLocations;
 
 	//Check if locations are valid
 	if (!(projection instanceof OpenLayers.Projection)){
@@ -120,36 +122,18 @@ DataObject = function(name, description, locations, dates, weight, tableContent,
 	}
 
 	this.getLatitude = function(locationId) {
-        if (this.locations[locationId] !== undefined) {
-		    return this.locations[locationId].latitude;
-        }
-        // Return the original given longitude in case we have not got valid coords (the original locations object is being deleted in line "this.locations = tempLocations;", whatever!?
-        else {
-            return objectLocations[locationId].latitude;
-        }
+	    return this.locations[locationId].latitude;
 	}
 
 	this.getLongitude = function(locationId) {
-        if (this.locations[locationId] !== undefined) {
-		    return this.locations[locationId].longitude;
-        }
-        // Return the original given longitude in case we have not got valid coords (the original locations object is being deleted in line "this.locations = tempLocations;", whatever!?
-        else {
-            return objectLocations[locationId].longitude;
-        }
+	    return this.locations[locationId].longitude;
 	}
 
 	this.getPlace = function(locationId, level) {
-        if (this.placeDetails[locationId] !== undefined) {
-		    if (level >= this.placeDetails[locationId].length) {
-			    return this.placeDetails[locationId][this.placeDetails[locationId].length - 1];
-		    }
-		    return this.placeDetails[locationId][level];
-        }
-        // Return the original given place in case we have not got valid coords (the original locations object is being deleted in line "this.locations = tempLocations;", whatever!?
-        else {
-            return objectLocations[locationId].place;
-        }
+	    if (level >= this.placeDetails[locationId].length) {
+		    return this.placeDetails[locationId][this.placeDetails[locationId].length - 1];
+	    }
+	    return this.placeDetails[locationId][level];
 	}
 
 	this.dates = dates;
