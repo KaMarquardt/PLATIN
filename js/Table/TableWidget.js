@@ -122,8 +122,8 @@ TableWidget.prototype = {
                 // Add filename for exported KML file, use dataset table name.
                 var filenameHiddenValue = document.createElement('input');
                 filenameHiddenValue.name = "filename";
-                // Do replace any special chars!
-                filenameHiddenValue.value = name.replaceAll(/[^\w]/g, '_');
+                // Do replace any special chars, allow "-"!
+                filenameHiddenValue.value = name.replaceAll(/[^\w|^-]/g, '_');
                 filenameHiddenValue.type = 'hidden';
                 exportTabForm.appendChild(filenameHiddenValue);
 				exportTabDiv.onclick = $.proxy(function(e) {

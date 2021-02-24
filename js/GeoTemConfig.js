@@ -1144,12 +1144,18 @@ GeoTemConfig.createKMLfromDataset = function(index){
         } catch (err) {
             // Catch error from DataObject if invalid original coords given.
             var lat = this.origLocations[index].latitude;
+            if (lat.isNaN) {
+                lat = "undefined";
+            }
         }
 		try {
             var lon = this.getLongitude(0);
         } catch (err) {
             // Catch error from DataObject if invalid original coords given.
             var lon = this.origLocations[index].longitude;
+            if (lon.isNaN) {
+                lon = "undefined";
+            }
         }
 
 		var kmlEntry = "<Placemark>";
