@@ -1131,26 +1131,19 @@ GeoTemConfig.createKMLfromDataset = function(index){
 
 	$(GeoTemConfig.datasets[index].objects).each(function(){
 		var name = this.name;
-
-        console.log("  --> index: " + index);
-        console.log("  --> name:  " + name);
-
 		var description = this.description;
 		//TODO: allow multiple time/date
 		try {
             var place = this.getPlace(0,0);
         } catch (err) {
-
-            console.log("  -->  orig", this.origLocations[index]);
-
             // Catch error from DataObject if invalid original coords given.
-            var place = this.origLocations[index].place;
+            var place = this.origLocations[0].place;
         }
 		try {
             var lat = this.getLatitude(0);
         } catch (err) {
             // Catch error from DataObject if invalid original coords given.
-            var lat = this.origLocations[index].latitude;
+            var lat = this.origLocations[0].latitude;
             if (lat.isNaN) {
                 lat = "undefined";
             }
@@ -1159,7 +1152,7 @@ GeoTemConfig.createKMLfromDataset = function(index){
             var lon = this.getLongitude(0);
         } catch (err) {
             // Catch error from DataObject if invalid original coords given.
-            var lon = this.origLocations[index].longitude;
+            var lon = this.origLocations[0].longitude;
             if (lon.isNaN) {
                 lon = "undefined";
             }
