@@ -23,14 +23,14 @@
 if (!empty($_POST['file'])) {
 
 	$file = $_POST['file'];
-    $name = $_POST['filename'];
+    $filename = $_POST['filename'];
 	$filesize = strlen($file);
 
 	//$mime = array('application/octet-stream');
     $mime = array('application/vnd.dariahde.geobrowser.kml+xml');
 
 	header('Content-Type: '.$mime);
-	header('Content-Disposition: attachment; filename="'.filename.'.kml"');
+	header('Content-Disposition: attachment; filename="'.$filename.'.kml"');
 	header('Content-Transfer-Encoding: binary');
 	header('Content-Length: '.sprintf('%d', $filesize));
 	header('Expires: 0');
