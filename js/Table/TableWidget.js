@@ -119,6 +119,13 @@ TableWidget.prototype = {
 				exportTabHiddenValue.name = 'file';
 				exportTabHiddenValue.type = 'hidden';
 				exportTabForm.appendChild(exportTabHiddenValue);
+                // Add filename for exported KML file, use dataset table name.
+                var filenameHiddenValue = document.createElement('input');
+                filenameHiddenValue.name = "filename";
+                // Do replace any special chars!
+                filenameHiddenValue.value = name.replaceAll(/[^\w]/g, '_');
+                filenameHiddenValue.type = 'hidden';
+                exportTabForm.appendChild(filenameHiddenValue);
 				exportTabDiv.onclick = $.proxy(function(e) {
 					$(exportTabHiddenValue).val(GeoTemConfig.createKMLfromDataset(index));
 					$(exportTabForm).submit();
