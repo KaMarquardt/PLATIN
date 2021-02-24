@@ -1144,7 +1144,8 @@ GeoTemConfig.createKMLfromDataset = function(index){
         } catch (err) {
             // Catch error from DataObject if invalid original coords given.
             var lat = this.origLocations[0].latitude;
-            if (lat.isNaN) {
+            // Fallback to "undefined" (instead of "NaN" for example).
+            if (!lat || lat !== '') {
                 lat = "undefined";
             }
         }
@@ -1153,7 +1154,8 @@ GeoTemConfig.createKMLfromDataset = function(index){
         } catch (err) {
             // Catch error from DataObject if invalid original coords given.
             var lon = this.origLocations[0].longitude;
-            if (lon.isNaN) {
+            // Fallback to "undefined" (instead of "NaN" for example).
+            if (!lon || lon !== '') {
                 lon = "undefined";
             }
         }
