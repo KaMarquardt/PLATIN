@@ -1131,6 +1131,10 @@ GeoTemConfig.createKMLfromDataset = function(index){
 
 	$(GeoTemConfig.datasets[index].objects).each(function(){
 		var name = this.name;
+
+        console.log("  --> index: " + index);
+        console.log("  --> name:  " + name);
+
 		var description = this.description;
 		//TODO: allow multiple time/date
 		try {
