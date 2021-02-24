@@ -1140,6 +1140,9 @@ GeoTemConfig.createKMLfromDataset = function(index){
 		try {
             var place = this.getPlace(0,0);
         } catch (err) {
+
+            console.log("  -->  orig", this.origLocations[index]);
+
             // Catch error from DataObject if invalid original coords given.
             var place = this.origLocations[index].place;
         }
