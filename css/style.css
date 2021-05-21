@@ -58,7 +58,7 @@ body {
 .dynamic-slider-control .line div {
 	width:		1px;
 	height:		1px;
-	
+
 	border:		1px solid;
 	border-color:	rgb(230,230,230) rgb(189,190,189)
 			rgb(189,190,189) rgb(230,230,230);
@@ -131,7 +131,7 @@ body {
     padding: 1px;
     text-align: center;
     background-color: #FFCCCC;
-    z-index: 1000;    
+    z-index: 1000;
 }
 
 .range-box {
@@ -146,7 +146,7 @@ filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
 .popup-click-div {
     display: none;
     z-index: 1010;
-    cursor: pointer;    
+    cursor: pointer;
 }
 
 .left-feather {
@@ -180,12 +180,12 @@ filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
 
 .plotHandleBox {
 	position: absolute;
-	border: solid 1px #d0ba9a; 
+	border: solid 1px #d0ba9a;
 	background-color: #e8cfac;
 	filter: alpha(opacity=40);
 	opacity: 0.4;
 	margin: 0;
-	padding: 0;	
+	padding: 0;
 }
 
 .plotToolbar {
@@ -197,7 +197,7 @@ filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
 .featherSlider {
     position: absolute;
     top: 9px;
-    right: 64px;		
+    right: 64px;
 }
 
 .timeOverview {
@@ -209,13 +209,13 @@ filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
 	opacity: 0.5;
 filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
 -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-	overflow: hidden; 
+	overflow: hidden;
 	border-bottom: 1px solid rgb(100,100,100);
 }
 
 .plotLabels {
 	position: absolute;
-	overflow: hidden; 
+	overflow: hidden;
 	top: 0px;
 	left: 0px;
 	height: 12px;
@@ -227,7 +227,7 @@ filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
 	font-size: 9px;
 	height: 10px;
 	padding: 1px 2px;
-	border-left: solid 1px rgb(214,214,214);	
+	border-left: solid 1px rgb(214,214,214);
 }
 
 .overviewRange {
@@ -242,7 +242,7 @@ filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
 	font-size: 9px;
 	height: 10px;
 	padding: 1px 2px;
-	border-left: solid 1px black;	
+	border-left: solid 1px black;
 }
 
 .shiftLeft {
@@ -256,12 +256,12 @@ filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 	opacity: 0.8;
 	background-image: url(../images/shiftLeft.png);
 	visibility: hidden;
-}	
+}
 
 .shiftLeft:hover {
 	cursor: pointer;
 	background-image: url(../images/shiftLeftOver.png);
-}	
+}
 
 .shiftRight {
 	position: absolute;
@@ -371,26 +371,26 @@ filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 	width: 100%;
 	height: 100%;
 	z-index: 1008;
-	visibility: hidden; 	
+	visibility: hidden;
 }
 
 /*
   sti toolbar settings
 */
 .toolbarTop {
-	top: 0px;	
+	top: 0px;
 }
 
 .toolbarBottom {
-	bottom: 0px;	
+	bottom: 0px;
 }
 
 .toolbarLeft {
-	left: 0px;	
+	left: 0px;
 }
 
 .toolbarRight {
-	right: 0px;	
+	right: 0px;
 }
 
 .toolbarLeftLight {
@@ -419,19 +419,19 @@ filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 .zoomSliderContainer {
 	position: absolute;
 	top: 10px;
-	left: 0px;	
+	left: 0px;
 }
 
 .zoomSliderIn {
 	position: absolute;
 	top: 0px;
-	left: 2px;	
+	left: 2px;
 }
 
 .zoomSliderOut {
 	position: absolute;
 	top: 84px;
-	left: 2px;	
+	left: 2px;
 }
 
 /*
@@ -457,7 +457,7 @@ filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 	position: absolute;
 	top: 3px;
 	font-size: 18px;
-	padding: 3px;		
+	padding: 3px;
 }
 
 /*
@@ -609,7 +609,7 @@ filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 	width: 100%;
 	background-color: #878380;
 	position: relative;
-	opacity: 0.85;		
+	opacity: 0.85;
 	filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
 	border-spacing: 0px;
@@ -630,7 +630,7 @@ filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 
 .ddbTooltip {
 	position: absolute;
-	width: 20px;	
+	width: 20px;
 	height: 20px;
 	background-image: url(../images/tooltip.png);
 	top: 5px;
@@ -647,7 +647,7 @@ filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 
 .dropdownLeft {
 	display: table-cell;
-	width: 5px;	
+	width: 5px;
 	height: 25px;
 	background-image: url(../images/dropdownLeft.png);
 }
@@ -659,7 +659,7 @@ filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 	font-style: italic;
 	font-weight: normal;
 	font-size: 13px;
-	display: table-cell;	
+	display: table-cell;
 	vertical-align: middle;
 	background-image: url(../images/dropdownMiddle.png);
 	white-space: nowrap;
@@ -667,7 +667,7 @@ filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 
 .dropdownButtonEnabled {
 	display: table-cell;
-	width: 25px;	
+	width: 25px;
 	height: 25px;
 	background-image: url(../images/dropdownEnabled1.png);
 	cursor: pointer;
@@ -675,7 +675,7 @@ filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 
 .dropdownButtonDisabled {
 	display: table-cell;
-	width: 25px;	
+	width: 25px;
 	height: 25px;
 	background-image: url(../images/dropdownDisabled1.png);
 	cursor: pointer;
@@ -796,7 +796,7 @@ filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 
 .dynamic-slider-control .line div {
 	width:		0px;
-	height:		0px;	
+	height:		0px;
 	border:		none;
 }
 
@@ -827,7 +827,7 @@ filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 	position: absolute;
 	top: 2px;
 	left: 22px;
-	height: 16px;	
+	height: 16px;
 	background-image: url("../images/zoom_grid-horizontal.png");
 }
 
@@ -954,7 +954,7 @@ filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 	font-weight: bold;
 	font-size: 12px;
 	color: #3e3a37;
-	cursor: default;	
+	cursor: default;
 	padding-bottom: 10px;
 }
 
@@ -965,7 +965,7 @@ filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
     top: 2px;
     right: 2px;
     background-image: url(../images/cancel.png);
-	cursor: pointer;	
+	cursor: pointer;
 	z-index: 5;
 }
 
@@ -986,7 +986,7 @@ filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 }
 
 
-.descriptions {	
+.descriptions {
     display: inline-block;
     height: 20px;
     width: 20px;
@@ -1166,7 +1166,7 @@ filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 
 .tableTabs {
 	text-align: left;
-	opacity: 0.85;		
+	opacity: 0.85;
 	filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
 	border-spacing: 0px;
@@ -1336,7 +1336,7 @@ filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 	z-index: 2;
 	width: 100%;
 	background-color: #878380;
-	opacity: 0.85;		
+	opacity: 0.85;
 	filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
 	border-spacing: 0px;
@@ -1437,4 +1437,12 @@ filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 	padding-left: 5px;
 	padding-right: 5px;
 	background: url("../images/externalLink.png") top no-repeat;
+}
+
+.fullscreenActivated {
+	background-image: url("../images/fullscreen-activated.png");
+}
+
+.fullscreenDeactivated {
+	background-image: url("../images/fullscreen-deactivated.png");
 }
