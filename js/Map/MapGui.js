@@ -158,7 +158,8 @@ function MapGui(map, div, options, iid) {
 	var deactivateFullscreen = function() {
 		$div=$(div);
 
-		$div.appendTo(prevParent);
+//		$div.appendTo(prevParent);
+        prevParent.prepend($div);
 		$div.css("position","relative");
 	 	$div.width(prevWidth);
 		$div.height(prevHeight);
