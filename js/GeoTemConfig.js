@@ -905,6 +905,18 @@ GeoTemConfig.loadKml = function(kml) {
 	if (elements.length == 0) {
 		return [];
 	}
+
+	//remove outer script tags right away
+	var scripts = kml.getElementsByTagName('script');
+	for (var i=0; i<scripts.length; i++){
+		scripts[i].remove();
+	}
+	//empty remaining inner script tags
+	var innerScripts = kml.getElementsByTagName('script');
+	for (var i=0; i<innerScripts.length; i++){
+		innerScripts[i].innerHTML = "";
+	}
+
 	var index = 0;
 	var descriptionTableHeaders = [];
 	var xmlSerializer = new XMLSerializer();
