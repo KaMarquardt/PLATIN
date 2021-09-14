@@ -57,12 +57,12 @@ GeoTemConfig = {
 	allowColumnRenaming : true,
 	proxy : '/php/proxy.php?address=', // set this if a HTTP proxy shall be used (e.g. to bypass
                                        // X-Domain problems)
-    // FIXME Please change for beta!
+    // FIXME Please change for release!
     dariahOwnStorageURL : 'https://cdstar.de.dariah.eu/dariah/', // URL of DARIAH-DE OwnStorage
-//    dariahOwnStorageURL : 'https://cdstar.de.dariah.eu/test/dariah/', // URL of DARIAH-DE OwnStorage
-    // FIXME Please change for beta!
+    //dariahOwnStorageURL : 'https://cdstar.de.dariah.eu/test/dariah/', // URL of DARIAH-DE OwnStorage
+    // FIXME Please change for release!
     datasheetEditorURL : '/edit/index.html', // URL of the Datasheet Editor
-//    datasheetEditorURL : '/beta/edit/index.html', // URL of the Datasheet Editor
+    //datasheetEditorURL : '/beta/edit/index.html', // URL of the Datasheet Editor
     dariahOwnStorageBearerPrefix : 'bearer ',
     dariahOwnStorageLogIDPrefix : 'GEOBRO_',
 	//colors for several datasets; rgb1 will be used for selected objects, rgb0 for unselected
@@ -905,6 +905,18 @@ GeoTemConfig.loadKml = function(kml) {
 	if (elements.length == 0) {
 		return [];
 	}
+
+	//remove outer script tags right away
+	var scripts = kml.getElementsByTagName('script');
+	for (var i=0; i<scripts.length; i++){
+		scripts[i].remove();
+	}
+	//empty remaining inner script tags
+	var innerScripts = kml.getElementsByTagName('script');
+	for (var i=0; i<innerScripts.length; i++){
+		innerScripts[i].innerHTML = "";
+	}
+
 	var index = 0;
 	var descriptionTableHeaders = [];
 	var xmlSerializer = new XMLSerializer();
@@ -1144,7 +1156,8 @@ GeoTemConfig.createKMLfromDataset = function(index){
         } catch (err) {
             // Catch error from DataObject if invalid original coords given.
             var lat = this.origLocations[0].latitude;
-            if (lat.isNaN) {
+            // Fallback to "undefined" (instead of "NaN" for example).
+            if (!lat || lat !== '') {
                 lat = "undefined";
             }
         }
@@ -1153,7 +1166,8 @@ GeoTemConfig.createKMLfromDataset = function(index){
         } catch (err) {
             // Catch error from DataObject if invalid original coords given.
             var lon = this.origLocations[0].longitude;
-            if (lon.isNaN) {
+            // Fallback to "undefined" (instead of "NaN" for example).
+            if (!lon || lon !== '') {
                 lon = "undefined";
             }
         }
