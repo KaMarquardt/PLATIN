@@ -36,6 +36,14 @@ $.fn.cleanWhitespace = function() {
 	return this;
 };
 
+var dariahOwnStorageURL = 'https://cdstar.de.dariah.eu/dariah/';
+var datasheetEditorURL = '/edit/index.html';
+var currentURL = window.location.href;
+if (currentURL.includes("beta") || currentURL.includes("localhost")){
+	dariahOwnStorageURL = 'https://cdstar.de.dariah.eu/test/dariah/';
+	if (currentURL.includes("beta")) datasheetEditorURL = '/beta/edit/index.html';
+}
+
 /*
  * Configuration
  */
@@ -224,6 +232,9 @@ if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
 	}
 }
 
+GeoTemConfig.readToken = function() {
+	return sessionStorage.getItem('tok')
+};
 /*
  *
  */
@@ -1468,7 +1479,7 @@ GeoTemConfig.renameColumns = function(dataset, renames){
  */
 GeoTemConfig.loadJSONFromDariahStorage = function(url, asyncFunc) {
     // Assemble bearer token and logID.
-    var token = GeoTemConfig.dariahOwnStorageBearerPrefix + readToken();
+    var token = GeoTemConfig.dariahOwnStorageBearerPrefix + GeoTemConfig.readToken();
     var logID = GeoTemConfig.dariahOwnStorageLogIDPrefix + (new Date()).getMilliseconds();
     $.ajax({
 		url: url,
@@ -1480,7 +1491,7 @@ GeoTemConfig.loadJSONFromDariahStorage = function(url, asyncFunc) {
 		},
         error: function(xhr, textStatus, errorThrown) {
             // Have we got a token already? If not, tell the user to authenticate first!
-            if (readToken() === null) {
+            if (GeoTemConfig.readToken() === null) {
                 var title = 'Error loading dataset: ' + xhr.status + ' ' + errorThrown + '!';
                 var message = 'The dataset with URL ' + url + ' could not be loaded from the DARIAH-DE Storage! It seems the above resource is not yours or not shared yet! Please do login to view your dataset or share it in the Datasheet Editor!';
                 alert(title + "\n\n" + message);
@@ -1500,7 +1511,7 @@ GeoTemConfig.loadJSONFromDariahStorage = function(url, asyncFunc) {
  */
 GeoTemConfig.downloadRawDataDirectlyFromDariahStorage = function(url) {
     // Assemble bearer token and logID.
-    var token = GeoTemConfig.dariahOwnStorageBearerPrefix + readToken();
+    var token = GeoTemConfig.dariahOwnStorageBearerPrefix + GeoTemConfig.readToken();
     var logID = GeoTemConfig.dariahOwnStorageLogIDPrefix + (new Date()).getMilliseconds();
     var dsid = url.substring(url.lastIndexOf('/') + 1);
     $.ajax({
@@ -1527,7 +1538,7 @@ GeoTemConfig.downloadRawDataDirectlyFromDariahStorage = function(url) {
 		},
         error: function(xhr, textStatus, errorThrown) {
             // Have we got a token already? If not, tell the user to authenticate first!
-            if (readToken() === null) {
+            if (GeoTemConfig.readToken() === null) {
                 var title = 'Error loading dataset: ' + xhr.status + ' ' + errorThrown + '!';
                 var message = 'The dataset with URL ' + url + ' could not be loaded from the DARIAH-DE Storage! It seems the above resource is not yours or not shared yet! Please do login to view your dataset or share it in the Datasheet Editor!';
                 alert(title + "\n\n" + message);
@@ -1547,7 +1558,7 @@ GeoTemConfig.downloadRawDataDirectlyFromDariahStorage = function(url) {
  */
 GeoTemConfig.storeToDariahStorage = function(postdata, asyncFunc) {
     // Assemble bearer token and logID.
-    var token = GeoTemConfig.dariahOwnStorageBearerPrefix + readToken();
+    var token = GeoTemConfig.dariahOwnStorageBearerPrefix + GeoTemConfig.readToken();
     var logID = GeoTemConfig.dariahOwnStorageLogIDPrefix + (new Date()).getMilliseconds();
     $.ajax({
 		url: GeoTemConfig.dariahOwnStorageURL,

@@ -61,9 +61,12 @@ StorytellingWidget.prototype = {
 		var gui = storytellingWidget.gui;
 
 		storytellingWidget.datasets = data;
-
 		$(gui.storytellingContainer).empty();
 
+		if (storytellingWidget.datasets.length === 0){
+			$('#noDataLoaded').show();
+		} else $('#noDataLoaded').hide();
+	//TODO no links in magnetic link!
 		var magneticLinkParam = "";
 		var datasetIndex = 0;
 		var linkCount = 1;
@@ -173,8 +176,10 @@ StorytellingWidget.prototype = {
 			datasetIndex++;
 		});
 
-		this.datasetLink = magneticLinkParam;
-		this.createLink();
+		if (storytellingWidget.datasets.length > 0) {
+			this.datasetLink = magneticLinkParam;
+			this.createLink();
+		}
 	},
 
 	createLink : function() {
@@ -182,7 +187,7 @@ StorytellingWidget.prototype = {
         $(this.gui.storytellingContainer).find('.magneticLink').remove();
 
         // Create new magnetic link reference.
-		var magneticLink = document.createElement('a');
+		var magneticLink = document.createElement("a");
 		$(magneticLink).append("Magnetic link");
 		magneticLink.title = "Use this link to reload or share currently loaded view of online datasets.";
 		magneticLink.href = "?" + this.datasetLink;
