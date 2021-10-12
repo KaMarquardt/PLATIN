@@ -37,6 +37,9 @@ FilterBarFactory = {
 	},
 	resetAll : function(show) {
 		$(FilterBarFactory.filterBarArray).each(function(){
+			this.filter.setAttribute("title", "Filter dataset to selection");
+			this.filterInverse.setAttribute("title", "Apply inverse filter");
+			this.cancelSelection.setAttribute('title', 'Remove last filter');
 			if (show) {
 				this.filter.setAttribute('class', 'smallButton filter');
 				this.filterInverse.setAttribute('class', 'smallButton filterInverse');

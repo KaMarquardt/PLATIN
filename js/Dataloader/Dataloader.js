@@ -67,6 +67,14 @@ Dataloader.prototype = {
 
 	getFileName : function(url) {
 		var fileName = $.url(url).attr('file');
+		if (url.includes(datasheetEditorURL+"?id=")){
+			try {
+				var params = (new URL(url)).searchParams;
+				return params.get('id');
+			} catch (e){
+				return "unnamed dataset";
+			}
+		}
 		if ( (typeof fileName === "undefined") || (fileName.length === 0) ){
 			fileName = $.url(url).attr('path');
 			//startsWith and endsWith defined in SIMILE Ajax (string.js)
@@ -97,6 +105,7 @@ Dataloader.prototype = {
 			$(this.StaticLoaderTab).attr("id","StaticLoader");
 
 			this.staticKMLList = document.createElement("select");
+			$(this.staticKMLList).addClass("rightMargin");
 			$(this.StaticLoaderTab).append(this.staticKMLList);
 
 			var staticKMLList = this.staticKMLList;
@@ -118,7 +127,7 @@ Dataloader.prototype = {
 				$(staticKMLList).append("</optgroup>");
 
 			this.loadStaticKMLButton = document.createElement("button");
-			$(this.loadStaticKMLButton).text("load");
+			$(this.loadStaticKMLButton).text("Load");
 			$(this.loadStaticKMLButton).addClass(GeoTemConfig.buttonCssClass);
     			$(this.StaticLoaderTab).append(this.loadStaticKMLButton);
 
@@ -131,6 +140,7 @@ Dataloader.prototype = {
 				if (typeof GeoTemConfig.proxy != 'undefined')
 					kmlURL = GeoTemConfig.proxy + kmlURL;
 				var kml = GeoTemConfig.getKml(kmlURL);
+
 				if ((typeof kml !== "undefined") && (kml != null)) {
 					var dataSet = new Dataset(GeoTemConfig.loadKml(kml), fileName, origURL);
 
@@ -152,10 +162,11 @@ Dataloader.prototype = {
 
 	this.kmlURL = document.createElement("input");
 	$(this.kmlURL).attr("type","text");
+	$(this.kmlURL).addClass("rightMargin");
 	$(this.KMLLoaderTab).append(this.kmlURL);
 
 	this.loadKMLButton = document.createElement("button");
-	$(this.loadKMLButton).text("load KML");
+	$(this.loadKMLButton).text("Load KML");
 	$(this.KMLLoaderTab).append(this.loadKMLButton);
 
 	$(this.loadKMLButton).click($.proxy(function(){
@@ -191,10 +202,11 @@ Dataloader.prototype = {
 
 		this.kmzURL = document.createElement("input");
 		$(this.kmzURL).attr("type","text");
+		$(this.kmzURL).addClass("rightMargin");
 		$(this.KMZLoaderTab).append(this.kmzURL);
 
 		this.loadKMZButton = document.createElement("button");
-		$(this.loadKMZButton).text("load KMZ");
+		$(this.loadKMZButton).text("Load KMZ")
 		$(this.KMZLoaderTab).append(this.loadKMZButton);
 
 		$(this.loadKMZButton).click($.proxy(function(){
@@ -230,10 +242,11 @@ Dataloader.prototype = {
 
 		this.csvURL = document.createElement("input");
 		$(this.csvURL).attr("type","text");
+		$(this.csvURL).addClass("rightMargin");
 		$(this.CSVLoaderTab).append(this.csvURL);
 
 		this.loadCSVButton = document.createElement("button");
-		$(this.loadCSVButton).text("load CSV");
+		$(this.loadCSVButton).text("Load CSV");
 		$(this.CSVLoaderTab).append(this.loadCSVButton);
 
 		$(this.loadCSVButton).click($.proxy(function(){
@@ -266,10 +279,11 @@ Dataloader.prototype = {
 
 		this.kmlFile = document.createElement("input");
 		$(this.kmlFile).attr("type","file");
+		$(this.kmlFile).addClass("rightMargin");
 		$(this.localKMLLoaderTab).append(this.kmlFile);
 
 		this.loadLocalKMLButton = document.createElement("button");
-		$(this.loadLocalKMLButton).text("load KML");
+		$(this.loadLocalKMLButton).text("Load KML");
 		$(this.localKMLLoaderTab).append(this.loadLocalKMLButton);
 
 		$(this.loadLocalKMLButton).click($.proxy(function(){
@@ -302,10 +316,11 @@ Dataloader.prototype = {
 
 		this.csvFile = document.createElement("input");
 		$(this.csvFile).attr("type","file");
+		$(this.csvFile).addClass("rightMargin");
 		$(this.localCSVLoaderTab).append(this.csvFile);
 
 		this.loadLocalCSVButton = document.createElement("button");
-		$(this.loadLocalCSVButton).text("load CSV");
+		$(this.loadLocalCSVButton).text("Load CSV");
 		$(this.localCSVLoaderTab).append(this.loadLocalCSVButton);
 
 		$(this.loadLocalCSVButton).click($.proxy(function(){
@@ -356,7 +371,7 @@ Dataloader.prototype = {
 			$(this.parent.gui.loaderTypeSelect).append("<option value='LocalStorageLoader'>browser storage</option>");
 
 		this.loadLocalStorageButton = document.createElement("button");
-		$(this.loadLocalStorageButton).text("load");
+		$(this.loadLocalStorageButton).text("Load");
 		$(this.localStorageLoaderTab).append(this.loadLocalStorageButton);
 
 		$(this.loadLocalStorageButton).click($.proxy(function(){
@@ -392,10 +407,11 @@ Dataloader.prototype = {
 
 		this.xlsxFile = document.createElement("input");
 		$(this.xlsxFile).attr("type","file");
+		$(this.xlsxFile).addClass("rightMargin");
 		$(this.LocalXLSXLoader).append(this.xlsxFile);
 
 		this.loadLocalXLSXButton = document.createElement("button");
-		$(this.loadLocalXLSXButton).text("load XLS/XLSX");
+		$(this.loadLocalXLSXButton).text("Load XLS/XLSX");
 		$(this.LocalXLSXLoader).append(this.loadLocalXLSXButton);
 
 		$(this.loadLocalXLSXButton).click($.proxy(function(){

@@ -176,7 +176,7 @@ Table.prototype = {
 			this.selectByTextDiv = document.createElement('div');
 			$(this.selectByTextDiv).css("float","left");
 			$(this.selectByTextDiv).css("vertical-align", "top");
-			//TODO: improve appearance (wrong margin)
+			$(this.selectByTextDiv).css("margin-top", "2px");
 			$(this.selectByTextDiv).css("display", "inline-block");
 			//create and append the input field
 			this.selectByTextInput = document.createElement('input');
@@ -185,8 +185,9 @@ Table.prototype = {
 			//create and append the button
 			this.selectByTextButton = document.createElement('input');
 			$(this.selectByTextButton).attr("type","button");
-			//TODO: add button-image
-			$(this.selectByTextButton).val("search");
+			$(this.selectByTextButton).css("margin-left", "2px");
+			$(this.selectByTextButton).css("vertical-align", "top");
+			$(this.selectByTextButton).val("Search");
 			$(this.selectByTextDiv).append(this.selectByTextButton);
 
 			table.selectByTextDiv.title = GeoTemConfig.getString('selectByTextHelp');

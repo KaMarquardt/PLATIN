@@ -31,16 +31,17 @@
 function DataloaderGui(dataloader, div, options) {
 
 	var dataloaderGui = this;
-	
+
 	this.dataloaderContainer = div;
 	this.dataloaderContainer.style.position = 'relative';
 
 	this.loaderTypeSelect = document.createElement("select");
+	this.loaderTypeSelect.style.marginBottom = '3px';
 	div.appendChild(this.loaderTypeSelect);
-	
+
 	this.loaders = document.createElement("div");
 	div.appendChild(this.loaders);
-	
+
 	$(this.loaderTypeSelect).change(function(){
 		var activeLoader = $(this).val();
 		$(dataloaderGui.loaders).find("div").each(function(){

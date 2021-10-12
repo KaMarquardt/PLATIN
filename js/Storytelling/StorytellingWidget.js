@@ -66,7 +66,7 @@ StorytellingWidget.prototype = {
 		if (storytellingWidget.datasets.length === 0){
 			$('#noDataLoaded').show();
 		} else $('#noDataLoaded').hide();
-	//TODO no links in magnetic link!
+
 		var magneticLinkParam = "";
 		var datasetIndex = 0;
 		var linkCount = 1;
@@ -82,8 +82,7 @@ StorytellingWidget.prototype = {
             // Style color hack. Don't do it! :-D --fu
 			var paragraph = $("<p style='background-color:" + color + ";margin-bottom:5px;'></p>");
 			paragraph.append(dataset.label);
-			if (typeof dataset.url !== "undefined"){
-
+			if (typeof dataset.url !== 'undefined'){
 				// TODO: makes only sense for KML or CSV URLs, so "type" of
 				// URL should be preserved (in dataset).
 				// startsWith and endsWith defined in SIMILE Ajax (string.js)
@@ -122,29 +121,38 @@ StorytellingWidget.prototype = {
                     paragraph.append(' ');
                     paragraph.append(datasheetLinkDiv);
                 }
+				storytellingWidget.createLink();
+
 			} else {
+
 				if (storytellingWidget.options.dariahStorage){
-					var uploadToDARIAH = document.createElement('a');
-					$(uploadToDARIAH).append(" [upload to DARIAH-DE Storage]");
-					uploadToDARIAH.title = "Only CSV documents can be uploaded to the DARIAH-DE Storage, so you can edit them using the Datasheet Editor. If the dataset is not already in CSV format, it will be converted automatically and then be uploaded. The filename of your uploaded file will be lost and you have to login first! We apologise for the inconvenience!";
-					uploadToDARIAH.href = dataset.url;
-					var localDatasetIndex = new Number(datasetIndex);
-                    $(uploadToDARIAH).click(function(){
-						var csv = GeoTemConfig.createCSVfromDataset(localDatasetIndex);
-                        GeoTemConfig.storeToDariahStorage(csv, function(location, id) {
-                            // Set (global) DSID.
-                            dsid = id;
-                            // Add URL to dataset.
-                            storytellingWidget.datasets[localDatasetIndex].url = location;
-                            storytellingWidget.datasets[localDatasetIndex].type = "csv";
-                            storytellingWidget.datasets[localDatasetIndex].label = dsid;
-                            // Refresh list.
-                            storytellingWidget.initWidget(storytellingWidget.datasets);
-                        });
-						//discard link click-event
-						return(false);
-					});
-					paragraph.append(uploadToDARIAH);
+
+					if (GeoTemConfig.readToken()) {
+						var uploadToDARIAH = document.createElement('a');
+						$(uploadToDARIAH).append(" [upload to DARIAH-DE Storage]");
+						uploadToDARIAH.title = "Only CSV documents can be uploaded to the DARIAH-DE Storage, so you can edit them using the Datasheet Editor. If the dataset is not already in CSV format, it will be converted automatically and then be uploaded. The filename of your uploaded file will be lost and you have to login first! We apologise for the inconvenience!";
+						uploadToDARIAH.href = "upload" //no actual URL since URL does not exist yet
+						var localDatasetIndex = new Number(datasetIndex);
+						$(uploadToDARIAH).click(function () {
+							var csv = GeoTemConfig.createCSVfromDataset(localDatasetIndex);
+							GeoTemConfig.storeToDariahStorage(csv, function (location, id) {
+								// Add URL to dataset.
+								storytellingWidget.datasets[localDatasetIndex].url = location;
+								storytellingWidget.datasets[localDatasetIndex].type = "csv";
+								storytellingWidget.datasets[localDatasetIndex].label = id;
+								// Refresh list.
+								storytellingWidget.initWidget(storytellingWidget.datasets);
+							});
+							//discard link click-event
+							return false;
+						});
+						paragraph.append(uploadToDARIAH);
+					}else {
+						var noUpload = document.createElement('span');
+						$(noUpload).css("color", "#817c7c");
+						$(noUpload).append(" [log in to upload files to the storage]");
+						paragraph.append(noUpload);
+					}
 				}
 				// TODO: if layout is more usable, both options could be used ("else" removed)
 				else if (storytellingWidget.options.localStorage) {
@@ -176,16 +184,16 @@ StorytellingWidget.prototype = {
 			datasetIndex++;
 		});
 
-		if (storytellingWidget.datasets.length > 0) {
-			this.datasetLink = magneticLinkParam;
-			this.createLink();
-		}
 	},
 
 	createLink : function() {
-        // Remove <p class="magneticLink"/> first.
         $(this.gui.storytellingContainer).find('.magneticLink').remove();
-
+		if (typeof this.datasetLink === 'undefined'){
+			if (window.location.href.includes("csv1")) {
+				var params = new URLSearchParams(document.location.search);
+				if (params.get("csv1")) this.datasetLink = "csv1="+params.get("csv1");
+			}
+		}
         // Create new magnetic link reference.
 		var magneticLink = document.createElement("a");
 		$(magneticLink).append("Magnetic link");
