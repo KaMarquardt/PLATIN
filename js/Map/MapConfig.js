@@ -46,6 +46,27 @@ function MapConfig(options) {
 					name: '-----------------------------------',
 				},
 				{
+					title: "Stamen WaterColor",
+					type: "Stamen",
+					mode: "watercolor",
+					attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.'
+				},
+				{
+					title: "Stamen Terrain",
+					type: "Stamen",
+					mode: "terrain",
+					attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'
+				},
+				{
+					title: "Stamen Toner",
+					type: "Stamen",
+					mode: "toner",
+					attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'
+				},
+				{
+					name: '-----------------------------------',
+				},
+				{
 					name: 'Contemporary map of 2014',
 					url: gsurl + '/eurostat/wms',
 					layer: 'eurostat:CNTR_RG_03M_2014',

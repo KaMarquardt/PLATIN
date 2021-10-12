@@ -120,6 +120,7 @@ function MapGui(map, div, options, iid) {
 	this.lockIcon = document.createElement("td");
 	var lockButton = document.createElement("div");
 	$(lockButton).addClass('mapControl');
+	$(lockButton).attr('title', 'Lock map state');
 	var activateLock = function() {
 		map.navigation.deactivate();
 	}
@@ -134,6 +135,7 @@ function MapGui(map, div, options, iid) {
 	this.fullscreenIcon = document.createElement("td");
 	var fullscreenButton = document.createElement("div");
 	$(fullscreenButton).addClass('mapControl');
+	$(fullscreenButton).attr('title', 'Fullscreen');
 	var prevWidth;
 	var prevHeight;
 	var prevParent;
@@ -373,7 +375,10 @@ function MapGui(map, div, options, iid) {
 			});
 		}
 		for (var i = 0; i < this.map.baseLayers.length; i++) {
-			addMap(this.map.baseLayers[i].name, i);
+			var basemap = this.map.baseLayers[i];
+			var name = basemap.name;
+			if (basemap.title) name = basemap.title;
+			addMap(name, i);
 		}
 		this.mapTypeDropdown = new Dropdown(this.mapTypeSelector, maps, GeoTemConfig.getString('selectMapType'));
 	}
