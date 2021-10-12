@@ -121,7 +121,6 @@ StorytellingWidget.prototype = {
                     paragraph.append(' ');
                     paragraph.append(datasheetLinkDiv);
                 }
-				storytellingWidget.createLink();
 
 			} else {
 
@@ -183,6 +182,9 @@ StorytellingWidget.prototype = {
 			$(gui.storytellingContainer).append(paragraph);
 			datasetIndex++;
 		});
+
+		this.datasetLink = magneticLinkParam;
+		storytellingWidget.createLink();
 
 	},
 
