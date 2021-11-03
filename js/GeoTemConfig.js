@@ -36,6 +36,14 @@ $.fn.cleanWhitespace = function() {
 	return this;
 };
 
+var dariahOwnStorageURL = 'https://cdstar.de.dariah.eu/dariah/';
+var datasheetEditorURL = '/edit/index.html';
+var currentURL = window.location.href;
+if (currentURL.includes("beta") || currentURL.includes("localhost")){
+	dariahOwnStorageURL = 'https://cdstar.de.dariah.eu/test/dariah/';
+	if (currentURL.includes("beta")) datasheetEditorURL = '/beta/edit/index.html';
+}
+
 /*
  * Configuration
  */
@@ -57,12 +65,8 @@ GeoTemConfig = {
 	allowColumnRenaming : true,
 	proxy : '/php/proxy.php?address=', // set this if a HTTP proxy shall be used (e.g. to bypass
                                        // X-Domain problems)
-    // FIXME Please change for release!
-    //dariahOwnStorageURL : 'https://cdstar.de.dariah.eu/dariah/', // URL of DARIAH-DE OwnStorage
-    dariahOwnStorageURL : 'https://cdstar.de.dariah.eu/test/dariah/', // URL of DARIAH-DE OwnStorage
-    // FIXME Please change for release!
-    //datasheetEditorURL : '/edit/index.html', // URL of the Datasheet Editor
-    datasheetEditorURL : '/beta/edit/index.html', // URL of the Datasheet Editor
+    dariahOwnStorageURL : dariahOwnStorageURL, // URL of DARIAH-DE OwnStorage
+    datasheetEditorURL : datasheetEditorURL, // URL of the Datasheet Editor
     dariahOwnStorageBearerPrefix : 'bearer ',
     dariahOwnStorageLogIDPrefix : 'GEOBRO_',
 	//colors for several datasets; rgb1 will be used for selected objects, rgb0 for unselected
@@ -224,6 +228,9 @@ if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
 	}
 }
 
+GeoTemConfig.readToken = function() {
+	return sessionStorage.getItem('tok')
+};
 /*
  *
  */
@@ -1468,7 +1475,7 @@ GeoTemConfig.renameColumns = function(dataset, renames){
  */
 GeoTemConfig.loadJSONFromDariahStorage = function(url, asyncFunc) {
     // Assemble bearer token and logID.
-    var token = GeoTemConfig.dariahOwnStorageBearerPrefix + readToken();
+    var token = GeoTemConfig.dariahOwnStorageBearerPrefix + GeoTemConfig.readToken();
     var logID = GeoTemConfig.dariahOwnStorageLogIDPrefix + (new Date()).getMilliseconds();
     $.ajax({
 		url: url,
@@ -1480,7 +1487,7 @@ GeoTemConfig.loadJSONFromDariahStorage = function(url, asyncFunc) {
 		},
         error: function(xhr, textStatus, errorThrown) {
             // Have we got a token already? If not, tell the user to authenticate first!
-            if (readToken() === null) {
+            if (GeoTemConfig.readToken() === null) {
                 var title = 'Error loading dataset: ' + xhr.status + ' ' + errorThrown + '!';
                 var message = 'The dataset with URL ' + url + ' could not be loaded from the DARIAH-DE Storage! It seems the above resource is not yours or not shared yet! Please do login to view your dataset or share it in the Datasheet Editor!';
                 alert(title + "\n\n" + message);
@@ -1500,7 +1507,7 @@ GeoTemConfig.loadJSONFromDariahStorage = function(url, asyncFunc) {
  */
 GeoTemConfig.downloadRawDataDirectlyFromDariahStorage = function(url) {
     // Assemble bearer token and logID.
-    var token = GeoTemConfig.dariahOwnStorageBearerPrefix + readToken();
+    var token = GeoTemConfig.dariahOwnStorageBearerPrefix + GeoTemConfig.readToken();
     var logID = GeoTemConfig.dariahOwnStorageLogIDPrefix + (new Date()).getMilliseconds();
     var dsid = url.substring(url.lastIndexOf('/') + 1);
     $.ajax({
@@ -1527,7 +1534,7 @@ GeoTemConfig.downloadRawDataDirectlyFromDariahStorage = function(url) {
 		},
         error: function(xhr, textStatus, errorThrown) {
             // Have we got a token already? If not, tell the user to authenticate first!
-            if (readToken() === null) {
+            if (GeoTemConfig.readToken() === null) {
                 var title = 'Error loading dataset: ' + xhr.status + ' ' + errorThrown + '!';
                 var message = 'The dataset with URL ' + url + ' could not be loaded from the DARIAH-DE Storage! It seems the above resource is not yours or not shared yet! Please do login to view your dataset or share it in the Datasheet Editor!';
                 alert(title + "\n\n" + message);
@@ -1547,7 +1554,7 @@ GeoTemConfig.downloadRawDataDirectlyFromDariahStorage = function(url) {
  */
 GeoTemConfig.storeToDariahStorage = function(postdata, asyncFunc) {
     // Assemble bearer token and logID.
-    var token = GeoTemConfig.dariahOwnStorageBearerPrefix + readToken();
+    var token = GeoTemConfig.dariahOwnStorageBearerPrefix + GeoTemConfig.readToken();
     var logID = GeoTemConfig.dariahOwnStorageLogIDPrefix + (new Date()).getMilliseconds();
     $.ajax({
 		url: GeoTemConfig.dariahOwnStorageURL,

@@ -16,6 +16,7 @@ lib/slider/js/range.js
 lib/slider/js/slider.js
 lib/slider/js/timer.js
 lib/openlayers/OpenLayers.js
+lib/stamen/tile.stamen.js
 lib/jquery/jquery-deparam.min.js
 lib/jquery/jquery.remember.js
 lib/jquery/purl.min.js
@@ -116,11 +117,11 @@ end
 # Just one big JS file, no compression.
 file OUTPUT_FILE => Files do
   basename = File.basename(OUTPUT_FILE, ".js")
-  
+
   File.open(OUTPUT_FILE, 'w') do |x|
     x.puts("(function($){\n\nvar jQuery = $;");
   end
-  
+
   cat_files(OUTPUT_FILE, basename)
 
   File.open(OUTPUT_FILE, 'a') do |x|
@@ -132,33 +133,33 @@ task :copyJqueryUIImageDirectory do
 	@source = "./lib/jquery-ui/images"
 	@target = "./css/images"
 	@includePattern = "/**/*"
-    FileUtils.rm_rf(@target)  #remove target directory (if exists)  
-    FileUtils.mkdir_p(@target) #create the target directory  
-    files = FileList.new().include("#{@source}#{@includePattern}");   
-    files.each do |file|          
-        #create target location file string (replace source with target in path)  
-        targetLocation = file.sub(@source, @target)       
-        #ensure directory exists  
-        FileUtils.mkdir_p(File.dirname(targetLocation));  
-        #copy the file  
-        FileUtils.cp_r(file, targetLocation)  
-    end   
+    FileUtils.rm_rf(@target)  #remove target directory (if exists)
+    FileUtils.mkdir_p(@target) #create the target directory
+    files = FileList.new().include("#{@source}#{@includePattern}");
+    files.each do |file|
+        #create target location file string (replace source with target in path)
+        targetLocation = file.sub(@source, @target)
+        #ensure directory exists
+        FileUtils.mkdir_p(File.dirname(targetLocation));
+        #copy the file
+        FileUtils.cp_r(file, targetLocation)
+    end
 end
 
 # Compress it.
 file COMPRESSED_OUTPUT_FILE => Files do
   basename = File.basename(COMPRESSED_OUTPUT_FILE, ".js")
-  
+
   File.open(OUTPUT_FILE, 'w') do |x|
     x.puts("(function($){\n\nvar jQuery = $;");
   end
-  
+
   cat_files(OUTPUT_FILE, basename)
 
   File.open(OUTPUT_FILE, 'a') do |x|
     x.puts("})(jQuery);");
   end
-  
+
   system "#{COMPRESS} #{OUTPUT_FILE} >> #{COMPRESSED_OUTPUT_FILE}"
 end
 

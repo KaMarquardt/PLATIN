@@ -557,24 +557,40 @@ MapWidget.prototype = {
 		if ( layers instanceof Array) {
 			for (var i in layers ) {
 				var layer;
-				if (layers[i].type === "XYZ"){
-			        layer = new OpenLayers.Layer.XYZ(
-			        			layers[i].name,
-				                [
-				                 	layers[i].url
-				                ],
-				                {
-					                sphericalMercator: true,
-					                transitionEffect: "resize",
-					                buffer: 1,
-					                numZoomLevels: 12,
-					                transparent : true,
-					                attribution: layers[i].attribution
-				                },
-								{
-									isBaseLayer : true
-								}
-			            );
+				if (layers[i].type === "XYZ") {
+					layer = new OpenLayers.Layer.XYZ(
+						layers[i].name,
+						[
+							layers[i].url
+						],
+						{
+							sphericalMercator: true,
+							transitionEffect: "resize",
+							buffer: 1,
+							numZoomLevels: 12,
+							transparent: true,
+							attribution: layers[i].attribution
+						},
+						{
+							isBaseLayer: true
+						}
+					);
+				} else if (layers[i].type === "Stamen"){
+					layer = new OpenLayers.Layer.Stamen(
+						layers[i].mode,
+						{
+							title: layers[i].name,
+							sphericalMercator: true,
+							transitionEffect: "resize",
+							buffer: 1,
+							numZoomLevels: 12,
+							transparent: true,
+							attribution: layers[i].attribution
+						},
+						{
+							isBaseLayer: true
+						}
+					);
 				} else {
 					layer = new OpenLayers.Layer.WMS(
 							layers[i].name, layers[i].url,
@@ -683,7 +699,7 @@ MapWidget.prototype = {
 
 	setBaseLayerByName : function(name){
 		for (var i = 0; i < this.baseLayers.length; i++) {
-			if (this.baseLayers[i].name == name) {
+			if (this.baseLayers[i].name === name) {
 				this.setMap(i);
 			}
 		}
@@ -1401,6 +1417,7 @@ MapWidget.prototype = {
 		if (this.options.squareSelect) {
 			var button = document.createElement("div");
 			$(button).addClass('mapControl');
+			$(button).attr("title", "Square selection");
 			var activate = function() {
 				map.drawSquare.activate();
 			}
@@ -1412,6 +1429,7 @@ MapWidget.prototype = {
 		if (this.options.circleSelect) {
 			var button = document.createElement("div");
 			$(button).addClass('mapControl');
+			$(button).attr("title", "Circle selection");
 			var activate = function() {
 				map.drawCircle.activate();
 			}
@@ -1422,6 +1440,7 @@ MapWidget.prototype = {
 		}
 		if (this.options.polygonSelect) {
 			var button = document.createElement("div");
+			$(button).attr("title", "Polygon selection");
 			$(button).addClass('mapControl');
 			var activate = function() {
 				map.drawPolygon.activate();
@@ -1434,6 +1453,7 @@ MapWidget.prototype = {
 		if (this.options.countrySelect) {
 			var button = document.createElement("div");
 			$(button).addClass('mapControl');
+			$(button).attr("title", "Country selection");
 			var activate = function() {
 				map.selectCountry.activate();
 				map.dragControl.disable();
