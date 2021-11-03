@@ -579,7 +579,7 @@ MapWidget.prototype = {
 					layer = new OpenLayers.Layer.Stamen(
 						layers[i].mode,
 						{
-							title: layers[i].title,
+							title: layers[i].name,
 							sphericalMercator: true,
 							transitionEffect: "resize",
 							buffer: 1,
@@ -699,7 +699,7 @@ MapWidget.prototype = {
 
 	setBaseLayerByName : function(name){
 		for (var i = 0; i < this.baseLayers.length; i++) {
-			if (this.baseLayers[i].name == name) {
+			if (this.baseLayers[i].name === name) {
 				this.setMap(i);
 			}
 		}
