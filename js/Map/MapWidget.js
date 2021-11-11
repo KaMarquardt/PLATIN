@@ -583,7 +583,6 @@ MapWidget.prototype = {
 							sphericalMercator: true,
 							transitionEffect: "resize",
 							buffer: 1,
-							numZoomLevels: 12,
 							transparent: true,
 							attribution: layers[i].attribution
 						},
@@ -607,7 +606,6 @@ MapWidget.prototype = {
 					);
 				}
 				this.baseLayers.push(layer);
-				this.openlayersMap.addLayers([layer]);
 			}
 		}
 		this.gui.setMapsDropdown();
@@ -686,9 +684,6 @@ MapWidget.prototype = {
 	            }
 			));
 		}
-		for (var i = 0; i < this.baseLayers.length; i++) {
-			this.openlayersMap.addLayers([this.baseLayers[i]]);
-		}
 		if (this.options.alternativeMap) {
 			if (!(this.options.alternativeMap instanceof Array))
 				this.options.alternativeMap = [this.options.alternativeMap];
@@ -698,11 +693,15 @@ MapWidget.prototype = {
 	},
 
 	setBaseLayerByName : function(name){
+		var found = false;
 		for (var i = 0; i < this.baseLayers.length; i++) {
 			if (this.baseLayers[i].name === name) {
 				this.setMap(i);
+				found = true;
+				break;
 			}
 		}
+		if (!found) this.setMap(0);
 	},
 
 	getBaseLayerName : function() {
@@ -777,7 +776,7 @@ MapWidget.prototype = {
 		this.baseLayers.push(layer);
 		this.openlayersMap.addLayers([layer]);
 		for (var i in this.baseLayers ) {
-			if (this.baseLayers[i].name == this.options.baseLayer) {
+			if (this.baseLayers[i].name === this.options.baseLayer) {
 				this.setMap(i);
 			}
 		}
@@ -1351,7 +1350,7 @@ MapWidget.prototype = {
 		} else {
 			this.openlayersMap.zoomTo(Math.round(zoom));
 			if (this.zoomSlider) {
-				this.zoomSlider.setValue(this.getZoom());
+				this.zoomSlider.setValue(Math.round(zoom));
 			}
 		}
 		return true;
@@ -1380,12 +1379,13 @@ MapWidget.prototype = {
 
 	setMap : function(index) {
 		this.baselayerIndex = index;
+		var currentBasemap = this.baseLayers[index];
 		if (this.selectCountry) {
 			//			if( this.wmsOverlays.length == 0 ){
 			this.deactivateCountrySelector();
 			//			}
 		}
-		if (this.baseLayers[index] instanceof OpenLayers.Layer.WMS) {
+		if (currentBasemap instanceof OpenLayers.Layer.WMS) {
 			//			if( this.wmsOverlays.length == 0 ){
 			this.activateCountrySelector(this.baseLayers[index]);
 			//			}
@@ -1394,19 +1394,23 @@ MapWidget.prototype = {
 				this.countrySelectionControl.disable();
 			}
 		}
+		this.openlayersMap.addLayers([currentBasemap]);
+		if (currentBasemap.resolutions)
+			this.resolutions = currentBasemap.resolutions;
+		this.openlayersMap.setBaseLayer(currentBasemap);
 		this.openlayersMap.zoomTo(Math.floor(this.getZoom()));
-		this.openlayersMap.setBaseLayer(this.baseLayers[index]);
-		if (this.baseLayers[index].name == 'OpenStreetMap') {
+
+		if (currentBasemap.name === 'OpenStreetMap') {
 			this.gui.osmLink.style.visibility = 'visible';
 		} else {
 			this.gui.osmLink.style.visibility = 'hidden';
 		}
-		if (this.baseLayers[index].name == 'OpenStreetMap (MapQuest)') {
+		if (currentBasemap.name === 'OpenStreetMap (MapQuest)') {
 			this.gui.osmMapQuestLink.style.visibility = 'visible';
 		} else {
 			this.gui.osmMapQuestLink.style.visibility = 'hidden';
 		}
-		this.triggerMapChanged(this.baseLayers[index].name);
+		this.triggerMapChanged(currentBasemap.name);
 	},
 
 	//vhz added title to buttons
@@ -1474,21 +1478,21 @@ MapWidget.prototype = {
 	},
 
 	getZoom : function() {
-    	//calculate zoom from active resolution
+	    //calculate zoom from active resolution
         var resolution = this.openlayersMap.getResolution();
         var zoom = this.resolutions.indexOf(resolution);
-        if (zoom == -1){
+        if (zoom === -1){
             //fractional zoom
             for (zoom = 0; zoom < this.resolutions.length; zoom++){
                 if (resolution>=this.resolutions[zoom]){
                     break;
                 }
             }
-            if (zoom == this.resolutions.length){
+            if (zoom === this.resolutions.length){
                 zoom--;
             }
         }
-        return(zoom);
+        return zoom;
 	},
 
 	setMarker : function(lon, lat) {
