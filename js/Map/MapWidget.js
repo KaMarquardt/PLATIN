@@ -583,6 +583,7 @@ MapWidget.prototype = {
 							sphericalMercator: true,
 							transitionEffect: "resize",
 							buffer: 1,
+							numZoomLevels: 12,
 							transparent: true,
 							attribution: layers[i].attribution
 						},

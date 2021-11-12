@@ -152,7 +152,6 @@ Overlayloader.prototype = {
 		var newOverlay = new Object();
 		newOverlay.name = xyzURL;
 		newOverlay.layers = [];
-
         var newLayer = new OpenLayers.Layer.XYZ(
                 "XYZ layer",
                 [
@@ -170,6 +169,8 @@ Overlayloader.prototype = {
 
 		newLayer.setIsBaseLayer(false);
 		$(this.attachedMapWidgets).each(function(){
+			var baseLayer = this.openlayersMap.baseLayer;
+			if (baseLayer.title && baseLayer.title.includes('Stamen')) newLayer.zoomOffset = 0;
 			this.openlayersMap.addLayer(newLayer);
 			newOverlay.layers.push({map:this.openlayersMap,layer:newLayer});
 		});
