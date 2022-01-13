@@ -6,11 +6,14 @@ You are welcome to contribute to PLATIN by making a pull request.
 
 
     `git clone -b develop https://github.com/DARIAH-DE/PLATIN.git`
+    
+    `cd PLATIN`
+
 
 2. Create your own branch for your changes and choose a custom name, e.g. _addtablecolumn_ in this case:
 
 
-    `git checkout -b addtablecolumn` 
+    `git checkout -b addtablecolumn `
 
 3. Make your changes!
 
