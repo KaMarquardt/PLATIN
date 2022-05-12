@@ -40,35 +40,68 @@ function FuzzyTimelineRangeSlider(parent) {
 	this.sliderParentTable = this.parent.gui.sliderTable;
 	var headerRow = $("<tr></tr>");
 	var controlsRow = $("<tr></tr>");
+	var strHtml = '';
 	$(this.sliderParentTable).append(headerRow).append(controlsRow);
 
-	headerRow.append("<td>Time start</td>");
-	this.rangeStart = document.createElement("select");
-	controlsRow.append($("<td></td>").append(this.rangeStart));
+	if (!exhibition && !forEmbeddedUse) {
+		var strHtml = "<td>" + GeoTemConfig.getString("timeStart") + "</td>";
+		headerRow.append(strHtml);
+		//headerRow.append("<td>Time start</td>");
+		this.rangeStart = document.createElement("select");
+		controlsRow.append($("<td></td>").append(this.rangeStart));
+	}
 
-	headerRow.append("<td>Time unit</td>");
+	var strHtml = "<td>" + GeoTemConfig.getString("timeUnit") + "</td>";
+	headerRow.append(strHtml);
+	//headerRow.append("<td>Time unit</td>");
 	this.rangeDropdown = document.createElement("select");
+	if (forEmbeddedUse)
+	{
+		this.rangeDropdown.className = 'datafilterSelect';
+	}
+
 	controlsRow.append($("<td></td>").append(this.rangeDropdown));
 
-	headerRow.append("<td>Scaling</td>");
-	this.scalingDropdown = document.createElement("select");
-	controlsRow.append($("<td></td>").append(this.scalingDropdown));
-	$(this.scalingDropdown).append("<option>normal</option>");
-	$(this.scalingDropdown).append("<option>logarithm</option>");
-	$(this.scalingDropdown).append("<option>percentage</option>");
-	$(this.scalingDropdown).change(function(eventObject){
-		var scaleMode = $(rangeSlider.scalingDropdown).find("option:selected").text();
-		rangeSlider.parent.changeScaleMode(scaleMode);
-	});
+	if (!exhibition) {
+		var strHtml = "<td>" + GeoTemConfig.getString("scaling") + "</td>";
+		headerRow.append(strHtml);
+		//headerRow.append("<td>Scaling</td>");
+		this.scalingDropdown = document.createElement("select");
+		if (forEmbeddedUse)
+		{
+			this.scalingDropdown.className = 'datafilterSelect';
+		}
+		controlsRow.append($("<td></td>").append(this.scalingDropdown));
+
+		strHtml = "<option value='normal'>" + GeoTemConfig.getString("linearPlot") + "</option>";
+		$(this.scalingDropdown).append(strHtml);
+		strHtml = "<option value='logarithm'>" + GeoTemConfig.getString("logarithmicPlot") + "</option>";
+		$(this.scalingDropdown).append(strHtml);
+		strHtml = "<option value='percentage'>" + GeoTemConfig.getString("percentagePlot") + "</option>";
+		$(this.scalingDropdown).append(strHtml);
+		$(this.scalingDropdown).change(function (eventObject) {
+			var scaleMode = $(rangeSlider.scalingDropdown).find("option:selected")[0].value;
+			rangeSlider.parent.changeScaleMode(scaleMode);
+		});
+	}
 
 	headerRow.append("<td>Animation</td>");
 	this.startAnimation = document.createElement("div");
-	$(this.startAnimation).addClass("smallButton playDisabled");
+	this.startAnimation.title = GeoTemConfig.getString("playButton");
+	this.startAnimation.innerHTML = '<span class="ctrlInactive" style="margin-left: 0px;"><i class="fas fa-play fa-fw" aria-hidden="true"></i></span>';
+//	$(this.startAnimation).addClass("smallButton playDisabled");
+	$(this.startAnimation).addClass("smallButton");
+	$(this.startAnimation).css('margin-left', '0px');
 	this.pauseAnimation = document.createElement("div");
-	$(this.pauseAnimation).addClass("smallButton pauseDisabled");
+	this.pauseAnimation.title = GeoTemConfig.getString("animationPause");
+	this.pauseAnimation.innerHTML = '<span class="ctrlInactive"><i class="fas fa-pause fa-fw" aria-hidden="true"></i></span>';
+//	$(this.pauseAnimation).addClass("smallButton pauseDisabled");
+	$(this.pauseAnimation).addClass("smallButton");
 	controlsRow.append($("<td></td>").append(this.startAnimation).append(this.pauseAnimation));
 
-	headerRow.append("<td>Dated objects</td>");
+	var strHtml = "<td>" + GeoTemConfig.getString("datedObjects") + "</td>";
+	headerRow.append(strHtml);
+	//headerRow.append("<td>Dated objects</td>");
 	this.numberDatedObjects = 0;
 	this.numberDatedObjectsDIV = document.createElement("div");
 	$(this.numberDatedObjectsDIV).addClass("ddbElementsCount");
@@ -239,9 +272,17 @@ FuzzyTimelineRangeSlider.prototype = {
 		$(rangeSlider.rangeDropdown).change();
 
 		$(rangeSlider.startAnimation).click(function(){
-			if ($(rangeSlider.startAnimation).hasClass("playEnabled")){
+/*			if ($(rangeSlider.startAnimation).hasClass("playEnabled")){
 				$(rangeSlider.startAnimation).removeClass("playEnabled").addClass("playDisabled");
 				$(rangeSlider.pauseAnimation).removeClass("pauseDisabled").addClass("pauseEnabled");
+
+				rangeSlider.parent.startAnimation();
+			}*/
+			var kindA = $(rangeSlider.startAnimation.firstElementChild);
+			var kindB = $(rangeSlider.pauseAnimation.firstElementChild);
+			if (kindA.hasClass('ctrlActive')){
+				kindA.removeClass('ctrlActive').addClass('ctrlInactive');
+				kindB.removeClass('ctrlInactive').addClass('ctrlActive');
 
 				rangeSlider.parent.startAnimation();
 			}
@@ -249,9 +290,17 @@ FuzzyTimelineRangeSlider.prototype = {
 
 		$(rangeSlider.pauseAnimation).prop('disabled', true);
 		$(rangeSlider.pauseAnimation).click(function(){
-			if ($(rangeSlider.pauseAnimation).hasClass("pauseEnabled")){
+/*			if ($(rangeSlider.pauseAnimation).hasClass("pauseEnabled")){
 				$(rangeSlider.startAnimation).removeClass("playDisabled").addClass("playEnabled");
 				$(rangeSlider.pauseAnimation).removeClass("pauseEnabled").addClass("pauseDisabled");
+
+				rangeSlider.parent.pauseAnimation();
+			}*/
+			var kindA = $(rangeSlider.startAnimation.firstElementChild);
+			var kindB = $(rangeSlider.pauseAnimation.firstElementChild);
+			if (kindB.hasClass('ctrlActive')){
+				kindB.removeClass('ctrlActive').addClass('ctrlInactive');
+				kindA.removeClass('ctrlInactive').addClass('ctrlActive');
 
 				rangeSlider.parent.pauseAnimation();
 			}

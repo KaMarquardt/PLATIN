@@ -50,8 +50,8 @@ CircleObject = function(originX, originY, shiftX, shiftY, elements, radius, sear
 	this.smoothness = 0;
 	this.fatherBin = fatherBin;
 
-	this.feature
-	this.olFeature
+	this.feature;
+	this.olFeature;
 	this.percentage = 0;
 	this.selected = false;
 

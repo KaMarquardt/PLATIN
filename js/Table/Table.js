@@ -50,7 +50,6 @@ Table.prototype = {
 	initToolbar : function() {
 
 		var table = this;
-
 		this.toolbar = document.createElement("table");
 		this.toolbar.setAttribute('class', 'ddbToolbar');
 		this.toolbar.style.overflow = 'auto';
@@ -62,11 +61,15 @@ Table.prototype = {
 		var selectors = document.createElement("td");
 		navigation.appendChild(selectors);
 
+		// 1 table -> All items select/deselect
 		if (table.options.tableSelectPage) {
 			var selectPageItems = true;
 			this.selectPage = document.createElement('div');
 			$(this.selectPage).css("float","left");
-			this.selectPage.setAttribute('class', 'smallButton selectPage');
+//			this.selectPage.setAttribute('class', 'smallButton selectPage');
+			this.selectPage.setAttribute('class', 'smallButton');
+			this.selectPage.style.paddingLeft = '10px';
+			this.selectPage.innerHTML = '<span class="ctrlActive"><i class="far fa-check-square fa-fw" aria-hidden="true"></i></span>';
 			this.selectPage.title = GeoTemConfig.getString('selectTablePageItemsHelp');
 			selectors.appendChild(this.selectPage);
 			this.selectPage.onclick = function() {
@@ -80,7 +83,8 @@ Table.prototype = {
 							break;
 						}
 					}
-					table.selectPage.setAttribute('class', 'smallButton selectPage');
+					//table.selectPage.setAttribute('class', 'smallButton selectPage');
+					table.selectPage.innerHTML = '<span class="ctrlActive"><i class="far fa-check-square fa-fw" aria-hidden="true"></i></span>';
 					table.selectPage.title = GeoTemConfig.getString('selectTablePageItemsHelp');
 				} else {
 					var items = 0;
@@ -91,7 +95,8 @@ Table.prototype = {
 							break;
 						}
 					}
-					table.selectPage.setAttribute('class', 'smallButton deselectPage');
+					//table.selectPage.setAttribute('class', 'smallButton deselectPage');
+					table.selectPage.innerHTML = '<span class="ctrlActive"><i class="far fa-square fa-fw" aria-hidden="true"></i></span>';
 					table.selectPage.title = GeoTemConfig.getString('deselectTablePageItemsHelp');
 				}
 				table.update();
@@ -102,7 +107,12 @@ Table.prototype = {
 		if (table.options.tableSelectAll) {
 			var selectAllItems = true;
 			this.selectAll = document.createElement('div');
-			this.selectAll.setAttribute('class', 'smallButton selectAll');
+			this.selectAll.setAttribute('class', 'smallButton');
+			this.selectAll.style.paddingLeft = '5px';
+			this.selectAll.innerHTML = '<span class="ctrlActive"><span class="fa-layers fa-fw">' +
+				'<i class="far fa-clone fa-fw" aria-hidden="true" ></i>' +
+				'<i class="fas fa-check fa-fw" aria-hidden="true" data-fa-transform="shrink-8 up-2 right-2"></i>' +
+				'</span></span>';
 			$(this.selectAll).css("float","left");
 			table.selectAll.title = GeoTemConfig.getString('selectAllTableItemsHelp');
 			selectors.appendChild(this.selectAll);
@@ -112,13 +122,16 @@ Table.prototype = {
 					for (var i = 0; i < table.elements.length; i++) {
 						table.elements[i].selected = false;
 					}
-					table.selectAll.setAttribute('class', 'smallButton selectAll');
+					table.selectAll.innerHTML = '<span class="ctrlActive"><span class="fa-layers fa-fw">' +
+						'<i class="far fa-clone fa-fw" aria-hidden="true" ></i>' +
+						'<i class="fas fa-check fa-fw" aria-hidden="true" data-fa-transform="shrink-8 up-2 right-2"></i>' +
+						'</span></span>';
 					table.selectAll.title = GeoTemConfig.getString('selectAllTableItemsHelp');
 				} else {
 					for (var i = 0; i < table.elements.length; i++) {
 						table.elements[i].selected = true;
 					}
-					table.selectAll.setAttribute('class', 'smallButton deselectAll');
+					table.selectAll.innerHTML = '<span class="ctrlActive"><i class="far fa-clone fa-fw" aria-hidden="true" ></i></span>';
 					table.selectAll.title = GeoTemConfig.getString('deselectAllTableItemsHelp');
 				}
 				table.update();
@@ -128,7 +141,10 @@ Table.prototype = {
 
 		if (table.options.tableInvertSelection) {
 			this.invertSelection = document.createElement('div');
-			this.invertSelection.setAttribute('class', 'smallButton invertSelection');
+			//this.invertSelection.setAttribute('class', 'smallButton invertSelection');
+			this.invertSelection.setAttribute('class', 'smallButton');
+			this.invertSelection.style.paddingLeft = '5px';
+			this.invertSelection.innerHTML = '<span class="ctrlActive"><i class="fas fa-exchange-alt fa-fw" aria-hidden="true"></i></span>';
 			$(this.invertSelection).css("float","left");
 			table.invertSelection.title = GeoTemConfig.getString('invertSelectionHelp');
 			selectors.appendChild(this.invertSelection);
@@ -147,11 +163,18 @@ Table.prototype = {
 		this.showSelectedItems = false;
 		if (table.options.tableShowSelected) {
 			this.showSelected = document.createElement('div');
-			this.showSelected.setAttribute('class', 'smallButton showSelected');
+			//this.showSelected.setAttribute('class', 'smallButton showSelected');
+			this.showSelected.setAttribute('class', 'smallButton');
+			this.showSelected.style.paddingLeft = '5px';
+			this.showSelected.innerHTML = '<span class="ctrlInactive"><i class="fas fa-tasks fa-fw" aria-hidden="true"></i></span>';
 			$(this.showSelected).css("float","left");
 			table.showSelected.title = GeoTemConfig.getString('showSelectedHelp');
 			selectors.appendChild(this.showSelected);
 			this.showSelected.onclick = function() {
+				if (table.showSelected.firstElementChild.classList.contains('ctrlInactive'))
+				{
+					return;
+				}
 				table.showSelectedItems = !table.showSelectedItems;
 				if (table.showSelectedItems) {
 					table.showElementsLength = 0;
@@ -160,12 +183,14 @@ Table.prototype = {
 							table.showElementsLength++;
 						}
 					}
-					table.showSelected.setAttribute('class', 'smallButton showAll');
-					//					table.selectAll.title = GeoTemConfig.getString('showAllElementsHelp');
+					//table.showSelected.setAttribute('class', 'smallButton showAll');
+					table.showSelected.innerHTML = '<span class="ctrlActive"><i class="fas fa-list-ul fa-fw" aria-hidden="true"></i></span>';
+					table.showSelected.title = GeoTemConfig.getString('showAllElementsHelp');
 				} else {
 					table.showElementsLength = table.elements.length;
-					table.showSelected.setAttribute('class', 'smallButton showSelected');
-					//					table.selectAll.title = GeoTemConfig.getString('showSelectedHelp');
+					//table.showSelected.setAttribute('class', 'smallButton showSelected');
+					table.showSelected.innerHTML = '<span class="ctrlActive"><i class="fas fa-tasks fa-fw" aria-hidden="true"></i></span>';
+					table.showSelected.title = GeoTemConfig.getString('showSelectedHelp');
 				}
 				table.updateIndices(table.resultsPerPage);
 				table.update();
@@ -174,20 +199,28 @@ Table.prototype = {
 
 		if (table.options.tableSelectByText) {
 			this.selectByTextDiv = document.createElement('div');
-			$(this.selectByTextDiv).css("float","left");
+/*			$(this.selectByTextDiv).css("float","left");
 			$(this.selectByTextDiv).css("vertical-align", "top");
 			$(this.selectByTextDiv).css("margin-top", "2px");
 			$(this.selectByTextDiv).css("display", "inline-block");
+			$(this.selectByTextDiv).css("margin-left", "10px");*/
+			$(this.selectByTextDiv).addClass('searchDiv');
+			/* style="float: left; vertical-align: top; margin-top: 2px; display: inline-block; margin-left: 10px;" */
 			//create and append the input field
 			this.selectByTextInput = document.createElement('input');
 			$(this.selectByTextInput).attr("type","text");
+			// style="padding: 2px 4px; border: none; border-radius: 0px; width: 220px;"
+			$(this.selectByTextInput).addClass('searchSlot');
 			$(this.selectByTextDiv).append(this.selectByTextInput);
 			//create and append the button
-			this.selectByTextButton = document.createElement('input');
+			this.selectByTextButton = document.createElement('button');
 			$(this.selectByTextButton).attr("type","button");
-			$(this.selectByTextButton).css("margin-left", "2px");
-			$(this.selectByTextButton).css("vertical-align", "top");
+			//$(this.selectByTextButton).css("margin-left", "5px");
+			//$(this.selectByTextButton).css("vertical-align", "top");
 			$(this.selectByTextButton).val("Search");
+			$(this.selectByTextButton).addClass('searchButton');
+			// style="margin-left: 5px; vertical-align: top; border-radius: 0px; font-size: 13px; line-hight: 14px; height: auto; font-weight: 600;"
+			this.selectByTextButton.textContent = GeoTemConfig.getString('selectByTextBtn');
 			$(this.selectByTextDiv).append(this.selectByTextButton);
 
 			table.selectByTextDiv.title = GeoTemConfig.getString('selectByTextHelp');
@@ -199,11 +232,18 @@ Table.prototype = {
 
 		if (table.options.tableCreateNewFromSelected) {
 			this.createNewFromSelected = document.createElement('div');
-			this.createNewFromSelected.setAttribute('class', 'smallButton createNewRefined');
+			//this.createNewFromSelected.setAttribute('class', 'smallButton createNewRefined');
+			this.createNewFromSelected.setAttribute('class', 'smallButton');
+			this.createNewFromSelected.style.paddingLeft = '10px';
+			this.createNewFromSelected.innerHTML = '<span class="ctrlInactive"><i class="fas fa-share-square fa-fw" aria-hidden="true"></i></span>';
 			$(this.createNewFromSelected).css("float","left");
 			this.createNewFromSelected.title = GeoTemConfig.getString('createNewFromSelectedHelp');
 			selectors.appendChild(this.createNewFromSelected);
 			this.createNewFromSelected.onclick = function() {
+				if (table.createNewFromSelected.firstElementChild.classList.contains('ctrlInactive'))
+				{
+					return;
+				}
 				var copyID = table.id;
 				var tableWidget = table.parent;
 
@@ -264,6 +304,9 @@ Table.prototype = {
 
 		this.firstPage = document.createElement('div');
 		this.firstPage.setAttribute('class', 'paginationButton');
+		this.firstPage.style.paddingRight = '5px';
+		this.firstPage.style.paddingLeft = '10px';
+		this.firstPage.innerHTML = '<span class="ctrlInactive"><i class="fas fa-fast-backward fa-fw" aria-hidden="true"></i></span>';
 		this.firstPage.title = GeoTemConfig.getString('paginationFirsPageHelp');
 
 		pagination.appendChild(this.firstPage);
@@ -276,6 +319,8 @@ Table.prototype = {
 
 		this.previousPage = document.createElement('div');
 		this.previousPage.setAttribute('class', 'paginationButton');
+		this.previousPage.style.paddingRight = '10px';
+		this.previousPage.innerHTML = '<span class="ctrlInactive"><i class="fas fa-step-backward fa-fw" aria-hidden="true"></i></span>';
 		this.previousPage.title = GeoTemConfig.getString('paginationPreviousPageHelp');
 		pagination.appendChild(this.previousPage);
 		this.previousPage.onclick = function() {
@@ -291,6 +336,9 @@ Table.prototype = {
 
 		this.nextPage = document.createElement('div');
 		this.nextPage.setAttribute('class', 'paginationButton');
+		this.nextPage.style.paddingLeft = '10px';
+		this.nextPage.style.paddingRight = '5px';
+		this.nextPage.innerHTML = '<span class="ctrlActive"><i class="fas fa-step-forward fa-fw" aria-hidden="true"></i></span>';
 		this.nextPage.title = GeoTemConfig.getString('paginationNextPageHelp');
 		pagination.appendChild(this.nextPage);
 		this.nextPage.onclick = function() {
@@ -302,6 +350,8 @@ Table.prototype = {
 
 		this.lastPage = document.createElement('div');
 		this.lastPage.setAttribute('class', 'paginationButton');
+		this.lastPage.style.paddingRight = '10px';
+		this.lastPage.innerHTML = '<span class="ctrlActive"><i class="fas fa-fast-forward fa-fw" aria-hidden="true"></i></span>';
 		this.lastPage.title = GeoTemConfig.getString('paginationLastPageHelp');
 		pagination.appendChild(this.lastPage);
 		this.lastPage.onclick = function() {
@@ -346,6 +396,8 @@ Table.prototype = {
 
 		this.bottomLastPage = document.createElement('div');
 		this.bottomLastPage.setAttribute('class', 'paginationButton');
+		this.bottomLastPage.style.marginRight = '10px';
+		this.bottomLastPage.innerHTML = '<span class="ctrlActive"><i class="fas fa-fast-forward fa-fw" aria-hidden="true"></i></span>';
 		this.bottomLastPage.title = GeoTemConfig.getString('paginationLastPageHelp');
 		$(this.bottomLastPage).css('float', 'right');
 		bottomPagination.appendChild(this.bottomLastPage);
@@ -358,6 +410,9 @@ Table.prototype = {
 
 		this.bottomNextPage = document.createElement('div');
 		this.bottomNextPage.setAttribute('class', 'paginationButton');
+		this.bottomNextPage.style.marginRight = '5px';
+		this.bottomNextPage.style.marginLeft = '10px';
+		this.bottomNextPage.innerHTML = '<span class="ctrlActive"><i class="fas fa-step-forward fa-fw" aria-hidden="true"></i></span>';
 		this.bottomNextPage.title = GeoTemConfig.getString('paginationNextPageHelp');
 		$(this.bottomNextPage).css('float', 'right');
 		bottomPagination.appendChild(this.bottomNextPage);
@@ -370,11 +425,15 @@ Table.prototype = {
 
 		this.bottomPageInfo = document.createElement('div');
 		this.bottomPageInfo.setAttribute('class', 'pageInfo');
+		this.bottomPageInfo.style.marginTop = '8px';
 		$(this.bottomPageInfo).css('float', 'right');
 		bottomPagination.appendChild(this.bottomPageInfo);
 
 		this.bottomPreviousPage = document.createElement('div');
 		this.bottomPreviousPage.setAttribute('class', 'paginationButton');
+		this.bottomPreviousPage.style.marginLeft = '5px';
+		this.bottomPreviousPage.style.marginRight = '10px';
+		this.bottomPreviousPage.innerHTML = '<span class="ctrlInactive"><i class="fas fa-step-backward fa-fw" aria-hidden="true"></i></span>';
 		this.bottomPreviousPage.title = GeoTemConfig.getString('paginationPreviousPageHelp');
 		$(this.bottomPreviousPage).css('float', 'right');
 		bottomPagination.appendChild(this.bottomPreviousPage);
@@ -387,6 +446,7 @@ Table.prototype = {
 
 		this.bottomFirstPage = document.createElement('div');
 		this.bottomFirstPage.setAttribute('class', 'paginationButton');
+		this.bottomFirstPage.innerHTML = '<span class="ctrlInactive"><i class="fas fa-fast-backward fa-fw" aria-hidden="true"></i></span>';
 		this.bottomFirstPage.title = GeoTemConfig.getString('paginationFirsPageHelp');
 		$(this.bottomFirstPage).css('float', 'right');
 		bottomPagination.appendChild(this.bottomFirstPage);
@@ -419,7 +479,7 @@ Table.prototype = {
 			var sortDesc = document.createElement('div');
 			var span = document.createElement('div');
 			span.setAttribute('class', 'headerLabel');
-			span.innerHTML = key;
+			span.innerHTML = key.toUpperCase();
 			cell.appendChild(sortDesc);
 			cell.appendChild(span);
 			cell.appendChild(sortAsc);
@@ -442,11 +502,21 @@ Table.prototype = {
 				table.update();
 			}
 		}
-		for (var key in this.elements[0].object.tableContent) {
+
+		if (!isBibliographie) {
+			for (var key in this.elements[0].object.tableContent) {
 
 //            console.log("key: " + key + " - tableContent: " + this.elements[0].object.tableContent);
+				addSortButton(key);
+			}
+		}
+		else
+		{
+			for (var key in this.elements[0].object.shortTableContent) {
 
-			addSortButton(key);
+            	//console.log("key: " + key + " - shortTableContent: " + this.elements[0].object.shortTableContent);
+				addSortButton(key);
+			}
 		}
 	},
 
@@ -487,7 +557,10 @@ Table.prototype = {
 		//only show selected elements
 		this.showSelectedItems = true;
 		this.showElementsLength = selectedCount;
-		this.showSelected.setAttribute('class', 'smallButton showAll');
+		this.showSelected.innerHTML = '<span class="ctrlActive"><i class="fas fa-list-ul fa-fw" aria-hidden="true"></i></span>';
+		this.showSelected.title = GeoTemConfig.getString('showAllElementsHelp');
+
+		//this.showSelected.setAttribute('class', 'smallButton showAll');
 
 		this.update();
 		this.parent.tableSelection();
@@ -534,29 +607,47 @@ Table.prototype = {
 
 	update : function() {
 		var table = this;
+
 		$(this.elementList).find("tr:gt(0)").remove();
 		if (this.page == 0) {
-			this.previousPage.setAttribute('class', 'paginationButton previousPageDisabled');
+/*			this.previousPage.setAttribute('class', 'paginationButton previousPageDisabled');
 			this.firstPage.setAttribute('class', 'paginationButton firstPageDisabled');
 			this.bottomPreviousPage.setAttribute('class', 'paginationButton previousPageDisabled');
-			this.bottomFirstPage.setAttribute('class', 'paginationButton firstPageDisabled');
+			this.bottomFirstPage.setAttribute('class', 'paginationButton firstPageDisabled');*/
+			$(this.previousPage.firstElementChild).removeClass('ctrlActive').addClass('ctrlInactive');
+			$(this.firstPage.firstElementChild).removeClass('ctrlActive').addClass('ctrlInactive');
+			$(this.bottomPreviousPage.firstElementChild).removeClass('ctrlActive').addClass('ctrlInactive');
+			$(this.bottomFirstPage.firstElementChild).removeClass('ctrlActive').addClass('ctrlInactive');
 		} else {
-			this.previousPage.setAttribute('class', 'paginationButton previousPageEnabled');
-			this.firstPage.setAttribute('class', 'paginationButton firstPageEnabled');
-			this.bottomPreviousPage.setAttribute('class', 'paginationButton previousPageEnabled');
-			this.bottomFirstPage.setAttribute('class', 'paginationButton firstPageEnabled');
+			/*			this.previousPage.setAttribute('class', 'paginationButton previousPageEnabled');
+                        this.firstPage.setAttribute('class', 'paginationButton firstPageEnabled');
+                        this.bottomPreviousPage.setAttribute('class', 'paginationButton previousPageEnabled');
+                        this.bottomFirstPage.setAttribute('class', 'paginationButton firstPageEnabled');*/
+			$(this.previousPage.firstElementChild).removeClass('ctrlInactive').addClass('ctrlActive');
+			$(this.firstPage.firstElementChild).removeClass('ctrlInactive').addClass('ctrlActive');
+			$(this.bottomPreviousPage.firstElementChild).removeClass('ctrlInactive').addClass('ctrlActive');
+			$(this.bottomFirstPage.firstElementChild).removeClass('ctrlInactive').addClass('ctrlActive');
 		}
 		if (this.page == this.pages - 1) {
-			this.nextPage.setAttribute('class', 'paginationButton nextPageDisabled');
-			this.lastPage.setAttribute('class', 'paginationButton lastPageDisabled');
-			this.bottomNextPage.setAttribute('class', 'paginationButton nextPageDisabled');
-			this.bottomLastPage.setAttribute('class', 'paginationButton lastPageDisabled');
+			/*			this.nextPage.setAttribute('class', 'paginationButton nextPageDisabled');
+                        this.lastPage.setAttribute('class', 'paginationButton lastPageDisabled');
+                        this.bottomNextPage.setAttribute('class', 'paginationButton nextPageDisabled');
+                        this.bottomLastPage.setAttribute('class', 'paginationButton lastPageDisabled');*/
+			$(this.nextPage.firstElementChild).removeClass('ctrlActive').addClass('ctrlInactive');
+			$(this.lastPage.firstElementChild).removeClass('ctrlActive').addClass('ctrlInactive');
+			$(this.bottomNextPage.firstElementChild).removeClass('ctrlActive').addClass('ctrlInactive');
+			$(this.bottomLastPage.firstElementChild).removeClass('ctrlActive').addClass('ctrlInactive');
 		} else {
-			this.nextPage.setAttribute('class', 'paginationButton nextPageEnabled');
-			this.lastPage.setAttribute('class', 'paginationButton lastPageEnabled');
-			this.bottomNextPage.setAttribute('class', 'paginationButton nextPageEnabled');
-			this.bottomLastPage.setAttribute('class', 'paginationButton lastPageEnabled');
+			/*			this.nextPage.setAttribute('class', 'paginationButton nextPageEnabled');
+                        this.lastPage.setAttribute('class', 'paginationButton lastPageEnabled');
+                        this.bottomNextPage.setAttribute('class', 'paginationButton nextPageEnabled');
+                        this.bottomLastPage.setAttribute('class', 'paginationButton lastPageEnabled');*/
+			$(this.nextPage.firstElementChild).removeClass('ctrlInactive').addClass('ctrlActive');
+			$(this.lastPage.firstElementChild).removeClass('ctrlInactive').addClass('ctrlActive');
+			$(this.bottomNextPage.firstElementChild).removeClass('ctrlInactive').addClass('ctrlActive');
+			$(this.bottomLastPage.firstElementChild).removeClass('ctrlInactive').addClass('ctrlActive');
 		}
+
 		this.setPagesText();
 		this.setResultsText();
 		if (this.showSelectedItems) {
@@ -628,6 +719,7 @@ Table.prototype = {
 			$(checkbox).click(click);
 		}
 		this.checkboxes = [];
+
 		var items = 0;
 		for (var i = this.first; i < this.elements.length; i++) {
 			var e = this.elements[i];
@@ -669,9 +761,22 @@ Table.prototype = {
 				var text = e.object.tableContent[key];
 
 //                console.log(k + ". key: " + key + " - text: " + text);
+				if (columnsToMap.includes(key))
+				{
+					text = GeoTemConfig.mappingForTable[key][text];
+				}
 
 				if (typeof text === "undefined")
 					text = "";
+
+				/*
+					For data garbage collection e. g. worldcat file
+				 */
+				if (text.indexOf('null') != -1 || text.indexOf('empty') != -1)
+				{
+					text = "";
+				}
+
 				var cell = $("<td></td>").appendTo(itemRow);
 
 				//align the elements (if unset: "center")
@@ -713,7 +818,7 @@ Table.prototype = {
 	},
 
 	show : function() {
-		if (GeoTemConfig.allowFilter) {
+		if (GeoTemConfig.allowFilter && !forEmbeddedUse) {
 			this.parent.filterBar.appendTo(this.selectors);
 		}
 		this.tableDiv.style.display = "block";
@@ -734,7 +839,9 @@ Table.prototype = {
 		if (!this.options.tableKeepShowSelected){
 			this.showSelectedItems = false;
 			this.showElementsLength = this.elements.length;
-			this.showSelected.setAttribute('class', 'smallButton showSelected');
+			//this.showSelected.setAttribute('class', 'smallButton showSelected');
+			this.showSelected.innerHTML = '<span class="ctrlInactive"><i class="fas fa-tasks fa-fw" aria-hidden="true"></i></span>';
+			table.showSelected.title = GeoTemConfig.getString('showSelectedHelp');
 		}
 		this.updateIndices(this.resultsPerPage);
 	},

@@ -37,10 +37,12 @@
  * @param {Date} timeEnd end time of the data object
  * @param {int} granularity granularity of the given time
  * @param {int} weight weight of the time object
+ * @param {Object} tableContent all columns of json item
  * @param {Openlayers.Projection} projection of the coordinates (optional)
+ * @param {Object} shortTableContent selected columns of json item - see TableConfig.js (optional)
  */
 
-DataObject = function(name, description, locations, dates, weight, tableContent, projection) {
+DataObject = function(name, description, locations, dates, weight, tableContent, projection, shortTableContent) {
 
 	this.name = $.trim(name);
 	this.description = $.trim(description);
@@ -50,6 +52,16 @@ DataObject = function(name, description, locations, dates, weight, tableContent,
 	for(key in tableContent){
 		value = tableContent[key];
 		objectTableContent[$.trim(key)]=$.trim(value);
+	}
+
+	this.shortTableContent = new Object();
+	var objectShortTableContent = this.shortTableContent;
+	if (shortTableContent !== 'undefined' && shortTableContent !== null)
+	{
+		for(key in shortTableContent){
+			value = shortTableContent[key];
+			objectShortTableContent[$.trim(key)]=$.trim(value);
+		}
 	}
 
 	this.percentage = 0;

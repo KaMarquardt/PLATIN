@@ -22,14 +22,15 @@
 
 	//Hosts that are allowed to download from in RegEx form. (e.g. "/.*dropbox\.com/")
 	//If this array is empty, all hosts are allowed.
-	$validHosts = array(
-			"/localhost/",
-	);
+	$validHosts = array();
+	$validHosts[] = '/localhost/';
+	$ablage = $_SERVER['SERVER_NAME'];
+	$validHosts[] =  "/$ablage/";
+//error_log( print_r($validHosts, true));
 
 	if (isset($_REQUEST['address'])){
 
 		$parsedAddress = parse_url($_REQUEST['address']);
-
 		$found = 0;
 
 		foreach ($validHosts as $host){

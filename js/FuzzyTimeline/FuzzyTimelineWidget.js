@@ -58,7 +58,7 @@ FuzzyTimelineWidget.prototype = {
 
 	initWidget : function(data) {
 		var fuzzyTimeline = this;
-		
+
 		delete fuzzyTimeline.overallMin;
 		delete fuzzyTimeline.overallMax;
 		
@@ -389,7 +389,7 @@ FuzzyTimelineWidget.prototype = {
 		
 		fuzzyTimeline.core.triggerSelection(selection);		
 	},
-	
+
 	addHandle : function(x1,x2){
 		var fuzzyTimeline = this;
 		//make sure the interval is ordered correctly
@@ -401,7 +401,10 @@ FuzzyTimelineWidget.prototype = {
 		fuzzyTimeline.handles.push({x1:x1,x2:x2});
 		fuzzyTimeline.drawHandles();
 		//enabled "play" button
-		$(fuzzyTimeline.rangeSlider.startAnimation).removeClass("playDisabled").addClass("playEnabled");
+		//$(fuzzyTimeline.rangeSlider.startAnimation).removeClass("playDisabled").addClass("playEnabled");
+		// with font awesome
+		var kindA = $(fuzzyTimeline.rangeSlider.startAnimation.firstElementChild);
+		kindA.removeClass('ctrlInactive').addClass('ctrlActive');
 	},
 	
 	selectByX : function(x1,x2){
@@ -456,7 +459,7 @@ FuzzyTimelineWidget.prototype = {
 			leftHandle.style.top = plotHeight/2-$(leftHandle).height()/2 + "px";
 			
 			var rightHandle = document.createElement("div");
-			rightHandle.title = GeoTemConfig.getString('leftHandle');
+			rightHandle.title = GeoTemConfig.getString('rightHandle');
 			rightHandle.style.backgroundImage = "url(" + GeoTemConfig.path + "rightHandle.png" + ")";
 			rightHandle.setAttribute('class', 'plotHandle plotHandleIcon');
 			rightHandle.style.visibility = "visible";
@@ -562,8 +565,13 @@ FuzzyTimelineWidget.prototype = {
 		$(fuzzyTimeline.gui.plotDiv).find(".plotHandleBox").remove();
 		fuzzyTimeline.handles = [];
 		//disable buttons
-		$(fuzzyTimeline.rangeSlider.startAnimation).removeClass("playEnabled").addClass("playDisabled");
-		$(fuzzyTimeline.rangeSlider.pauseAnimation).removeClass("pauseEnabled").addClass("pauseDisabled");
+/*		$(fuzzyTimeline.rangeSlider.startAnimation).removeClass("playEnabled").addClass("playDisabled");
+		$(fuzzyTimeline.rangeSlider.pauseAnimation).removeClass("pauseEnabled").addClass("pauseDisabled");*/
+
+		// with font awesome
+		$(fuzzyTimeline.rangeSlider.startAnimation.firstElementChild).removeClass('ctrlActive').addClass('ctrlInactive');
+		$(fuzzyTimeline.rangeSlider.pauseAnimation.firstElementChild).removeClass('ctrlActive').addClass('ctrlInactive');
+
 		//stop the animation (if one was running)
 		fuzzyTimeline.pauseAnimation();
 	},

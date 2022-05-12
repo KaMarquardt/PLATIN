@@ -63,6 +63,18 @@ function MapGui(map, div, options, iid) {
 	this.container.appendChild(toolbarTable);
 	this.mapToolbar = toolbarTable;
 
+	/*
+		for special use cases: take toolbar out of map - toolbar haven't overlap map
+	 */
+	if (exhibition){
+		this.mapToolbar.style.position.value = 'relative';
+		this.mapToolbar.style.top = '-43px';
+	}
+	if (forEmbeddedUse){
+		this.mapToolbar.style.position.value = 'relative';
+		this.mapToolbar.style.top = '-47px';
+	}
+
 	var titles = document.createElement("tr");
 	toolbarTable.appendChild(titles);
 	var tools = document.createElement("tr");
@@ -80,7 +92,9 @@ function MapGui(map, div, options, iid) {
 		this.mapSelectorTitle = document.createElement("td");
 		titles.appendChild(this.mapSelectorTitle);
 		this.mapSelectorTitle.innerHTML = GeoTemConfig.getString('mapSelectorTools');
+		this.mapSelectorTitle.classList.add('mapShapeSelection');
 		var mapSelectorTools = document.createElement("td");
+		mapSelectorTools.classList.add('mapShapeSelection');
 		var selectorTools = this.map.initSelectorTools();
 		for (var i in selectorTools ) {
 			mapSelectorTools.appendChild(selectorTools[i].button);
@@ -100,7 +114,9 @@ function MapGui(map, div, options, iid) {
 		this.filterTitle = document.createElement("td");
 		titles.appendChild(this.filterTitle);
 		this.filterTitle.innerHTML = GeoTemConfig.getString('filter');
+		this.filterTitle.classList.add('mapFilterBar');
 		this.filterOptions = document.createElement("td");
+		this.filterOptions.classList.add('mapFilterBar');
 		tools.appendChild(this.filterOptions);
 	}
 
@@ -115,137 +131,181 @@ function MapGui(map, div, options, iid) {
 		tools.appendChild(mapSum);
 	}
 
-	this.lockTitle = document.createElement("td");
-	titles.appendChild(this.lockTitle);
-	this.lockIcon = document.createElement("td");
-	var lockButton = document.createElement("div");
-	$(lockButton).addClass('mapControl');
-	$(lockButton).attr('title', 'Lock map state');
-	var activateLock = function() {
-		map.navigation.deactivate();
+	/*
+		look and fullscreen aren't necessary for exhibition mode
+		forEmbeddedUse - JourFix 2022-04-25
+	 */
+	if (!(exhibition || forEmbeddedUse)) {
+		this.lockTitle = document.createElement("td");
+		titles.appendChild(this.lockTitle);
+		this.lockTitle.innerHTML = '&nbsp;';
+		this.lockIcon = document.createElement("td");
+		this.lockIcon.style.width = '37px';
+		var lockButton = document.createElement("div");
+		if (forEmbeddedUse) {
+			$(lockButton).addClass('fasBtn fasBtnFirst');
+		} else {
+			$(lockButton).addClass('mapControl');
+		}
+		$(lockButton).attr('title', 'Lock map state');
+		var activateLock = function () {
+			map.navigation.deactivate();
+		}
+		var deactivateLock = function () {
+			map.navigation.activate();
+		}
+		var lockMapControl = new MapControl(this.map, lockButton, 'lock', activateLock, deactivateLock);
+		this.lockIcon.appendChild(lockMapControl.button);
+		tools.appendChild(this.lockIcon);
 	}
-	var deactivateLock = function() {
-		map.navigation.activate();
-	}
-	var lockMapControl = new MapControl(this.map, lockButton, 'lock', activateLock, deactivateLock);
-	tools.appendChild(lockMapControl.button);
+	if (!(exhibition)) {
+		this.fullscreenTitle = document.createElement("td");
+		titles.appendChild(this.fullscreenTitle);
+		this.fullscreenTitle.innerHTML = '&nbsp;';
+		this.fullscreenIcon = document.createElement("td");
+		this.fullscreenIcon.style.width = '32px';
+		var fullscreenButton = document.createElement("div");
+		if (forEmbeddedUse) {
+			$(fullscreenButton).addClass('fasBtn');
+		} else {
+			$(fullscreenButton).addClass('mapControl');
+		}
+		$(fullscreenButton).attr('title', 'Fullscreen');
+		var prevWidth;
+		var prevHeight;
+		var prevParent;
+		var activateFullscreen = function () {
+			$div = $(div);
+			$window = $(window);
 
-	this.fullscreenTitle = document.createElement("td");
-	titles.appendChild(this.fullscreenTitle);
-	this.fullscreenIcon = document.createElement("td");
-	var fullscreenButton = document.createElement("div");
-	$(fullscreenButton).addClass('mapControl');
-	$(fullscreenButton).attr('title', 'Fullscreen');
-	var prevWidth;
-	var prevHeight;
-	var prevParent;
-	var activateFullscreen = function() {
-		$div=$(div);
-		$window = $(window);
+			prevWidth = $div.width();
+			prevHeight = $div.height();
+			prevParent = $div.parent();
 
-		prevWidth = $div.width();
-		prevHeight = $div.height();
-		prevParent = $div.parent();
+			$div.appendTo("body");
+			$div.css("position","absolute");
+			$div.css("top","0");
+			$div.css("left","0");
+			$div.css("z-Index","10000");
+			$div.width($window.width());
+			$div.height($window.height());
 
-		$div.appendTo("body");
-		$div.css("position","absolute");
-		$div.css("top","0");
-		$div.css("left","0");
-		$div.css("z-Index","10000");
-	 	$div.width($window.width());
-		$div.height($window.height());
+			gui.resize();
+		}
+		var deactivateFullscreen = function() {
+			$div=$(div);
 
-		gui.resize();
-	}
-	var deactivateFullscreen = function() {
-		$div=$(div);
+	//		$div.appendTo(prevParent);
+			prevParent.prepend($div);
+			$div.css("position","relative");
+			$div.width(prevWidth);
+			$div.height(prevHeight);
 
-//		$div.appendTo(prevParent);
-        prevParent.prepend($div);
-		$div.css("position","relative");
-	 	$div.width(prevWidth);
-		$div.height(prevHeight);
-
-		gui.resize();
-	}
-	var fullscreenMapControl = new MapControl(this.map, fullscreenButton, 'fullscreen', activateFullscreen, deactivateFullscreen);
-	tools.appendChild(fullscreenMapControl.button);
-
-	if (navigator.geolocation && options.geoLocation) {
-		this.geoActive = false;
-		this.geoLocation = document.createElement("div");
-		this.geoLocation.setAttribute('class', 'geoLocationOff');
-		this.geoLocation.title = GeoTemConfig.getString('activateGeoLocation');
-		this.container.appendChild(this.geoLocation);
-		this.geoLocation.style.left = "20px";
-		this.geoLocation.onclick = function() {
-			var changeStyle = function() {
-				if (gui.geoActive) {
-					gui.geoLocation.setAttribute('class', 'geoLocationOn');
-					gui.geoLocation.title = GeoTemConfig.getString(GeoTemConfig.language, 'deactivateGeoLocation');
-				} else {
-					gui.geoLocation.setAttribute('class', 'geoLocationOff');
-					gui.geoLocation.title = GeoTemConfig.getString(GeoTemConfig.language, 'activateGeoLocation');
-				}
+				gui.resize();
 			}
-			if (!gui.geoActive) {
-				if ( typeof gui.longitude == 'undefined') {
-					navigator.geolocation.getCurrentPosition(function(position) {
-						gui.longitude = position.coords.longitude;
-						gui.latitude = position.coords.latitude;
+			var fullscreenMapControl = new MapControl(this.map, fullscreenButton, 'fullscreen', activateFullscreen, deactivateFullscreen);
+			this.fullscreenIcon.appendChild(fullscreenMapControl.button);
+			tools.appendChild(this.fullscreenIcon);
+		}
+
+		/*
+		 *	At first: only reload map container
+		 *  2022-04-08 reload page - language fix - filter clear
+		 */
+		if (exhibition || forEmbeddedUse)
+			{
+			this.reloadTitle = document.createElement("td");
+			titles.appendChild(this.reloadTitle);
+			this.reloadTitle.innerHTML = '&nbsp;';
+			this.reloadIcon = document.createElement("td");
+			this.reloadIcon.style.width = '37px';
+			this.reloadDiv =  document.createElement("div");
+			this.reloadDiv.title = GeoTemConfig.getString('reload');
+			$(this.reloadDiv).addClass('fasBtn fasBtnLast')
+			//this.reloadDiv.style.width = '25px';
+			this.reloadDiv.innerHTML = '<a href="javascript:location.reload()"><span class="fasButton">' +
+				'<i class="fas fa-redo fa-fw" aria-hidden="true""></i>' +
+				'</span></a>';
+			this.reloadIcon.appendChild(this.reloadDiv);
+			tools.appendChild(this.reloadIcon);
+
+		}
+
+		if (navigator.geolocation && options.geoLocation && !(exhibition || forEmbeddedUse)) {
+			this.geoActive = false;
+			this.geoLocation = document.createElement("div");
+			this.geoLocation.setAttribute('class', 'geoLocationOff');
+			this.geoLocation.title = GeoTemConfig.getString('activateGeoLocation');
+			this.container.appendChild(this.geoLocation);
+			this.geoLocation.style.left = "20px";
+			this.geoLocation.onclick = function() {
+				var changeStyle = function() {
+					if (gui.geoActive) {
+						gui.geoLocation.setAttribute('class', 'geoLocationOn');
+						gui.geoLocation.title = GeoTemConfig.getString('deactivateGeoLocation');
+					} else {
+						gui.geoLocation.setAttribute('class', 'geoLocationOff');
+						gui.geoLocation.title = GeoTemConfig.getString('activateGeoLocation');
+					}
+				}
+				if (!gui.geoActive) {
+					if ( typeof gui.longitude == 'undefined') {
+						navigator.geolocation.getCurrentPosition(function(position) {
+							gui.longitude = position.coords.longitude;
+							gui.latitude = position.coords.latitude;
+							gui.map.setMarker(gui.longitude, gui.latitude);
+							gui.geoActive = true;
+							changeStyle();
+						}, function(msg) {
+							console.log( typeof msg == 'string' ? msg : "error");
+						});
+					} else {
 						gui.map.setMarker(gui.longitude, gui.latitude);
 						gui.geoActive = true;
 						changeStyle();
-					}, function(msg) {
-						console.log( typeof msg == 'string' ? msg : "error");
-					});
+					}
 				} else {
-					gui.map.setMarker(gui.longitude, gui.latitude);
-					gui.geoActive = true;
+					gui.map.removeMarker();
+					gui.geoActive = false;
 					changeStyle();
 				}
-			} else {
-				gui.map.removeMarker();
-				gui.geoActive = false;
-				changeStyle();
 			}
 		}
-	}
 
-	if (!options.olNavigation) {
-		this.map.zoomSlider = new MapZoomSlider(this.map, "vertical");
-		this.container.appendChild(this.map.zoomSlider.div);
-		this.map.zoomSlider.div.style.left = "20px";
-	}
-
-	if (options.resetMap) {
-		this.homeButton = document.createElement("div");
-		this.homeButton.setAttribute('class', 'mapHome');
-		this.homeButton.title = GeoTemConfig.getString('home');
-		this.container.appendChild(this.homeButton);
-		this.homeButton.style.left = "20px";
-		this.homeButton.onclick = function() {
-			if (map.mds.getAllObjects() == null){
-				map.openlayersMap.setCenter(new OpenLayers.LonLat(0, 0));
-				map.openlayersMap.zoomTo(0);
-			}
-			gui.map.drawObjectLayer(true);
+		if (!options.olNavigation) {
+			this.map.zoomSlider = new MapZoomSlider(this.map, "vertical");
+			this.container.appendChild(this.map.zoomSlider.div);
+			this.map.zoomSlider.div.style.left = "20px";
 		}
-	}
 
-	if (options.legend) {
-		this.legendDiv = document.createElement("div");
-		this.legendDiv.setAttribute('class', 'mapLegend');
-		this.mapWindow.appendChild(this.legendDiv);
-	}
+		if (options.resetMap) {
+			this.homeButton = document.createElement("div");
+			this.homeButton.setAttribute('class', 'mapHome');
+			this.homeButton.title = GeoTemConfig.getString('home');
+			this.container.appendChild(this.homeButton);
+			this.homeButton.style.left = "20px";
+			this.homeButton.onclick = function() {
+				if (map.mds.getAllObjects() == null){
+					map.openlayersMap.setCenter(new OpenLayers.LonLat(0, 0));
+					map.openlayersMap.zoomTo(0);
+				}
+				gui.map.drawObjectLayer(true);
+			}
+		}
 
-	this.osmLink = document.createElement("div");
-	this.osmLink.setAttribute('class', 'osmLink');
-	this.mapWindow.appendChild(this.osmLink);
+		if (options.legend) {
+			this.legendDiv = document.createElement("div");
+			this.legendDiv.setAttribute('class', 'mapLegend');
+			this.mapWindow.appendChild(this.legendDiv);
+		}
 
-    this.osmMapQuestLink = document.createElement("div");
-	this.osmMapQuestLink.setAttribute('class', 'osmLink');
-	this.mapWindow.appendChild(this.osmMapQuestLink);
+		this.osmLink = document.createElement("div");
+		this.osmLink.setAttribute('class', 'osmLink');
+		this.mapWindow.appendChild(this.osmLink);
+
+		this.osmMapQuestLink = document.createElement("div");
+		this.osmMapQuestLink.setAttribute('class', 'osmLink');
+		this.mapWindow.appendChild(this.osmMapQuestLink);
 
 	//		var tooltip = document.createElement("div");
 	//		tooltip.setAttribute('class','ddbTooltip');
@@ -378,6 +438,38 @@ function MapGui(map, div, options, iid) {
 			var basemap = this.map.baseLayers[i];
 			var name = basemap.name;
 			if (basemap.title) name = basemap.title;
+
+			// For use case "exhibition" - display without browser controls - Popup window
+			var mapCopyright = basemap.attribution;
+			if (mapCopyright != null) {
+				var copyDummy = document.createElement('span');
+				copyDummy.innerHTML = mapCopyright;
+				// all link elements
+				var targetEles = copyDummy.getElementsByTagName('a');
+				var anzEles = targetEles.length;
+				for (var j = 0; j < anzEles; j++) {
+					if (!exhibition) {
+						targetEles[j].target = '_blank';
+					} else {
+						var strHref = targetEles[j].href;
+						// reproduce a-href -> span-onclick
+						var att = document.createAttribute("onclick");
+						att.value = "window.open('" + strHref + "', 'licenseDisplay', 'width=800,height=600'); return false";
+						targetEles[j].setAttributeNode(att);
+						targetEles[j].removeAttribute('href');
+						// show as link
+						att = document.createAttribute("class");
+						att.value = "mapLizenz";
+						targetEles[j].setAttributeNode(att);
+					}
+					var strHtml = copyDummy.innerHTML;
+					// change element a to span
+					strHtml = strHtml.replaceAll("<a", "<span");
+					strHtml = strHtml.replaceAll("</a", "</span");
+					basemap.attribution = strHtml;
+				}
+			}
+
 			addMap(name, i);
 		}
 		this.mapTypeDropdown = new Dropdown(this.mapTypeSelector, maps, GeoTemConfig.getString('selectMapType'));

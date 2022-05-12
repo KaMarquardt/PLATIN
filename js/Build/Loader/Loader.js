@@ -310,6 +310,14 @@ GeoTemCoLoader = {
 			url : GeoTemCoLoader.urlPrefix + 'js/Storytelling/' + 'StorytellingWidget.js',
 		}, {
 			url : GeoTemCoLoader.urlPrefix + 'js/Storytelling/' + 'Storytelling.js',
+		}, {
+			url : GeoTemCoLoader.urlPrefix + 'js/Datafilter/' + 'DatafilterConfig.js',
+		}, {
+			url : GeoTemCoLoader.urlPrefix + 'js/Datafilter/' + 'DatafilterGui.js',
+		}, {
+			url : GeoTemCoLoader.urlPrefix + 'js/Datafilter/' + 'DatafilterWidget.js',
+		}, {
+			url : GeoTemCoLoader.urlPrefix + 'js/Datafilter/' + 'Datafilter.js',
 		}];
 		(new DynaJsLoader()).loadScripts(geoTemCoFiles, GeoTemCoLoader.initGeoTemCo);
 

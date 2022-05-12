@@ -36,7 +36,24 @@ function MapControl(map, button, label, onActivate, onDeactivate) {
 	this.label = label;
 
 	if (this.button != null) {
-		$(this.button).addClass(label + 'Deactivated');
+		if (!forEmbeddedUse)
+		{
+			$(this.button).addClass(label + 'Deactivated');
+		}
+		else
+		{
+			$(this.button).addClass(label); // for debugging only
+			//this.button.style.width = '25px';
+			if (this.label == 'lock')
+			{
+				this.button.innerHTML = '<span class="fasButton"><i class="fas fa-lock-open fa-fw" aria-hidden="true"></i></span>';
+			}
+			if (this.label == 'fullscreen')
+			{
+				this.button.innerHTML = '<span class="fasButton"><i class="fas fa-expand-arrows-alt fa-fw" aria-hidden="true"></i></span>';
+			}
+		}
+
 		$(this.button).attr("title", GeoTemConfig.getString(GeoTemConfig.language, label));
 		//vhz
 		$(this.button).click(function() {
@@ -80,14 +97,45 @@ function MapControl(map, button, label, onActivate, onDeactivate) {
 	this.activate = function() {
 		onActivate();
 		this.activated = true;
-		this.setButtonClass('Deactivated', 'Activated');
+		//this.setButtonClass('Deactivated', 'Activated');
+
+		if (forEmbeddedUse)
+		{
+			if (this.label == 'lock')
+			{
+				this.button.innerHTML = '<span class="fasButton"><i class="fas fa-lock fa-fw" aria-hidden="true"></i></span>';
+			}
+			if (this.label == 'fullscreen')
+			{
+				this.button.innerHTML = '<span class="fasButton"><i class="fas fa-compress-arrows-alt fa-fw" aria-hidden="true"></i></span>';
+			}
+		}
+		else
+		{
+			this.setButtonClass('Deactivated', 'Activated');
+		}
+
+
 		map.activeControl = this;
 	};
 
 	this.deactivate = function() {
 		onDeactivate();
 		this.activated = false;
-		this.setButtonClass('Activated', 'Deactivated');
+		if (forEmbeddedUse)
+		{
+			if (this.label == 'lock')
+			{
+				this.button.innerHTML = '<span class="fasButton"><i class="fas fa-lock-open fa-fw" aria-hidden="true"></i></span>';
+			}
+			if (this.label == 'fullscreen')
+			{
+				this.button.innerHTML = '<span class="fasButton"><i class="fas fa-expand-arrows-alt fa-fw" aria-hidden="true"></i></span>';
+			}
+		}
+		else {
+			this.setButtonClass('Activated', 'Deactivated');
+		}
 		map.activeControl = undefined;
 	};
 

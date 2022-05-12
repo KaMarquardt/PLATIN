@@ -37,7 +37,7 @@ function TableConfig(options) {
 		tableSorting : true, // true, if sorting of columns should be possible
 		tableContentOffset : 250, // maximum display number of characters in a table cell
 		tableSelectPage : true, // selection of complete table pages
-		tableSelectAll : false, // selection of complete tables
+		tableSelectAll : true, // selection of complete tables
 		tableShowSelected : true, // show selected objects only option
 		tableKeepShowSelected : true, // don't revert to show all on "reset" (e.g. selection)
 		tableInvertSelection : true, // show invert selection option
@@ -45,9 +45,11 @@ function TableConfig(options) {
 		tableCreateNewFromSelected : true, // create new dataset from selected objects
 		unselectedCellColor : '#EEE', // color for an unselected row/tab
 		verticalAlign : 'top', // vertical alignment of the table cells ('top','center','bottom')
+
 	};
 	if ( typeof options != 'undefined') {
 		$.extend(this.options, options);
 	}
+
 
 };

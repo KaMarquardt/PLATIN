@@ -35,16 +35,16 @@ MapWidget = function(core, div, options) {
 
 	this.core = core;
 	this.core.setWidget(this);
-	this.openlayersMap
-	this.baseLayers
-	this.objectLayer
+	this.openlayersMap;
+	this.baseLayers;
+	this.objectLayer;
 
-	this.drawPolygon
-	this.drawCircle
-	this.selectCountry
-	this.dragArea
-	this.selectFeature
-	this.navigation
+	this.drawPolygon;
+	this.drawCircle;
+	this.selectCountry;
+	this.dragArea;
+	this.selectFeature;
+	this.navigation;
 
 	this.div = div;
 
@@ -421,13 +421,38 @@ MapWidget.prototype = {
 			this.modifyArea.mode = OpenLayers.Control.ModifyFeature.RESHAPE;
 
 		}
+		if (exhibition){
+		//	console.log('ich kenne mich');
+		}
+
+		/*
+			It's necessary to built PlacenameTags before instance map popups for circles
+			Normaly it was init on hoverSelect.
+			On touchscreen, there isn't possible to get this event.
+			Build process has used at 2 access points - hoverSelect + onFeatureSelect
+		 */
+		var builtPlacenameTag = function( event) {
+
+			var circle = event.feature.parent;
+			if (!(circle instanceof CircleObject)) {
+				return;
+			}
+			if ( typeof map.placenameTags != 'undefined') {
+				map.placenameTags.remove();
+			}
+
+			circle.placenameTags = new PlacenameTags(circle, map);
+			map.placenameTags = circle.placenameTags;
+			circle.placenameTags.calculate();
+
+		};
 
 		// calculates the tag cloud
 		// manages hover selection of point objects
 		var hoverSelect = function(event) {
 			var object = event.feature;
 			if (object.geometry instanceof OpenLayers.Geometry.Point) {
-				if ( typeof map.placenameTags != 'undefined') {
+/*				if ( typeof map.placenameTags != 'undefined') {
 					map.placenameTags.remove();
 				}
 				var circle = event.feature.parent;
@@ -436,14 +461,17 @@ MapWidget.prototype = {
 					map.placenameTags = circle.placenameTags;
 				} else {
 					return;
-					/*
-					 event.feature.style.fillOpacity = 0.2;
-					 event.feature.style.strokeOpacity = 1;
-					 map.objectLayer.drawFeature(event.feature);
-					 circle.placenameTags = new PackPlacenameTags(circle,map);
-					 */
+
+					 // event.feature.style.fillOpacity = 0.2;
+					 // event.feature.style.strokeOpacity = 1;
+					 // map.objectLayer.drawFeature(event.feature);
+					 // circle.placenameTags = new PackPlacenameTags(circle,map);
+
 				}
-				circle.placenameTags.calculate();
+				circle.placenameTags.calculate();*/
+
+				// substitute built process on top
+				builtPlacenameTag(event);
 				map.mapCircleHighlight(object.parent, false);
 				if ( typeof map.featureInfo != 'undefined') {
 					map.featureInfo.deactivate();
@@ -499,6 +527,11 @@ MapWidget.prototype = {
 		var onFeatureSelect = function(event, evt) {
 			if (!(event.feature.geometry instanceof OpenLayers.Geometry.Point)) {
 				return;
+			}
+
+			if (isTouch)
+			{
+				builtPlacenameTag(event);
 			}
 			var circle = event.feature.parent;
 			if (map.options.multiSelection && map.ctrlKey) {
@@ -666,6 +699,7 @@ MapWidget.prototype = {
 			this.baseLayers.push(hybrid);
 			this.baseLayers.push(aerial);
 		}
+
 		if (this.options.osmMaps) {
 			this.baseLayers.push(new OpenLayers.Layer.OSM('OpenStreetMap', '', {
 				sphericalMercator : true,
@@ -694,6 +728,7 @@ MapWidget.prototype = {
 				this.options.alternativeMap = [this.options.alternativeMap];
 			this.addBaseLayers(this.options.alternativeMap);
 		}
+
 		this.setBaseLayerByName(this.options.baseLayer);
 	},
 
@@ -885,7 +920,7 @@ MapWidget.prototype = {
 	initWidget : function(datasets, zoom) {
 
 		this.clearMap();
-
+		this.gui.resize();
 		this.datasets = datasets;
 		var mapObjects = [];
 		for (var i = 0; i < datasets.length; i++) {
@@ -1380,6 +1415,7 @@ MapWidget.prototype = {
 
 	setMap : function(index) {
 		this.baselayerIndex = index;
+		var loupeOn = false;
 		if (this.selectCountry) {
 			//			if( this.wmsOverlays.length == 0 ){
 			this.deactivateCountrySelector();
@@ -1388,12 +1424,18 @@ MapWidget.prototype = {
 		if (this.baseLayers[index] instanceof OpenLayers.Layer.WMS) {
 			//			if( this.wmsOverlays.length == 0 ){
 			this.activateCountrySelector(this.baseLayers[index]);
+			if (this.baseLayers[index].name.indexOf('Histori') > -1)
+			{
+				loupeOn = true;
+			}
 			//			}
 		} else {
 			if (this.countrySelectionControl) {
 				this.countrySelectionControl.disable();
 			}
 		}
+		this.loupeControl( loupeOn);
+
 		this.openlayersMap.zoomTo(Math.floor(this.getZoom()));
 		this.openlayersMap.setBaseLayer(this.baseLayers[index]);
 		if (this.baseLayers[index].name == 'OpenStreetMap') {
@@ -1567,6 +1609,24 @@ MapWidget.prototype = {
 			return 2;
 		} else {
 			return 3;
+		}
+	},
+
+	loupeControl : function ( loupeOn) {
+		if (forEmbeddedUse)
+		{
+			var filterEle = document.getElementsByClassName('mapFilterBar');
+			var anzEle = filterEle.length;
+			for (var i = 0; i < anzEle; i++)
+			{
+				filterEle[i].hidden = !loupeOn;
+			}
+			filterEle = document.getElementsByClassName('mapShapeSelection');
+			anzEle = filterEle.length;
+			for (var i = 0; i < anzEle; i++)
+			{
+				filterEle[i].hidden = !loupeOn;
+			}
 		}
 	}
 }

@@ -28,7 +28,6 @@
  * @version date: 2012-07-27
  */
 
-// credits: user76888, The Digital Gabeg (http://stackoverflow.com/questions/1539367)
 $.fn.cleanWhitespace = function() {
 	textNodes = this.contents().filter(	function() {
 		return (this.nodeType == 3 && !/\S/.test(this.nodeValue));
@@ -52,19 +51,23 @@ GeoTemConfig = {
 	incompleteData : true, // show/hide data with either temporal or spatial metadata
 	inverseFilter : true, // if inverse filtering is offered
 	mouseWheelZoom : true, // enable/disable zoom with mouse wheel on map & timeplot
-	language : 'en', // default language of GeoTemCo
+//	language : 'en', // default language of GeoTemCo
+	language : 'de', // default language of GeoTemCo
 	allowFilter : true, // if filtering should be allowed
 	highlightEvents : true, // if updates after highlight events
 	selectionEvents : true, // if updates after selection events
 	tableExportDataset : true, // export dataset to KML
 	allowCustomColoring : false, // if DataObjects can have an own color (useful for weighted coloring)
+
+	//Attention: Please set allowUserShapeAndColorChange to false if forEmbeddedUse == true
 	allowUserShapeAndColorChange: false, // if the user can change the shapes and color of datasets
 										 // this turns MapConfig.useGraphics auto-on, but uses circles as
                                          // default
+
 	loadColorFromDataset : false, // if DataObject color should be loaded automatically (from column "color")
 	allowColumnRenaming : true,
-	proxy : '/php/proxy.php?address=', // set this if a HTTP proxy shall be used (e.g. to bypass
-                                       // X-Domain problems)
+	proxy : pathOriginal + 'PLATIN/php/proxy.php?address=', // set this if a HTTP proxy shall be used (e.g. to bypass
+			// X-Domain problems)
     dariahOwnStorageURL : dariahOwnStorageURL, // URL of DARIAH-DE OwnStorage
     datasheetEditorURL : datasheetEditorURL, // URL of the Datasheet Editor
     dariahOwnStorageBearerPrefix : 'bearer ',
@@ -212,6 +215,38 @@ GeoTemConfig = {
 		b0 : 244
 	}]
 
+}
+
+/*
+	Language switcher - texts load from PLATIN/js/Util/Tooltips.js
+	actual: de - deutsch/german, en - englisch/english, 112  items
+ */
+var actualUrl = window.location.href;
+if (actualUrl.indexOf('?') > 0)
+{
+	var feld1 = actualUrl.split('?');
+	var feld2 = feld1[1].split('=');
+	GeoTemConfig.language = feld2[1].toLowerCase();
+}
+
+
+if (exhibition){
+	GeoTemConfig.mouseWheelZoom = false;
+	GeoTemConfig.allowFilter = false;
+}
+if (forEmbeddedUse)
+{
+	//GeoTemConfig.allowFilter = false;
+}
+
+/* swap data between Datafilter and PlacenameTags */
+GeoTemConfig.mappingList = [];
+/* swap data between Datafilter and Table */
+var mappingLength = columnsToMap.length;
+GeoTemConfig.mappingForTable = new Array();
+for (var i = 0; i < mappingLength; i++)
+{
+	GeoTemConfig.mappingForTable[columnsToMap[i]] = new Array();
 }
 
 GeoTemConfig.ie = false;
@@ -520,6 +555,13 @@ GeoTemConfig.convertCsv = function(text){
 	/* get real used table headers from csv file (first line) */
 	var usedHeaders = csvArray[0];
 
+	/* placeholder for configurated table / columns */
+	var confHeaders = [];
+	if (typeof favoredHeaders !== 'undefined')
+	{
+		confHeaders = favoredHeaders;
+	}
+
 //    console.log("usedHeaders  -->  ", usedHeaders);
 
 	/* loop outer array, begin with second line */
@@ -527,6 +569,10 @@ GeoTemConfig.convertCsv = function(text){
 		var innerArray = csvArray[i];
 		var dataObject = new Object();
 		var tableContent = new Object();
+
+		/* for special use cases - TableConfig.js */
+		var shortTableContent = new Object();
+
 		/* exclude lines with no content */
 		var hasContent = false;
 		for (var j = 0; j < innerArray.length; j++) {
@@ -590,9 +636,24 @@ GeoTemConfig.convertCsv = function(text){
 				header = $.trim(header);
 				tableContent[header] = ""+innerArray[j];
 			}
-		}
 
+			if ( favoredHeaders.includes(usedHeaders[j]))
+			{
+				header = usedHeaders[j];
+				if (header == 'Address')
+				{
+					header = 'place';
+				}
+				if (header == 'Name')
+				{
+					header = 'name';
+				}
+				shortTableContent[header] = ""+innerArray[j];
+			}
+		}
+		dataObject["shortTableContent"] = shortTableContent;
 		dataObject["tableContent"] = tableContent;
+		//console.log(dataObject["shortTableContent"]);
 		json.push(dataObject);
 	}
 
@@ -831,6 +892,8 @@ GeoTemConfig.loadJson = function(JSON) {
 			var name = item.name || "";
 			var description = item.description || "";
 			var tableContent = item.tableContent || [];
+			// for special use cases
+			var shortTableContent = item.shortTableContent || [];
 			var locations = [];
 			if (item.location instanceof Array) {
 				for (var j = 0; j < item.location.length; j++) {
@@ -883,12 +946,16 @@ GeoTemConfig.loadJson = function(JSON) {
 			var specialAttributes = ["id", "name", "description", "lon", "lat", "place", "time",
 			                        "tableContent", "location", "time"];
 			for (var attribute in item){
-				if ($.inArray(attribute, specialAttributes) == -1){
+				if ($.inArray(attribute, specialAttributes) == -1 && attribute !== 'shortTableContent'){
 					tableContent[attribute] = item[attribute];
 				}
 			}
 
-			var mapTimeObject = new DataObject(name, description, locations, dates, weight, tableContent);
+			if (shortTableContent.length == 0)
+			{
+				shortTableContent = null;
+			}
+			var mapTimeObject = new DataObject(name, description, locations, dates, weight, tableContent, null, shortTableContent);
 			mapTimeObject.setIndex(index);
 			mapTimeObjects.push(mapTimeObject);
 		} catch(e) {

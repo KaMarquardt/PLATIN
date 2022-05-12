@@ -32,12 +32,12 @@ function PlacenameTags(circle, map) {
 	this.circle = circle;
 	this.map = map;
 
-    this.placeLabels
-	this.selectedLabel
+    this.placeLabels;
+	this.selectedLabel;
 
-	this.allLabel
-	this.othersLabel
-	this.unknownLabel
+	this.allLabel;
+	this.othersLabel;
+	this.unknownLabel;
 
 	this.calculate = function() {
 		this.calculateLabels();
@@ -49,6 +49,7 @@ function PlacenameTags(circle, map) {
 		var k = this.circle.search;
 		var weight = 0;
 		var labels = [];
+		var fieldName = '';
 
 		var levelOfDetail = 0;
 		if (this.map.options.placenameTagsStyle === 'zoom') {
@@ -82,17 +83,31 @@ function PlacenameTags(circle, map) {
 			}
 		}
 
+		if (typeof pntFieldName !== 'undefined' && pntFieldName.length > 0)
+		{
+			fieldName = pntFieldName;
+		}
+		else
+		{
+			fieldName = 'name';
+		}
+
 		for (var i = 0; i < elements.length; i++) {
 			weight += elements[i].weight;
 			var found = false;
 
-            // First take "name" as label...
-            var label = elements[i].name;
-            // ...if "name" is empty, try place...
-            if (label == "") {
-                label = elements[i].getPlace(this.map.options.mapIndex, levelOfDetail);
-            }
-            // In the end, set to unknown.
+			// First take "name" as label...
+			var label = elements[i].tableContent[fieldName];
+
+			// ...if fieldname is empty
+			if (label == "" && fieldName != 'name') {
+				label = elements[i].name;
+			}
+			// ...if "name" is empty, try place...
+			if (label == "") {
+				label = elements[i].getPlace(this.map.options.mapIndex, levelOfDetail);
+			}
+			// In the end, set to unknown.
 			if (label == "") {
 				label = "unknown";
 			}
@@ -115,6 +130,7 @@ function PlacenameTags(circle, map) {
 				});
 			}
 		}
+
 		var sortBySize = function(label1, label2) {
 			if (label1.weight > label2.weight) {
 				return -1;
@@ -122,6 +138,18 @@ function PlacenameTags(circle, map) {
 			return 1;
 		}
 		labels.sort(sortBySize);
+
+		if ( typeof mappingNessecary !== 'undefined' && mappingNessecary)
+		{
+			var anzLabel = labels.length;
+			for (var a = 0; a < anzLabel; a++)
+			{
+				var testValue = labels[a].id;
+				var testOrt = labels[a].place;
+				labels[a].place = GeoTemConfig.mappingList[testOrt];
+			}
+		}
+
 		if (map.options.maxPlaceLabels) {
 			var ml = map.options.maxPlaceLabels;
 			if (ml == 1) {
@@ -283,17 +311,25 @@ function PlacenameTags(circle, map) {
 
 };
 
-function PackPlacenameTags(circle, map) {
+/*
+*		This class is never used in whole project
+ */
+
+/*
+ function PackPlacenameTags(circle, map) {
 
 	this.circle = circle;
 	this.map = map;
 
-	this.placeLabels
-	this.selectedLabel
+	this.placeLabels;
+	this.selectedLabel;
 
-	this.allLabel
-	this.othersLabel
-	this.unknownLabel
+	this.allLabel;
+	this.othersLabel;
+	this.unknownLabel;
+
+	console.log('label 2 - oben');
+	console.log(this);
 
 	this.calculate = function() {
 		this.calculateLabels();
@@ -667,4 +703,4 @@ function PackPlacenameTags(circle, map) {
 		$(this.centerDivOl).remove();
 	};
 
-};
+};*/

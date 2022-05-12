@@ -44,6 +44,10 @@ function TableGui(table, div, options) {
 
 	this.tabs = document.createElement('div');
 	this.tabs.setAttribute('class', 'tableTabs');
+	if (forEmbeddedUse && !GeoTemConfig.allowUserShapeAndColorChange)
+	{
+		this.tabs.style.height = '30px';
+	}
 	div.appendChild(this.tabs);
 
 	this.input = document.createElement('div');

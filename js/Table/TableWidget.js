@@ -42,6 +42,7 @@ TableWidget = function(core, div, options) {
 
 	this.options = (new TableConfig(options)).options;
 	this.gui = new TableGui(this, div, this.options);
+	this.gui.tableContainer.style.marginTop = '15px';
 	this.filterBar = new FilterBar(this);
 
 }
@@ -72,6 +73,8 @@ TableWidget.prototype = {
 			tableTab.setAttribute('class', 'tableTab');
 			var c = GeoTemConfig.getColor(index);
 			tableTab.style.backgroundColor = 'rgb(' + c.r0 + ',' + c.g0 + ',' + c.b0 + ')';
+			tableTab.style.padding = '5px 10px';
+
 			tableTab.onclick = function() {
 				tableWidget.selectTable(index);
 			}
@@ -90,52 +93,98 @@ TableWidget.prototype = {
                 }
 
 				tableLinkDiv.target = '_';
-				tableLinkDiv.setAttribute('class', 'externalLink');
+				//tableLinkDiv.setAttribute('class', 'externalLink');
+				tableLinkDiv.innerHTML = '<span class="refineTab"><i class="fas fa-download fa-fw" aria-hidden="true"></i></span>';
+
 				$(tableNameDiv).append(tableLinkDiv);
+			}
+
+			// export selected / filtered dataset
+			if (dataset.label.indexOf('refined') != -1)
+			{
+				// tableContent of selected items to array
+				var dsExport = [];
+				var dsZahl = dataset.objects.length;
+				for ( var i = 0; i < dsZahl; i++)
+				{
+					dsExport.push(dataset.objects[i].tableContent);
+				}
+
+				// create and fill array for csv with columns names at first row
+				var csvArray = [];
+				csvArray.push(Object.keys(dsExport[0]));
+
+				for (var i = 0; i < dsZahl; i++)
+				{
+					csvArray.push(Object.values(dsExport[i]));
+				}
+				// make plain csv from array
+				const strCSV = csvArray.join('\n').replaceAll('null', '');
+
+				// name for export file
+				var exName = dataset.label.replaceAll(' ', '_').replaceAll('.', '_') + '.csv';
+
+				// export without saved file - "link on the fly"
+				var csvMemory = encodeURI(strCSV);
+				var tableLinkDiv = document.createElement('a');
+				tableLinkDiv.title = 'Open/download dataset ' + dataset.label + ' on the fly';
+				tableLinkDiv.href = 'data:text/csv;charset=utf-8,' + csvMemory;
+				tableLinkDiv.download = exName;
+				tableLinkDiv.target = '_';
+				tableLinkDiv.innerHTML = '<span class="refineTab"><i class="fas fa-download fa-fw" aria-hidden="true"></i></span>';
+
+				$(tableNameDiv).append(tableLinkDiv);
+
 			}
 			$(tableTabTableRow).append($(document.createElement('td')).append(tableNameDiv));
 
-			var removeTabDiv = document.createElement('div');
-			removeTabDiv.setAttribute('class', 'smallButton removeDataset');
-			removeTabDiv.title = GeoTemConfig.getString('removeDatasetHelp');
-			removeTabDiv.onclick = $.proxy(function(e) {
-				GeoTemConfig.removeDataset(index);
-				//don't let the event propagate to the DIV above
-				e.stopPropagation();
-				//discard link click
-				return(false);
-			},{index:index});
-			$(tableTabTableRow).append($(document.createElement('td')).append(removeTabDiv));
-
-			if (GeoTemConfig.tableExportDataset){
-				var exportTabDiv = document.createElement('div');
-				exportTabDiv.setAttribute('class', 'smallButton exportDataset');
-				exportTabDiv.title = GeoTemConfig.getString('exportDatasetHelp');
-				var exportTabForm = document.createElement('form');
-				//TODO: make this configurable
-				exportTabForm.action = 'php/download.php';
-				exportTabForm.method = 'post';
-				var exportTabHiddenValue = document.createElement('input');
-				exportTabHiddenValue.name = 'file';
-				exportTabHiddenValue.type = 'hidden';
-				exportTabForm.appendChild(exportTabHiddenValue);
-                // Add filename for exported KML file, use dataset table name.
-                var filenameHiddenValue = document.createElement('input');
-                filenameHiddenValue.name = "filename";
-                // Do replace any special chars, allow "-"!
-                filenameHiddenValue.value = name.replaceAll(/[^\w|^-]/g, '_');
-                filenameHiddenValue.type = 'hidden';
-                exportTabForm.appendChild(filenameHiddenValue);
-				exportTabDiv.onclick = $.proxy(function(e) {
-					$(exportTabHiddenValue).val(GeoTemConfig.createKMLfromDataset(index));
-					$(exportTabForm).submit();
-					//don't let the event propagate to the DIV
+			if (!forEmbeddedUse || (dataset.label.indexOf('refined') != -1) ) {
+				var removeTabDiv = document.createElement('div');
+				//removeTabDiv.setAttribute('class', 'smallButton removeDataset');
+				removeTabDiv.innerHTML = '<span style="color: #333333; padding: 5px; position: relative;">' +
+					'<i class="fas fa-times fa-fw" aria-hidden="true"></i></span>';
+				removeTabDiv.title = GeoTemConfig.getString('removeDatasetHelp');
+				removeTabDiv.onclick = $.proxy(function (e) {
+					GeoTemConfig.removeDataset(index);
+					//don't let the event propagate to the DIV above
 					e.stopPropagation();
 					//discard link click
-					return(false);
-				},{index:index});
-				exportTabDiv.appendChild(exportTabForm);
-				$(tableTabTableRow).append($(document.createElement('td')).append(exportTabDiv));
+					return (false);
+				}, {index: index});
+				$(tableTabTableRow).append($(document.createElement('td')).append(removeTabDiv));
+			}
+
+			if (!forEmbeddedUse) {
+				if (GeoTemConfig.tableExportDataset) {
+					var exportTabDiv = document.createElement('div');
+					exportTabDiv.setAttribute('class', 'smallButton exportDataset');
+					exportTabDiv.title = GeoTemConfig.getString('exportDatasetHelp');
+					var exportTabForm = document.createElement('form');
+					//TODO: make this configurable
+					exportTabForm.action = 'php/download.php';
+					exportTabForm.method = 'post';
+					var exportTabHiddenValue = document.createElement('input');
+					exportTabHiddenValue.name = 'file';
+					exportTabHiddenValue.type = 'hidden';
+					exportTabForm.appendChild(exportTabHiddenValue);
+					// Add filename for exported KML file, use dataset table name.
+					var filenameHiddenValue = document.createElement('input');
+					filenameHiddenValue.name = "filename";
+					// Do replace any special chars, allow "-"!
+					filenameHiddenValue.value = name.replaceAll(/[^\w|^-]/g, '_');
+					filenameHiddenValue.type = 'hidden';
+					exportTabForm.appendChild(filenameHiddenValue);
+					exportTabDiv.onclick = $.proxy(function (e) {
+						$(exportTabHiddenValue).val(GeoTemConfig.createKMLfromDataset(index));
+						$(exportTabForm).submit();
+						//don't let the event propagate to the DIV
+						e.stopPropagation();
+						//discard link click
+						return (false);
+					}, {index: index});
+					exportTabDiv.appendChild(exportTabForm);
+					$(tableTabTableRow).append($(document.createElement('td')).append(exportTabDiv));
+				}
 			}
 
 			if (GeoTemConfig.allowUserShapeAndColorChange){
@@ -281,6 +330,7 @@ TableWidget.prototype = {
 				elements.push(new TableElement(data[i].objects[j]));
 				this.tableHash[i][data[i].objects[j].index] = elements[elements.length - 1];
 			}
+
 			var table = new Table(elements, this, i);
 			this.tables.push(table);
 			this.tableElements.push(elements);
@@ -390,6 +440,26 @@ TableWidget.prototype = {
 		if (valid) {
 			this.selection = new Selection(selectedObjects, this);
 		}
+
+		// manage controls
+		if (this.selection.objects[this.activeTable].length > 0)
+		{
+			$(this.tables[this.activeTable].showSelected.firstElementChild).removeClass('ctrlInactive').addClass('ctrlActive');
+			$(this.tables[this.activeTable].createNewFromSelected.firstElementChild).removeClass('ctrlInactive').addClass('ctrlActive');
+		}
+
+		if (this.selection.objects[this.activeTable].length == 0)
+		{
+			$(this.tables[this.activeTable].showSelected.firstElementChild).removeClass('ctrlActive').addClass('ctrlInactive');
+			$(this.tables[this.activeTable].createNewFromSelected.firstElementChild).removeClass('ctrlActive').addClass('ctrlInactive');
+			this.tables[this.activeTable].selectPage.innerHTML = '<span class="ctrlActive"><i class="far fa-check-square fa-fw" aria-hidden="true"></i></span>';
+		}
+
+		if (this.selection.objects[this.activeTable].length == this.tables[this.activeTable].elements.length)
+		{
+			this.tables[this.activeTable].selectPage.innerHTML = '<span class="ctrlActive"><i class="far fa-square fa-fw" aria-hidden="true"></i></span>';
+		}
+
 		this.core.triggerSelection(this.selection);
 		this.filterBar.reset(true);
 	},
@@ -397,6 +467,10 @@ TableWidget.prototype = {
 	deselection : function() {
 		this.reset();
 		this.selection = new Selection();
+		if (this.selection.objects[this.activeTable].length == 0)
+		{
+			$(this.tables[this.activeTable].showSelected.firstElementChild).removeClass('ctrlActive').addClass('ctrlInactive');
+		}
 		this.core.triggerSelection(this.selection);
 	},
 
