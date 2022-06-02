@@ -42,7 +42,13 @@ function FuzzyTimelineGui(fuzzyTimelineWidget, div, options) {
 	this.sliderTable = document.createElement("table");
 	$(this.sliderTable).addClass("ddbToolbar");
 	$(this.sliderTable).width("100%");
-	$(this.sliderTable).height("49px");
+	if (!forEmbeddedUse)
+	{
+		$(this.sliderTable).height("49px");
+	} else {
+		$(this.sliderTable).height("49px");
+	}
+
 	div.appendChild(this.sliderTable);
 	
 	this.plotDIVHeight = $(this.fuzzyTimelineContainer).height()-$(this.sliderTable).height();

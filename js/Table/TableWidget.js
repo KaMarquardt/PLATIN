@@ -81,7 +81,7 @@ TableWidget.prototype = {
 			var tableNameDiv = document.createElement('div');
 			$(tableNameDiv).append(name);
 
-			if (typeof dataset.url !== "undefined"){
+			if (typeof dataset.url !== "undefined" && dataset.url != ''){
 				var tableLinkDiv = document.createElement('a');
                 tableLinkDiv.title = 'Open/download dataset ' + dataset.label + ' directly from source location [' + dataset.url + ']. Datasets from DARIAH-DE OwnStorage must be public or you need to be owner of the dataset.';
                 // Provide download from DARIAH-DE OwnStorage if stored there AND logged in. Fixes #34656.

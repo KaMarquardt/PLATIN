@@ -62,6 +62,15 @@ WidgetWrapper = function() {
 	});
 
 	Publisher.Subscribe('filterData', this, function(data) {
+
+		var dataLang = data.length;
+		for (var i = 0; i < dataLang; i++)
+		{
+			if (typeof data[i].color === 'undefined')
+			{
+				GeoTemConfig.getColor(i);
+			}
+		}
 		wrapper.display(data);
 	});
 

@@ -334,7 +334,6 @@ GeoTemConfig.assignedColorCount = 0;
 GeoTemConfig.getColor = function(id){
 	if (typeof GeoTemConfig.datasets[id].color === "undefined"){
 		var color;
-
 		while (true){
 			if( GeoTemConfig.colors.length <= GeoTemConfig.assignedColorCount ){
 				color = {
@@ -442,6 +441,13 @@ GeoTemConfig.getString = function(field) {
 		GeoTemConfig.language = 'en';
 	}
 	return Tooltips[GeoTemConfig.language][field];
+}
+
+GeoTemConfig.getSpecialText = function(field) {
+	if ( typeof Tooltips[GeoTemConfig.language] == 'undefined') {
+		GeoTemConfig.language = 'en';
+	}
+	return specialTexts[GeoTemConfig.language][field];
 }
 
 /**

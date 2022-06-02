@@ -831,7 +831,6 @@ MapWidget.prototype = {
 			return;
 		}
 		this.objectLayer.removeAllFeatures();
-
 		if (zoom) {
 			var minLat, maxLat, minLon, maxLon;
 			var pointsHighestZoom = points[points.length - 1];
@@ -872,10 +871,12 @@ MapWidget.prototype = {
 				var p = displayPoints[i][j];
 				var x = p.originX + resolution * p.shiftX;
 				var y = p.originY + resolution * p.shiftY;
-				p.feature.geometry.x = x;
+/*				p.feature.geometry.x = x;
 				p.feature.geometry.y = y;
 				p.olFeature.geometry.x = x;
-				p.olFeature.geometry.y = y;
+				p.olFeature.geometry.y = y;*/
+				p.feature.geometry = new OpenLayers.Geometry.Point(x, y);
+				p.olFeature.geometry = new OpenLayers.Geometry.Point(x, y);
 				p.feature.style.graphicZIndex = this.zIndices[i];
 				p.olFeature.style.graphicZIndex = this.zIndices[i] + 1;
 				this.objectLayer.addFeatures([p.feature]);

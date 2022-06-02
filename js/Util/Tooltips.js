@@ -141,7 +141,6 @@ var Tooltips = {
 		"scaling" : "Scaling",
 		"percentagePlot" : "Percentage (%)",
 		"datedObjects" : "Dated objects",
-		"linguaTitle" : "E. T. A. Hoffmanns works all over the world",
 		"primaryFilter" : "Primary filter",
 		"selectByTextBtn" : "Search",
 		"reload" : "Reload"
@@ -258,7 +257,6 @@ var Tooltips = {
 		"scaling" : "Skalierung",
 		"percentagePlot" : "In Prozent (%)",
 		"datedObjects" : "Datierte Treffer",
-		"linguaTitle" : "E. T. A. Hoffmanns Werke in aller Welt",
 		"primaryFilter" : "Primärer Filter",
 		"selectByTextBtn" : "Suche",
 		"reload" : "Neu laden"

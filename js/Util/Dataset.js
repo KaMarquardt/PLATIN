@@ -38,7 +38,7 @@ Dataset = function(objects, label, url, type) {
 	this.type = type;
 	
 	this.color;
-	
+
 	//if the user can change shapes, every dataset needs a default shape
 	if (GeoTemConfig.allowUserShapeAndColorChange){
 		this.graphic={

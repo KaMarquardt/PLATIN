@@ -240,22 +240,20 @@ Table.prototype = {
 			this.createNewFromSelected.title = GeoTemConfig.getString('createNewFromSelectedHelp');
 			selectors.appendChild(this.createNewFromSelected);
 			this.createNewFromSelected.onclick = function() {
-				if (table.createNewFromSelected.firstElementChild.classList.contains('ctrlInactive'))
-				{
+				if (table.createNewFromSelected.firstElementChild.classList.contains('ctrlInactive')) {
 					return;
 				}
 				var copyID = table.id;
 				var tableWidget = table.parent;
 
 				var newObjects = [];
-				$(table.elements).each(function(){
+				$(table.elements).each(function () {
 					if (this.selected)
 						newObjects.push(this.object);
 				});
 
-				var newDataset = new Dataset();
-				newDataset.label = tableWidget.datasets[copyID].label + " refined";
-				newDataset.objects = newObjects;
+				var newLabel = tableWidget.datasets[copyID].label + " refined";
+				var newDataset = new Dataset(newObjects, newLabel, '', 'csv');
 
 				GeoTemConfig.addDataset(newDataset);
 			};
