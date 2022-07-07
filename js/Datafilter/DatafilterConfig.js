@@ -30,12 +30,16 @@
 function DatafilterConfig() {
 
     this.dataFilterOpt = new Array();
-// structure - formular element name = json section, label text, data files column name
+// structure - formular element name = [0] json section, [1] label text german, [2] data files column name, [3]label text english
     this.dataFilterOpt[0] = new Array( 'fsWerke', 'Werke', 'fshop', 'Works');
     this.dataFilterOpt[1] = new Array( 'isoLang', 'Sprache', 'iso2Sprache', 'Language');
     this.dataFilterOpt[2] = new Array( 'wikiCountry', 'Land', 'isoLand', 'Country');
+    // initial language
     this.labelLang = 'de';
 
+    // choice options - value as junction between listboxes and dataset (column at data file)
+    // label and label_de - display text in german
+    // label_iso - display text in english - Values from international standard were used at this app.
     this.options = {
         fsWerke : [
             {
@@ -63,10 +67,6 @@ function DatafilterConfig() {
                 "label": "Die Abenteuer der Sylvester-Nacht"
             },
             {
-                "value": "AT",
-                "label": "Die ästhetische Teegesellschaft"
-            },
-            {
                 "value": "BB",
                 "label": "Der Baron von B."
             },
@@ -83,10 +83,6 @@ function DatafilterConfig() {
                 "label": "Doge und Dogaresse"
             },
             {
-                "value": "DE",
-                "label": "Der Dey von Elba in Paris"
-            },
-            {
                 "value": "DF",
                 "label": "Datura fastuosa"
             },
@@ -99,28 +95,16 @@ function DatafilterConfig() {
                 "label": "Don Juan"
             },
             {
-                "value": "DK",
-                "label": "Der Dichter und der Komponist"
-            },
-            {
                 "value": "EG",
                 "label": "Der Elementargeist"
             },
             {
-                "value": "ER",
-                "label": "Erscheinungen"
-            },
-            {
-                "value": "ES",
-                "label": "Der Einsiedler Serapion"
-            },
-            {
-                "value": "FS",
-                "label": "Das Fräulein von Scuderi"
-            },
-            {
                 "value": "ET",
                 "label": "Die Elixiere des Teufels"
+            },
+            {
+                "value": "FC",
+                "label": "Fantasiestücke in Callot’s Manier"
             },
             {
                 "value": "FD",
@@ -131,20 +115,16 @@ function DatafilterConfig() {
                 "label": "Das fremde Kind"
             },
             {
-                "value": "FM",
-                "label": "Die Fermate"
-            },
-            {
-                "value": "FC",
-                "label": "Fantasiestücke in Callot’s Manier"
-            },
-            {
                 "value": "FL",
                 "label": "Ein Fragment aus dem Leben dreier Freunde"
             },
             {
-                "value": "GE",
-                "label": "Die Genesung"
+                "value": "FM",
+                "label": "Die Fermate"
+            },
+            {
+                "value": "FS",
+                "label": "Das Fräulein von Scuderi"
             },
             {
                 "value": "GL",
@@ -181,10 +161,6 @@ function DatafilterConfig() {
             {
                 "value": "KS",
                 "label": "Der Kampf der Sänger"
-            },
-            {
-                "value": "KV",
-                "label": "Die Kunstverwandten"
             },
             {
                 "value": "KZ",
@@ -227,20 +203,12 @@ function DatafilterConfig() {
                 "label": "Nachricht von den neuesten Schicksalen des Hundes Berganza"
             },
             {
-                "value": "NE",
-                "label": "Neueste Schicksale eines abenteuerlichen Mannes"
-            },
-            {
                 "value": "NL",
                 "label": "Nachricht aus dem Leben eines bekannten Mannes"
             },
             {
                 "value": "NM",
                 "label": "Nußknacker und Mausekönig"
-            },
-            {
-                "value": "NT",
-                "label": "Naivität"
             },
             {
                 "value": "OH",
@@ -287,10 +255,6 @@ function DatafilterConfig() {
                 "label": "Das steinerne Herz"
             },
             {
-                "value": "SP",
-                "label": "Eine Spukgeschichte"
-            },
-            {
                 "value": "SM",
                 "label": "Der Sandmann"
             },
@@ -321,6 +285,14 @@ function DatafilterConfig() {
             {
                 "value": "ZZ",
                 "label": "Sonstige Werke"
+            },
+            {
+                "value": "SVAut",
+                "label": "Sammlung verschiedener Autoren"
+            },
+            {
+                "value": "no",
+                "label": "Ohne Zuordnung"
             }
         ],
         isoLang :[
@@ -385,11 +357,6 @@ function DatafilterConfig() {
                 "label_iso": "English"
             },
             {
-                "value": "epo",
-                "label_de": "Esperanto",
-                "label_iso": "Esperanto"
-            },
-            {
                 "value": "est",
                 "label_de": "Estnisch",
                 "label_iso": "Estonian"
@@ -408,11 +375,6 @@ function DatafilterConfig() {
                 "value": "fre",
                 "label_de": "Französisch",
                 "label_iso": "French"
-            },
-            {
-                "value": "gem",
-                "label_de": "Germanische Sprachen",
-                "label_iso": "Germanic languages"
             },
             {
                 "value": "ger",
@@ -475,11 +437,6 @@ function DatafilterConfig() {
                 "label_iso": "Korean"
             },
             {
-                "value": "lat",
-                "label_de": "Latein",
-                "label_iso": "Latin"
-            },
-            {
                 "value": "lav",
                 "label_de": "Lettisch",
                 "label_iso": "Latvian"
@@ -493,11 +450,6 @@ function DatafilterConfig() {
                 "value": "mac",
                 "label_de": "Mazedonisch",
                 "label_iso": "Macedonian"
-            },
-            {
-                "value": "mus",
-                "label_de": "Muskogee-Sprachen",
-                "label_iso": "Creek"
             },
             {
                 "value": "nob",
@@ -533,11 +485,6 @@ function DatafilterConfig() {
                 "value": "rus",
                 "label_de": "Russisch",
                 "label_iso": "Russian"
-            },
-            {
-                "value": "sin",
-                "label_de": "Singhalesisch",
-                "label_iso": "Sinhala; Sinhalese"
             },
             {
                 "value": "sla",
@@ -675,11 +622,6 @@ function DatafilterConfig() {
                 "value": "CZE",
                 "label_de": "Tschechien",
                 "label_iso": "Czech Republic"
-            },
-            {
-                "value": "DDR",
-                "label_de": "Deutsche Demokratische Republik (historisch)",
-                "label_iso": "German Democratic Republic (historical)"
             },
             {
                 "value": "DEU",
@@ -847,11 +789,6 @@ function DatafilterConfig() {
                 "label_iso": "Russia"
             },
             {
-                "value": "SGP",
-                "label_de": "Singapur",
-                "label_iso": "Singapore"
-            },
-            {
                 "value": "SRB",
                 "label_de": "Serbien",
                 "label_iso": "Serbia"
@@ -879,7 +816,7 @@ function DatafilterConfig() {
             {
                 "value": "TUR",
                 "label_de": "Türkei",
-                "label_iso": "Turkey"
+                "label_iso": "Türkiye"
             },
             {
                 "value": "TWN",
@@ -890,11 +827,6 @@ function DatafilterConfig() {
                 "value": "UKR",
                 "label_de": "Ukraine",
                 "label_iso": "Ukraine"
-            },
-            {
-                "value": "URY",
-                "label_de": "Uruguay",
-                "label_iso": "Uruguay"
             },
             {
                 "value": "USA",
@@ -913,4 +845,54 @@ function DatafilterConfig() {
             }
         ]
     };
+
+    /**
+     *  Ausgelagert, wegen nicht vorhanden
+     *
+     *  Aus den Werken:
+     *              {
+                "value": "AT",
+                "label": "Die ästhetische Teegesellschaft"
+            },
+     {
+                "value": "DK",
+                "label": "Der Dichter und der Komponist"
+            },
+     {
+                "value": "ER",
+                "label": "Erscheinungen"
+            },
+     {
+                "value": "ES",
+                "label": "Der Einsiedler Serapion"
+            },
+     {
+                "value": "GE",
+                "label": "Die Genesung"
+            },
+     {
+                "value": "KV",
+                "label": "Die Kunstverwandten"
+            },
+     {
+                "value": "NE",
+                "label": "Neueste Schicksale eines abenteuerlichen Mannes"
+            },
+     {
+                "value": "NT",
+                "label": "Naivität"
+            },
+     {
+                "value": "SP",
+                "label": "Eine Spukgeschichte"
+            },
+     {
+                "value": "DE",
+                "label": "Der Dey von Elba in Paris"
+            },
+     *
+     *
+     *
+     */
+
 }

@@ -1614,7 +1614,7 @@ MapWidget.prototype = {
 	},
 
 	loupeControl : function ( loupeOn) {
-		if (forEmbeddedUse)
+		/* if (forEmbeddedUse)
 		{
 			var filterEle = document.getElementsByClassName('mapFilterBar');
 			var anzEle = filterEle.length;
@@ -1628,6 +1628,7 @@ MapWidget.prototype = {
 			{
 				filterEle[i].hidden = !loupeOn;
 			}
-		}
+		}*/
+		var dummy = 1;
 	}
 }

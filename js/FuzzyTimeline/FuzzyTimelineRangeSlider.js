@@ -198,6 +198,7 @@ FuzzyTimelineRangeSlider.prototype = {
 		var index = 0;
 		$(rangeSlider.spans).each(function(){
 			var duration = this;
+			var biblioView = false;
 			if (duration < moment.duration(1,'second'))
 				humanizedSpan = duration.milliseconds() + "ms";
 			else if (duration < moment.duration(1,'minute'))
@@ -218,12 +219,26 @@ FuzzyTimelineRangeSlider.prototype = {
 					humanizedSpan += "s";
 			} else {
 				var years = duration.years();
+				biblioView = true;
 				humanizedSpan = years + " year";
 				if (years > 1)
 					humanizedSpan += "s";
 			}
-			$(rangeSlider.rangeDropdown).append("<option index='"+index+"'>"+humanizedSpan+"</option>");
-			index++;
+
+			if (isBibliographie)
+			{
+				if (biblioView)
+				{
+					$(rangeSlider.rangeDropdown).append("<option index='"+index+"'>"+humanizedSpan+"</option>");
+					index++;
+				}
+			}
+			else
+			{
+				$(rangeSlider.rangeDropdown).append("<option index='"+index+"'>"+humanizedSpan+"</option>");
+				index++;
+			}
+
 		});
 
 		$(rangeSlider.rangeDropdown).change(function( eventObject ){

@@ -35,6 +35,7 @@ function DatafilterGui(datafilterWidg, parentEle) {
     this.datafilterContainer = parentEle;
 
     var optCount = this.parent.dataFilterOpt.length;
+    // DatafilterConfig.js -> dataFilterOpt has label texts at index 1 and 3
     var linguaIndex = 1;
     if (GeoTemConfig.language != this.parent.labelLang)
     {
